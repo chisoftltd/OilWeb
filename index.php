@@ -14,16 +14,7 @@ catch (Exception $e){
     echo $e->getMessage();
 }
 
-$sql = "SELECT * FROM menu ORDER BY id";
-$stmt = $link->prepare($sql);
-$stmt->execute();
 
-if($stmt->rowCount()){
-    die("Found");
-}
-
-// Report all errors
-error_reporting(E_ALL);
 
 ?>
 <head>

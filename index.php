@@ -10,8 +10,8 @@ session_start();
 try{
     require_once 'db/dbconnect.php';
 }
-catch (PDOException $exception){
-    echo $exception->getMessage();
+catch (Exception $e){
+    echo $e->getMessage();
 }
 
 $sql = "SELECT * FROM menu ORDER BY id";
@@ -21,6 +21,9 @@ $stmt->execute();
 if($stmt->rowCount()){
     die("Found");
 }
+
+// Report all errors
+error_reporting(E_ALL);
 
 ?>
 <head>

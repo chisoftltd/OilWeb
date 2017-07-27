@@ -7,7 +7,6 @@
  */
 ob_start();
 session_start();
-echo "1 level";
 try{
     require_once 'db/dbConnect.php';
     // Report all errors

@@ -5,6 +5,23 @@
  * Date: 27/07/2017
  * Time: 20:04
  */
+ob_start();
+session_start();
+try{
+    require_once 'db/dbconnect.php';
+}
+catch (PDOException $exception){
+    echo $exception->getMessage();
+}
+
+$sql = "SELECT * FROM menu ORDER BY id";
+$stmt = $link->prepare($sql);
+$stmt->execute();
+
+if($stmt->rowCount()){
+    die("Found");
+}
+
 ?>
 <head>
 

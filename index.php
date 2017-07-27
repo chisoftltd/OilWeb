@@ -9,9 +9,6 @@ ob_start();
 session_start();
 try{
     require_once 'db/dbConnect.php';
-    // Report all errors
-    error_reporting(E_ALL);
-    echo E_ALL;
 }
 catch (Exception $e){
     echo $e->getMessage();

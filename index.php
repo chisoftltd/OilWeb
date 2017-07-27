@@ -9,12 +9,31 @@
 <head>
 
     <title>WEB OIL</title>
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
 <header>
-    <div id="topicHeader"></div>
+    <div id="weloilmenu">
+        <ul>
+            <li><a href="">Home</a> </li>
+            <ul>
+                <li><a href="">Well Drilling</a> </li>
+                <li><a href="">Well Control</a> </li>
+            </ul>
+            <li><a href="">About Us</a> </li>
+            <li><a href="">Courses</a> </li>
+            <li><a href="">Assessment</a> </li>
+            <li><a href="">Submision</a> </li>
+            <li><a href="">Demo</a> </li>
+            <li><a href="">Contact Us</a> </li>
+            <li><a href="">Help</a> </li>
+        </ul>
+        <ul id="right_weloilmenu">
+            <li><a href="">Login</a> </li>
+            <li><a href="">Register</a> </li>
+        </ul>
+    </div>
 
 </header>
 <section>

@@ -21,10 +21,8 @@ $row = mysqli_fetch_array($stmt);
 
 echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
 
-// Report all errors
-error_reporting(E_ALL);
-
 ?>
+
 <head>
 
     <title>WEB OIL</title>
@@ -33,27 +31,7 @@ error_reporting(E_ALL);
 </head>
 <body>
 <header>
-    <div id="weloilmenu">
-        <ul>
-            <li><a href="">Home</a> </li>
-            <ul>
-                <li><a href="">Well Drilling</a> </li>
-                <li><a href="">Well Control</a> </li>
-            </ul>
-            <li><a href="">About Us</a> </li>
-            <li><a href="">Courses</a> </li>
-            <li><a href="">Assessment</a> </li>
-            <li><a href="">Submision</a> </li>
-            <li><a href="">Demo</a> </li>
-            <li><a href="">Contact Us</a> </li>
-            <li><a href="">Help</a> </li>
-        </ul>
-        <ul id="right_weloilmenu">
-            <li><a href="">Login</a> </li>
-            <li><a href="">Register</a> </li>
-        </ul>
-    </div>
-
+    <?php include 'include/header.php'; ?>
 </header>
 <section>
     <div id="all-topic">

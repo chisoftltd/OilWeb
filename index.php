@@ -41,7 +41,7 @@ include_once 'db/dbconnect.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Home | RGUEthics System</a>
+            <a class="navbar-brand" href="index.php">Home | WebOil System</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="nav navbar-nav navbar-right">
@@ -153,5 +153,8 @@ include_once 'db/dbconnect.php';
         <?php include 'include/footer.php'; ?>
     </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Latest compiled JavaScript -->
 </body>
 </html>

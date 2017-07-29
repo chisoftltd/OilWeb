@@ -86,10 +86,11 @@ include_once 'db/dbconnect.php';
 </form>
 <section>
     <div class="pageContent">
-        <div id="topic">
+        <div>
             <a href=" courses/welldrilling.php"><img src="images/RGUEthics.png" alt="Company logo"/>
-                In this topic the student is introduced to the milestone activities associated with planning
-                for and executing a well construction programme.
+                <div id="topic"> In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme.
+                </div>
             </a>
         </div>
 

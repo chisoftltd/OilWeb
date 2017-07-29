@@ -103,20 +103,6 @@ include_once 'db/dbconnect.php';
         </a>
 
     </div>
-
-    <form>
-        <hr> <!-- draw a line-->
-    </form>
-    <div>
-
-        <article class="article">
-            <h2>WebOil Elearning Soultion</h2>
-
-        </article>
-    </div>
-    <form>
-        <hr> <!-- draw a line-->
-    </form>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

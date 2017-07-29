@@ -19,7 +19,7 @@ $sql = "SELECT * FROM menu ORDER BY id";
 $stmt = mysqli_query($link, $sql);
 $row = mysqli_fetch_array($stmt);
 
-echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
+
 
 ?>
 

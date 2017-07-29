@@ -40,7 +40,7 @@ include_once 'db/dbconnect.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Home | WebOil System</a>
+            <a class="navbar-brand" href="index.php">Home | WebOil Elearning Solution</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="nav navbar-nav navbar-right">
@@ -76,12 +76,10 @@ include_once 'db/dbconnect.php';
 </nav>
 
 <header>
-    <header>
-        <?php if (isset($_SESSION['usr_id'])) { ?>
-            <?php include 'include/signinheader.php'; ?>
-        <?php } else { ?>
-            <?php include 'include/header.php'; ?><?php } ?>
-    </header>
+    <?php if (isset($_SESSION['usr_id'])) { ?>
+        <?php include 'include/signinheader.php'; ?>
+    <?php } else { ?>
+        <?php include 'include/header.php'; ?><?php } ?>
 </header>
 <section>
     <div id="all-topic">
@@ -97,14 +95,16 @@ include_once 'db/dbconnect.php';
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <a href="http://www.google.com"> <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div></a>
+        <a href="http://www.google.com">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
 
     </div>
 
     <div>
         <hr>
     </div>
-    <div >
+    <div>
 
         <article class="article">
             <h2>WebOil Elearning Soultion</h2>
@@ -115,12 +115,14 @@ include_once 'db/dbconnect.php';
             <p>In line with acceptable police and framework, RGU attaches great importance to addressing the ethical
                 implications of all research activities
                 carried out by its members, be they undergraduates, postgraduates or academic members of staff.
-                Attention to the ethical and legal implications of research for researchers, research subjects, sponsors and
+                Attention to the ethical and legal implications of research for researchers, research subjects, sponsors
+                and
                 collaborators is an intrinsic
                 part of good research <a
                         href="http://www.ed.ac.uk/geosciences/intranet/working-in-school/other-important-information/ethicsinresearch">practice.</a>
             </p>
-            <p>You need to assess whether your project needs an ethical submission. This can be done by completing the RESSA
+            <p>You need to assess whether your project needs an ethical submission. This can be done by completing the
+                RESSA
                 form and based on the outcome decide whether an application is needed.</p>
             <p><a class="more"
                   href="http://www.rgu.ac.uk/download.cfm?downloadfile=5E84DCA0-2BEB-11E1-8D06000D609CAA9F&typename=dmFile&fieldname=filename">Student

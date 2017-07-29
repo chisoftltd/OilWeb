@@ -109,13 +109,20 @@ h2 {
     display: flex;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
+    text-align: center;
     margin: auto;
-    width : 638px;
-    height : 480px;
+    width: 60%;
     border: 3px solid #006400;
-    border-radius: 8px;
-    padding-left: 5px;
+/*    border-radius: 8px;
+    padding: 10px;*/
     background-color: #b0e0e6;
+
+    margin : auto;
+    padding-top : 5px;
+    /*width : 638px;*/
+    height : 480px;
+    border : 2px solid black;
+    padding-left: 5px;
 }
 
 .pageContent > * {

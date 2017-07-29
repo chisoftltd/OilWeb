@@ -23,9 +23,21 @@
                 <br>
                 <li><a href="about.php">About Us</a></li>
                 <br>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="contact.php">Courses</a></li>
+                <br>
+                <li><a href="contact.php">Assessment</a></li>
+                <br>
+                <li><a href="contact.php">Submission</a></li>
+                <br>
+                <li><a href="contact.php">Demo</a></li>
+                <br>
+                <li><a href="contact.php">Contact Us</a></li>
+                <br>
+                <li><a href="contact.php">Help</a></li>
                 <br>
                 <li><a href="login.php">Login</a></li>
+                <br>
+                <li><a href="contact.php">Register</a></li>
                 <br>
             </ul>
         </nav>
@@ -53,7 +65,7 @@
     <div >
 
         <article class="article">
-            <h2>Research Ethics and Integrity System</h2>
+            <h2>WebOil Elearning Soultion</h2>
             <p>A Full Research Ethics and Integrity Assessment is required before, during and maybe after a research
                 project. Most research institution and centers are
                 commitment to promote and facilitate the conduct of research ethics and integrity.</p>

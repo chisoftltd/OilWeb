@@ -15,10 +15,26 @@ and open the template in the editor.
     </form>
     <nav>
         <ul class="header-links">
-            <li> <a href="index.php">Home</a></li>
-            <li> <a href="about.php">About Us</a></li>
-            <li> <a href="contact.php">Contact</a></li>
-            <li> <a href="login.php">Login</a></li>
+            <li><a href="index.php">Home</a></li>
+            <br>
+            <li><a href="about.php">About Us</a></li>
+            <br>
+            <li><a href="contact.php">Courses</a></li>
+            <br>
+            <li><a href="contact.php">Assessment</a></li>
+            <br>
+            <li><a href="contact.php">Submission</a></li>
+            <br>
+            <li><a href="contact.php">Demo</a></li>
+            <br>
+            <li><a href="contact.php">Contact Us</a></li>
+            <br>
+            <li><a href="contact.php">Help</a></li>
+            <br>
+            <li><a href="login.php">Login</a></li>
+            <br>
+            <li><a href="contact.php">Register</a></li>
+            <br>
         </ul>
     </nav>
 </header>

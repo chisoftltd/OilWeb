@@ -87,23 +87,67 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="pageContent">
 
-        <a href="wellControl/wellcontrol.php">
+        <a href="courses/welldrilling.php">
+            <div id="topic">In this topic the student is introduced to the milestone activities associated with planning
+                for and executing a well construction programme. <p>They will also discover in more detail the roles and
+                responsibilities of core personnel required to plan and execute a well. Different organisational
+                    structures to deliver a well are also discussed.</p> In addition, the student learns about generic
+                objectives for a well and what specific information is required to allow comprehensive well planning.
+            </div>
+        </a>
+        <a href="courses/wellcontrol.php">
+            <div id="topic">This topic discusses the causes of a kick, methods of kick detection, well control
+                procedures, and the components and function of surface and subsea well control equipment.
+            </div>
+        </a>
+        <a href="courses/fluids/cement.php">
             <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
-        <a href="wellDrilling/welldrilling.php">
+        <a href="courses/fluids/muds.php">
             <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
+        <a href="courses/rigcomponents.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/wellcompletion.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/offshore/structures.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/offshore/flowlines.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/offshore/manifolds.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/oiltreatment.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/separationandcontrol.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/fluismechanicsandmachinery.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/measurement.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/storageandexport.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/treatment.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/dehydation.php" .
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
-       </div>
+        <a href="courses/pipelinesandfassurance.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+        <a href="courses/decommissioning.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
+    </div>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

@@ -86,12 +86,13 @@ include_once 'db/dbconnect.php';
 </form>
 <section>
     <div class="pageContent">
-
-        <a href="courses/welldrilling.php">
-            <div id="topic">In this topic the student is introduced to the milestone activities associated with planning
+        <div id="topic">
+            <a href=" courses/welldrilling.php"><img src="images/RGUEthics.png" alt="Company logo"/>
+                In this topic the student is introduced to the milestone activities associated with planning
                 for and executing a well construction programme.
-            </div>
-        </a>
+            </a>
+        </div>
+
         <a href="courses/wellcontrol.php">
             <div id="topic">This topic discusses the causes of a kick, methods of kick detection, well control
                 procedures, and the components and function of surface and subsea well control equipment.

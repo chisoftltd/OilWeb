@@ -89,11 +89,7 @@ include_once 'db/dbconnect.php';
 
         <a href="courses/welldrilling.php">
             <div id="topic">In this topic the student is introduced to the milestone activities associated with planning
-                for and executing a well construction programme. <p>They will also discover in more detail the roles and
-                responsibilities of core personnel required to plan and execute a well. Different organisational
-                    structures to deliver a well are also discussed.</p> In addition, the student learns about generic
-                objectives for a well and what specific information is required to allow comprehensive well planning.
-            </div>
+                for and executing a well construction programme.</div>
         </a>
         <a href="courses/wellcontrol.php">
             <div id="topic">This topic discusses the causes of a kick, methods of kick detection, well control

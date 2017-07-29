@@ -89,7 +89,8 @@ include_once 'db/dbconnect.php';
 
         <a href="courses/welldrilling.php">
             <div id="topic">In this topic the student is introduced to the milestone activities associated with planning
-                for and executing a well construction programme.</div>
+                for and executing a well construction programme.
+            </div>
         </a>
         <a href="courses/wellcontrol.php">
             <div id="topic">This topic discusses the causes of a kick, methods of kick detection, well control
@@ -135,8 +136,9 @@ include_once 'db/dbconnect.php';
         <a href="courses/treatment.php">
             <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
-        <a href="courses/dehydation.php" .
-        <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        <a href="courses/dehydation.php">
+            <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+        </a>
         <a href="courses/pipelinesandfassurance.php">
             <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>

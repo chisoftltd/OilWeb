@@ -127,7 +127,7 @@ h2 {
     height: 1026px;
 }
 
-#topic {
+.topic {
     float: left;
     border: 1px solid #006400;
     box-shadow: -1px 1px #006400, -2px 2px #77aaff,
@@ -140,14 +140,18 @@ h2 {
     width: 160px;
     height: 240px;
     cursor: pointer;
+    background:url(http://i.imgur.com/sGWRvSp.png?1);
 }
 
-#topic:hover {
+.topic:hover {
     background-color: aquamarine;
     border-bottom: 1px solid black;
     color: indianred;
     text-shadow: 1px 1px blue;
     border-radius: 15px;
+}
+.topic img{
+    float: left;
 }
 
 

@@ -7,17 +7,14 @@
  */
 ob_start();
 session_start();
+echo "here 1";
 try{
     require_once 'db/dbConnect.php';
-    // Report all errors
-    error_reporting(E_ALL);
-    echo E_ALL;
+    echo "here 2";
 }
 catch (Exception $e){
     echo $e->getMessage();
-    // Report all errors
-    error_reporting(E_ALL);
-    echo E_ALL;
+    echo "here 3";
 }
 
 $sql = "SELECT * FROM menu ORDER BY id";

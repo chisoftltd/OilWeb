@@ -7,10 +7,8 @@
  */
 ob_start();
 session_start();
-echo "here 1";
 try{
     require_once 'db/dbConnect.php';
-    echo "here 2";
 }
 catch (Exception $e){
     echo $e->getMessage();
@@ -18,12 +16,10 @@ catch (Exception $e){
 }
 
 $sql = "SELECT * FROM menu ORDER BY id";
-$stmt = $link->prepare($sql);
-$stmt->execute();
+$stmt = mysqli_query($link, $sql);
+$row = mysqli_fetch_array($stmt);
 
-if($stmt->rowCount()){
-    die("Found");
-}
+echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
 
 // Report all errors
 error_reporting(E_ALL);

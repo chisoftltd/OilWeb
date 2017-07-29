@@ -5,21 +5,6 @@
  * Date: 27/07/2017
  * Time: 20:04
  */
-ob_start();
-session_start();
-try{
-    require_once 'db/dbConnect.php';
-}
-catch (Exception $e){
-    echo $e->getMessage();
-    echo "here 3";
-}
-
-$sql = "SELECT * FROM menu ORDER BY id";
-$stmt = mysqli_query($link, $sql);
-$row = mysqli_fetch_array($stmt);
-
-
 
 ?>
 

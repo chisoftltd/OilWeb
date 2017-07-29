@@ -105,11 +105,6 @@ h2 {
 }
 
 .pageContent {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    text-align: center;
     margin: auto;
     /*  width: 60%;*/
      border: 3px solid #006400;

@@ -35,8 +35,7 @@ $rowcount = 0;
         <ul class="header-links">
             <?php
             echo (mysqli_num_rows($row));
-            echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
-            while ($rowcount < mysqli_num_rows($row)){
+            while (mysqli_num_rows($row)){
                 foreach ($row as $key => $value){
                     echo '<li> <a href="">', $value, '</a></li>';
                 }

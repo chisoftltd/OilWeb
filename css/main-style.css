@@ -124,6 +124,9 @@ h2 {
     flex: 1 100%;
 }
 
+.pageContent:hover{
+    height : auto;
+}
 .article {
     text-align: left;
 }

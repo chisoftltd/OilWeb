@@ -85,7 +85,7 @@ include_once 'db/dbconnect.php';
     <hr> <!-- draw a line-->
 </form>
 <section>
-    <div id="all-topic">
+    <div class="pageContent">
 
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>

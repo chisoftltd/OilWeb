@@ -9,10 +9,12 @@ html, body {
     height: 87px;
     margin-left: 20px;
 }
-header{
-    margin : auto;
-    padding : 0;
+
+header {
+    margin: auto;
+    padding: 0;
 }
+
 .header-links {
     border: 3px;
     background-color: deepskyblue;
@@ -107,16 +109,16 @@ h2 {
 .pageContent {
     margin: auto;
     /*  width: 60%;*/
-     border: 3px solid #006400;
- /*    border-radius: 8px;
-     padding: 10px;*/
+    border: 3px solid #006400;
+    /*    border-radius: 8px;
+        padding: 10px;*/
     background-color: #b0e0e6;
 
-    margin : auto;
-    padding-top : 5px;
-    width : 638px;
-    height : 480px;
-    border : 2px solid black;
+    margin: auto;
+    padding-top: 5px;
+    width: 638px;
+    height: 480px;
+    /*border : 2px solid black;*/
     padding-left: 5px;
 }
 
@@ -126,27 +128,27 @@ h2 {
     flex: 1 100%;
 }
 
-.pageContent:hover{
-    height : 482px;
+.pageContent:hover {
+    height: 482px;
 }
 
-#topic{
-    float : left;
-    border : 1px solid gainsboro;
+#topic {
+    float: left;
+    border: 1px solid gainsboro;
     margin-right: 5px;
-    margin-bottom : 5px;
-    padding : 5px;
-    width : 140px;
-    height : 140px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 140px;
+    height: 140px;
     cursor: pointer;
 }
 
-#topic:hover{
+#topic:hover {
     background-color: aquamarine;
-    border-bottom : 1px solid black;
-    color : indianred;
+    border-bottom: 1px solid black;
+    color: indianred;
     text-shadow: 1px 1px blue;
-    border-radius : 15px;
+    border-radius: 15px;
 }
 
 .article {
@@ -225,10 +227,6 @@ body {
     padding-left: 15px;
 }
 
-
-
-
-
 /* Full-width input fields */
 input[type=text], input[type=date], textarea[type=text] {
     width: 100%;
@@ -292,8 +290,8 @@ span.psw {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
     padding-top: 60px;
 }
 
@@ -328,13 +326,21 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-    from {-webkit-transform: scale(0)}
-    to {-webkit-transform: scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes animatezoom {
-    from {transform: scale(0)}
-    to {transform: scale(1)}
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -343,12 +349,11 @@ span.psw {
         display: block;
         float: none;
     }
+
     .cancelbtn {
         width: 100%;
     }
 }
-
-
 
 .btn-group button {
     background-color: #4CAF50; /* Green background */

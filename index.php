@@ -17,6 +17,7 @@
 <body>
 <header>
     <?php include 'include/header2.php'; ?>
+    <?php echo "here 1"; ?>
 </header>
 <section>
     <div id="all-topic">

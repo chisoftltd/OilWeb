@@ -130,10 +130,10 @@ h2 {
 #topic {
     float: left;
     border: 1px solid #006400;
-    box-shadow: -1px 1px #006400, -2px 2px #77aaff,
+  /*  box-shadow: -1px 1px #006400, -2px 2px #77aaff,
     -3px 3px #77aaff,
     -4px 4px #77aaff,
-    -5px 5px #77aaff;
+    -5px 5px #77aaff;*/
     margin-right: 5px;
     margin-bottom: 5px;
     padding: 10px;
@@ -148,6 +148,27 @@ h2 {
     color: indianred;
     text-shadow: 1px 1px blue;
     border-radius: 15px;
+}
+
+#topic:before, #topic:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    box-shadow: 0 15px 10px #777;
+    transform: rotate(-3deg);
+}
+
+#topic:after
+{
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
 }
 
 .article {

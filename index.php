@@ -25,7 +25,7 @@ include_once 'db/dbconnect.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Add css file-->
-    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body><!-- Body area start-->

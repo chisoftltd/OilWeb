@@ -127,6 +127,26 @@ h2 {
 .pageContent:hover{
     height : 482px;
 }
+
+#topic{
+    float : left;
+    border : 1px solid gainsboro;
+    margin-right: 5px;
+    margin-bottom : 5px;
+    padding : 5px;
+    width : 140px;
+    height : 140px;
+    cursor: pointer;
+}
+
+#topic:hover{
+    background-color: aquamarine;
+    border-bottom : 1px solid black;
+    color : indianred;
+    text-shadow: 1px 1px blue;
+    border-radius : 15px;
+}
+
 .article {
     text-align: left;
 }

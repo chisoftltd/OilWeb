@@ -34,16 +34,15 @@ $rowcount = 0;
     <nav>
         <ul class="header-links">
             <?php
+            echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
             if (mysqli_num_rows($row)){
                 echo (mysqli_num_rows($row));
-                echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
                 while ($rowname = mysqli_fetch_row($row)){
                     foreach ($rowname as $key => $value){
                         echo '<li> <a href="">', $value[1], '</a></li>';
                     }
                 }
             }
-
             ?>
         </ul>
     </nav>

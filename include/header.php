@@ -36,7 +36,6 @@ $rowcount = 0;
             <?php
             echo (mysqli_num_rows($row));
             while ($rowcount < mysqli_num_rows($row)){
-                echo (mysqli_num_rows($row) == 0) ? 'NO' : 'YES';
                 foreach ($row as $key => $value){
                     echo '<li> <a href="">', $value, '</a></li>';
                 }

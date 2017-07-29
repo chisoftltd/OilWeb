@@ -16,7 +16,7 @@
 </head>
 <body>
 <header>
-    <?php include 'include/header.php'; ?>
+    <?php include 'include/header2.php'; ?>
 </header>
 <section>
     <div id="all-topic">

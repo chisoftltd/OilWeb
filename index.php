@@ -1,3 +1,21 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: 1609963
+ * Date: 21/04/2017
+ * Time: 16:19
+ */
+
+// Start a session
+session_start();
+
+// include the database script
+include_once 'db/dbconnect.php';
+
+//end any active user session
+//unset($_session['user_id']);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,37 +29,62 @@
     <link href="style/jplist.core.min.css" rel="stylesheet" type="text/css"/>
     <script src="js/jplist.core.min.js"></script>
 </head>
-<body>
+<body><!-- Body area start-->
+
+<!-- add top navigational bar using bootstrap-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php">Home | RGUEthics System</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- check if same user is still same as the active session user and load appropriate menu options -->
+                <?php if (isset($_SESSION['usr_id'])) { ?>
+                    <li class="active"><a href="signinindex.php">Home</a></>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Courses</a></li>
+                    <li><a href="administrator.php">Administrator</a></li>
+                    <li><a href="contact.php">Assessment</a></li>
+                    <li><a href="contact.php">Submission</a></li>
+                    <li><a href="contact.php">Demo</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contact.php">Help</a></li>
+                    <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
+                    <li><a href="logout.php">Log Out</a></li>
+                <?php } else { ?>
+                    <li class="active"><a href="signinindex.php">Home</a></>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="contact.php">Courses</a></li>
+                    <li><a href="administrator.php">Administrator</a></li>
+                    <li><a href="contact.php">Assessment</a></li>
+                    <li><a href="contact.php">Submission</a></li>
+                    <li><a href="contact.php">Demo</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contact.php">Help</a></li>
+                    <li><a href="login.php">Login</a></li>
+                    <li><a href="registerresearcher.php">Register</a></li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <header>
-    <?php include 'include/header.php'; ?>
+    <header>
+        <?php if (isset($_SESSION['usr_id'])) { ?>
+            <?php include 'include/signinheader.php'; ?>
+        <?php } else { ?>
+            <?php include 'include/header.php'; ?><?php } ?>
+    </header>
 </header>
 <section>
-    <div class="pageContent">
-        <nav class="nav">
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <br>
-                <li><a href="about.php">About Us</a></li>
-                <br>
-                <li><a href="contact.php">Courses</a></li>
-                <br>
-                <li><a href="contact.php">Assessment</a></li>
-                <br>
-                <li><a href="contact.php">Submission</a></li>
-                <br>
-                <li><a href="contact.php">Demo</a></li>
-                <br>
-                <li><a href="contact.php">Contact Us</a></li>
-                <br>
-                <li><a href="contact.php">Help</a></li>
-                <br>
-                <li><a href="login.php">Login</a></li>
-                <br>
-                <li><a href="contact.php">Register</a></li>
-                <br>
-            </ul>
-        </nav>
-    </div>
     <div id="all-topic">
 
         <div id="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>

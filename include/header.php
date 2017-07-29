@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <header>
     <div id="logo">
-        <a href="index.php"><img src="images/RGUEthics.png" alt="Company logo" /></a>
+        <a href="index.php"><img src="images/WebOilLogo.png" alt="Company logo" /></a>
     </div>
     <form style="float: right; position:absolute; right: 5%; top: 10%">
         Search:

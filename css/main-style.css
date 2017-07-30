@@ -110,7 +110,7 @@ h2 {
     margin: auto;
     border: 3px solid #006400;
     border-radius: 8px;
-    background-color: #b0e0e6;
+    background-color: dimgrey;
     padding-top: 5px;
     width: 1165px;
     height: 1199px;
@@ -141,6 +141,7 @@ h2 {
     height: 280px;
     cursor: pointer;
     left:0px;
+    background-color:aliceblue;
 }
 
 .topic:hover {

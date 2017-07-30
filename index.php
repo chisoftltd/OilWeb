@@ -93,7 +93,6 @@ include_once 'db/dbconnect.php';
                 </div>
             </a>
         </div>
-
         <a href="courses/wellcontrol.php">
             <div class="topic">This topic discusses the causes of a kick, methods of kick detection, well control
                 procedures, and the components and function of surface and subsea well control equipment.

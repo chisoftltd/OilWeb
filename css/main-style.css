@@ -160,12 +160,11 @@ h2 {
     box-shadow: 0 10px 6px -6px #777;
 }
 .topic:hover {
-    background-color: aquamarine;
+    background-color: skyblue;
     border-bottom: 1px solid black;
     color: indianred;
     text-shadow: 1px 1px blue;
     border-radius: 15px;
-
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);

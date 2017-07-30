@@ -112,8 +112,8 @@ h2 {
     border-radius: 8px;
     background-color: dimgrey;
     padding-top: 5px;
-    width: 1165px;
-    height: 1199px;
+    width: 1215px;
+    height: 1259px;
     padding-left: 5px;
 }
 
@@ -124,7 +124,7 @@ h2 {
 }
 
 .pageContent:hover {
-    height: 1176px;
+    height: 1266px;
 }
 
 .topic {
@@ -137,8 +137,8 @@ h2 {
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 1px;
-    width: 220px;
-    height: 280px;
+    width: 250px;
+    height: 300px;
     cursor: pointer;
     left:0px;
     background-color:aliceblue;

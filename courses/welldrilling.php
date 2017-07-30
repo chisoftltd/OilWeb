@@ -9,7 +9,7 @@
 session_start();
 
 // include the database script
-include_once 'db/dbconnect.php';
+include_once '/db/dbconnect.php';
 
 //end any active user session
 //unset($_session['user_id']);
@@ -19,7 +19,7 @@ include_once 'db/dbconnect.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Application Description - WebOil!</title>
+    <title>WebOil Topic - Well Drilling!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 

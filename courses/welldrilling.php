@@ -76,9 +76,9 @@ include_once 'db/dbconnect.php';
 
 <header>
     <?php if (isset($_SESSION['usr_id'])) { ?>
-        <?php include '/include/signinheader.php'; ?>
+        <?php include '../include/signinheader.php'; ?>
     <?php } else { ?>
-        <?php include '/include/header.php'; ?><?php } ?>
+        <?php include '../include/header.php'; ?><?php } ?>
 </header>
 <form>
     <hr> <!-- draw a line-->
@@ -139,10 +139,10 @@ include_once 'db/dbconnect.php';
         <a href="/courses/dehydation.php">
             <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
-        <a href="courses/pipelinesandfassurance.php">
+        <a href="/courses/pipelinesandfassurance.php">
             <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
-        <a href="courses/decommissioning.php">
+        <a href="/courses/decommissioning.php">
             <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
     </div>
@@ -153,7 +153,7 @@ include_once 'db/dbconnect.php';
 <footer>
     <!-- footer area-->
     <div>
-        <?php include 'include/footer.php'; ?>
+        <?php include '../include/footer.php'; ?>
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

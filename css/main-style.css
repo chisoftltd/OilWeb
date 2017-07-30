@@ -113,7 +113,7 @@ h2 {
     background-color: #CCCCCC;
     padding-top: 5px;
     width: 1240px;
-    height: 1459px;
+    height: 1559px;
     padding-left: 5px;
 }
 
@@ -124,7 +124,7 @@ h2 {
 }
 
 .pageContent:hover {
-    height: 1466px;
+    height: 1566px;
 }
 /*
 .topic {
@@ -146,8 +146,8 @@ h2 {
 */
 .topic{
     float: left;
-    width: 300px;
-    height: 350px;
+    width: 298px;
+    height: 400px;
     background:#FFF;
     margin-right: 10px;
     margin-bottom: 10px;

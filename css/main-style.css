@@ -110,10 +110,10 @@ h2 {
     margin: auto;
     border: 3px solid #006400;
     border-radius: 8px;
-    background-color: dimgrey;
+    background-color: #CCCCCC;
     padding-top: 5px;
     width: 1235px;
-    height: 1359px;
+    height: 1459px;
     padding-left: 5px;
 }
 
@@ -124,9 +124,9 @@ h2 {
 }
 
 .pageContent:hover {
-    height: 1366px;
+    height: 1466px;
 }
-
+/*
 .topic {
     float: left;
     border: 1px solid #006400;
@@ -143,7 +143,17 @@ h2 {
     left:0px;
     background-color:aliceblue;
 }
+*/
+.topic{
+    width: 300px;
+    height: 350px;
+    background:#FFF;
+    margin:40px auto;
+}
 
+.effect{
+    box-shadow: 0 10px 6px -6px #777;
+}
 .topic:hover {
     background-color: aquamarine;
     border-bottom: 1px solid black;

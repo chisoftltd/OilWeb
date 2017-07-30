@@ -86,7 +86,7 @@ include_once 'db/dbconnect.php';
 </form>
 <section>
     <div class="pageContent">
-        <div class="topic">
+        <div class="topic effect">
             <a href=" courses/welldrilling.php"><img src="images/drilling1.jpg" alt="Company logo"/>
                 <div class="drilling"> In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme.
@@ -94,57 +94,57 @@ include_once 'db/dbconnect.php';
             </a>
         </div>
         <a href="courses/wellcontrol.php">
-            <div class="topic">This topic discusses the causes of a kick, methods of kick detection, well control
+            <div class="topic effect">This topic discusses the causes of a kick, methods of kick detection, well control
                 procedures, and the components and function of surface and subsea well control equipment.
             </div>
         </a>
         <a href="courses/fluids/cement.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/fluids/muds.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/rigcomponents.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/wellcompletion.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/offshore/structures.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/offshore/flowlines.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/offshore/manifolds.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/oiltreatment.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/separationandcontrol.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/fluismechanicsandmachinery.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/measurement.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/storageandexport.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/treatment.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/dehydation.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/pipelinesandfassurance.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
         <a href="courses/decommissioning.php">
-            <div class="topic">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
+            <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
         </a>
     </div>
 </section><!-- end of section-->

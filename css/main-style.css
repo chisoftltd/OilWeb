@@ -149,7 +149,8 @@ h2 {
     width: 300px;
     height: 350px;
     background:#FFF;
-    margin:40px auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
     padding: 1px;
     cursor: pointer;
     left:0px;

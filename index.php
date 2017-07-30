@@ -87,7 +87,7 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="pageContent">
         <div class="topic effect">
-            <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="Company logo"/>
+            <a href=" courses/welldrilling.php"><img src="images/drilling1.jpg" alt="Company logo"/>
                 <div class="drilling"> In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme.
                 </div>

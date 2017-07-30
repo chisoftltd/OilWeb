@@ -46,28 +46,27 @@ include_once 'db/dbconnect.php';
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>
                     <li class="active"><a href="signinindex.php">Home</a></>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="contact.php">Courses</a></li>
-                    <li><a href="administrator.php">Administrator</a></li>
-                    <li><a href="contact.php">Assessment</a></li>
-                    <li><a href="contact.php">Submission</a></li>
-                    <li><a href="contact.php">Demo</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="contact.php">Help</a></li>
+                    <li><a href="/menu/about.php">About Us</a></li>
+                    <li><a href="/menu/courses.php">Courses</a></li>
+                    <li><a href="/menu/assessment.php">Assessment</a></li>
+                    <li><a href="/menu/submission.php">Submission</a></li>
+                    <li><a href="/menu/demo.php">Demo</a></li>
+                    <li><a href="/menu/contact.php">Contact Us</a></li>
+                    <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
-                    <li><a href="logout.php">Log Out</a></li>
+                    <li><a href="/index.php">Log Out</a></li>
                 <?php } else { ?>
-                    <li class="active"><a href="signinindex.php">Home</a></>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="contact.php">Courses</a></li>
-                    <li><a href="administrator.php">Administrator</a></li>
-                    <li><a href="contact.php">Assessment</a></li>
-                    <li><a href="contact.php">Submission</a></li>
-                    <li><a href="contact.php">Demo</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
-                    <li><a href="contact.php">Help</a></li>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="registerresearcher.php">Register</a></li>
+                    <!--<li class="active"><a href="signinindex.php">Home</a></>-->
+                    <li class="active"><a href="/index.php">Home</a></>
+                    <li><a href="/menu/about.php">About Us</a></li>
+                    <li><a href="/menu/courses.php">Courses</a></li>
+                    <li><a href="/menu/assessment.php">Assessment</a></li>
+                    <li><a href="/menu/submission.php">Submission</a></li>
+                    <li><a href="/menu/demo.php">Demo</a></li>
+                    <li><a href="/menu/contact.php">Contact Us</a></li>
+                    <li><a href="/menu/help.php">Help</a></li>
+                    <li><a href="/menu/login.php">Login</a></li>
+                    <li><a href="/menu/register.php">Register</a></li>
                 <?php } ?>
             </ul>
         </div>

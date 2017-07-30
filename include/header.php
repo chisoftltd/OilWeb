@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <header>
     <div id="logo">
-        <a href="/courses/index.php"><img src="/images/WebOilLogo.png" alt="Company logo" /></a>
+        <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo" /></a>
     </div>
     <form style="float: right; position:absolute; right: 5%; top: 10%">
         Search:
@@ -15,16 +15,16 @@ and open the template in the editor.
     </form>
     <nav>
         <ul class="header-links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="contact.php">Courses</a></li>
-            <li><a href="contact.php">Assessment</a></li>
-            <li><a href="contact.php">Submission</a></li>
-            <li><a href="contact.php">Demo</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
-            <li><a href="contact.php">Help</a></li>
-            <li><a href="login.php">Login</a></li>
-            <li><a href="contact.php">Register</a></li>
+            <li><a href="/index.php">Home</a></li>
+            <li><a href="/menu/about.php">About Us</a></li>
+            <li><a href="/menu/courses.php">Courses</a></li>
+            <li><a href="/menu/assessment.php">Assessment</a></li>
+            <li><a href="/menu/submission.php">Submission</a></li>
+            <li><a href="/menu/demo.php">Demo</a></li>
+            <li><a href="/menu/contact.php">Contact Us</a></li>
+            <li><a href="/menu/help.php">Help</a></li>
+            <li><a href="/menu/login.php">Login</a></li>
+            <li><a href="/menu/register.php">Register</a></li>
         </ul>
     </nav>
 </header>

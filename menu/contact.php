@@ -17,7 +17,7 @@ $error = false;
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Coding Cage - Login & Registration System</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
-        <link rel="stylesheet" href="css/main-style.css">
+        <link rel="stylesheet" href="../css/main-style.css">
     </head>
     <body>
         <div>

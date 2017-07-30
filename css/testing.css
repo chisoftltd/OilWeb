@@ -16,6 +16,27 @@
     position: relative;
 }
 
+.pageContent {
+    margin: auto;
+    border: 3px solid #006400;
+    border-radius: 8px;
+    background-color: #CCCCCC;
+    padding-top: 5px;
+    width: 1240px;
+    height: 1459px;
+    padding-left: 5px;
+}
+
+.pageContent > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.pageContent:hover {
+    height: 1466px;
+}
+
 .polaroid-images a:after {
     color: #333;
     font-size: 20px;

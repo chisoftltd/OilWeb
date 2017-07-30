@@ -105,7 +105,7 @@ h2 {
     text-align: left;
     color: #000000;
 }
-/*
+
 .pageContent {
     margin: auto;
     border: 3px solid #006400;
@@ -126,7 +126,7 @@ h2 {
 .pageContent:hover {
     height: 1176px;
 }
-*/
+
 .topic {
     float: left;
     border: 1px solid #006400;

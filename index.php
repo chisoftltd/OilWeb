@@ -58,8 +58,8 @@ include_once 'db/dbconnect.php';
                     <li><a href="menu/contact.php">Contact Us</a></li>
                     <li><a href="menu/help.php">Help</a></li>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
-                        <li><a href="/index.php">Log Out</a></li>
+                        <li><p class="navbar-text"><span class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
+                        <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     </ul>
                 <?php } else { ?>
                     <li class="active"><a href="index.php">Home</a></>
@@ -71,8 +71,8 @@ include_once 'db/dbconnect.php';
                     <li><a href="menu/contact.php">Contact Us</a></li>
                     <li><a href="menu/help.php">Help</a></li>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="menu/login.php">Login</a></li>
-                        <li><a href="menu/register.php">Register</a></li>
+                        <li><a href="menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
+                        <li><a href="menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
                     </ul>
                 <?php } ?>
             </ul>

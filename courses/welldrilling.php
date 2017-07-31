@@ -217,7 +217,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.2</h1>
+                                    Headline no.3</h1>
                             </header>
                             <div class="panel-body">
 
@@ -253,7 +253,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.2</h1>
+                                    Headline no.4</h1>
                             </header>
                             <div class="panel-body">
 

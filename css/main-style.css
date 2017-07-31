@@ -121,6 +121,7 @@ li a:hover {
 
 .footer-links li {
     list-style: none;
+    float : left;
     margin-left: 12px;
     text-align: center;
     display: inline;

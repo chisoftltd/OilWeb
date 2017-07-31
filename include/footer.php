@@ -8,6 +8,7 @@
             <strong>Follow us</strong>
         </p>
         <ul class="footer-links">
+            <div style="width : 200px">
             <li><a href="/index.php">Home</a></li>
             <div class="row">
                 <div class="col-sm-12 social">
@@ -19,7 +20,9 @@
                 </div>
             </div>
             <li><a href="/contact.php">Contact</a></li>
+            </div>
         </ul>
+
         <p style="text-align: center;">
             &copy; 2016-<?php echo date("Y"); ?>
         </p>

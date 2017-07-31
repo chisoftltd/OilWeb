@@ -138,7 +138,6 @@ include_once '../db/dbconnect.php';
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
@@ -152,7 +151,6 @@ include_once '../db/dbconnect.php';
                                                 Headline no.1</h1>
                                         </header>
                                         <div class="panel-body">
-
                                             <figure class="pull-left "><img class="img-responsive img-rounded"
                                                                             alt="image"
                                                                             src="http://www.placehold.it/200.png/ddd"/>

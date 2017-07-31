@@ -126,7 +126,7 @@ include_once 'db/dbconnect.php';
                     </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/wellcontrol.php">
                         <div class="topic effect"><h3>Control</h3>
                             <p>This topic discusses the causes of a kick, methods of kick detection, well
@@ -135,97 +135,97 @@ include_once 'db/dbconnect.php';
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <div class="topic effect"><h3>Cementing</h3><a href="courses/fluids/cement.php">
                             <p>Here you will find information about cementing of a well to hold the formation and earth
                                 structure from collapsing.</p>
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/fluids/muds.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/rigcomponents.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/wellcompletion.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/offshore/structures.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/offshore/flowlines.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/offshore/manifolds.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/oiltreatment.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/separationandcontrol.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/fluismechanicsandmachinery.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/measurement.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/storageandexport.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/treatment.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/dehydation.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/pipelinesandfassurance.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
                     <a href="courses/decommissioning.php">
                         <div class="topic effect">ipsolum ushf;ahfosaif oiufdsfdgv skudhbv ofdbfds</div>
                     </a>

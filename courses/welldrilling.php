@@ -132,7 +132,7 @@ include_once '../db/dbconnect.php';
                 </div>
                 <div class="col-md-8 tab-content">
 
-                    <h2>Carousel Example</h2>
+                    <h2>Drilling</h2>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">

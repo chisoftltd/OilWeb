@@ -150,9 +150,15 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
 
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-left "><div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2 video-link medium-paragraph">
+                                            <a href="#" class="launch-modal" data-modal-id="modal-video">
+                                                <span class="video-link-icon"><i class="fa fa-play"></i></span>
+                                                <span class="video-link-text">Launch modal video</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                     Ipsum has been the industry's standard dummy text ever since the 1500s, when an

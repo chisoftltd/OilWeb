@@ -108,8 +108,7 @@ include_once 'db/dbconnect.php';
                 </a>
             </div>
             <div class="col-sm-4">
-                <div class="topic effect"><h2>Topic - Cementing</h2><a href="courses/fluids/cement.php"><img
-                                src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                <div class="topic effect"><h2>Topic - Cementing</h2><a href="courses/fluids/cement.php">
                         <p>Here you will find information about cementing of a well to hold the formation and earth
                             structure from collapsing.</p>
                     </a>

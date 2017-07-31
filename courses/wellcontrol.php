@@ -42,7 +42,7 @@ include_once '../db/dbconnect.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.php">Home | WebOil Elearning Solution</a>
+            <a class="navbar-brand" href="/index.php">WebOil | Well Control</a>
         </div>
         <div class="collapse navbar-collapse" id="navweboil">
             <ul class="nav navbar-nav navbar-right">

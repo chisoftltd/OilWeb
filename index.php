@@ -90,6 +90,7 @@ include_once 'db/dbconnect.php';
         <div class="row">
             <div class="col-sm-4">
                 <div class="topic effect">
+                    <h2>Topic - Drilling</h2>
                     <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="Company logo"/>
                         <div class="drilling"> In this topic the student is introduced to the milestone activities
                             associated with
@@ -101,9 +102,9 @@ include_once 'db/dbconnect.php';
 
             <div class="col-sm-4">
                 <a href="courses/wellcontrol.php">
-                    <div class="topic effect">This topic discusses the causes of a kick, methods of kick detection, well
-                        control
-                        procedures, and the components and function of surface and subsea well control equipment.
+                    <div class="topic effect"><h2>Topic - Control</h2>
+                        <p>This topic discusses the causes of a kick, methods of kick detection, well
+                        control procedures, and the components and function of surface and subsea well control equipment.</p>
                     </div>
                 </a>
             </div>

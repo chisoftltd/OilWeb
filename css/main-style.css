@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    background-color: white;
 }
 
 #logo {
@@ -227,11 +228,11 @@ h2 {
     padding: 10px;
     background-color: #b0e0e6;
 }
-*/
+
 body {
     background-color: white;
 }
-
+*/
 #map-outer {
     height: 440px;
     padding: 20px;
@@ -298,11 +299,11 @@ img.avatar {
     width: 40%;
     border-radius: 50%;
 }
-
+/*
 .container {
     padding: 16px;
 }
-
+*/
 span.psw {
     float: right;
     padding-top: 16px;

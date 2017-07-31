@@ -184,6 +184,7 @@ include_once '../db/dbconnect.php';
                             </footer>
                         </article>
                     </div>
+
                     <div role="tabpanel" class="tab-pane fade" id="seite2">
                         <article class="panel panel-default">
                             <header class="panel-heading">
@@ -293,6 +294,26 @@ include_once '../db/dbconnect.php';
                         </article>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL -->
+    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e"
+                                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

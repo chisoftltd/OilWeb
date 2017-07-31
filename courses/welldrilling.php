@@ -112,33 +112,100 @@ include_once '../db/dbconnect.php';
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
             <li><a href="/contact.php">Courses</a></li>
-               <li class="active">drilling</li>
+            <li class="active">drilling</li>
         </ul>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="..." alt="First slide">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-group nav" role="tablist">
+                        <li class="list-group-item">
+                            <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
+                                Link1
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
+                                Link1
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid" src="..." alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid" src="..." alt="Third slide">
+                <div class="col-md-8 tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="seite1">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.1</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite2">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.2</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                                </footer>
+                        </article>
+                    </div>
+
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
 </section><!-- end of section-->

@@ -44,7 +44,7 @@ li a:hover {
 }
 .topic{
     float: left;
-    width: 10%;
+    width: 120px;
     height: 400px;
     background:#FFF;
     margin-right: 30px;

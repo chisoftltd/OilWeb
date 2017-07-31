@@ -112,7 +112,7 @@ include_once 'db/dbconnect.php';
         <h2>Topics:</h2>
         <div class="panel panel-default">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-xs-3 col-sm-3 col-lg-3">
                     <div class="topic effect">
                         <h3>Drilling</h3>
                         <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="drilling image"

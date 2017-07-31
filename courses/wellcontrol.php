@@ -112,8 +112,183 @@ include_once '../db/dbconnect.php';
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
             <li><a href="/contact.php">Courses</a></li>
-            <li class="active">control</li>
+            <li class="active">Control</li>
         </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-group nav" role="tablist">
+                        <li class="list-group-item">
+                            <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
+                                Link1
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
+                                Link2
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
+                                Link3
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
+                                Link4
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="seite1">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.1</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite2">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.2</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite3">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.3</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite4">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Headline no.4</h1>
+                            </header>
+                            <div class="panel-body">
+
+                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                </figure>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                                <hr/>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software.</p>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">Written by me at
+                                    <time>10:00 am</time>
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </section><!-- end of section-->
 <form>

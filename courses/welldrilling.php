@@ -112,7 +112,7 @@ include_once '../db/dbconnect.php';
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
             <li><a href="/contact.php">Courses</a></li>
-            <li class="active">drilling</li>
+            <li class="active">Drilling</li>
         </ul>
         <div class="container-fluid">
             <div class="row">

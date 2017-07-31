@@ -90,7 +90,7 @@ include_once 'db/dbconnect.php';
         <div class="row">
             <div class="col-sm-4">
                 <div class="topic effect">
-                    <h2>Topic - Drilling</h2>
+                    <h3>Topic - Drilling</h3>
                     <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="Company logo"/>
                         <div class="drilling"> In this topic the student is introduced to the milestone activities
                             associated with
@@ -102,14 +102,14 @@ include_once 'db/dbconnect.php';
 
             <div class="col-sm-4">
                 <a href="courses/wellcontrol.php">
-                    <div class="topic effect"><h2>Topic - Control</h2>
+                    <div class="topic effect"><h3>Topic - Control</h3>
                         <p>This topic discusses the causes of a kick, methods of kick detection, well
                         control procedures, and the components and function of surface and subsea well control equipment.</p>
                     </div>
                 </a>
             </div>
             <div class="col-sm-4">
-                <div class="topic effect"><h2>Topic - Cementing</h2><a href="courses/fluids/cement.php">
+                <div class="topic effect"><h3>Topic - Cementing</h3><a href="courses/fluids/cement.php">
                         <p>Here you will find information about cementing of a well to hold the formation and earth
                             structure from collapsing.</p>
                     </a>

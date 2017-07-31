@@ -34,19 +34,19 @@ include_once 'db/dbconnect.php';
 <body><!-- Body area start-->
 
 <!-- add top navigational bar using bootstrap-->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
-                <span class="sr-only">Toggle navigation</span>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                <!--<span class="sr-only">Toggle navigation</span>-->
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php">Home | WebOil Elearning Solution</a>
         </div>
-        <div class="collapse navbar-collapse" id="navbar1">
-            <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse" id="navweboil">
+            <ul class="nav navbar-nav">
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>
                     <li class="active"><a href="signinindex.php">Home</a></>
@@ -57,8 +57,10 @@ include_once 'db/dbconnect.php';
                     <li><a href="menu/demo.php">Demo</a></li>
                     <li><a href="menu/contact.php">Contact Us</a></li>
                     <li><a href="menu/help.php">Help</a></li>
-                    <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
-                    <li><a href="/index.php">Log Out</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><p class="navbar-text">Signed in as <?php echo $_SESSION['usr_name']; ?></p></li>
+                        <li><a href="/index.php">Log Out</a></li>
+                    </ul>
                 <?php } else { ?>
                     <li class="active"><a href="index.php">Home</a></>
                     <li><a href="menu/about.php">About Us</a></li>
@@ -68,8 +70,10 @@ include_once 'db/dbconnect.php';
                     <li><a href="menu/demo.php">Demo</a></li>
                     <li><a href="menu/contact.php">Contact Us</a></li>
                     <li><a href="menu/help.php">Help</a></li>
-                    <li><a href="menu/login.php">Login</a></li>
-                    <li><a href="menu/register.php">Register</a></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="menu/login.php">Login</a></li>
+                        <li><a href="menu/register.php">Register</a></li>
+                    </ul>
                 <?php } ?>
             </ul>
         </div>
@@ -91,7 +95,8 @@ include_once 'db/dbconnect.php';
             <div class="col-sm-4">
                 <div class="topic effect">
                     <h3>Topic - Drilling</h3>
-                    <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="drilling image" width="200" height="200"/>
+                    <a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="drilling image" width="200"
+                                                             height="200"/>
                         <div class="drilling"> In this topic the student is introduced to the milestone activities
                             associated with
                             planning for and executing a well construction programme.
@@ -104,7 +109,8 @@ include_once 'db/dbconnect.php';
                 <a href="courses/wellcontrol.php">
                     <div class="topic effect"><h3>Topic - Control</h3>
                         <p>This topic discusses the causes of a kick, methods of kick detection, well
-                        control procedures, and the components and function of surface and subsea well control equipment.</p>
+                            control procedures, and the components and function of surface and subsea well control
+                            equipment.</p>
                     </div>
                 </a>
             </div>

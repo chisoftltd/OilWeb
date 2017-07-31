@@ -127,12 +127,15 @@ include_once 'db/dbconnect.php';
                 </div>
 
                 <div class="col-xs-3 col-sm-3 col-lg-3">
-                    <a href="courses/wellcontrol.php">
-                        <div class="topic effect"><h3>Control</h3>
+
+                    <div class="topic effect"><h3>Control</h3> <a href="courses/wellcontrol.php"><img
+                                    src="images/control.jpg" alt="drilling image"
+                                    width="200"
+                                    height="200"/>
                             <p>This topic discusses the causes of a kick, methods of kick detection, well
                                 control procedures, and the components and function of surface and subsea well control
                                 equipment.</p>
-                        </div>
+                    </div>
                     </a>
                 </div>
                 <div class="col-xs-3 col-sm-3 col-lg-3">

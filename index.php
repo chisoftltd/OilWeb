@@ -139,7 +139,10 @@ include_once 'db/dbconnect.php';
                     </a>
                 </div>
                 <div class="col-xs-3 col-sm-3 col-lg-3">
-                    <div class="topic effect"><h3>Cementing</h3><a href="courses/fluids/cement.php">
+                    <div class="topic effect"><h3>Casing & Cementing</h3><a href="courses/fluids/cement.php"><img
+                                    src="images/casingcementing.jpg" alt="drilling image"
+                                    width="200"
+                                    height="200"/>
                             <p>Here you will find information about cementing of a well to hold the formation and earth
                                 structure from collapsing.</p>
                         </a>

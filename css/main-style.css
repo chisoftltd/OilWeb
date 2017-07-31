@@ -42,8 +42,7 @@ li a:hover:not(.active) {
 li a:hover {
     background-color: #111;
 }
-
-.topic {
+.topic{
     float: left;
     width: 250px;
     height: 400px;
@@ -52,13 +51,12 @@ li a:hover {
     margin-bottom: 10px;
     padding: 1px;
     cursor: pointer;
-    left: 0px;
+    left:0px;
 }
 
-.effect {
+.effect{
     box-shadow: 0 10px 6px -6px #777;
 }
-
 .topic:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;
@@ -76,11 +74,11 @@ li a:hover {
     -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
-
-.topic img {
+.topic img{
     float: inherit;
     margin: 5px 5px 5px 5px;
 }
+
 
 .nav {
     background: skyblue;
@@ -111,6 +109,7 @@ li a:hover {
     min-height: 80px;
 }
 
+
 .footer-links {
     background-color: #dddddd;
     list-style: none;
@@ -121,38 +120,16 @@ li a:hover {
 
 .footer-links li {
     list-style: none;
-    float : left;
     margin-left: 12px;
     text-align: center;
     display: inline;
 }
 
-article img {
-    margin: 0 1.5em 1.5em 0;
-    box-shadow: 0 0 8px 4px black;
-    border: .5em groove #fff;
-}
 
-body {
-    margin: 3% auto;
-    background: #ddd;
-    text-shadow: 0 .8px #111;
-}
-
-article {
-    border: .5em outset #aac !important;
-    border-radius: 1em !important;
-    box-shadow: 0 0 23px #000 !important;
-}
-
-header span.glyphicon {
-    color: #DDD;
-    text-shadow: 2px 2px #111 !important;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+article img{margin:0 1.5em 1.5em 0;box-shadow:0 0 8px 4px black;border:.5em groove #fff;}
+body{ margin:3% auto; background:#ddd; text-shadow:0 .8px #111;}
+article {border:.5em outset #aac !important; border-radius:1em !important; box-shadow:0 0 23px #000 !important;}
+header span.glyphicon{color:#DDD; text-shadow:2px 2px #111 !important;filter:blur(2px);-webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-}
-
-/*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
+    -ms-filter: blur(2px);} /*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/

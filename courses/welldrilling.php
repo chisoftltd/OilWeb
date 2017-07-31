@@ -130,19 +130,20 @@ include_once '../db/dbconnect.php';
                         </li>
                     </ul>
                 </div>
+                <div class="col-md-8 tab-content">
 
-                <h2>Carousel Example</h2>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="col-md-8 tab-content">
+                    <h2>Carousel Example</h2>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
                                 <div role="tabpanel" class="tab-pane fade in active" id="seite1">
                                     <article class="panel panel-default">
                                         <header class="panel-heading">
@@ -163,18 +164,15 @@ include_once '../db/dbconnect.php';
                                                 Ipsum has been the industry's standard dummy text ever since the 1500s,
                                                 when an
                                                 unknown printer took a galley of type and scrambled it to make a type
-                                                specimen
-                                                book.
+                                                specimen book.
                                                 It has survived not only five centuries, but also the leap into
                                                 electronic
                                                 typesetting, remaining essentially unchanged. It was popularised in the
-                                                1960s
-                                                with
+                                                1960s with
                                                 the release of Letraset sheets containing Lorem Ipsum passages, and more
                                                 recently
                                                 with desktop publishing software like Aldus PageMaker including versions
-                                                of
-                                                Lorem
+                                                of Lorem
                                                 Ipsum.</p>
                                             <hr/>
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -182,13 +180,11 @@ include_once '../db/dbconnect.php';
                                                 Ipsum has been the industry's standard dummy text ever since the 1500s,
                                                 when an
                                                 unknown printer took a galley of type and scrambled it to make a type
-                                                specimen
-                                                book.
+                                                specimen book.
                                                 It has survived not only five centuries, but also the leap into
                                                 electronic
                                                 typesetting, remaining essentially unchanged. It was popularised in the
-                                                1960s
-                                                with
+                                                1960s with
                                                 the release of Letraset sheets containing Lorem Ipsum passages, and more
                                                 recently
                                                 with desktop publishing software.</p>
@@ -223,18 +219,15 @@ include_once '../db/dbconnect.php';
                                                 Ipsum has been the industry's standard dummy text ever since the 1500s,
                                                 when an
                                                 unknown printer took a galley of type and scrambled it to make a type
-                                                specimen
-                                                book.
+                                                specimen book.
                                                 It has survived not only five centuries, but also the leap into
                                                 electronic
                                                 typesetting, remaining essentially unchanged. It was popularised in the
-                                                1960s
-                                                with
+                                                1960s with
                                                 the release of Letraset sheets containing Lorem Ipsum passages, and more
                                                 recently
                                                 with desktop publishing software like Aldus PageMaker including versions
-                                                of
-                                                Lorem
+                                                of Lorem
                                                 Ipsum.</p>
                                             <hr/>
                                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -242,13 +235,11 @@ include_once '../db/dbconnect.php';
                                                 Ipsum has been the industry's standard dummy text ever since the 1500s,
                                                 when an
                                                 unknown printer took a galley of type and scrambled it to make a type
-                                                specimen
-                                                book.
+                                                specimen book.
                                                 It has survived not only five centuries, but also the leap into
                                                 electronic
                                                 typesetting, remaining essentially unchanged. It was popularised in the
-                                                1960s
-                                                with
+                                                1960s with
                                                 the release of Letraset sheets containing Lorem Ipsum passages, and more
                                                 recently
                                                 with desktop publishing software.</p>
@@ -262,20 +253,19 @@ include_once '../db/dbconnect.php';
                                 </div>
                             </div>
                         </div>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
         </div>
-    </div>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

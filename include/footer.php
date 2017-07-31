@@ -1,5 +1,11 @@
 <!-- footer file - For lack of time link here are directed to certain RGU pages-->
 <footer>
+    <style>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    </style>
     <nav>
         <form>
             <hr>

@@ -125,17 +125,17 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
-                                Link1
+                                Link2
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                Link1
+                                Link3
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
-                                Link1
+                                Link4
                             </a>
                         </li>
                     </ul>

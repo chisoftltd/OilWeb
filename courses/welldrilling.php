@@ -19,7 +19,7 @@ include_once '/db/dbconnect.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Application Description - WebOil!</title>
+    <title>WebOil - Drilling</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@ include_once '/db/dbconnect.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="/css/main-style.css">
 </head>
 <body><!-- Body area start-->
 
@@ -42,20 +42,20 @@ include_once '/db/dbconnect.php';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Home | WebOil Elearning Solution</a>
+            <a class="navbar-brand" href="/index.php">Home | WebOil Elearning Solution</a>
         </div>
         <div class="collapse navbar-collapse" id="navweboil">
             <ul class="nav navbar-nav navbar-right">
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>
                     <li class="active"><a href="signinindex.php">Home</a></>
-                    <li><a href="menu/about.php">About Us</a></li>
-                    <li><a href="menu/courses.php">Courses</a></li>
-                    <li><a href="menu/assessment.php">Assessment</a></li>
-                    <li><a href="menu/submission.php">Submission</a></li>
-                    <li><a href="menu/demo.php">Demo</a></li>
-                    <li><a href="menu/contact.php">Contact Us</a></li>
-                    <li><a href="menu/help.php">Help</a></li>
+                    <li><a href="/menu/about.php">About Us</a></li>
+                    <li><a href="/menu/courses.php">Courses</a></li>
+                    <li><a href="/menu/assessment.php">Assessment</a></li>
+                    <li><a href="/menu/submission.php">Submission</a></li>
+                    <li><a href="/menu/demo.php">Demo</a></li>
+                    <li><a href="/menu/contact.php">Contact Us</a></li>
+                    <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text"><span
                                     class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
@@ -71,16 +71,16 @@ include_once '/db/dbconnect.php';
                         </div>
                     </form>
                 <?php } else { ?>
-                    <li class="active"><a href="index.php">Home</a></>
-                    <li><a href="menu/about.php">About Us</a></li>
-                    <li><a href="menu/courses.php">Courses</a></li>
-                    <li><a href="menu/assessment.php">Assessment</a></li>
-                    <li><a href="menu/submission.php">Submission</a></li>
-                    <li><a href="menu/demo.php">Demo</a></li>
-                    <li><a href="menu/contact.php">Contact Us</a></li>
-                    <li><a href="menu/help.php">Help</a></li>
-                    <li><a href="menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                    <li><a href="menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                    <li class="active"><a href="/index.php">Home</a></>
+                    <li><a href="/menu/about.php">About Us</a></li>
+                    <li><a href="/menu/courses.php">Courses</a></li>
+                    <li><a href="/menu/assessment.php">Assessment</a></li>
+                    <li><a href="/menu/submission.php">Submission</a></li>
+                    <li><a href="/menu/demo.php">Demo</a></li>
+                    <li><a href="/menu/contact.php">Contact Us</a></li>
+                    <li><a href="/menu/help.php">Help</a></li>
+                    <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
+                    <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
                     <form class="navbar-form navbar-right">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search">
@@ -109,7 +109,7 @@ include_once '/db/dbconnect.php';
 </form>
 <section>
     <div class="content">
-        
+
     </div>
 </section><!-- end of section-->
 <form>

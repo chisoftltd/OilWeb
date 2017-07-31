@@ -44,10 +44,10 @@ li a:hover {
 }
 .topic{
     float: left;
-    width: 300px;
+    width: 250px;
     height: 400px;
     border: 2px dashed blue;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-bottom: 10px;
     padding: 1px;
     cursor: pointer;

@@ -8,17 +8,14 @@
             <strong>Follow us</strong>
         </p>
         <ul class="footer-links">
-
             <li><a href="/index.php">Home</a></li>
-            <div class="row">
-                <div class="col-sm-12 social">
-                    <a href="http://www.facebook.com/pages/Azmindcom/196582707093191"><i class="fa fa-facebook"></i></a>
-                    <span class="divider-2"></span>
-                    <a href="http://twitter.com/anli_zaimi"><i class="fa fa-twitter"></i></a>
-                    <span class="divider-2"></span>
-                    <a href="https://plus.google.com/101131425868807087570"><i class="fa fa-google-plus"></i></a>
-                </div>
-            </div>
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
             <li><a href="/contact.php">Contact</a></li>
 
         </ul>

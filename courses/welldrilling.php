@@ -133,7 +133,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                               <h4> Activity Descriptions cont...</h4>
+                                <h4> Activity Descriptions cont...</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -153,29 +153,30 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
 
                                 <figure class="pull-right bs-example">
-                                        <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-play"></span> Launch
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
 
                                     <!-- Modal HTML -->
-                                        <div id="myModal" class="modal fade">
-                                            <div class="modal-dialog">
-                                                <div class="modal-content">
-                                                    <div class="modal-header">
-                                                        <button type="button" class="close" data-dismiss="modal"
-                                                                aria-hidden="true">&times;
-                                                        </button>
-                                                        <h4 class="modal-title">Oil and gas Drilling</h4>
-                                                    </div>
-                                                    <div class="modal-body">
-                                                        <iframe id="cartoonVideo" width="560" height="315"
-                                                                src="//www.youtube.com/embed/YE7VzlLtp-4"
-                                                                frameborder="0" allowfullscreen></iframe>
-                                                    </div>
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
                                         </div>
-                                        <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <p> The time required to plan and execute a well construction programme is
                                     dependent on many variables including sub-surface complexity, location and type
@@ -233,7 +234,8 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-play"></span> Launch
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
 
                                     <!-- Modal HTML -->
@@ -332,7 +334,8 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-play"></span> Launch
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
 
                                     <!-- Modal HTML -->
@@ -368,7 +371,8 @@ include_once '../db/dbconnect.php';
                                         seasonal access restrictions;
                                     </li>
                                     <li>severe environment (High Pressure High temperature (HPHT), deepwater,
-                                        high hydrogen Sulphide (H2S – ‘sour’).</li>
+                                        high hydrogen Sulphide (H2S – ‘sour’).
+                                    </li>
                                 </ul>
                                 <p>This initial review allows a quick response if the nature of the well requires
                                     greater planning time or resources (or both).</p>
@@ -387,6 +391,22 @@ include_once '../db/dbconnect.php';
                                         government and the Regions);
                                     </li>
                                     <li>Well Notification (Health and Safety Executive);
+                                    </li>
+                                </ul>
+                                <h4><i>Environmental consent (DTI)</i></h4>
+                                <p>It is illegal to commence operations without the relevant approvals or
+                                    notifications in place.
+                                </p>
+                                <p>Further requirements exist during the operational phase:
+                                </p>
+                                <ul>
+                                    <li>Rig move notification (various);
+                                    </li>
+                                    <li>Well commencement notification (DTI);
+                                    </li>
+                                    <li>Weekly Activity Report (HSE);
+                                    </li>
+                                    <li>Incident reporting (DTI/HSE);
                                     </li>
                                 </ul>
                             </div>

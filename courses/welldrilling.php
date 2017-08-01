@@ -314,6 +314,41 @@ include_once '../db/dbconnect.php';
                                 <p>The requirements for resources vary dependent on the current stage in the
                                     delivery process. It is vital to have a clear plan for timely access to
                                     resources. </p>
+                                <h4><i>Review of Special Considerations</i></h4>
+                                <p>Once aware of a possible well a review of any special considerations should be
+                                    performed. These could include:
+                                </p>
+                                <ul>
+                                    <li>more stringent notification requirements;</li>
+                                    <li>more stringent environmental requirements (i.e, drilling in an
+                                        environmentally sensitive area);
+                                    </li>
+                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                        seasonal access restrictions;
+                                    </li>
+                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
+                                        high hydrogen Sulphide (H2S – ‘sour’).
+                                    </li>
+                                </ul>
+                                <p>This initial review allows a quick response if the nature of the well requires
+                                    greater planning time or resources (or both).</p>
+                                <hr/>
+                                <h4><i>Government/Legislative Requirements</i></h4>
+                                <p>All wells are subject to government approvals in various guises. For the purpose
+                                    of this module the requirements for the United Kingdom Continental Shelf
+                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                <p>In general the planning requirements for the UKCS fall into the following
+                                    categories:
+                                </p>
+                                <ul>
+                                    <li>Consent to drill wells (Department of Trade and Industry);
+                                    </li>
+                                    <li>Consent to site mobile installations (Department of Transport, Local
+                                        government and the Regions);
+                                    </li>
+                                    <li>Well Notification (Health and Safety Executive);
+                                    </li>
+                                </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
@@ -352,43 +387,7 @@ include_once '../db/dbconnect.php';
                                         </div>
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
-                                </figure>
-                                <h4><i>Review of Special Considerations</i></h4>
-                                <p>Once aware of a possible well a review of any special considerations should be
-                                    performed. These could include:
-                                </p>
-                                <ul>
-                                    <li>more stringent notification requirements;</li>
-                                    <li>more stringent environmental requirements (i.e, drilling in an
-                                        environmentally sensitive area);
-                                    </li>
-                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
-                                        seasonal access restrictions;
-                                    </li>
-                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
-                                        high hydrogen Sulphide (H2S – ‘sour’).
-                                    </li>
-                                </ul>
-                                <p>This initial review allows a quick response if the nature of the well requires
-                                    greater planning time or resources (or both).</p>
-                                <hr/>
-                                <h4><i>Government/Legislative Requirements</i></h4>
-                                <p>All wells are subject to government approvals in various guises. For the purpose
-                                    of this module the requirements for the United Kingdom Continental Shelf
-                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
-                                <p>In general the planning requirements for the UKCS fall into the following
-                                    categories:
-                                </p>
-                                <ul>
-                                    <li>Consent to drill wells (Department of Trade and Industry);
-                                    </li>
-                                    <li>Consent to site mobile installations (Department of Transport, Local
-                                        government and the Regions);
-                                    </li>
-                                    <li>Well Notification (Health and Safety Executive);
-                                    </li>
-                                </ul>
-                                <h4><i>Environmental consent (DTI)</i></h4>
+                                </figure><h4><i>Environmental consent (DTI)</i></h4>
                                 <p>It is illegal to commence operations without the relevant approvals or
                                     notifications in place.
                                 </p>
@@ -419,45 +418,6 @@ include_once '../db/dbconnect.php';
                                     adopted in the UKCS which means that even after a well has been finished a
                                     responsibility remains to ensure that the well is fit for its intended purpose until
                                     it is finally abandoned. </p>
-                            </div>
-                            <footer class="panel-footer clearfix ">
-                                <address class="pull-right">&copy; RGU
-                                </address>
-                            </footer>
-                        </article>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="seite4">
-                        <article class="panel panel-default">
-                            <header class="panel-heading">
-                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
-                            </header>
-                            <div class="panel-body">
-                                <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
-                                    <!-- Modal HTML -->
-                                    <div id="myDrilling4" class="modal fade">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                            aria-hidden="true">&times;
-                                                    </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Drilling</h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <iframe id="drilling4Video" width="560" height="315"
-                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
-                                                            frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
-                                </figure>
                                 <h4><i>Well Design
                                     </i></h4>
                                 <p>The following questions have to be adequately addressed before a design can be
@@ -582,6 +542,45 @@ include_once '../db/dbconnect.php';
                                         provide additional hold).
                                     </li>
                                 </ul>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">&copy; RGU
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite4">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Activity Descriptions cont...</h1>
+                            </header>
+                            <div class="panel-body">
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myDrilling4" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and Gas Well Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="drilling4Video" width="560" height="315"
+                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                </figure>
                                 <h4><i>Operational Plan</i></h4>
                                 <p>Ultimately the well design has to be translated into an operational plan, or
                                     programme. This provides the approved reference for those charged with
@@ -621,6 +620,50 @@ include_once '../db/dbconnect.php';
                                     equivalent of War and Peace. In consideration of the detail required it is useful to
                                     put yourself in the place of the well-site supervisor charged with delivering the
                                     well objectives</p>
+                                <h4><i>Risk Identification and Mitigation
+                                    </i></h4>
+                                <p>The management of risk for a well construction process covers Health, Safety
+                                    and Environment (HS&E) risk and operational risk. The former is concerned with
+                                    protection of people and the environment the latter with protection of the
+                                    business plan which incorporates promises for budget and schedule. As HS&E
+                                    and business cultures have developed there has been a tendency to separate
+                                    these features in terms of how they are dealt with in the planning process.
+                                    Ultimately, however, there appears to be growing consensus that good HSE
+                                    management means good operational management and vice versa. Therefore,
+                                    instead of having separate processes to consider HS&E and operational risk, all
+                                    forms of risk are considered in the one risk management process.</p>
+                                <p>Management of risk is an iterative process. No matter at what stage in the well
+                                    construction process identification and understanding of risk should never be far
+                                    from the mind. The processes required involve anything from the awareness of
+                                    experienced personnel while compiling plans to full blown hazard operability and
+                                    analysis studies involving multi-disciplined teams, formal processes and many
+                                    days of scrutiny. The scale, complexity and novelty of the project also should
+                                    determine the scale, complexity and novelty of the risk management process.
+                                </p>
+                                <p>In simple terms there are two important times where full accountability of risk
+                                    should be formally considered. Firstly at the concept selection phase where the
+                                    various options are being reviewed; secondly, once the proposed design and
+                                    operational process have been sufficiently defined to allow in depth review.</p>
+                                <h4><i>Time / Cost Estimate Generation
+                                    </i></h4>
+                                <p>The time / cost estimate is the cornerstone of a well construction organisations’
+                                    commitment to the business it serves. It is a promise that the objectives will be
+                                    delivered at a given cost. The fundamental issue with time/cost estimation is that
+                                    business plans are often drawn up before the well is sufficiently defined both in
+                                    terms of objectives and design. This is not such a concern if the well in question
+                                    is a repeat of previous types but when dealing with new well types it is difficult
+                                    to
+                                    give precise information.
+                                </p>
+                                <p>Estimates are often classified to reflect the level of uncertainty. Examples of
+                                    classifications and their likely variance could be:</p>
+                                <ul>
+                                    <li>Budgetary: +/- 30%
+                                    </li>
+                                    <li>Appropriation: +/- 10%
+                                    </li>
+                                    <li>Pre operational: +/- 5% </li>
+                                </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

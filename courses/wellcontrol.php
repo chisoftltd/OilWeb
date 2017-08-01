@@ -153,11 +153,11 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myControl1" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myControl1" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -167,7 +167,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="control1Video" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -231,11 +231,11 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myControl2" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myControl2" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -245,7 +245,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="control2Video" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -330,11 +330,11 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myControl3" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -344,7 +344,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="control3Video" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -435,11 +435,11 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myControl4" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
@@ -449,7 +449,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="ccontrol4Video" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>

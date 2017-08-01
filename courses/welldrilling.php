@@ -151,13 +151,11 @@ include_once '../db/dbconnect.php';
                                     Generic Activities</h1>
                             </header>
                             <div class="panel-body">
-
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
-
                                     <!-- Modal HTML -->
                                     <div id="myModal" class="modal fade">
                                         <div class="modal-dialog">
@@ -236,7 +234,6 @@ include_once '../db/dbconnect.php';
                                     <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
-
                                     <!-- Modal HTML -->
                                     <div id="myModal" class="modal fade">
                                         <div class="modal-dialog">
@@ -336,7 +333,6 @@ include_once '../db/dbconnect.php';
                                     <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
-
                                     <!-- Modal HTML -->
                                     <div id="myModal" class="modal fade">
                                         <div class="modal-dialog">
@@ -437,10 +433,30 @@ include_once '../db/dbconnect.php';
                                     Headline no.4</h1>
                             </header>
                             <div class="panel-body">
-
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                     Ipsum has been the industry's standard dummy text ever since the 1500s, when an

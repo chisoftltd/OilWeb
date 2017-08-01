@@ -19,17 +19,19 @@ include_once '../db/dbconnect.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>WebOil - Drilling</title>
+    <title>WebOil - Control</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Add JavaScript file-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+    <script src="/js/weboil.js"></script>
     <!-- Add css file-->
-    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="/css/main-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body><!-- Body area start-->
 
@@ -121,22 +123,22 @@ include_once '../db/dbconnect.php';
                     <ul class="list-group nav" role="tablist">
                         <li class="list-group-item">
                             <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
-                                Link1
+                                <h4>Generic Activities</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
-                                Link2
+                                <h4>Activity Descriptions</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                Link3
+                                <h4>Activity Descriptions cont...</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
-                                Link4
+                                <h4>Activity Descriptions cont...</h4>
                             </a>
                         </li>
                     </ul>
@@ -146,70 +148,175 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.1</h1>
+                                    Generic Activities</h1>
                             </header>
                             <div class="panel-body">
-
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <p> The time required to plan and execute a well construction programme is
+                                    dependent on many variables including sub-surface complexity, location and type
+                                    of well. For any well, however, there are common activities which must be
+                                    addressed to enable comprehensive planning and operational control. For the
+                                    purposes of this topic we will assume a single well, drilled from a semisubmersible
+                                    rig. The main activities are:</p>
+                                <ul>
+                                    <li>Receipt of well planning request / well objectives;</li>
+                                    <li>Allocation of engineering / operational resources;</li>
+                                    <li>Review of special considerations (licence requirements, physical
+                                        restrictions);
+                                    </li>
+                                    <li>Well design;</li>
+                                    <li>Government/legislative requirements;</li>
+                                    <li>Sourcing of materials and services including rig;</li>
+                                    <li>Site survey;</li>
+                                    <li>Operational plan;</li>
+                                    <li>Risk identification and mitigation;</li>
+                                    <li>Time /cost generation;</li>
+                                    <li>Pre-operational review;</li>
+                                    <li>Operational phase;</li>
+                                    <li>Post well activities.</li>
+                                </ul>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <p>While it would be ideal if the activities shown above could be laid out in an
+                                    ordered sequence it is more often the case that many of the activities occur in
+                                    parallel. Also it is common for plans to evolve and change as operational
+                                    definition is refined. In particular the generation of the time/cost estimate does
+                                    not tend to be a one off event. Invariably costs are required at an early stage
+                                    where little detailed planning or review has been performed. Hence accuracy of
+                                    the estimate develops throughout the planning phase and different classes of
+                                    estimate are often provided dependent on position on the planning/execution
+                                    timeline.</p>
+                                <p>
+                                    The main activities listed above are discussed in more detail throughout this
+                                    module but there follows a summary of the important aspects of each activity
+                                    and what deliverables might be expected.
+                                </p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>
                     </div>
+
                     <div role="tabpanel" class="tab-pane fade" id="seite2">
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.2</h1>
+                                    Activity Descriptions</h1>
                             </header>
                             <div class="panel-body">
-
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Well Planning Request / Well Objectives</i></h4>
+                                <p>The main purpose of a well planning request is to provide the agreed basis for
+                                    design. This document should form the start point for the planning process and
+                                    should be referred back to throughout the planning and execution phases to
+                                    ensure that all decisions take into account the original basis for the well.</p>
+                                <p>
+                                    Ideally the request should be a formal document signed off by the appropriate
+                                    levels of authority in both the requesting and executing organisations.
+                                </p>
+                                <p>
+                                    Who generates the final, formally agreed request is not necessarily important. It
+                                    may be that the party responsible for well design compiles the request after
+                                    discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
+                                    document. What is important, however, is that the request is jointly reviewed
+                                    and accepted.
+                                </p>
+                                <p>
+                                    An integral part of the request document should be a prioritised list of objectives
+                                    for the well. In both the planning and operational phases of a well, decisions and
+                                    compromises may be required and a clear understanding of the priorities of the
+                                    well will help to make the appropriate choices. The identification of objectives
+                                    also provides the basis for performance evaluation at the completion of the well.
+                                </p>
+                                <h4><i>Allocation of Engineering/Operational Resources
+                                    </i></h4>
+                                <p>No well can be planned and drilled without the allocation of the required skills to
+                                    turn a request into reality. Many skills and talents are required but probably the
+                                    most important key to success is to ensure that clear accountability is assigned
+                                    for delivery of the well.</p>
+                                <p>
+                                    Typically the core resources required to deliver a well would include the
+                                    following:
+                                </p>
+                                <ul>
+                                    <li>Well Operations Supervision – onshore and offshore;</li>
+                                    <li>Well Design Engineering;</li>
+                                    <li>Well Operations Engineering;</li>
+                                    <li>Welltest/Completions Design Engineering;</li>
+                                    <li>Welltest/Completions Operations Engineering.</li>
+                                </ul>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <p>Dependent on scale and maturity of operations the roles can be combined or
+                                    indeed may require multiple positions to fulfil the plan. The above roles could be
+                                    considered core within a well construction organisation. There are, however,
+                                    many other roles which support delivery of a well:</p>
+                                <ul>
+                                    <li>Contracts preparation and negotiation;</li>
+                                    <li>Environmental preparation and monitoring;</li>
+                                    <li>Audit and quality control of suppliers;</li>
+                                    <li>Invoice processing;</li>
+                                    <li>Health and safety expertise;
+                                    </li>
+                                    <li>Cost management;</li>
+                                    <li>Marine specialisation;</li>
+                                    <li>Administrative and technical support;</li>
+                                    <li>Logistics and transport.</li>
+                                </ul>
+                                <p>The requirements for resources vary dependent on the current stage in the
+                                    delivery process. It is vital to have a clear plan for timely access to
+                                    resources. </p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right"> &copy; RGU
                                 </address>
                             </footer>
                         </article>
@@ -218,34 +325,103 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.3</h1>
+                                    Activity Descriptions cont...</h1>
                             </header>
                             <div class="panel-body">
-
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Review of Special Considerations</i></h4>
+                                <p>Once aware of a possible well a review of any special considerations should be
+                                    performed. These could include:
+                                </p>
+                                <ul>
+                                    <li>more stringent notification requirements;</li>
+                                    <li>more stringent environmental requirements (i.e, drilling in an
+                                        environmentally sensitive area);
+                                    </li>
+                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                        seasonal access restrictions;
+                                    </li>
+                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
+                                        high hydrogen Sulphide (H2S – ‘sour’).
+                                    </li>
+                                </ul>
+                                <p>This initial review allows a quick response if the nature of the well requires
+                                    greater planning time or resources (or both).</p>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <h4><i>Government/Legislative Requirements</i></h4>
+                                <p>All wells are subject to government approvals in various guises. For the purpose
+                                    of this module the requirements for the United Kingdom Continental Shelf
+                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                <p>In general the planning requirements for the UKCS fall into the following
+                                    categories:
+                                </p>
+                                <ul>
+                                    <li>Consent to drill wells (Department of Trade and Industry);
+                                    </li>
+                                    <li>Consent to site mobile installations (Department of Transport, Local
+                                        government and the Regions);
+                                    </li>
+                                    <li>Well Notification (Health and Safety Executive);
+                                    </li>
+                                </ul>
+                                <h4><i>Environmental consent (DTI)</i></h4>
+                                <p>It is illegal to commence operations without the relevant approvals or
+                                    notifications in place.
+                                </p>
+                                <p>Further requirements exist during the operational phase:
+                                </p>
+                                <ul>
+                                    <li>Rig move notification (various);
+                                    </li>
+                                    <li>Well commencement notification (DTI);
+                                    </li>
+                                    <li>Weekly Activity Report (HSE);
+                                    </li>
+                                    <li>Incident reporting (DTI/HSE);
+                                    </li>
+                                </ul>
+                                <p>Any material change to design or chemical usage (HSE/DTI).
+                                </p>
+                                <p>After the end of operations communications to close out a specific well include:</p>
+                                <ul>
+                                    <li>
+                                        Chemical Discharge Records (DTI or agent);
+                                    </li>
+                                    <li>Rig Emissions Data (DTI or agent);
+                                    </li>
+                                    <li>Conclusion of work (HSE).</li>
+                                </ul>
+                                <p>It is also important to be aware of the life cycle approach to well integrity
+                                    adopted in the UKCS which means that even after a well has been finished a
+                                    responsibility remains to ensure that the well is fit for its intended purpose until
+                                    it is finally abandoned. </p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>
@@ -254,34 +430,200 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.4</h1>
+                                    Activity Descriptions cont...</h1>
                             </header>
                             <div class="panel-body">
-
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Well Design
+                                    </i></h4>
+                                <p>The following questions have to be adequately addressed before a design can be
+                                    considered to be acceptable:
+                                </p>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <ul>
+                                    <li>Does the design allow for the expected life of the well?
+                                    </li>
+                                    <li>Are the materials used to construct the well suitable for the fluids and
+                                        conditions expected throughout the well’s life?
+                                    </li>
+                                    <li>Do any unusual risks to people, plant or the environment result due to the
+                                        chosen design? If so have alternatives been considered? Has risk been
+                                        mitigated?
+                                    </li>
+                                    <li>Has the operability of the design been considered in terms of operational
+                                        risk or cost? Is the risked cost acceptable? Have both the construction and
+                                        post completion phases been considered?
+                                    </li>
+                                    <li>Will the client objectives be met by the design?</li>
+                                </ul>
+                                <p>The basic requirement for any well design is to meet the client’s requirements at
+                                    an economic cost while maintaining the risk to peoples’ health and the
+                                    environment below acceptable limits.</p>
+                                <h4><i>Sourcing of Materials and Services
+                                    </i></h4>
+                                <p>The execution of a well programme requires a complex interaction of suppliers,
+                                    materials and equipment. It may be that all supplies and services have been
+                                    prearranged
+                                    or that no purchase or supply agreements are in place at all. In any
+                                    event arrangements must be made to ensure that the required products and
+                                    services are available. These could include:</p>
+                                <ul>
+                                    <li>Rig and crew hire including catering;
+                                    </li>
+                                    <li>Marine transport;
+                                    </li>
+                                    <li>Anchor Handling Vessels (AHVs);
+                                    </li>
+                                    <li>Rig move planning, navigation and anchoring equipment;
+                                    </li>
+                                    <li>All casing and tubulars;
+                                    </li>
+                                    <li>Wellheads and associated rental equipment;</li>
+                                    <li>Xmas trees;
+                                    </li>
+                                    <li>Completion components;
+                                    </li>
+                                    <li>Mud materials and engineering;
+                                    </li>
+                                    <li>Cement materials and engineering;
+                                    </li>
+                                    <li>Directional drilling equipment and personnel;
+                                    </li>
+                                    <li>Measurement While Drilling (MWD) and Logging While Drilling (LWD)
+                                        equipment and personnel;
+                                    </li>
+                                    <li>Directional Surveying equipment and personnel;
+                                    </li>
+                                    <li>Electric line logging equipment and personnel;
+                                    </li>
+                                    <li>Mud Logging equipment and personnel;
+                                    </li>
+                                    <li>Solids control equipment and personnel;
+                                    </li>
+                                    <li>Drill bits;
+                                    </li>
+                                    <li> Drill string rentals;
+                                    </li>
+                                    <li> Fishing / abandonment equipment and personnel;
+                                    </li>
+                                    <li> Casing and tubing handling equipment and personnel;
+                                    </li>
+                                    <li> Coring equipment and personnel;
+                                    </li>
+                                    <li> Perforating equipment and personnel;
+                                    </li>
+                                    <li> Weather forecasting;
+                                    </li>
+                                    <li> Communications service and equipment;
+                                    </li>
+                                    <li> Site survey vessel, equipment and personnel.
+                                    </li>
+                                </ul>
+                                <p>Prior to commencement of operations a detailed load-out list should be prepared
+                                    which lists all equipment required for the well. This assists in the callout of the
+                                    required equipment at the appropriate time during the well and also serves as a
+                                    check that nothing has been forgotten.</p>
+                                <h4><i>Site Survey</i></h4>
+                                <p>The requirement for a site survey prior to moving a rig onto a location must be
+                                    determined. If a survey is required then it must be organised and performed in
+                                    time to allow delivery of, and reaction to, the results.
+                                </p>
+                                <p>A site survey is normally performed to acquire data for the following reasons:</p>
+                                <ul>
+                                    <li>To identify significant debris on the seabed at the intended location;
+                                    </li>
+                                    <li> To assess the seabed anchor holding characteristics;
+                                    </li>
+                                    <li> To assess the potential for shallow gas in surface hole.</li>
+                                </ul>
+                                <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
+                                    work. For certain areas there may be a seasonal limitation on the shooting of site
+                                    survey seismic.</p>
+                                <p>The survey itself is carried out from a specialised vessel. Typically the work
+                                    involves shooting seismic of varying definition over a pre-planned grid which will
+                                    cover the anchor pattern area and include a more concentrated grid around the
+                                    proposed location for shallow gas definition. It is common for a consultant to be
+                                    hired to provide third party quality assurance during site survey work.
+                                </p>
+                                <p>Outcomes from a site survey could include:
+                                </p>
+                                <ul>
+                                    <li>Everything looks fine to anchor up and drill at the location;
+                                    </li>
+                                    <li>There are indications of shallow gas which may justify moving surface
+                                        location or adopting special shallow gas procedures;
+                                    </li>
+                                    <li>Re-selection of anchor type, fluke angle or requirement to reinforce certain
+                                        anchors with ‘piggy backs’ (additional anchor run of the main anchor to
+                                        provide additional hold).
+                                    </li>
+                                </ul>
+                                <h4><i>Operational Plan</i></h4>
+                                <p>Ultimately the well design has to be translated into an operational plan, or
+                                    programme. This provides the approved reference for those charged with
+                                    constructing the well. Programmes come in many different styles and formats
+                                    but, typically, should include the following:
+                                </p>
+                                <ul>
+                                    <li>Appropriate approvals and distribution;
+                                    </li>
+                                    <li>Purpose of well;
+                                    </li>
+                                    <li>Prioritised objectives for the well;
+                                    </li>
+                                    <li>Budget data (time and cost);
+                                    </li>
+                                    <li>Description of the well design (e.g, casing specification and setting depths,
+                                        directional profile, intended cement coverage)
+                                    </li>
+                                    <li>Details of expected geology;
+                                    </li>
+                                    <li>Operational procedure;
+                                    </li>
+                                    <li> Anticipated hazards, risks, mitigation and contingencies;
+                                    </li>
+                                    <li>Data acquisition requirements (e.g, logging, sampling);
+                                    </li>
+                                    <li>Summary of third party programmes such as cementing, drilling fluids and
+                                        directional plan;
+                                    </li>
+                                    <li>Contact details.
+                                    </li>
+                                </ul>
+                                <p>The format and detail for a programme will also depend on the type of well to be
+                                    drilled. For example the fortieth well on a development programme may require
+                                    little more than a one page summary sheet whereas the first High Pressure High
+                                    Temperature (HPHT) well in a virgin area could warrant the well construction
+                                    equivalent of War and Peace. In consideration of the detail required it is useful to
+                                    put yourself in the place of the well-site supervisor charged with delivering the
+                                    well objectives</p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>

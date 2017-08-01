@@ -231,10 +231,30 @@ include_once '../db/dbconnect.php';
                                     Activity Descriptions</h1>
                             </header>
                             <div class="panel-body">
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
 
-                                <figure class="pull-right "><img class="img-responsive img-rounded" alt="image"
-                                                                 src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/watch?v=SfazJ6P_g7w"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <h4><i>Well Planning Request / Well Objectives</i></h4>
                                 <p>The main purpose of a well planning request is to provide the agreed basis for

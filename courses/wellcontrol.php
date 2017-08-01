@@ -314,6 +314,41 @@ include_once '../db/dbconnect.php';
                                 <p>The requirements for resources vary dependent on the current stage in the
                                     delivery process. It is vital to have a clear plan for timely access to
                                     resources. </p>
+                                <h4><i>Review of Special Considerations</i></h4>
+                                <p>Once aware of a possible well a review of any special considerations should be
+                                    performed. These could include:
+                                </p>
+                                <ul>
+                                    <li>more stringent notification requirements;</li>
+                                    <li>more stringent environmental requirements (i.e, drilling in an
+                                        environmentally sensitive area);
+                                    </li>
+                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                        seasonal access restrictions;
+                                    </li>
+                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
+                                        high hydrogen Sulphide (H2S – ‘sour’).
+                                    </li>
+                                </ul>
+                                <p>This initial review allows a quick response if the nature of the well requires
+                                    greater planning time or resources (or both).</p>
+                                <hr/>
+                                <h4><i>Government/Legislative Requirements</i></h4>
+                                <p>All wells are subject to government approvals in various guises. For the purpose
+                                    of this module the requirements for the United Kingdom Continental Shelf
+                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                <p>In general the planning requirements for the UKCS fall into the following
+                                    categories:
+                                </p>
+                                <ul>
+                                    <li>Consent to drill wells (Department of Trade and Industry);
+                                    </li>
+                                    <li>Consent to site mobile installations (Department of Transport, Local
+                                        government and the Regions);
+                                    </li>
+                                    <li>Well Notification (Health and Safety Executive);
+                                    </li>
+                                </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
@@ -353,41 +388,6 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Review of Special Considerations</i></h4>
-                                <p>Once aware of a possible well a review of any special considerations should be
-                                    performed. These could include:
-                                </p>
-                                <ul>
-                                    <li>more stringent notification requirements;</li>
-                                    <li>more stringent environmental requirements (i.e, drilling in an
-                                        environmentally sensitive area);
-                                    </li>
-                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
-                                        seasonal access restrictions;
-                                    </li>
-                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
-                                        high hydrogen Sulphide (H2S – ‘sour’).
-                                    </li>
-                                </ul>
-                                <p>This initial review allows a quick response if the nature of the well requires
-                                    greater planning time or resources (or both).</p>
-                                <hr/>
-                                <h4><i>Government/Legislative Requirements</i></h4>
-                                <p>All wells are subject to government approvals in various guises. For the purpose
-                                    of this module the requirements for the United Kingdom Continental Shelf
-                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
-                                <p>In general the planning requirements for the UKCS fall into the following
-                                    categories:
-                                </p>
-                                <ul>
-                                    <li>Consent to drill wells (Department of Trade and Industry);
-                                    </li>
-                                    <li>Consent to site mobile installations (Department of Transport, Local
-                                        government and the Regions);
-                                    </li>
-                                    <li>Well Notification (Health and Safety Executive);
-                                    </li>
-                                </ul>
                                 <h4><i>Environmental consent (DTI)</i></h4>
                                 <p>It is illegal to commence operations without the relevant approvals or
                                     notifications in place.
@@ -419,45 +419,6 @@ include_once '../db/dbconnect.php';
                                     adopted in the UKCS which means that even after a well has been finished a
                                     responsibility remains to ensure that the well is fit for its intended purpose until
                                     it is finally abandoned. </p>
-                            </div>
-                            <footer class="panel-footer clearfix ">
-                                <address class="pull-right">&copy; RGU
-                                </address>
-                            </footer>
-                        </article>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="seite4">
-                        <article class="panel panel-default">
-                            <header class="panel-heading">
-                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
-                            </header>
-                            <div class="panel-body">
-                                <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
-                                    <!-- Modal HTML -->
-                                    <div id="myControl4" class="modal fade">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <button type="button" class="close" data-dismiss="modal"
-                                                            aria-hidden="true">&times;
-                                                    </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <iframe id="control4Video" width="560" height="315"
-                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
-                                                            frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
-                                </figure>
                                 <h4><i>Well Design
                                     </i></h4>
                                 <p>The following questions have to be adequately addressed before a design can be
@@ -582,6 +543,45 @@ include_once '../db/dbconnect.php';
                                         provide additional hold).
                                     </li>
                                 </ul>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">&copy; RGU
+                                </address>
+                            </footer>
+                        </article>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="seite4">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Activity Descriptions cont...</h1>
+                            </header>
+                            <div class="panel-body">
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myControl4" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="control4Video" width="560" height="315"
+                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                </figure>
                                 <h4><i>Operational Plan</i></h4>
                                 <p>Ultimately the well design has to be translated into an operational plan, or
                                     programme. This provides the approved reference for those charged with
@@ -621,6 +621,7 @@ include_once '../db/dbconnect.php';
                                     equivalent of War and Peace. In consideration of the detail required it is useful to
                                     put yourself in the place of the well-site supervisor charged with delivering the
                                     well objectives</p>
+                                
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

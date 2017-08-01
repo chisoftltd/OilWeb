@@ -658,7 +658,13 @@ include_once '../db/dbconnect.php';
                                 </p>
                                 <p>Estimates are often classified to reflect the level of uncertainty. Examples of
                                     classifications and their likely variance could be:</p>
-                                <
+                                <ul>
+                                    <li>Budgetary: +/- 30%
+                                    </li>
+                                    <li>Appropriation: +/- 10%
+                                    </li>
+                                    <li>Pre operational: +/- 5% </li>
+                                </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

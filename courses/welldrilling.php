@@ -151,7 +151,7 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
 
-                                <figure class="pull-left "><div class="row">
+                                <figure class="pull-right "><div class="row">
                                         <div class="col-sm-8 col-sm-offset-2 video-link medium-paragraph">
                                             <a href="#" class="launch-modal" data-modal-id="modal-video">
                                                 <span class="video-link-icon"><i class="fa fa-play"></i></span>

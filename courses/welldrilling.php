@@ -122,7 +122,7 @@ include_once '../db/dbconnect.php';
                     <ul class="list-group nav" role="tablist">
                         <li class="list-group-item">
                             <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
-                                Link1
+                                <h4>Generic Activities</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -161,22 +161,44 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <p> The time required to plan and execute a well construction programme is
+                                    dependent on many variables including sub-surface complexity, location and type
+                                    of well. For any well, however, there are common activities which must be
+                                    addressed to enable comprehensive planning and operational control. For the
+                                    purposes of this topic we will assume a single well, drilled from a semisubmersible
+                                    rig. The main activities are:</p>
+                                <ul>
+                                    <li>Receipt of well planning request / well objectives;</li>
+                                    <li>Allocation of engineering / operational resources;</li>
+                                    <li>Review of special considerations (licence requirements, physical
+                                        restrictions);
+                                    </li>
+                                    <li>Well design;</li>
+                                    <li>Government/legislative requirements;</li>
+                                    <li>Sourcing of materials and services including rig;</li>
+                                    <li>Site survey;</li>
+                                    <li>Operational plan;</li>
+                                    <li>Risk identification and mitigation;</li>
+                                    <li>Time /cost generation;</li>
+                                    <li>Pre-operational review;</li>
+                                    <li>Operational phase;</li>
+                                    <li>Post well activities.</li>
+                                </ul>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <p>While it would be ideal if the activities shown above could be laid out in an
+                                    ordered sequence it is more often the case that many of the activities occur in
+                                    parallel. Also it is common for plans to evolve and change as operational
+                                    definition is refined. In particular the generation of the time/cost estimate does
+                                    not tend to be a one off event. Invariably costs are required at an early stage
+                                    where little detailed planning or review has been performed. Hence accuracy of
+                                    the estimate develops throughout the planning phase and different classes of
+                                    estimate are often provided dependent on position on the planning/execution
+                                    timeline.</p>
+                                <p>
+                                    The main activities listed above are discussed in more detail throughout this
+                                    module but there follows a summary of the important aspects of each activity
+                                    and what deliverables might be expected.
+                                </p>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">Written by me at

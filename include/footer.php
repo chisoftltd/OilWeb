@@ -17,9 +17,7 @@
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-instagram"></a>
             <li><a href="/contact.php">Contact</a></li>
-
         </ul>
-
         <p style="text-align: center;">
             &copy; 2016-<?php echo date("Y"); ?>
         </p>

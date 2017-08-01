@@ -151,15 +151,30 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
 
-                                <figure class="pull-right "><div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2 video-link medium-paragraph">
-                                            <a href="#" class="launch-modal" data-modal-id="modal-video">
-                                                <span class="video-link-icon"><i class="fa fa-play"></i></span>
-                                                <span class="video-link-text">Launch modal video</span>
-                                            </a>
+                                <figure class="pull-right bs-example">
+                                        <!-- Button HTML (to Trigger Modal) -->
+                                        <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Launch
+                                            Demo Modal</a>
+
+                                        <!-- Modal HTML -->
+                                        <div id="myModal" class="modal fade">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                                aria-hidden="true">&times;
+                                                        </button>
+                                                        <h4 class="modal-title">YouTube Video</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <iframe id="cartoonVideo" width="560" height="315"
+                                                                src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                        <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <p> The time required to plan and execute a well construction programme is
                                     dependent on many variables including sub-surface complexity, location and type
@@ -217,7 +232,7 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
 
                                 <figure class="pull-right "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
+                                                                 src="http://www.placehold.it/200.png/ddd"/>
                                     <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
                                 </figure>
                                 <h4><i>Well Planning Request / Well Objectives</i></h4>
@@ -278,12 +293,13 @@ include_once '../db/dbconnect.php';
                                     <li>Logistics and transport.</li>
                                 </ul>
                                 <p>The requirements for resources vary dependent on the current stage in the
-                                    delivery process. It is vital to have a clear plan for timely access to resources. </p>
+                                    delivery process. It is vital to have a clear plan for timely access to
+                                    resources. </p>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                </footer>
+                            </footer>
                         </article>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="seite3">
@@ -357,26 +373,6 @@ include_once '../db/dbconnect.php';
                         </article>
                     </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- MODAL -->
-    <div class="modal fade" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="modal-video">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e"
-                                    webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

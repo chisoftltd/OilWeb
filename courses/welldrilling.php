@@ -169,7 +169,7 @@ include_once '../db/dbconnect.php';
                                                     </div>
                                                     <div class="modal-body">
                                                         <iframe id="cartoonVideo" width="560" height="315"
-                                                                src="//www.youtube.com/watch?v=SfazJ6P_g7w"
+                                                                src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                                 frameborder="0" allowfullscreen></iframe>
                                                     </div>
                                                 </div>

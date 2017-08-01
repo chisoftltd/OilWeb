@@ -127,7 +127,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
-                                Link2
+                                <h4>Activity Descriptions</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -212,34 +212,76 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.2</h1>
+                                    Activity Descriptions</h1>
                             </header>
                             <div class="panel-body">
 
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
+                                <figure class="pull-right "><img class="img-responsive img-rounded" alt="image"
                                                                 src="http://www.placehold.it/200.png/ddd"/>
                                     <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Well Planning Request / Well Objectives</i></h4>
+                                <p>The main purpose of a well planning request is to provide the agreed basis for
+                                    design. This document should form the start point for the planning process and
+                                    should be referred back to throughout the planning and execution phases to
+                                    ensure that all decisions take into account the original basis for the well.</p>
+                                <p>
+                                    Ideally the request should be a formal document signed off by the appropriate
+                                    levels of authority in both the requesting and executing organisations.
+                                </p>
+                                <p>
+                                    Who generates the final, formally agreed request is not necessarily important. It
+                                    may be that the party responsible for well design compiles the request after
+                                    discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
+                                    document. What is important, however, is that the request is jointly reviewed
+                                    and accepted.
+                                </p>
+                                <p>
+                                    An integral part of the request document should be a prioritised list of objectives
+                                    for the well. In both the planning and operational phases of a well, decisions and
+                                    compromises may be required and a clear understanding of the priorities of the
+                                    well will help to make the appropriate choices. The identification of objectives
+                                    also provides the basis for performance evaluation at the completion of the well.
+                                </p>
+                                <h4><i>Allocation of Engineering/Operational Resources
+                                    </i></h4>
+                                <p>No well can be planned and drilled without the allocation of the required skills to
+                                    turn a request into reality. Many skills and talents are required but probably the
+                                    most important key to success is to ensure that clear accountability is assigned
+                                    for delivery of the well.</p>
+                                <p>
+                                    Typically the core resources required to deliver a well would include the
+                                    following:
+                                </p>
+                                <ul>
+                                    <li>Well Operations Supervision – onshore and offshore;</li>
+                                    <li>Well Design Engineering;</li>
+                                    <li>Well Operations Engineering;</li>
+                                    <li>Welltest/Completions Design Engineering;</li>
+                                    <li>Welltest/Completions Operations Engineering.</li>
+                                </ul>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <p>Dependent on scale and maturity of operations the roles can be combined or
+                                    indeed may require multiple positions to fulfil the plan. The above roles could be
+                                    considered core within a well construction organisation. There are, however,
+                                    many other roles which support delivery of a well:</p>
+                                <ul>
+                                    <li>Contracts preparation and negotiation;</li>
+                                    <li>Environmental preparation and monitoring;</li>
+                                    <li>Audit and quality control of suppliers;</li>
+                                    <li>Invoice processing;</li>
+                                    <li>Health and safety expertise;
+                                    </li>
+                                    <li>Cost management;</li>
+                                    <li>Marine specialisation;</li>
+                                    <li>Administrative and technical support;</li>
+                                    <li>Logistics and transport.</li>
+                                </ul>
+                                <p>The requirements for resources vary dependent on the current stage in the
+                                    delivery process. It is vital to have a clear plan for timely access to resources. </p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right"> &copy; RGU
                                 </address>
                                 </footer>
                         </article>
@@ -274,8 +316,7 @@ include_once '../db/dbconnect.php';
                                     with desktop publishing software.</p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>
@@ -310,8 +351,7 @@ include_once '../db/dbconnect.php';
                                     with desktop publishing software.</p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>

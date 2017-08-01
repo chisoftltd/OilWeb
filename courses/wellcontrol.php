@@ -164,7 +164,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="cartoonVideo" width="560" height="315"
@@ -242,7 +242,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="cartoonVideo" width="560" height="315"
@@ -341,7 +341,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="cartoonVideo" width="560" height="315"
@@ -446,7 +446,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="cartoonVideo" width="560" height="315"

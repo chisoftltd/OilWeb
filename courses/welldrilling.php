@@ -419,6 +419,10 @@ include_once '../db/dbconnect.php';
                                     </li>
                                     <li>Conclusion of work (HSE).</li>
                                 </ul>
+                                <p>It is also important to be aware of the life cycle approach to well integrity
+                                    adopted in the UKCS which means that even after a well has been finished a
+                                    responsibility remains to ensure that the well is fit for its intended purpose until
+                                    it is finally abandoned. </p>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

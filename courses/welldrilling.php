@@ -246,7 +246,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling2Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling3Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
@@ -450,7 +450,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling4Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>

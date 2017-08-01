@@ -147,7 +147,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.1</h1>
+                                    Generic Activities</h1>
                             </header>
                             <div class="panel-body">
 

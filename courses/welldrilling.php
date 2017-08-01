@@ -218,8 +218,7 @@ include_once '../db/dbconnect.php';
                                 </p>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <address class="pull-right">Written by me at
-                                    <time>10:00 am</time>
+                                <address class="pull-right">&copy; RGU
                                 </address>
                             </footer>
                         </article>
@@ -408,6 +407,17 @@ include_once '../db/dbconnect.php';
                                     </li>
                                     <li>Incident reporting (DTI/HSE);
                                     </li>
+                                </ul>
+                                <p>Any material change to design or chemical usage (HSE/DTI).
+                                </p>
+                                <p>After the end of operations communications to close out a specific well include:</p>
+                                <ul>
+                                    <li>
+                                        Chemical Discharge Records (DTI or agent);
+                                    </li>
+                                    <li>Rig Emissions Data (DTI or agent);
+                                    </li>
+                                    <li>Conclusion of work (HSE).</li>
                                 </ul>
                             </div>
                             <footer class="panel-footer clearfix ">

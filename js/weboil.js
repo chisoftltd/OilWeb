@@ -8,13 +8,13 @@ $(document).ready(function(){
 
     /* Assign empty url value to the iframe src attribute when
      modal hide, which stop the video playing */
-    $("#myDrilling").on('hide.bs.modal', function(){
+    $("#myDrilling1").on('hide.bs.modal', function(){
         $("#drillingVideo").attr('src', '');
     });
 
     /* Assign the initially stored url back to the iframe src
      attribute when modal is displayed again */
-    $("#myDrilling").on('show.bs.modal', function(){
+    $("#myDrilling1").on('show.bs.modal', function(){
         $("#drillingVideo").attr('src', url);
     });
 });
@@ -22,17 +22,17 @@ $(document).ready(function(){
 $(document).ready(function(){
     /* Get iframe src attribute value i.e. YouTube video url
      and store it in a variable */
-    var url = $("#controlVideo").attr('src');
+    var url = $("#drilling2Video").attr('src');
 
     /* Assign empty url value to the iframe src attribute when
      modal hide, which stop the video playing */
-    $("#myControl").on('hide.bs.modal', function(){
-        $("#controlVideo").attr('src', '');
+    $("#myDrilling2").on('hide.bs.modal', function(){
+        $("#drilling2Video").attr('src', '');
     });
 
     /* Assign the initially stored url back to the iframe src
      attribute when modal is displayed again */
-    $("#myControl").on('show.bs.modal', function(){
-        $("#controlVideo").attr('src', url);
+    $("#myDrilling2").on('show.bs.modal', function(){
+        $("#drilling2Video").attr('src', url);
     });
 });

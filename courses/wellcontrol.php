@@ -621,7 +621,31 @@ include_once '../db/dbconnect.php';
                                     equivalent of War and Peace. In consideration of the detail required it is useful to
                                     put yourself in the place of the well-site supervisor charged with delivering the
                                     well objectives</p>
-                                
+<h4><i>Risk Identification and Mitigation
+    </i></h4>
+                                <p>The management of risk for a well construction process covers Health, Safety
+                                    and Environment (HS&E) risk and operational risk. The former is concerned with
+                                    protection of people and the environment the latter with protection of the
+                                    business plan which incorporates promises for budget and schedule. As HS&E
+                                    and business cultures have developed there has been a tendency to separate
+                                    these features in terms of how they are dealt with in the planning process. Ultimately, however, there appears to be growing consensus that good HSE
+                                    management means good operational management and vice versa. Therefore,
+                                    instead of having separate processes to consider HS&E and operational risk, all
+                                    forms of risk are considered in the one risk management process.</p>
+                                <p>Management of risk is an iterative process. No matter at what stage in the well
+                                    construction process identification and understanding of risk should never be far
+                                    from the mind. The processes required involve anything from the awareness of
+                                    experienced personnel while compiling plans to full blown hazard operability and
+                                    analysis studies involving multi-disciplined teams, formal processes and many
+                                    days of scrutiny. The scale, complexity and novelty of the project also should
+                                    determine the scale, complexity and novelty of the risk management process.
+                                </p>
+                                <p>In simple terms there are two important times where full accountability of risk
+                                    should be formally considered. Firstly at the concept selection phase where the
+                                    various options are being reviewed; secondly, once the proposed design and
+                                    operational process have been sufficiently defined to allow in depth review.</p>
+                                <h4><i>Time / Cost Estimate Generation
+                                    </i></h4>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

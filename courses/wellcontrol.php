@@ -60,7 +60,7 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/contact.php">Contact Us</a></li>
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text"><span
-                                class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
+                                    class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     <form class="navbar-form navbar-right">
@@ -168,7 +168,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="control1Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
@@ -246,7 +246,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="control2Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@ include_once '../db/dbconnect.php';
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="control3Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>
@@ -449,8 +449,8 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="ccontrol4Video" width="560" height="315"
-                                                            src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                    <iframe id="control4Video" width="560" height="315"
+                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
                                             </div>

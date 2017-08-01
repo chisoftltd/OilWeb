@@ -153,21 +153,21 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myDrilling" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myDrilling" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Drilling</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="drillingVideo" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -231,21 +231,21 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <a href="#myControl" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
-                                    <div id="myModal" class="modal fade">
+                                    <div id="myControl" class="modal fade">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
                                                 <div class="modal-header">
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                    <iframe id="controlVideo" width="560" height="315"
                                                             src="//www.youtube.com/embed/YE7VzlLtp-4"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>

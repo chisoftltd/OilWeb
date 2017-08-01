@@ -1,136 +1,54 @@
-.polaroid-images a {
-    background: white;
-    display: inline;
-    float: left;
-    margin: 0 15px 30px;
-    padding: 10px 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    -webkit-transition: all .15s linear;
-    -moz-transition: all .15s linear;
-    transition: all .15s linear;
-    z-index: 0;
+.video-link {
+    padding-top: 70px;
+}
+
+.video-link a:hover,
+.video-link a:focus {
+    outline: 0;
+}
+
+a .video-link-text {
+    color: #fff;
+    opacity: 0.8;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+a:hover .video-link-text,
+a:focus .video-link-text {
+    outline: 0;
+    color: #fff;
+    opacity: 1;
+    border-bottom: 1px dotted #fff;
+}
+
+a .video-link-icon {
     position: relative;
-}
-
-.pageContent {
-    margin: auto;
-    border: 3px solid #006400;
-    border-radius: 8px;
-    background-color: #CCCCCC;
-    padding-top: 5px;
-    width: 1240px;
-    height: 1459px;
-    padding-left: 5px;
-}
-
-.pageContent > * {
-    padding: 15px;
-    -webkit-flex: 1 100%;
-    flex: 1 100%;
-}
-
-.pageContent:hover {
-    height: 1466px;
-}
-
-.polaroid-images a:after {
-    color: #333;
-    font-size: 20px;
-    content: attr(title);
-    position: relative;
-    top: 15px;
-}
-
-.polaroid-images img {
-    display: block;
-    width: inherit;
-}
-/*
-.polaroid-images a:nth-child(2n) {
-    -webkit-transform: rotate(4deg);
-    -moz-transform: rotate(4deg);
-    transform: rotate(4deg);
-}
-
-.polaroid-images a:nth-child(3n) {
-    -webkit-transform: rotate(-24deg);
-    -moz-transform: rotate(-24deg);
-    transform: rotate(-24deg);
-}
-
-.polaroid-images a:nth-child(4n) {
-    -webkit-transform: rotate(14deg);
-    -moz-transform: rotate(14deg);
-    transform: rotate(14deg);
-}
-
-.polaroid-images a:nth-child(5n) {
-    -webkit-transform: rotate(-18deg);
-    -moz-transform: rotate(-18deg);
-    transform: rotate(-18deg);
-}
-*/
-.polaroid-images a:hover {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    transform: scale(1.2);
-    z-index: 10;
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-}
-
-.box
-{
     display: inline-block;
-    float:left;
-    height:200px;
-    overflow: hidden;
-    width:20%;
-
-    -webkit-transition: width 1s;
-    -moz-transition: width 1s;
-    transition: width 1s;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #e89a3e;
+    color: #fff;
+    line-height: 50px;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+a .video-link-icon:after {
+    position: absolute;
+    content: "";
+    top: -6px;
+    left: -6px;
+    width: 66px;
+    height: 66px;
+    background: #444;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: -99;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
 
-.box.home      { background-color: #2d89ef; }
-.box.about     { background-color: #00a300; }
-.box.portfolio { background-color: #e3a21a; }
-.box.services  { background-color: #9f00a7; }
-.box.contact   { background-color: #ee1111; }
-
-.box a
-{
-    color:#FFF;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    height:100%;
-    display:block;
-    padding-top: 20px;
+a:hover .video-link-icon,
+a:focus .video-link-icon {
+    outline: 0;
+    background: #fff;
+    color: #e89a3e;
 }
-
-.box span
-{
-    display:block;
-    position:relative;
-    top:100%;
-    text-align: center;
-
-    -webkit-transition: top 1s;
-    -moz-transition: top 1s;
-    transition: top 1s;
-}
-
-.nav:hover .box { width:10%; }
-
-.nav .box:hover { width: 60%; }
-
-.box:hover span{ top:25%; }

@@ -647,6 +647,18 @@ include_once '../db/dbconnect.php';
                                     operational process have been sufficiently defined to allow in depth review.</p>
                                 <h4><i>Time / Cost Estimate Generation
                                     </i></h4>
+                                <p>The time / cost estimate is the cornerstone of a well construction organisations’
+                                    commitment to the business it serves. It is a promise that the objectives will be
+                                    delivered at a given cost. The fundamental issue with time/cost estimation is that
+                                    business plans are often drawn up before the well is sufficiently defined both in
+                                    terms of objectives and design. This is not such a concern if the well in question
+                                    is a repeat of previous types but when dealing with new well types it is difficult
+                                    to
+                                    give precise information.
+                                </p>
+                                <p>Estimates are often classified to reflect the level of uncertainty. Examples of
+                                    classifications and their likely variance could be:</p>
+                                <
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

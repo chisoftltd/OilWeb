@@ -133,7 +133,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                Link3
+                               <h4> Activity Descriptions cont...</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -327,30 +327,68 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.3</h1>
+                                    Activity Descriptions cont...</h1>
                             </header>
                             <div class="panel-body">
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-play"></span> Launch
+                                        Demo Video</a>
 
-                                <figure class="pull-left "><img class="img-responsive img-rounded" alt="image"
-                                                                src="http://www.placehold.it/200.png/ddd"/>
-                                    <figcaption class="text-center"><strong>One fine caption</strong></figcaption>
+                                    <!-- Modal HTML -->
+                                    <div id="myModal" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Oil and gas Drilling</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="cartoonVideo" width="560" height="315"
+                                                            src="//www.youtube.com/watch?v=SfazJ6P_g7w"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Review of Special Considerations</i></h4>
+                                <p>Once aware of a possible well a review of any special considerations should be
+                                    performed. These could include:
+                                </p>
+                                <ul>
+                                    <li>more stringent notification requirements;</li>
+                                    <li>more stringent environmental requirements (i.e, drilling in an
+                                        environmentally sensitive area);
+                                    </li>
+                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                        seasonal access restrictions;
+                                    </li>
+                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
+                                        high hydrogen Sulphide (H2S – ‘sour’).</li>
+                                </ul>
+                                <p>This initial review allows a quick response if the nature of the well requires
+                                    greater planning time or resources (or both).</p>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <h4><i>Government/Legislative Requirements</i></h4>
+                                <p>All wells are subject to government approvals in various guises. For the purpose
+                                    of this module the requirements for the United Kingdom Continental Shelf
+                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                <p>In general the planning requirements for the UKCS fall into the following
+                                    categories:
+                                </p>
+                                <ul>
+                                    <li>Consent to drill wells (Department of Trade and Industry);
+                                    </li>
+                                    <li>Consent to site mobile installations (Department of Transport, Local
+                                        government and the Regions);
+                                    </li>
+                                    <li>Well Notification (Health and Safety Executive);
+                                    </li>
+                                </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

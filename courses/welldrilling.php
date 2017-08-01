@@ -133,12 +133,12 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                <h4> Activity Descriptions cont...</h4>
+                                <h4>Activity Descriptions cont...</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
-                                Link4
+                                <h4>Activity Descriptions cont...</h4>
                             </a>
                         </li>
                     </ul>
@@ -430,7 +430,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Headline no.4</h1>
+                                    Activity Descriptions cont...</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
@@ -458,22 +458,169 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
-                                    Ipsum.</p>
+                                <h4><i>Well Design
+                                    </i></h4>
+                                <p>The following questions have to be adequately addressed before a design can be
+                                    considered to be acceptable:
+                                </p>
                                 <hr/>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic
-                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                    with desktop publishing software.</p>
+                                <ul>
+                                    <li>Does the design allow for the expected life of the well?
+                                    </li>
+                                    <li>Are the materials used to construct the well suitable for the fluids and
+                                        conditions expected throughout the well’s life?
+                                    </li>
+                                    <li>Do any unusual risks to people, plant or the environment result due to the
+                                        chosen design? If so have alternatives been considered? Has risk been
+                                        mitigated?
+                                    </li>
+                                    <li>Has the operability of the design been considered in terms of operational
+                                        risk or cost? Is the risked cost acceptable? Have both the construction and
+                                        post completion phases been considered?
+                                    </li>
+                                    <li>Will the client objectives be met by the design?</li>
+                                </ul>
+                                <p>The basic requirement for any well design is to meet the client’s requirements at
+                                    an economic cost while maintaining the risk to peoples’ health and the
+                                    environment below acceptable limits.</p>
+                                <h4><i>Sourcing of Materials and Services
+                                    </i></h4>
+                                <p>The execution of a well programme requires a complex interaction of suppliers,
+                                    materials and equipment. It may be that all supplies and services have been
+                                    prearranged
+                                    or that no purchase or supply agreements are in place at all. In any
+                                    event arrangements must be made to ensure that the required products and
+                                    services are available. These could include:</p>
+                                <ul>
+                                    <li>Rig and crew hire including catering;
+                                    </li>
+                                    <li>Marine transport;
+                                    </li>
+                                    <li>Anchor Handling Vessels (AHVs);
+                                    </li>
+                                    <li>Rig move planning, navigation and anchoring equipment;
+                                    </li>
+                                    <li>All casing and tubulars;
+                                    </li>
+                                    <li>Wellheads and associated rental equipment;</li>
+                                    <li>Xmas trees;
+                                    </li>
+                                    <li>Completion components;
+                                    </li>
+                                    <li>Mud materials and engineering;
+                                    </li>
+                                    <li>Cement materials and engineering;
+                                    </li>
+                                    <li>Directional drilling equipment and personnel;
+                                    </li>
+                                    <li>Measurement While Drilling (MWD) and Logging While Drilling (LWD)
+                                        equipment and personnel;
+                                    </li>
+                                    <li>Directional Surveying equipment and personnel;
+                                    </li>
+                                    <li>Electric line logging equipment and personnel;
+                                    </li>
+                                    <li>Mud Logging equipment and personnel;
+                                    </li>
+                                    <li>Solids control equipment and personnel;
+                                    </li>
+                                    <li>Drill bits;
+                                    </li>
+                                    <li> Drill string rentals;
+                                    </li>
+                                    <li> Fishing / abandonment equipment and personnel;
+                                    </li>
+                                    <li> Casing and tubing handling equipment and personnel;
+                                    </li>
+                                    <li> Coring equipment and personnel;
+                                    </li>
+                                    <li> Perforating equipment and personnel;
+                                    </li>
+                                    <li> Weather forecasting;
+                                    </li>
+                                    <li> Communications service and equipment;
+                                    </li>
+                                    <li> Site survey vessel, equipment and personnel.
+                                    </li>
+                                </ul>
+                                <p>Prior to commencement of operations a detailed load-out list should be prepared
+                                    which lists all equipment required for the well. This assists in the callout of the
+                                    required equipment at the appropriate time during the well and also serves as a
+                                    check that nothing has been forgotten.</p>
+                                <h4><i>Site Survey</i></h4>
+                                <p>The requirement for a site survey prior to moving a rig onto a location must be
+                                    determined. If a survey is required then it must be organised and performed in
+                                    time to allow delivery of, and reaction to, the results.
+                                </p>
+                                <p>A site survey is normally performed to acquire data for the following reasons:</p>
+                                <ul>
+                                    <li>To identify significant debris on the seabed at the intended location;
+                                    </li>
+                                    <li> To assess the seabed anchor holding characteristics;
+                                    </li>
+                                    <li> To assess the potential for shallow gas in surface hole.</li>
+                                </ul>
+                                <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
+                                    work. For certain areas there may be a seasonal limitation on the shooting of site
+                                    survey seismic.</p>
+                                <p>The survey itself is carried out from a specialised vessel. Typically the work
+                                    involves shooting seismic of varying definition over a pre-planned grid which will
+                                    cover the anchor pattern area and include a more concentrated grid around the
+                                    proposed location for shallow gas definition. It is common for a consultant to be
+                                    hired to provide third party quality assurance during site survey work.
+                                </p>
+                                <p>Outcomes from a site survey could include:
+                                </p>
+                                <ul>
+                                    <li>Everything looks fine to anchor up and drill at the location;
+                                    </li>
+                                    <li>There are indications of shallow gas which may justify moving surface
+                                        location or adopting special shallow gas procedures;
+                                    </li>
+                                    <li>Re-selection of anchor type, fluke angle or requirement to reinforce certain
+                                        anchors with ‘piggy backs’ (additional anchor run of the main anchor to
+                                        provide additional hold).
+                                    </li>
+                                </ul>
+                                <h4><i>Operational Plan</i></h4>
+                                <p>Ultimately the well design has to be translated into an operational plan, or
+                                    programme. This provides the approved reference for those charged with
+                                    constructing the well. Programmes come in many different styles and formats
+                                    but, typically, should include the following:
+                                </p>
+                                <ul>
+                                    <li>Appropriate approvals and distribution;
+                                    </li>
+                                    <li>Purpose of well;
+                                    </li>
+                                    <li>Prioritised objectives for the well;
+                                    </li>
+                                    <li>Budget data (time and cost);
+                                    </li>
+                                    <li>Description of the well design (e.g, casing specification and setting depths,
+                                        directional profile, intended cement coverage)
+                                    </li>
+                                    <li>Details of expected geology;
+                                    </li>
+                                    <li>Operational procedure;
+                                    </li>
+                                    <li> Anticipated hazards, risks, mitigation and contingencies;
+                                    </li>
+                                    <li>Data acquisition requirements (e.g, logging, sampling);
+                                    </li>
+                                    <li>Summary of third party programmes such as cementing, drilling fluids and
+                                        directional plan;
+                                    </li>
+                                    <li>Contact details.
+                                    </li>
+                                </ul>
+                                <p>The format and detail for a programme will also depend on the type of well to be
+                                    drilled. For example the fortieth well on a development programme may require
+                                    little more than a one page summary sheet whereas the first High Pressure High
+                                    Temperature (HPHT) well in a virgin area could warrant the well construction
+                                    equivalent of War and Peace. In consideration of the detail required it is useful to
+                                    put yourself in the place of the well-site supervisor charged with delivering the
+                                    well objectives</p>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

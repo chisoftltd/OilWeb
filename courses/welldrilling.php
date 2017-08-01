@@ -155,7 +155,7 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-right bs-example">
                                         <!-- Button HTML (to Trigger Modal) -->
                                         <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Launch
-                                            Demo Modal</a>
+                                            Demo Video</a>
 
                                         <!-- Modal HTML -->
                                         <div id="myModal" class="modal fade">
@@ -169,7 +169,7 @@ include_once '../db/dbconnect.php';
                                                     </div>
                                                     <div class="modal-body">
                                                         <iframe id="cartoonVideo" width="560" height="315"
-                                                                src="//www.youtube.com/embed/YE7VzlLtp-4"
+                                                                src="//www.youtube.com/watch?v=SfazJ6P_g7w"
                                                                 frameborder="0" allowfullscreen></iframe>
                                                     </div>
                                                 </div>

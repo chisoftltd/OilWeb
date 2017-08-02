@@ -112,7 +112,7 @@ ini_set('display_errors', 1);
     <div class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="/index.php">PHP File Uploader</a>
+                <a class="navbar-brand" href="/index.php">File Submission</a>
             </div>
         </div>
     </div>

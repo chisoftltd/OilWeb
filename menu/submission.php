@@ -133,58 +133,95 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div class="container">
-        <div class="panel panel-default">
-            <div class="panel-heading"><strong>Upload Files</strong>
-                <small>Bootstrap files upload</small>
+    <!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.php">PHP File Uploader</a>
             </div>
-            <div class="panel-body">
-
-                <!-- Standar Form -->
-                <h4>Select files from your computer</h4>
-                <form action="submission.php" method="post" enctype="multipart/form-data" id="js-upload-form">
-                    <div class="form-inline">
-                        <div class="form-group">
-                            <input type="hidden" name="MAX_FILE_SIZE" value="20000000">
-                            <input type="file" name="studentfile" id="js-upload-files" multiple>
-                        </div>
-                        <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
-                    </div>
-                </form>
-
-                <!-- Drop Zone -->
-                <h4>Or drag and drop files below</h4>
-                <div class="upload-drop-zone" id="drop-zone">
-                    Just drag and drop files here
-                </div>
-
-                <!-- Progress Bar -->
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                         aria-valuemax="100" style="width: 60%;">
-                        <span class="sr-only">60% Complete</span>
-                    </div>
-                </div>
-
-                <!-- Upload Finished -->
-                <div class="js-upload-finished">
-                    <h3>Processed files</h3>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-success"><span
-                                class="badge alert-success pull-right">Success</span>
-                            <ul>
-                                <li>Sent file: <?php echo $_FILES['image']['name']; ?>
-                                <li>File size: <?php echo $_FILES['image']['size']; ?>
-                                <li>File type: <?php echo $_FILES['image']['type']; ?>
-                            </ul>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <?php mysqli_close($link); ?>
         </div>
+    </div>
 
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="well" action="upload.php" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="file">Select a file to upload</label>
+                        <input type="file" name="file">
+                        <p class="help-block">Only jpg,jpeg,png and gif file with maximum size of 1 MB is allowed.</p>
+                    </div>
+                    <input type="submit" class="btn btn-lg btn-primary" value="Upload">
+                </form>
+            </div>
+        </div>
     </div> <!-- /container -->
+
+    <?php
+    //turn on php error reporting
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+        $name     = $_FILES['file']['name'];
+        $tmpName  = $_FILES['file']['tmp_name'];
+        $error    = $_FILES['file']['error'];
+        $size     = $_FILES['file']['size'];
+        $ext      = strtolower(pathinfo($name, PATHINFO_EXTENSION));
+
+        switch ($error) {
+            case UPLOAD_ERR_OK:
+                $valid = true;
+                //validate file extensions
+                if ( !in_array($ext, array('jpg','jpeg','png','gif')) ) {
+                    $valid = false;
+                    $response = 'Invalid file extension.';
+                }
+                //validate file size
+                if ( $size/1024/1024 > 2 ) {
+                    $valid = false;
+                    $response = 'File size is exceeding maximum allowed size.';
+                }
+                //upload file
+                if ($valid) {
+                    $targetPath =  dirname( __FILE__ ) . DIRECTORY_SEPARATOR. 'uploads' . DIRECTORY_SEPARATOR. $name;
+                    move_uploaded_file($tmpName,$targetPath);
+                    header( 'Location: index.php' ) ;
+                    exit;
+                }
+                break;
+            case UPLOAD_ERR_INI_SIZE:
+                $response = 'The uploaded file exceeds the upload_max_filesize directive in php.ini.';
+                break;
+            case UPLOAD_ERR_FORM_SIZE:
+                $response = 'The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form.';
+                break;
+            case UPLOAD_ERR_PARTIAL:
+                $response = 'The uploaded file was only partially uploaded.';
+                break;
+            case UPLOAD_ERR_NO_FILE:
+                $response = 'No file was uploaded.';
+                break;
+            case UPLOAD_ERR_NO_TMP_DIR:
+                $response = 'Missing a temporary folder. Introduced in PHP 4.3.10 and PHP 5.0.3.';
+                break;
+            case UPLOAD_ERR_CANT_WRITE:
+                $response = 'Failed to write file to disk. Introduced in PHP 5.1.0.';
+                break;
+            case UPLOAD_ERR_EXTENSION:
+                $response = 'File upload stopped by extension. Introduced in PHP 5.2.0.';
+                break;
+            default:
+                $response = 'Unknown error';
+                break;
+        }
+
+        echo $response;
+    }
+    ?>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

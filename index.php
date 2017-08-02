@@ -33,7 +33,6 @@ include_once 'db/dbconnect.php';
     <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body><!-- Body area start-->
-
 <header>
     <?php if (isset($_SESSION['usr_id'])) { ?>
         <?php include 'include/signinheader.php'; ?>

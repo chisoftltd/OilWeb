@@ -14,35 +14,6 @@ include_once '../db/dbconnect.php';
 //turn on php error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-
-//end any active user session
-//unset($_session['user_id']);
-if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
-    $fName = $_FILES['studentfile']['name'];
-    $tmpName = $_FILES['studentfile']['tmp_name'];
-    $fSize = $_FILES['studentfile']['size'];
-    $fType = $_FILES['studentfile']['type'];
-    $fError = $_FILES['studentfile']['error'];
-
-    $fp = fopen($tmpName, 'r');
-    $content = fread($fp, filesize($tmpName));
-    $content = addslashes($content);
-    fclose($fp);
-
-    if (!get_magic_quotes_gpc()) {
-        $fileName = addslashes($fileName);
-    }
-    /*include 'library/config.php';
-    include 'library/opendb.php';*/
-
-    $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, fileContent ) " .
-        "VALUES ('$fName', '$fSize', '$fType', '$content')";
-
-    mysqli_query($link, $query) or die('Error, query failed');
-    /*include 'library/closedb.php';*/
-
-    echo "<br>File $fName uploaded<br>";
-}
 ?>
 <!DOCTYPE html>
 <html>

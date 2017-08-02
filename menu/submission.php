@@ -13,7 +13,31 @@ include_once '../db/dbconnect.php';
 
 //end any active user session
 //unset($_session['user_id']);
+if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
+    $fName = $_FILES['studentfile']['name'];
+    $tmpName = $_FILES['studentfile']['tmp_name'];
+    $fSize = $_FILES['studentfile']['size'];
+    $fType = $_FILES['studentfile']['type'];
 
+    $fp = fopen($tmpName, 'r');
+    $content = fread($fp, filesize($tmpName));
+    $content = addslashes($content);
+    fclose($fp);
+
+    if (!get_magic_quotes_gpc()) {
+        $fileName = addslashes($fileName);
+    }
+    /*include 'library/config.php';
+    include 'library/opendb.php';*/
+
+    $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, content ) " .
+        "VALUES ('$fName', '$fSize', '$fType', '$content')";
+
+    mysqli_query($link, $query) or die('Error, query failed');
+    /*include 'library/closedb.php';*/
+
+    echo "<br>File $fName uploaded<br>";
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -107,17 +131,21 @@ include_once '../db/dbconnect.php';
         <?php include '../include/header.php'; ?><?php } ?>
 </header>
 <hr> <!-- draw a line-->
-<section><div class="container">
+<section>
+    <div class="container">
         <div class="panel panel-default">
-            <div class="panel-heading"><strong>Upload Files</strong> <small>Bootstrap files upload</small></div>
+            <div class="panel-heading"><strong>Upload Files</strong>
+                <small>Bootstrap files upload</small>
+            </div>
             <div class="panel-body">
 
                 <!-- Standar Form -->
                 <h4>Select files from your computer</h4>
-                <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+                <form action="submission.php" method="post" enctype="multipart/form-data" id="js-upload-form">
                     <div class="form-inline">
                         <div class="form-group">
-                            <input type="file" name="files[]" id="js-upload-files" multiple>
+                            <input type="hidden" name="MAX_FILE_SIZE" value="20000000">
+                            <input type="file" name="studentfile" id="js-upload-files" multiple>
                         </div>
                         <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
                     </div>
@@ -131,7 +159,8 @@ include_once '../db/dbconnect.php';
 
                 <!-- Progress Bar -->
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                         aria-valuemax="100" style="width: 60%;">
                         <span class="sr-only">60% Complete</span>
                     </div>
                 </div>
@@ -140,12 +169,16 @@ include_once '../db/dbconnect.php';
                 <div class="js-upload-finished">
                     <h3>Processed files</h3>
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-01.jpg</a>
-                        <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-02.jpg</a>
+                        <a href="#" class="list-group-item list-group-item-success"><span
+                                class="badge alert-success pull-right">Success</span>image-01.jpg</a>
+                        <a href="#" class="list-group-item list-group-item-success"><span
+                                class="badge alert-success pull-right">Success</span>image-02.jpg</a>
                     </div>
                 </div>
             </div>
+            <?php mysqli_close($link); ?>;
         </div>
+
     </div> <!-- /container -->
 </section><!-- end of section-->
 <form>

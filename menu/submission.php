@@ -130,10 +130,10 @@ ini_set('display_errors', 1);
                                     <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
                                     <input name="userfile" type="file" id="userfile">
                                 </td>
-                                <input type="submit" class="btn btn-lg btn-primary" value="Upload">
+                                <td width="80"><input name="upload" type="submit" class="btn btn-lg btn-primary" id="upload" value=" Upload "></td>
                             </tr>
-                        </table>
-                    </div>
+                        </table></div>
+    
                 </form>
             </div>
         </div>
@@ -141,22 +141,24 @@ ini_set('display_errors', 1);
 
     <?php
 
-    if (isset($_POST['upload']) && $_FILES['userfile']['size'] > 0) {
+    if(isset($_POST['upload']) && $_FILES['userfile']['size'] > 0)
+    {
         $fileName = $_FILES['userfile']['name'];
-        $tmpName = $_FILES['userfile']['tmp_name'];
+        $tmpName  = $_FILES['userfile']['tmp_name'];
         $fileSize = $_FILES['userfile']['size'];
         $fileType = $_FILES['userfile']['type'];
 
-        $fp = fopen($tmpName, 'r');
+        $fp      = fopen($tmpName, 'r');
         $content = fread($fp, filesize($tmpName));
         $content = addslashes($content);
         fclose($fp);
 
-        if (!get_magic_quotes_gpc()) {
+        if(!get_magic_quotes_gpc())
+        {
             $fileName = addslashes($fileName);
         }
 
-        $query = "INSERT INTO upload (fileName, fileSize, fileType, fileContent ) " .
+        $query = "INSERT INTO upload (fileName, fileSize, fileType, fileContent ) ".
             "VALUES ('$fileName', '$fileSize', '$fileType', '$content')";
 
         mysqli_query($link, $query) or die('Error, query failed');

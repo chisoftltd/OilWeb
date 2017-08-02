@@ -111,7 +111,7 @@ session_start();
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling" class="img-thumbnail" width="200" height="200"><h3>Preview</h3>
+            <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling2.jpg" alt="drilling image" class="img-thumbnail" width="200" height="200"></a><h3>Drilling</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
@@ -119,7 +119,7 @@ session_start();
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling" class="img-thumbnail" width="200" height="200"><h3>Preview</h3>
+            <div class="col-xs-12 col-sm-3 col-md-3"><a href="courses/wellcontrol.php"><img src="images/control.jpg" alt="control image" class="img-thumbnail" width="200" height="200"></a><h3>Control</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
@@ -127,7 +127,7 @@ session_start();
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling" class="img-thumbnail" width="200" height="200"><h3>Preview</h3>
+            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling" class="img-thumbnail" width="200" height="200"><h3>Casing & Cementing</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to

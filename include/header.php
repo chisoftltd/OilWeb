@@ -5,7 +5,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <header>
-    <div id="logo" style="margin-top: 0px">
+    <div id="logo">
         <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo"/></a>
         <form class="navbar-form navbar-right">
             <div class="input-group">

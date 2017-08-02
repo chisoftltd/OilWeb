@@ -217,16 +217,15 @@ include_once '../db/dbconnect.php';
                                 </address>
                                 <figure class="pull-left bs-example">
                                     <?php
-                                    $file = "Well Control notes v0.pdf";
-                                    $query = "SELECT * FROM uploadfile WHERE fileName=".$file;
+                                    $file = "Well_Control_notes_v0.pdf";
+                                    $query = "SELECT * FROM uploadfile WHERE fileName=" . $file;
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {
-
-                                            echo '<tr>';
-                                            echo "<td><a href='wellcontrol.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
-                                            echo "</tr>";
+                                        echo '<tr>';
+                                        echo "<td><a href='wellcontrol.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
+                                        echo "</tr>";
                                     }
                                     ?>
                                     <figcaption class="text-center"><strong>Download file</strong></figcaption>

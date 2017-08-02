@@ -214,7 +214,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <figure class="pull-right bs-example">
+                                <figure class="pull-left bs-example">
                                     <?php
                                     $query = "SELECT id, name FROM upload";
                                     $result = mysqli_query($link, $query) or die('Error, query failed');

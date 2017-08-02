@@ -9,7 +9,7 @@ html, body {
     height: 87px;
     margin-left: 0px;
 }
-
+/*
 header {
     margin:0px;
     padding: 0px;
@@ -59,7 +59,7 @@ li a:hover {
 .effect {
     box-shadow: 0 10px 6px -6px #777;
 }
-
+*/
 .col-md-3:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;

@@ -220,10 +220,10 @@ include_once '../db/dbconnect.php';
                                     $file = "Well_Control_notes";
                                     echo $file;
                                     $query = "SELECT id, fileName FROM uploadfile WHERE fileName=" . $file;
+                                    $result = mysqli_query($link, $query) or die('Error, query failed');
                                     $row = mysqli_fetch_array($result);
                                     echo $row['id'];
                                     echo $row['fileName'];
-                                    $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {

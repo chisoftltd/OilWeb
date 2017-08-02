@@ -14,6 +14,24 @@ include_once '../db/dbconnect.php';
 //end any active user session
 //unset($_session['user_id']);
 
+
+if (isset($_GET['id'])) {
+// if id is set then get the file with the id from database
+
+    $id = $_GET['id'];
+    $query = "SELECT fileName, fileType, fileSize, fileContent FROM uploadfile WHERE id =" . $id;
+
+    $result = mysqli_query($link, $query) or die('Error, query failed');
+    list($name, $type, $size, $content) = mysqli_fetch_array($result);
+
+    header("Content-length: $size");
+    header("Content-type: $type");
+    header("Content-Disposition: attachment; filename=$name");
+    echo $content;
+
+    exit;
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,15 +82,15 @@ include_once '../db/dbconnect.php';
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     <form class="navbar-form navbar-right">
-                       <div class="input-group">
-                           <input type="text" class="form-control" placeholder="Search">
-                           <div class="input-group-btn">
-                               <button class="btn btn-default" type="submit">
-                                   <i class="glyphicon glyphicon-search"></i>
-                               </button>
-                           </div>
-                       </div>
-                   </form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } else { ?>
                     <li><a href="/index.php">Home</a></>
                     <li><a href="/menu/about.php">About Us</a></li>
@@ -85,15 +103,15 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                     <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
                     <form class="navbar-form navbar-right">
-                      <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Search">
-                          <div class="input-group-btn">
-                              <button class="btn btn-default" type="submit">
-                                  <i class="glyphicon glyphicon-search"></i>
-                              </button>
-                          </div>
-                      </div>
-                  </form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } ?>
             </ul>
         </div>
@@ -218,14 +236,13 @@ include_once '../db/dbconnect.php';
                                     <?php
                                     $query = "SELECT id, fileName FROM uploadfile";
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
-                                    if (mysql_num_rows($result) == 0) {
+                                    if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {
                                         while (list($id, $name) = mysqli_fetch_array($result)) {
-                                            ?>
-                                            <a href="download.php?<?php $id = id; ?>"><?php $name = fileName; ?></a>
-                                            <br>
-                                            <?php
+                                            echo '<tr>';
+                                            echo "<td><a href='download.php?p={$id['id']}'>" . $name[fileName] . "</a></td>";
+                                            echo "</tr>";
                                         }
                                     }
                                     ?>

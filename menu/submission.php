@@ -180,7 +180,7 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
                     </div>
                 </div>
             </div>
-            <?php mysqli_close($link); ?>;
+            <?php mysqli_close($link); ?>
         </div>
 
     </div> <!-- /container -->

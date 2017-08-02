@@ -239,10 +239,10 @@ if (isset($_GET['id'])) {
                                     if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {
-                                        while (list($id, $name) = mysqli_fetch_array($result)) {
+                                        while ($row = mysqli_fetch_array($result)) {
                                             echo '<tr>';
-                                            echo "<td>" . $id[id] . "</td>";
-                                            echo "<td><a href='download.php?p={$id['id']}'>" . $name[fileName] . "</a></td>";
+                                            echo "<td>" . $row[id] . "</td>";
+                                            echo "<td><a href='download.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
                                             echo "</tr>";
                                         }
                                     }

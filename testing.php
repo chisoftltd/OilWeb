@@ -35,8 +35,6 @@ session_start();
 <body><!-- Body area start-->
 
 <!-- add top navigational bar using bootstrap-->
-
-
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -64,7 +62,7 @@ session_start();
                                 class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                    <!--<form class="navbar-form navbar-right">
+                    <form class="navbar-form navbar-right">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search">
                             <div class="input-group-btn">
@@ -73,7 +71,7 @@ session_start();
                                 </button>
                             </div>
                         </div>
-                    </form>-->
+                    </form>
                 <?php } else { ?>
                     <li class="active"><a href="index.php">Home</a></>
                     <li><a href="menu/about.php">About Us</a></li>
@@ -85,7 +83,7 @@ session_start();
                     <li><a href="menu/help.php">Help</a></li>
                     <li><a href="menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                     <li><a href="menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                    <!--<form class="navbar-form navbar-right">
+                    <form class="navbar-form navbar-right">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search">
                             <div class="input-group-btn">
@@ -94,7 +92,7 @@ session_start();
                                 </button>
                             </div>
                         </div>
-                    </form>-->
+                    </form>
                 <?php } ?>
             </ul>
         </div>

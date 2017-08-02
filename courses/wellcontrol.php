@@ -217,7 +217,7 @@ include_once '../db/dbconnect.php';
                                 </address>
                                 <figure class="pull-left bs-example">
                                     <?php
-                                    $file = "Well_Control_notes.pdf";
+                                    $file = "Well_Control_notes";
                                     $query = "SELECT * FROM uploadfile WHERE fileName=" . $file;
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysqli_num_rows($result) == 0) {

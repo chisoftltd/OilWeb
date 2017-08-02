@@ -241,7 +241,7 @@ if (isset($_GET['id'])) {
                                     } else {
                                         while (list($id, $name) = mysqli_fetch_array($result)) {
                                             echo '<tr>';
-                                            echo "<td>" . $row2[id] . "</td>";
+                                            echo "<td>" . $id[id] . "</td>";
                                             echo "<td><a href='download.php?p={$id['id']}'>" . $name[fileName] . "</a></td>";
                                             echo "</tr>";
                                         }

@@ -11,6 +11,10 @@ session_start();
 // include the database script
 include_once '../db/dbconnect.php';
 
+//turn on php error reporting
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 //end any active user session
 //unset($_session['user_id']);
 if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
@@ -147,7 +151,7 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
 
         <div class="row">
             <div class="col-lg-12">
-                <form class="well" action="upload.php" method="post" enctype="multipart/form-data">
+                <form class="well" action="submission.php" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="file">Select a file to upload</label>
                         <input type="file" name="file">
@@ -160,10 +164,6 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
     </div> <!-- /container -->
 
     <?php
-    //turn on php error reporting
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
-
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $name     = $_FILES['file']['name'];

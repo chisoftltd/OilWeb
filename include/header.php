@@ -13,18 +13,5 @@ and open the template in the editor.
          <input type="search" name="googlesearch">
          <input type="Submit">
      </form>-->
-    <nav>
-        <ul class="header-links">
-            <li><a href="/index.php">Home</a></li>
-            <li><a href="/menu/about.php">About Us</a></li>
-            <li><a href="/menu/courses.php">Courses</a></li>
-            <li><a href="/menu/assessment.php">Assessment</a></li>
-            <li><a href="/menu/submission.php">Submission</a></li>
-            <li><a href="/menu/demo.php">Demo</a></li>
-            <li><a href="/menu/contact.php">Contact Us</a></li>
-            <li><a href="/menu/help.php">Help</a></li>
-            <li><a href="/menu/login.php">Login</a></li>
-            <li><a href="/menu/register.php">Register</a></li>
-        </ul>
-    </nav>
+
 </header>

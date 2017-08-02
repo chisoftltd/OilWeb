@@ -208,9 +208,7 @@ include_once 'db/dbconnect.php';
         </div>
     </div>
 </section><!-- end of section-->
-<form>
     <hr> <!-- draw a line-->
-</form>
 <footer>
     <!-- footer area-->
     <div>

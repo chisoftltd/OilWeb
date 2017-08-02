@@ -99,8 +99,6 @@ include_once '../db/dbconnect.php';
         </div>
     </div>
 </nav>
-
-
 <header>
     <?php if (isset($_SESSION['usr_id'])) { ?>
         <?php include '../include/signinheader.php'; ?>
@@ -676,9 +674,7 @@ include_once '../db/dbconnect.php';
         </div>
     </div>
 </section><!-- end of section-->
-<form>
     <hr> <!-- draw a line-->
-</form>
 <footer>
     <!-- footer area-->
     <div>

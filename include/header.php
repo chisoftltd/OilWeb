@@ -6,13 +6,23 @@ and open the template in the editor.
 -->
 <header>
     <div id="logo" style="margin-top: 0px">
-        <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo" /></a>
+        <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo"/></a>
+        <form class="navbar-form navbar-right">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
-   <!-- <form style="float: right; position:absolute; right: 5%; top: 10%">
-        Search:
-        <input type="search" name="googlesearch">
-        <input type="Submit">
-    </form>-->
+    <!-- <form style="float: right; position:absolute; right: 5%; top: 10%">
+         Search:
+         <input type="search" name="googlesearch">
+         <input type="Submit">
+     </form>-->
     <nav>
         <ul class="header-links">
             <li><a href="/index.php">Home</a></li>

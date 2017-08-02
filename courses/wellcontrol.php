@@ -15,23 +15,6 @@ include_once '../db/dbconnect.php';
 //unset($_session['user_id']);
 
 
-if (isset($_GET['id'])) {
-// if id is set then get the file with the id from database
-
-    $id = $_GET['id'];
-    $query = "SELECT fileName, fileType, fileSize, fileContent FROM uploadfile WHERE id =" . $id;
-
-    $result = mysqli_query($link, $query) or die('Error, query failed');
-    list($name, $type, $size, $content) = mysqli_fetch_array($result);
-
-    header("Content-length: $size");
-    header("Content-type: $type");
-    header("Content-Disposition: attachment; filename=$name");
-    echo $content;
-
-    exit;
-}
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -234,16 +217,30 @@ if (isset($_GET['id'])) {
                                 </address>
                                 <figure class="pull-left bs-example">
                                     <?php
-                                    $query = "SELECT id, fileName FROM uploadfile";
+                                    $query = "SELECT * FROM uploadfile";
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {
                                         while ($row = mysqli_fetch_array($result)) {
                                             echo '<tr>';
-                                            echo "<td>" . $row[id] . "</td>";
-                                            echo "<td><a href='download.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
+                                            echo "<td><a href='wellcontrol.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
                                             echo "</tr>";
+                                        }
+                                        if (isset($_GET['id'])) {
+// if id is set then get the file with the id from database
+
+                                            $id = $_GET['id'];
+                                            $query = "SELECT * FROM uploadfile WHERE id =" . $id;
+
+                                            $result = mysqli_query($link, $query) or die('Error, query failed');
+                                            list($name, $type, $size, $content) = mysqli_fetch_array($result);
+
+                                            header("Content-length: $size");
+                                            header("Content-type: $type");
+                                            header("Content-Disposition: attachment; filename=$name");
+                                            echo $content;
+
                                         }
                                     }
                                     ?>

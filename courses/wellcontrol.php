@@ -216,7 +216,7 @@ include_once '../db/dbconnect.php';
                                 </address>
                                 <figure class="pull-left bs-example">
                                     <?php
-                                    $query = "SELECT id, name FROM upload";
+                                    $query = "SELECT id, fileName FROM uploadfile";
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysql_num_rows($result) == 0) {
                                         echo "Database is empty <br>";

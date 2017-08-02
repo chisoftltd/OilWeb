@@ -120,7 +120,7 @@ li a:hover {
     padding: 0;
     text-align: center;
 }
-
+/*
 .footer-links li {
     list-style: none;
     margin-left: 12px;
@@ -199,7 +199,7 @@ header span.glyphicon {
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
 }
-
+*/
 /*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
 
 /***** Modal *****/
@@ -239,3 +239,22 @@ header span.glyphicon {
     opacity: 1;
 }
 
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+}
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}

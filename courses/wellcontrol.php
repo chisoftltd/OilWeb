@@ -60,7 +60,7 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/contact.php">Contact Us</a></li>
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text"><span
-                                    class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
+                                class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     <!--<form class="navbar-form navbar-right">
@@ -105,7 +105,7 @@ include_once '../db/dbconnect.php';
     <?php } else { ?>
         <?php include '../include/header.php'; ?><?php } ?>
 </header>
-    <hr> <!-- draw a line-->
+<hr> <!-- draw a line-->
 <section>
     <div class="content">
         <ul class="breadcrumb">
@@ -150,7 +150,7 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl1" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
+                                            class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl1" class="modal fade">
@@ -211,9 +211,26 @@ include_once '../db/dbconnect.php';
                                     and what deliverables might be expected.
                                 </p>
                             </div>
-                            <footer class="panel-footer clearfix ">
+                            <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <figure class="pull-right bs-example">
+                                    <?php
+                                    $query = "SELECT id, name FROM upload";
+                                    $result = mysqli_query($link, $query) or die('Error, query failed');
+                                    if (mysql_num_rows($result) == 0) {
+                                        echo "Database is empty <br>";
+                                    } else {
+                                        while (list($id, $name) = mysqli_fetch_array($result)) {
+                                            ?>
+                                            <a href="download.php?<?php $id = id; ?>"><?php $name = fileName; ?></a>
+                                            <br>
+                                            <?php
+                                        }
+                                    }
+                                    ?>
+                                    <figcaption class="text-center"><strong>Download file</strong></figcaption>
+                                </figure>
                             </footer>
                         </article>
                     </div>
@@ -228,7 +245,7 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl2" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
+                                            class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl2" class="modal fade">
@@ -362,7 +379,7 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
+                                            class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl3" class="modal fade">
@@ -556,7 +573,7 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
+                                            class="glyphicon glyphicon-play"></span> Launch
                                         Demo Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl4" class="modal fade">
@@ -659,7 +676,7 @@ include_once '../db/dbconnect.php';
                                     </li>
                                     <li>Appropriation: +/- 10%
                                     </li>
-                                    <li>Pre operational: +/- 5% </li>
+                                    <li>Pre operational: +/- 5%</li>
                                 </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
@@ -674,7 +691,7 @@ include_once '../db/dbconnect.php';
         </div>
     </div>
 </section><!-- end of section-->
-    <hr> <!-- draw a line-->
+<hr> <!-- draw a line-->
 <footer>
     <!-- footer area-->
     <div>

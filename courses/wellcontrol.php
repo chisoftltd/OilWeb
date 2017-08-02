@@ -107,9 +107,7 @@ include_once '../db/dbconnect.php';
     <?php } else { ?>
         <?php include '../include/header.php'; ?><?php } ?>
 </header>
-<form>
     <hr> <!-- draw a line-->
-</form>
 <section>
     <div class="content">
         <ul class="breadcrumb">

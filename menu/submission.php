@@ -133,7 +133,7 @@ ini_set('display_errors', 1);
                                 <td width="80"><input name="upload" type="submit" class="btn btn-lg btn-primary" id="upload" value=" Upload "></td>
                             </tr>
                         </table></div>
-    
+
                 </form>
             </div>
         </div>
@@ -158,7 +158,7 @@ ini_set('display_errors', 1);
             $fileName = addslashes($fileName);
         }
 
-        $query = "INSERT INTO upload (fileName, fileSize, fileType, fileContent ) ".
+        $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, fileContent ) ".
             "VALUES ('$fileName', '$fileSize', '$fileType', '$content')";
 
         mysqli_query($link, $query) or die('Error, query failed');

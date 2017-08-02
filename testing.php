@@ -35,7 +35,9 @@ session_start();
 <body><!-- Body area start-->
 
 <!-- add top navigational bar using bootstrap-->
-<nav class="navbar navbar-inverse" role="navigation">
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">

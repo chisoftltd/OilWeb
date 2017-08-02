@@ -218,11 +218,15 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-left bs-example">
                                     <?php
                                     $file = "Well_Control_notes";
-                                    $query = "SELECT * FROM uploadfile WHERE fileName=" . $file;
+                                    $query = "SELECT id, fileName FROM uploadfile WHERE fileName=" . $file;
+                                    $row = mysqli_fetch_array($result);
+                                    echo $row['id'];
+                                    echo $row['fileName'];
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     if (mysqli_num_rows($result) == 0) {
                                         echo "Database is empty <br>";
                                     } else {
+
                                         echo '<tr>';
                                         echo "<td><a href='wellcontrol.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
                                         echo "</tr>";

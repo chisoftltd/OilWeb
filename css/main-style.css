@@ -60,7 +60,7 @@ li a:hover {
     box-shadow: 0 10px 6px -6px #777;
 }
 
-.topic:hover {
+.col-md-3:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;
     color: indianred;

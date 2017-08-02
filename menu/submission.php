@@ -18,6 +18,7 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
     $tmpName = $_FILES['studentfile']['tmp_name'];
     $fSize = $_FILES['studentfile']['size'];
     $fType = $_FILES['studentfile']['type'];
+    $fError = $_FILES['studentfile']['error'];
 
     $fp = fopen($tmpName, 'r');
     $content = fread($fp, filesize($tmpName));
@@ -30,7 +31,7 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
     /*include 'library/config.php';
     include 'library/opendb.php';*/
 
-    $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, content ) " .
+    $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, fileContent ) " .
         "VALUES ('$fName', '$fSize', '$fType', '$content')";
 
     mysqli_query($link, $query) or die('Error, query failed');
@@ -170,9 +171,9 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
                     <h3>Processed files</h3>
                     <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-success"><span
-                                class="badge alert-success pull-right">Success</span>image-01.jpg</a>
-                        <a href="#" class="list-group-item list-group-item-success"><span
-                                class="badge alert-success pull-right">Success</span>image-02.jpg</a>
+                                class="badge alert-success pull-right">Success</span>Sent file: <?php echo $_FILES['image']['name'];  ?>
+                            File size: <?php echo $_FILES['image']['size'];  ?>
+                            File type: <?php echo $_FILES['image']['type'] ?></a>
                     </div>
                 </div>
             </div>

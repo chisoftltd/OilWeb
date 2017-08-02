@@ -102,10 +102,6 @@ include_once '../db/dbconnect.php';
 
 
 <header>
-    <?php if (isset($_SESSION['usr_id'])) { ?>
-        <?php include '../include/signinheader.php'; ?>
-    <?php } else { ?>
-        <?php include '../include/header.php'; ?><?php } ?>
 </header>
 <form>
     <hr> <!-- draw a line-->

@@ -171,9 +171,12 @@ if (isset($_POST['uploadfile']) && $_FILES['studentfile']['size'] > 0) {
                     <h3>Processed files</h3>
                     <div class="list-group">
                         <a href="#" class="list-group-item list-group-item-success"><span
-                                class="badge alert-success pull-right">Success</span>Sent file: <?php echo $_FILES['image']['name'];  ?>
-                            File size: <?php echo $_FILES['image']['size'];  ?>
-                            File type: <?php echo $_FILES['image']['type'] ?></a>
+                                class="badge alert-success pull-right">Success</span>
+                            <ul>
+                                <li>Sent file: <?php echo $_FILES['image']['name']; ?>
+                                <li>File size: <?php echo $_FILES['image']['size']; ?>
+                                <li>File type: <?php echo $_FILES['image']['type'] ?>
+                            </ul>
                     </div>
                 </div>
             </div>

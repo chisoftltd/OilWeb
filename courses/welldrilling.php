@@ -64,15 +64,15 @@ include_once '../db/dbconnect.php';
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     <form class="navbar-form navbar-right">
-                          <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Search">
-                              <div class="input-group-btn">
-                                  <button class="btn btn-default" type="submit">
-                                      <i class="glyphicon glyphicon-search"></i>
-                                  </button>
-                              </div>
-                          </div>
-                      </form>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } else { ?>
                     <li class="active"><a href="/index.php">Home</a></>
                     <li><a href="/menu/about.php">About Us</a></li>
@@ -106,7 +106,7 @@ include_once '../db/dbconnect.php';
     <?php } else { ?>
         <?php include '../include/header.php'; ?><?php } ?>
 </header>
-    <hr> <!-- draw a line-->
+<hr> <!-- draw a line-->
 <section>
     <div class="content">
         <ul class="breadcrumb">
@@ -215,6 +215,9 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <a href="/files/OilGasDrilling.pdf" download>
+                                    Click to download Course file
+                                </a>
                             </footer>
                         </article>
                     </div>
@@ -384,7 +387,8 @@ include_once '../db/dbconnect.php';
                                         </div>
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
-                                </figure><h4><i>Environmental consent (DTI)</i></h4>
+                                </figure>
+                                <h4><i>Environmental consent (DTI)</i></h4>
                                 <p>It is illegal to commence operations without the relevant approvals or
                                     notifications in place.
                                 </p>
@@ -659,7 +663,7 @@ include_once '../db/dbconnect.php';
                                     </li>
                                     <li>Appropriation: +/- 10%
                                     </li>
-                                    <li>Pre operational: +/- 5% </li>
+                                    <li>Pre operational: +/- 5%</li>
                                 </ul>
                             </div>
                             <footer class="panel-footer clearfix ">
@@ -674,7 +678,7 @@ include_once '../db/dbconnect.php';
         </div>
     </div>
 </section><!-- end of section-->
-    <hr> <!-- draw a line-->
+<hr> <!-- draw a line-->
 <footer>
     <!-- footer area-->
     <div>

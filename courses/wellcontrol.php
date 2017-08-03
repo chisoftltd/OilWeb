@@ -216,7 +216,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <a href="/files/WellControlnotes.pdf" download>
-                                    Click to download this Course in pdf
+                                    Click to download this Course
                                 </a>
                             </footer>
                         </article>

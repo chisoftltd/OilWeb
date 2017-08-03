@@ -215,26 +215,9 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <figure class="pull-left bs-example">
-                                    <?php
-                                    $file = "Well_Control_notes";
-                                    echo $file;
-                                    $query = "SELECT id, fileName FROM uploadfile WHERE fileName=" . $file;
-                                    $result = mysqli_query($link, $query) or die('Error, query failed');
-                                    $row = mysqli_fetch_array($result);
-                                    echo $row['id'];
-                                    echo $row['fileName'];
-                                    if (mysqli_num_rows($result) == 0) {
-                                        echo "Database is empty <br>";
-                                    } else {
-
-                                        echo '<tr>';
-                                        echo "<td><a href='wellcontrol.php?p={$row['id']}'>" . $row[fileName] . "</a></td>";
-                                        echo "</tr>";
-                                    }
-                                    ?>
-                                    <figcaption class="text-center"><strong>Download file</strong></figcaption>
-                                </figure>
+                                <a href="/files/WellControlnotes.pdf" download>
+                                    Click to download this Course in pdf
+                                </a>
                             </footer>
                         </article>
                     </div>

@@ -216,7 +216,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <a href="/files/OilGasDrilling.pdf" download>
-                                    Click to download Course file
+                                    Click to download this Course in pdf
                                 </a>
                             </footer>
                         </article>

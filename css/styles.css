@@ -1,54 +1,52 @@
-
 /*
-#all-topic{
-    margin : auto;
-    padding-top : 5px;
-    width : 638px;
-    height : 480px;
-    border : 2px solid black;
-    padding-left: 5px;
-}*/
-/*header{
-    width : 900px;
-    height : 100px;
-    margin : auto;
-}*/
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
 
-
-section{
-    width : 1000px;
-    margin : auto;
-}
-#topic{
-    float : left;
-    border : 1px solid gainsboro;
-    margin-right: 5px;
-    margin-bottom : 5px;
-    padding : 5px;
-    width : 140px;
-    height : 140px;
-    cursor: pointer;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.topic{
-    float : left;
-    border : 1px solid gainsboro;
-    margin-right: 5px;
-    margin-bottom : 5px;
-    padding : 5px;
-    width : 140px;
-    height : 140px;
-    cursor: pointer;
+body {
+    font: 14px Georgia, serif;
 }
 
-#topic:hover{
-    background-color: aquamarine;
-    border-bottom : 1px solid black;
-    color : indianred;
-    text-shadow: 1px 1px blue;
-    border-radius : 15px;
+#page-wrap {
+    width: 500px;
+    margin: 0 auto;
 }
-/*
-#all-topic:hover{
-    height : 482px;
-}*/
+
+h1 {
+    margin: 25px 0;
+    font: 14px Georgia, Serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#quiz input {
+    vertical-align: middle;
+}
+
+#quiz ol {
+    margin: 0 0 10px 20px;
+}
+
+#quiz ol li {
+    margin: 0 0 20px 0;
+}
+
+#quiz ol li div {
+    padding: 4px 0;
+}
+
+#quiz h3 {
+    font-size: 17px;
+    margin: 0 0 1px 0;
+    color: #666;
+}
+
+#results {
+    font: 44px Georgia, Serif;
+}

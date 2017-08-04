@@ -100,10 +100,7 @@ include_once 'db/dbconnect.php';
 </nav>
 
 <header>
-    <?php if (isset($_SESSION['usr_id'])) { ?>
-        <?php include 'include/signinheader.php'; ?>
-    <?php } else { ?>
-        <?php include 'include/header.php'; ?><?php } ?>
+
 </header>
     <hr> <!-- draw a line-->
 <section>

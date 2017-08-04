@@ -110,7 +110,7 @@ include_once '../db/dbconnect.php';
     <hr> <!-- draw a line-->
 </form>
 <section>
-    <div class="content">
+    <div class="container">
 
         <h3 style="text-align: center">WebOil Assessments</h3>
         <p>Test youself</p>

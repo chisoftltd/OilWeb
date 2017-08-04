@@ -9,11 +9,11 @@
 
 // Start a session
 session_start();
-
+/*
 if (!isset($_SESSION['usr_id'])) {
     header("Location: index.php");
     echo "''<h1>.Timed Out!.</h1>";
-}
+}*/
 
 // include the database script
 include_once '../db/dbconnect.php';

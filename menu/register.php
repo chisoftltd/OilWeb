@@ -150,7 +150,7 @@ if (isset($_POST['signup'])) {
         <div class="col-md-4 col-md-offset-4 well">
             <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
                 <fieldset>
-                    <legend>Register Researcher</legend>
+                    <legend>Student Registration</legend>
 
                     <div class="form-group">
                         <label for="name">Name</label>

@@ -332,11 +332,26 @@ include_once '../db/dbconnect.php';
     <script type="text/javascript">
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
+
         var pageTracker = _gat._getTracker("UA-68528-29");
         pageTracker._initData();
         pageTracker._trackPageview();
+        <
+        script >
+        // Get the modal
+        var modal = document.getElementById('drilling');
+        var modal = document.getElementById('control');
+        var modal = document.getElementById('completion');
+
+        var modal = document.getElementById('treatment');
+        var modal = document.getElementById('cement');
+        var modal = document.getElementById('storageandexport');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
     </script>
 
 </section><!-- end of section-->

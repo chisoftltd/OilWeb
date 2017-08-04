@@ -114,10 +114,10 @@ if (isset($_POST['signup'])) {
                         </div>
                     </form>
                 <?php } else { ?>
-                    <li class="active"><a href="../index.php">Home</a></>
+                    <li><a href="../index.php">Home</a></>
                     <li><a href="../menu/about.php">About Us</a></li>
                     <li><a href="../menu/courses.php">Courses</a></li>
-                    <li><a href="../menu/assessment.php">Assessment</a></li>
+                    <li class="active"><a href="../menu/assessment.php">Assessment</a></li>
                     <li><a href="../menu/submission.php">Submission</a></li>
                     <li><a href="../menu/demo.php">Demo</a></li>
                     <li><a href="../menu/contact.php">Contact Us</a></li>

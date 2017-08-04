@@ -60,7 +60,7 @@ if (isset($_POST['signup'])) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Application Description - WebOil!</title>
+    <title>WebOil | Registration Page!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -85,20 +85,20 @@ if (isset($_POST['signup'])) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.php">WebOil | Assessment</a>
+            <a class="navbar-brand" href="/index.php">WebOil | Registration</a>
         </div>
         <div class="collapse navbar-collapse" id="navweboil">
             <ul class="nav navbar-nav navbar-right">
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>
-                    <li class="active"><a href="signinindex.php">Home</a></>
-                    <li><a href="../menu/about.php">About Us</a></li>
-                    <li><a href="../menu/courses.php">Courses</a></li>
-                    <li><a href="../menu/assessment.php">Assessment</a></li>
-                    <li><a href="../menu/submission.php">Submission</a></li>
-                    <li><a href="../menu/demo.php">Demo</a></li>
-                    <li><a href="../menu/contact.php">Contact Us</a></li>
-                    <li><a href="../menu/help.php">Help</a></li>
+                    <li><a href="signinindex.php">Home</a></>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="courses.php">Courses</a></li>
+                    <li ><a href="assessment.php">Assessment</a></li>
+                    <li><a href="submission.php">Submission</a></li>
+                    <li><a href="demo.php">Demo</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="help.php">Help</a></li>
                     <li><p class="navbar-text"><span
                                     class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
@@ -115,15 +115,15 @@ if (isset($_POST['signup'])) {
                     </form>
                 <?php } else { ?>
                     <li><a href="../index.php">Home</a></>
-                    <li><a href="../menu/about.php">About Us</a></li>
-                    <li><a href="../menu/courses.php">Courses</a></li>
-                    <li class="active"><a href="../menu/assessment.php">Assessment</a></li>
-                    <li><a href="../menu/submission.php">Submission</a></li>
-                    <li><a href="../menu/demo.php">Demo</a></li>
-                    <li><a href="../menu/contact.php">Contact Us</a></li>
-                    <li><a href="../menu/help.php">Help</a></li>
-                    <li><a href="../menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                    <li><a href="../menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="courses.php">Courses</a></li>
+                    <li><a href="assessment.php">Assessment</a></li>
+                    <li><a href="submission.php">Submission</a></li>
+                    <li><a href="demo.php">Demo</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="help.php">Help</a></li>
+                    <li><a href="login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
+                    <li class="active"><a href="../menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
                     <form class="navbar-form navbar-right">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search">

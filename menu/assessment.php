@@ -28,8 +28,6 @@ include_once '../db/dbconnect.php';
     <title>WebOil | Assessment Page!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="/css/main-style.css">

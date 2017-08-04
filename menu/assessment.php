@@ -147,7 +147,7 @@ include_once '../db/dbconnect.php';
                 <div class="col-md-8 col-md-offset-2 well">
                     <form role="form" class="modal-content animate" action="<?php echo $_SERVER['PHP_SELF']; ?>"
                           method="post"
-                          name="ethicsform">
+                          name="drillingform">
                         <div class="imgcontainer">
                         <span onclick="document.getElementById('drilling').style.display='none'" class="close"
                               title="Close Modal">&times;</span>

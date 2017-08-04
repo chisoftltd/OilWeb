@@ -34,73 +34,71 @@ ini_set('display_errors', 1);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body><!-- Body area start-->
-
-<!-- add top navigational bar using bootstrap-->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
-                <!--<span class="sr-only">Toggle navigation</span>-->
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/index.php">WebOil | Work Submission</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navweboil">
-            <ul class="nav navbar-nav navbar-right">
-                <!-- check if same user is still same as the active session user and load appropriate menu options -->
-                <?php if (isset($_SESSION['usr_id'])) { ?>
-                    <li><a href="signinindex.php">Home</a></>
-                    <li><a href="/menu/about.php">About Us</a></li>
-                    <li><a href="/menu/courses.php">Courses</a></li>
-                    <li><a href="/menu/assessment.php">Assessment</a></li>
-                    <li class="active"><a href="/menu/submission.php">Submission</a></li>
-                    <li><a href="/menu/demo.php">Demo</a></li>
-                    <li><a href="/menu/contact.php">Contact Us</a></li>
-                    <li><a href="/menu/help.php">Help</a></li>
-                    <li><p class="navbar-text"><span
-                                class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
-                        </p></li>
-                    <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                    <form class="navbar-form navbar-right">
-                          <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Search">
-                              <div class="input-group-btn">
-                                  <button class="btn btn-default" type="submit">
-                                      <i class="glyphicon glyphicon-search"></i>
-                                  </button>
-                              </div>
-                          </div>
-                      </form>
-                <?php } else { ?>
-                    <li><a href="/index.php">Home</a></>
-                    <li><a href="/menu/about.php">About Us</a></li>
-                    <li><a href="/menu/courses.php">Courses</a></li>
-                    <li><a href="/menu/assessment.php">Assessment</a></li>
-                    <li class="active"><a href="/menu/submission.php">Submission</a></li>
-                    <li><a href="/menu/demo.php">Demo</a></li>
-                    <li><a href="/menu/contact.php">Contact Us</a></li>
-                    <li><a href="/menu/help.php">Help</a></li>
-                    <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                    <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                    <form class="navbar-form navbar-right">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                <?php } ?>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <header>
+    <!-- add top navigational bar using bootstrap-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.php">WebOil | Work Submission</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navweboil">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- check if same user is still same as the active session user and load appropriate menu options -->
+                    <?php if (isset($_SESSION['usr_id'])) { ?>
+                        <li><a href="signinindex.php">Home</a></>
+                        <li><a href="/menu/about.php">About Us</a></li>
+                        <li><a href="/menu/courses.php">Courses</a></li>
+                        <li><a href="/menu/assessment.php">Assessment</a></li>
+                        <li class="active"><a href="/menu/submission.php">Submission</a></li>
+                        <li><a href="/menu/demo.php">Demo</a></li>
+                        <li><a href="/menu/contact.php">Contact Us</a></li>
+                        <li><a href="/menu/help.php">Help</a></li>
+                        <li><p class="navbar-text"><span
+                                        class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
+                            </p></li>
+                        <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
+                        <form class="navbar-form navbar-right">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    <?php } else { ?>
+                        <li><a href="/index.php">Home</a></>
+                        <li><a href="/menu/about.php">About Us</a></li>
+                        <li><a href="/menu/courses.php">Courses</a></li>
+                        <li><a href="/menu/assessment.php">Assessment</a></li>
+                        <li class="active"><a href="/menu/submission.php">Submission</a></li>
+                        <li><a href="/menu/demo.php">Demo</a></li>
+                        <li><a href="/menu/contact.php">Contact Us</a></li>
+                        <li><a href="/menu/help.php">Help</a></li>
+                        <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
+                        <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                        <form class="navbar-form navbar-right">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 </header>
 <hr> <!-- draw a line-->
@@ -127,9 +125,11 @@ ini_set('display_errors', 1);
                                     <input type="hidden" name="MAX_FILE_SIZE" value="200000000">
                                     <input name="userfile" type="file" id="userfile">
                                 </td>
-                                <td width="80"><input name="upload" type="submit" class="btn btn-lg btn-primary" id="upload" value=" Upload "></td>
+                                <td width="80"><input name="upload" type="submit" class="btn btn-lg btn-primary"
+                                                      id="upload" value=" Upload "></td>
                             </tr>
-                        </table></div>
+                        </table>
+                    </div>
 
                 </form>
             </div>
@@ -138,24 +138,22 @@ ini_set('display_errors', 1);
 
     <?php
 
-    if(isset($_POST['upload']) && $_FILES['userfile']['size'] > 0)
-    {
+    if (isset($_POST['upload']) && $_FILES['userfile']['size'] > 0) {
         $fileName = $_FILES['userfile']['name'];
-        $tmpName  = $_FILES['userfile']['tmp_name'];
+        $tmpName = $_FILES['userfile']['tmp_name'];
         $fileSize = $_FILES['userfile']['size'];
         $fileType = $_FILES['userfile']['type'];
 
-        $fp      = fopen($tmpName, 'r');
+        $fp = fopen($tmpName, 'r');
         $content = fread($fp, filesize($tmpName));
         $content = addslashes($content);
         fclose($fp);
 
-        if(!get_magic_quotes_gpc())
-        {
+        if (!get_magic_quotes_gpc()) {
             $fileName = addslashes($fileName);
         }
 
-        $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, fileContent ) ".
+        $query = "INSERT INTO uploadfile (fileName, fileSize, fileType, fileContent ) " .
             "VALUES ('$fileName', '$fileSize', '$fileType', '$content')";
 
         mysqli_query($link, $query) or die('Error, query failed');

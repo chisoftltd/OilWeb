@@ -136,7 +136,7 @@ include_once '../db/dbconnect.php';
         </div>
         <div>
             <hr>
-       </div>
+        </div>
         <div id="drilling" class="modal">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
@@ -150,9 +150,10 @@ include_once '../db/dbconnect.php';
                         </div>
                         <fieldset>
                             <legend style="text-align: center">Drilling Quiz</legend>
-                            <div class="form-group">
-                                <ol>
-                                    <li>
+
+                            <ol>
+                                <li>
+                                    <div class="form-group">
                                         <h3>CSS Stands for...</h3>
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"
@@ -177,11 +178,11 @@ include_once '../db/dbconnect.php';
                                                    value="D"/>
                                             <label for="question-1-answers-D">D) None of the above</label>
                                         </div>
+                                    </div>
+                                </li>
 
-                                    </li>
-
-                                    <li>
-
+                                <li>
+                                    <div class="form-group">
                                         <h3>Internet Explorer 6 was released in...</h3>
 
                                         <div>
@@ -207,11 +208,11 @@ include_once '../db/dbconnect.php';
                                                    value="D"/>
                                             <label for="question-2-answers-D">D) 2003</label>
                                         </div>
+                                    </div>
+                                </li>
 
-                                    </li>
-
-                                    <li>
-
+                                <li>
+                                    <div class="form-group">
                                         <h3>SEO Stand for...</h3>
 
                                         <div>
@@ -239,11 +240,11 @@ include_once '../db/dbconnect.php';
                                                    value="D"/>
                                             <label for="question-3-answers-D">D) Seals End Olives</label>
                                         </div>
+                                    </div>
+                                </li>
 
-                                    </li>
-
-                                    <li>
-
+                                <li>
+                                    <div class="form-group">
                                         <h3>A 404 Error...</h3>
 
                                         <div>
@@ -272,11 +273,11 @@ include_once '../db/dbconnect.php';
                                                    value="D"/>
                                             <label for="question-4-answers-D">D) All of the above</label>
                                         </div>
+                                    </div>
+                                </li>
 
-                                    </li>
-
-                                    <li>
-
+                                <li>
+                                    <div class="form-group">
                                         <h3>Your favorite website is</h3>
 
                                         <div>
@@ -302,14 +303,14 @@ include_once '../db/dbconnect.php';
                                                    value="D"/>
                                             <label for="question-5-answers-D">D) CSS-Tricks</label>
                                         </div>
+                                    </div>
+                                </li>
 
-                                    </li>
+                            </ol>
 
-                                </ol>
+                            <input type="submit" value="Submit Quiz"/>
 
-                                <input type="submit" value="Submit Quiz"/>
 
-                            </div>
                         </fieldset>
                     </form>
                 </div>

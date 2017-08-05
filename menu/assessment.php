@@ -151,7 +151,7 @@ include_once '../db/dbconnect.php';
                         <fieldset>
                             <legend style="text-align: center">Drilling Quiz</legend>
                             <div id="page-wrap">
-                                <form action="/grade.php" method="post" id="quiz">
+                                <!--<form action="/grade.php" method="post" id="quiz">-->
                                     <ol>
                                         <li>
                                             <h3>CSS Stands for...</h3>
@@ -310,7 +310,7 @@ include_once '../db/dbconnect.php';
 
                                     <input type="submit" value="Submit Quiz"/>
 
-                                </form>
+                                <!--</form>-->
                             </div>
                         </fieldset>
                     </form>

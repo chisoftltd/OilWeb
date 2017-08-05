@@ -152,13 +152,9 @@ include_once '../db/dbconnect.php';
                             <legend style="text-align: center">Drilling Quiz</legend>
                             <div id="page-wrap">
                                 <form action="/grade.php" method="post" id="quiz">
-
                                     <ol>
-
                                         <li>
-
                                             <h3>CSS Stands for...</h3>
-
                                             <div>
                                                 <input type="radio" name="question-1-answers" id="question-1-answers-A"
                                                        value="A"/>
@@ -315,9 +311,7 @@ include_once '../db/dbconnect.php';
                                     <input type="submit" value="Submit Quiz"/>
 
                                 </form>
-
                             </div>
-
                         </fieldset>
                     </form>
                 </div>

@@ -30,7 +30,7 @@ include_once '../db/dbconnect.php';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="css/main-style.css">
+   <!-- <link rel="stylesheet" href="css/main-style.css">-->
     <link rel="stylesheet" href="css/main-style2.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>

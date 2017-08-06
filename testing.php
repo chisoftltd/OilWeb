@@ -146,7 +146,7 @@ include_once '../db/dbconnect.php';
                           method="post"
                           name="ethicsform">
                         <div class="imgcontainer">
-                        <span onclick="document.getElementById('apply').style.display='none'" class="close"
+                        <span onclick="document.getElementById('drilling').style.display='none'" class="close"
                               title="Close Modal">&times;</span>
                             <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
                         </div>

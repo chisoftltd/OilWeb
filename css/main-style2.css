@@ -56,12 +56,6 @@ li a:hover {
     display: inline;
 }
 
-.form-signin {
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
-    color: #017572;
-}
 
 .form-signin .form-signin-heading,
 .form-signin .checkbox {

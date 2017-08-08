@@ -18,7 +18,8 @@ $error = false;
         <title>WebOil | Contact Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -76,7 +77,8 @@ $error = false;
                             <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
                             <li><a href="/menu/help.php">Help</a></li>
                             <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                            <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                            <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a>
+                            </li>
                             <form class="navbar-form navbar-right">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Search">
@@ -96,20 +98,16 @@ $error = false;
 
     <hr>
     <section>
-        <div class="container" style="margin-top: auto">
-            <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:#b0e0e6; border:3px solid #006400">
-                    <div class="panel-heading">Tell us where we are doing badly - WebOil</div>
-                    <div class="panel-body">
-                        <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
-                            <label for="subject">Subject of email:</label><br>
-                            <input type="text" name="subject" id="subject"/><br>
-                            <label for="body">Body of email:</label><br>
-                            <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
-                            <input type="submit" name=submit value="Submit"/>
-                        </form>
-                    </div>
-                </div>
+        <div class="container" style="margin-top: auto; background-color:#b0e0e6; border:3px solid #006400;">
+            <div class="panel-heading">Tell us where we are doing badly - WebOil</div>
+            <div class="panel-body">
+                <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
+                    <label for="subject">Subject of email:</label><br>
+                    <input type="text" name="subject" id="subject"/><br>
+                    <label for="body">Body of email:</label><br>
+                    <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
+                    <input type="submit" name=submit value="Submit"/>
+                </form>
             </div>
         </div>
     </section>

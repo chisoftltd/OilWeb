@@ -17,7 +17,7 @@ include_once 'dbconnect.php';
 
 //set validation error flag as false
 $error = false;
-
+/*
 //check if form is submitted
 if (isset($_POST['applyform'])) {
     $name = mysqli_real_escape_string($link, $_POST['name']);
@@ -53,7 +53,7 @@ if (isset($_POST['deleteform'])) {
         echo "Record deleted successfully";
         header("refresh:5; url=officerprojecttable.php");
     }
-}
+}*/
 ?>
 
 <!DOCTYPE html>

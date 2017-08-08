@@ -1,39 +1,70 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: 1609963
- * Date: 30/07/2017
- * Time: 17:24
+ * User: Chisoft
+ * Date: 2017-08-05
+ * Time: 22:35
  */
 
-// Start a session
 session_start();
 /*
 if (!isset($_SESSION['usr_id'])) {
     header("Location: index.php");
     echo "''<h1>.Timed Out!.</h1>";
+}*/
+
+include_once 'dbconnect.php';
+
+//set validation error flag as false
+$error = false;
+/*
+//check if form is submitted
+if (isset($_POST['applyform'])) {
+    $name = mysqli_real_escape_string($link, $_POST['name']);
+    $supervisor = mysqli_real_escape_string($link, $_POST['supervisor']);
+    $department = mysqli_real_escape_string($link, $_POST['department']);
+    $projecttopic = mysqli_real_escape_string($link, $_POST['projecttopic']);
+    $projectdescription = mysqli_real_escape_string($link, $_POST['projectdescription']);
+    $startdate = mysqli_real_escape_string($link, $_POST['startdate']);
+    $enddate = mysqli_real_escape_string($link, $_POST['enddate']);
+    $datadetails = mysqli_real_escape_string($link, $_POST['datadetails']);
+
+    if (mysqli_query($link, "INSERT INTO research(name,supervisor,department, projecttopic, projectdescription, startdate, enddate, datadetails )
+VALUES('" . $name . "', '" . $supervisor . "', '" . $department . "','" . $projecttopic . "','" . $projectdescription . "','" . $startdate . "','" . $enddate . "','" . $datadetails . "')")) {
+        $successmsg = "Research Ethics Successfuly Registered!";
+        header("refresh:5; url=researchtable.php");
+    } else {
+        $errormsg = "Error in registering...Please try again later!";
+    }
 }
-*/
-// include the database script
-include_once '../db/dbconnect.php';
 
-//end any active user session
-//unset($_session['user_id']);
+$result2 = mysqli_query($link, "SELECT id, name, supervisor, projecttopic, startdate, enddate FROM research") or die('cannot show columns from research');
+$count = mysqli_num_rows($result2);
 
+// Check if delete button active, start this
+if (isset($_POST['deleteform'])) {
+    for ($i = 0; $i < $count; $i++) {
+        $del_id = $checkbox[$i];
+        $sql = "DELETE FROM research WHERE id='$del_id'";
+        $result3 = mysqli_query($link, $sql);
+    }
+// if successful redirect to delete_multiple.php
+    if ($result3) {
+        echo "Record deleted successfully";
+        header("refresh:5; url=officerprojecttable.php");
+    }
+}*/
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>WebOil | Assessment Page!</title>
+    <title>RGUEthics | Research Registration</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Add css file-->
-    <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main-style2.css">
 </head>
-<body><!-- Body area start-->
+<body>
 <header>
     <!-- add top navigational bar using bootstrap-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -138,11 +169,19 @@ include_once '../db/dbconnect.php';
             <hr>
         </div>
         <div id="drilling" class="modal">
+
+            <!-- <form class="modal-content animate" action="/action_page.php">
+                 <div class="imgcontainer">
+                             <span onclick="document.getElementById('apply').style.display='none'" class="close"
+                                   title="Close Modal">&times;</span>
+                     <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                 </div> -->
+
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
                     <form role="form" class="modal-content animate" action="<?php echo $_SERVER['PHP_SELF']; ?>"
                           method="post"
-                          name="drillingform">
+                          name="ethicsform">
                         <div class="imgcontainer">
                         <span onclick="document.getElementById('drilling').style.display='none'" class="close"
                               title="Close Modal">&times;</span>
@@ -150,212 +189,529 @@ include_once '../db/dbconnect.php';
                         </div>
                         <fieldset>
                             <legend style="text-align: center">Drilling Quiz</legend>
-                            <div id="page-wrap">
-                                <form action="/grade.php" method="post" id="quiz">
-                                    <ol>
-                                        <li>
-                                            <h3>CSS Stands for...</h3>
-                                            <div>
-                                                <input type="radio" name="question-1-answers" id="question-1-answers-A"
-                                                       value="A"/>
-                                                <label for="question-1-answers-A">A) Computer Styled Sections </label>
-                                            </div>
+                            <ol>
+                                <li>
+                                    <h5>CSS Stands for...</h5>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                                   value="A"/>
+                                            <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-1-answers" id="question-1-answers-B"
-                                                       value="B"/>
-                                                <label for="question-1-answers-B">B) Cascading Style Sheets</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                                   value="B"/>
+                                            <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-1-answers" id="question-1-answers-C"
-                                                       value="C"/>
-                                                <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                                   value="C"/>
+                                            <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-1-answers" id="question-1-answers-D"
-                                                       value="D"/>
-                                                <label for="question-1-answers-D">D) None of the above</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                                   value="D"/>
+                                            <label for="question-1-answers-D">D) None of the above</label>
+                                        </div>
+                                    </div>
+                                </li>
 
-                                        </li>
+                                <li>
+                                    <h5>Internet Explorer 6 was released in...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                               value="A"/>
+                                        <label for="question-2-answers-A">A) 2001</label>
+                                    </div>
 
-                                        <li>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                               value="B"/>
+                                        <label for="question-2-answers-B">B) 1998</label>
+                                    </div>
 
-                                            <h3>Internet Explorer 6 was released in...</h3>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                               value="C"/>
+                                        <label for="question-2-answers-C">C) 2006</label>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-2-answers" id="question-2-answers-A"
-                                                       value="A"/>
-                                                <label for="question-2-answers-A">A) 2001</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                               value="D"/>
+                                        <label for="question-2-answers-D">D) 2003</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>SEO Stand for...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-A"
+                                               value="A"/>
+                                        <label for="question-3-answers-A">A) Secret Enterprise
+                                            Organizations</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-B"
+                                               value="B"/>
+                                        <label for="question-3-answers-B">B) Special Endowment
+                                            Opportunity</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-C"
+                                               value="C"/>
+                                        <label for="question-3-answers-C">C) Search Engine Optimization</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-D"
+                                               value="D"/>
+                                        <label for="question-3-answers-D">D) Seals End Olives</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>A 404 Error...</h5>
 
-                                            <div>
-                                                <input type="radio" name="question-2-answers" id="question-2-answers-B"
-                                                       value="B"/>
-                                                <label for="question-2-answers-B">B) 1998</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                               value="A"/>
+                                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page
+                                            Not Found</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                               value="B"/>
+                                        <label for="question-4-answers-B">B) is a good excuse for a clever
+                                            design</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                               value="C"/>
+                                        <label for="question-4-answers-C">C) should be monitored for in web
+                                            analytics</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                               value="D"/>
+                                        <label for="question-4-answers-D">D) All of the above</label>
+                                    </div>
+                                </li>
 
-                                            <div>
-                                                <input type="radio" name="question-2-answers" id="question-2-answers-C"
-                                                       value="C"/>
-                                                <label for="question-2-answers-C">C) 2006</label>
-                                            </div>
+                                <li>
+                                    <h5>Your favorite website is</h5>
 
-                                            <div>
-                                                <input type="radio" name="question-2-answers" id="question-2-answers-D"
-                                                       value="D"/>
-                                                <label for="question-2-answers-D">D) 2003</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                               value="A"/>
+                                        <label for="question-5-answers-A">A) CSS-Tricks</label>
+                                    </div>
 
-                                        </li>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                               value="B"/>
+                                        <label for="question-5-answers-B">B) CSS-Tricks</label>
+                                    </div>
 
-                                        <li>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                               value="C"/>
+                                        <label for="question-5-answers-C">C) CSS-Tricks</label>
+                                    </div>
 
-                                            <h3>SEO Stand for...</h3>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                               value="D"/>
+                                        <label for="question-5-answers-D">D) CSS-Tricks</label>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-3-answers" id="question-3-answers-A"
-                                                       value="A"/>
-                                                <label for="question-3-answers-A">A) Secret Enterprise
-                                                    Organizations</label>
-                                            </div>
+                                </li>
 
-                                            <div>
-                                                <input type="radio" name="question-3-answers" id="question-3-answers-B"
-                                                       value="B"/>
-                                                <label for="question-3-answers-B">B) Special Endowment
-                                                    Opportunity</label>
-                                            </div>
+                            </ol>
+                            <input type="submit" value="Submit Quiz"/>
+                        </fieldset>
+                    </form>
 
-                                            <div>
-                                                <input type="radio" name="question-3-answers" id="question-3-answers-C"
-                                                       value="C"/>
-                                                <label for="question-3-answers-C">C) Search Engine Optimization</label>
-                                            </div>
+                </div>
+            </div>
+            <!--</form>-->
+        </div>
 
-                                            <div>
-                                                <input type="radio" name="question-3-answers" id="question-3-answers-D"
-                                                       value="D"/>
-                                                <label for="question-3-answers-D">D) Seals End Olives</label>
-                                            </div>
 
-                                        </li>
+        <div id="control" class="modal">
 
-                                        <li>
+            <!-- <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                            <span onclick="document.getElementById('update').style.display='none'" class="close"
+                                  title="Close Modal">&times;</span>
+                    <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div> -->
 
-                                            <h3>A 404 Error...</h3>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 well">
+                    <form role="form" class="modal-content animate" action="<?php echo $_SERVER['PHP_SELF']; ?>"
+                          method="post"
+                          name="controlform">
+                        <div class="imgcontainer">
+                        <span onclick="document.getElementById('control').style.display='none'" class="close"
+                              title="Close Modal">&times;</span>
+                            <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+                        </div>
+                        <fieldset>
+                            <legend style="text-align: center">Control Quiz</legend>
 
-                                            <div>
-                                                <input type="radio" name="question-4-answers" id="question-4-answers-A"
-                                                       value="A"/>
-                                                <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page
-                                                    Not Found</label>
-                                            </div>
+                            <ol>
+                                <li>
+                                    <h5>CSS Stands for...</h5>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                                   value="A"/>
+                                            <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-4-answers" id="question-4-answers-B"
-                                                       value="B"/>
-                                                <label for="question-4-answers-B">B) is a good excuse for a clever
-                                                    design</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                                   value="B"/>
+                                            <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-4-answers" id="question-4-answers-C"
-                                                       value="C"/>
-                                                <label for="question-4-answers-C">C) should be monitored for in web
-                                                    analytics</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                                   value="C"/>
+                                            <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                                        </div>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-4-answers" id="question-4-answers-D"
-                                                       value="D"/>
-                                                <label for="question-4-answers-D">D) All of the above</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                                   value="D"/>
+                                            <label for="question-1-answers-D">D) None of the above</label>
+                                        </div>
+                                    </div>
+                                </li>
 
-                                        </li>
+                                <li>
+                                    <h5>Internet Explorer 6 was released in...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                               value="A"/>
+                                        <label for="question-2-answers-A">A) 2001</label>
+                                    </div>
 
-                                        <li>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                               value="B"/>
+                                        <label for="question-2-answers-B">B) 1998</label>
+                                    </div>
 
-                                            <h3>Your favorite website is</h3>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                               value="C"/>
+                                        <label for="question-2-answers-C">C) 2006</label>
+                                    </div>
 
-                                            <div>
-                                                <input type="radio" name="question-5-answers" id="question-5-answers-A"
-                                                       value="A"/>
-                                                <label for="question-5-answers-A">A) CSS-Tricks</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                               value="D"/>
+                                        <label for="question-2-answers-D">D) 2003</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>SEO Stand for...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-A"
+                                               value="A"/>
+                                        <label for="question-3-answers-A">A) Secret Enterprise
+                                            Organizations</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-B"
+                                               value="B"/>
+                                        <label for="question-3-answers-B">B) Special Endowment
+                                            Opportunity</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-C"
+                                               value="C"/>
+                                        <label for="question-3-answers-C">C) Search Engine Optimization</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-D"
+                                               value="D"/>
+                                        <label for="question-3-answers-D">D) Seals End Olives</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>A 404 Error...</h5>
 
-                                            <div>
-                                                <input type="radio" name="question-5-answers" id="question-5-answers-B"
-                                                       value="B"/>
-                                                <label for="question-5-answers-B">B) CSS-Tricks</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                               value="A"/>
+                                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page
+                                            Not Found</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                               value="B"/>
+                                        <label for="question-4-answers-B">B) is a good excuse for a clever
+                                            design</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                               value="C"/>
+                                        <label for="question-4-answers-C">C) should be monitored for in web
+                                            analytics</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                               value="D"/>
+                                        <label for="question-4-answers-D">D) All of the above</label>
+                                    </div>
+                                </li>
 
-                                            <div>
-                                                <input type="radio" name="question-5-answers" id="question-5-answers-C"
-                                                       value="C"/>
-                                                <label for="question-5-answers-C">C) CSS-Tricks</label>
-                                            </div>
+                                <li>
+                                    <h5>Your favorite website is</h5>
 
-                                            <div>
-                                                <input type="radio" name="question-5-answers" id="question-5-answers-D"
-                                                       value="D"/>
-                                                <label for="question-5-answers-D">D) CSS-Tricks</label>
-                                            </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                               value="A"/>
+                                        <label for="question-5-answers-A">A) CSS-Tricks</label>
+                                    </div>
 
-                                        </li>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                               value="B"/>
+                                        <label for="question-5-answers-B">B) CSS-Tricks</label>
+                                    </div>
 
-                                    </ol>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                               value="C"/>
+                                        <label for="question-5-answers-C">C) CSS-Tricks</label>
+                                    </div>
 
-                                    <input type="submit" value="Submit Quiz"/>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                               value="D"/>
+                                        <label for="question-5-answers-D">D) CSS-Tricks</label>
+                                    </div>
 
-                                </form>
-                            </div>
+                                </li>
+
+                            </ol>
+                            <input type="submit" value="Submit Quiz"/>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div id="completion" class="modal">
+
+            <!--<form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                        <span onclick="document.getElementById('delete').style.display='none'" class="close"
+                              title="Close Modal">&times;</span>
+                    <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>-->
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 well">
+                    <form role="form" class="modal-content animate" action="<?php echo $_SERVER['PHP_SELF']; ?>"
+                          method="post"
+                          name="completionform">
+                        <div class="imgcontainer">
+                        <span onclick="document.getElementById('completion').style.display='none'" class="close"
+                              title="Close Modal">&times;</span>
+                            <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+                        </div>
+                        <fieldset>
+                            <legend style="text-align: center">Completion Quiz</legend>
+                            <ol>
+                                <li>
+                                    <h5>CSS Stands for...</h5>
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                                   value="A"/>
+                                            <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                                   value="B"/>
+                                            <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                                   value="C"/>
+                                            <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div>
+                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                                   value="D"/>
+                                            <label for="question-1-answers-D">D) None of the above</label>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <h5>Internet Explorer 6 was released in...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                               value="A"/>
+                                        <label for="question-2-answers-A">A) 2001</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                               value="B"/>
+                                        <label for="question-2-answers-B">B) 1998</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                               value="C"/>
+                                        <label for="question-2-answers-C">C) 2006</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                               value="D"/>
+                                        <label for="question-2-answers-D">D) 2003</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>SEO Stand for...</h5>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-A"
+                                               value="A"/>
+                                        <label for="question-3-answers-A">A) Secret Enterprise
+                                            Organizations</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-B"
+                                               value="B"/>
+                                        <label for="question-3-answers-B">B) Special Endowment
+                                            Opportunity</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-C"
+                                               value="C"/>
+                                        <label for="question-3-answers-C">C) Search Engine Optimization</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-3-answers" id="question-3-answers-D"
+                                               value="D"/>
+                                        <label for="question-3-answers-D">D) Seals End Olives</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h5>A 404 Error...</h5>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                               value="A"/>
+                                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page
+                                            Not Found</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                               value="B"/>
+                                        <label for="question-4-answers-B">B) is a good excuse for a clever
+                                            design</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                               value="C"/>
+                                        <label for="question-4-answers-C">C) should be monitored for in web
+                                            analytics</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                               value="D"/>
+                                        <label for="question-4-answers-D">D) All of the above</label>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <h5>Your favorite website is</h5>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                               value="A"/>
+                                        <label for="question-5-answers-A">A) CSS-Tricks</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                               value="B"/>
+                                        <label for="question-5-answers-B">B) CSS-Tricks</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                               value="C"/>
+                                        <label for="question-5-answers-C">C) CSS-Tricks</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                               value="D"/>
+                                        <label for="question-5-answers-D">D) CSS-Tricks</label>
+                                    </div>
+
+                                </li>
+
+                            </ol>
+                            <input type="submit" value="Submit Quiz"/>
                         </fieldset>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-68528-29");
-        pageTracker._initData();
-        pageTracker._trackPageview();
-    </script>
-    <script>
-        // Get the modal
-        var modal = document.getElementById('drilling');
-        var modal = document.getElementById('control');
-        var modal = document.getElementById('completion');
+        <script>
+            // Get the modal
+            var modal = document.getElementById('drilling');
+            var modal = document.getElementById('control');
+            var modal = document.getElementById('completion');
 
-        var modal = document.getElementById('treatment');
-        var modal = document.getElementById('cement');
-        var modal = document.getElementById('storageandexport');
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
             }
-        }
-    </script>
-
-</section><!-- end of section-->
-<form>
-    <hr> <!-- draw a line-->
-</form>
-<footer>
-    <!-- footer area-->
-    <div>
-        <?php include '../include/footer.php'; ?>
+        </script>
     </div>
+</section>
+<footer>
+    <?php include 'include/footer.php'; ?>
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -61,7 +61,8 @@ if (isset($_POST['btn-login'])) {
         <title>WebOil | About Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -119,7 +120,8 @@ if (isset($_POST['btn-login'])) {
                             <li><a href="/menu/contact.php">Contact Us</a></li>
                             <li><a href="/menu/help.php">Help</a></li>
                             <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                            <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                            <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a>
+                            </li>
                             <form class="navbar-form navbar-right">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Search">
@@ -139,29 +141,39 @@ if (isset($_POST['btn-login'])) {
     <section>
 
         <div class="container">
-            <h3>Web Application Description - RGUEthics</h3>
-            <p>
-                This web application which I called RGUEthics is an online application that will manage RGU student’s
-                experiment ethics. </p>
-            <p>The interface should have a logo, navigation bar with elements like “Home”, “About Us”, “Student”,
-                “Experiment Approval Officers (EAO)”, “Contact US” and “Login”. </p>
-            <p>The interface should have a “News Section” about current government and university policy on research
-                ethics. </p>
-            <p>The landing page should contain a summary of, a least five, ongoing experiments. Also present on the
-                interface is are logos to Social media platforms like Facebook etc. </p>
-            <p>The application will allow students, after authentication to seek approval for their propose experiment
-                from
-                EAO. EAOs should be able to approve, request additional information or reject an experiment
-                proposal. </p>
-            <p>To implement fairness and objectivity each experiment will be randomly assign to two different EAOs, by
-                an
-                Administrator.
-            </p>
-            <p>Furthermore, the application will allow students and staff to submit assessment of EAO and the EAOs in
-                turn
-                will also have same permission for the Administrators.
-            </p>
-
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-10">
+                    <h3>Web Application Description - WebOil</h3>
+                    <p>
+                        This web application which I called RGUEthics is an online application that will manage RGU
+                        student’s
+                        experiment ethics. </p>
+                    <p>The interface should have a logo, navigation bar with elements like “Home”, “About Us”,
+                        “Student”,
+                        “Experiment Approval Officers (EAO)”, “Contact US” and “Login”. </p>
+                    <p>The interface should have a “News Section” about current government and university policy on
+                        research
+                        ethics. </p>
+                    <p>The landing page should contain a summary of, a least five, ongoing experiments. Also present on
+                        the
+                        interface is are logos to Social media platforms like Facebook etc. </p>
+                    <p>The application will allow students, after authentication to seek approval for their propose
+                        experiment
+                        from
+                        EAO. EAOs should be able to approve, request additional information or reject an experiment
+                        proposal. </p>
+                    <p>To implement fairness and objectivity each experiment will be randomly assign to two different
+                        EAOs, by
+                        an
+                        Administrator.
+                    </p>
+                    <p>Furthermore, the application will allow students and staff to submit assessment of EAO and the
+                        EAOs in
+                        turn
+                        will also have same permission for the Administrators.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <footer>

@@ -97,13 +97,17 @@ $error = false;
     <hr>
     <section>
         <div class="container">
-            <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
-                <label for="subject">Subject of email:</label><br>
-                <input type="text" name="subject" id="subject"/><br>
-                <label for="body">Body of email:</label><br>
-                <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
-                <input type="submit" name=submit value="Submit"/>
-            </form>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-10">
+                    <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
+                        <label for="subject">Subject of email:</label><br>
+                        <input type="text" name="subject" id="subject"/><br>
+                        <label for="body">Body of email:</label><br>
+                        <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
+                        <input type="submit" name=submit value="Submit"/>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <hr>

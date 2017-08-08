@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-require_once 'dbconnect.php';
+require_once '../db/dbconnect.php';
 
 // it will never let you open index(login) page if session is set
 if (isset($_SESSION['user']) != "") {
@@ -59,8 +59,8 @@ if (isset($_POST['btn-login'])) {
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>RGUEthics- About Us</title>
-        <link rel="stylesheet" href="style.css" type="text/css"/>
-        <link rel="stylesheet" href="../css/main-style.css">
+        <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="/css/main-style.css">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
               integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -78,7 +78,7 @@ if (isset($_POST['btn-login'])) {
     </head>
     <body>
     <div>
-        <?php include 'include/header.php'; ?>
+        <?php include '../include/header.php'; ?>
     </div>
     <div class="container">
         <h3>Web Application Description - RGUEthics</h3>
@@ -102,7 +102,7 @@ if (isset($_POST['btn-login'])) {
 
     </div>
     <div>
-        <?php include 'include/footer.php'; ?>
+        <?php include '../include/footer.php'; ?>
     </div>
     </body>
     </html>

@@ -143,35 +143,39 @@ if (isset($_POST['btn-login'])) {
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-md-10 blockquote-reverse" style="background-color: seagreen;">
-                    <h3>Web Application Description - WebOil</h3>
-                    <p>
-                        This web application which I called RGUEthics is an online application that will manage RGU
-                        student’s
-                        experiment ethics. </p>
-                    <p>The interface should have a logo, navigation bar with elements like “Home”, “About Us”,
-                        “Student”,
-                        “Experiment Approval Officers (EAO)”, “Contact US” and “Login”. </p>
-                    <p>The interface should have a “News Section” about current government and university policy on
-                        research
-                        ethics. </p>
-                    <p>The landing page should contain a summary of, a least five, ongoing experiments. Also present on
-                        the
-                        interface is are logos to Social media platforms like Facebook etc. </p>
-                    <p>The application will allow students, after authentication to seek approval for their propose
-                        experiment
-                        from
-                        EAO. EAOs should be able to approve, request additional information or reject an experiment
-                        proposal. </p>
-                    <p>To implement fairness and objectivity each experiment will be randomly assign to two different
-                        EAOs, by
-                        an
-                        Administrator.
-                    </p>
-                    <p>Furthermore, the application will allow students and staff to submit assessment of EAO and the
-                        EAOs in
-                        turn
-                        will also have same permission for the Administrators.
-                    </p>
+                    <div class="panel-heading">Web Application Description - WebOil</div>
+                    <div class="panel-body"><p>
+                            This web application which I called RGUEthics is an online application that will manage RGU
+                            student’s
+                            experiment ethics. </p>
+                        <p>The interface should have a logo, navigation bar with elements like “Home”, “About Us”,
+                            “Student”,
+                            “Experiment Approval Officers (EAO)”, “Contact US” and “Login”. </p>
+                        <p>The interface should have a “News Section” about current government and university policy on
+                            research
+                            ethics. </p>
+                        <p>The landing page should contain a summary of, a least five, ongoing experiments. Also present
+                            on
+                            the
+                            interface is are logos to Social media platforms like Facebook etc. </p>
+                        <p>The application will allow students, after authentication to seek approval for their propose
+                            experiment
+                            from
+                            EAO. EAOs should be able to approve, request additional information or reject an experiment
+                            proposal. </p>
+                        <p>To implement fairness and objectivity each experiment will be randomly assign to two
+                            different
+                            EAOs, by
+                            an
+                            Administrator.
+                        </p>
+                        <p>Furthermore, the application will allow students and staff to submit assessment of EAO and
+                            the
+                            EAOs in
+                            turn
+                            will also have same permission for the Administrators.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

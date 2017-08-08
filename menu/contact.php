@@ -99,13 +99,16 @@ $error = false;
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:lavenderblush;">
-                    <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
-                        <label for="subject">Subject of email:</label><br>
-                        <input type="text" name="subject" id="subject"/><br>
-                        <label for="body">Body of email:</label><br>
-                        <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
-                        <input type="submit" name=submit value="Submit"/>
-                    </form>
+                    <div class="panel-heading">Tell us where we are doing badly - WebOil</div>
+                    <div class="panel-body">
+                        <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
+                            <label for="subject">Subject of email:</label><br>
+                            <input type="text" name="subject" id="subject"/><br>
+                            <label for="body">Body of email:</label><br>
+                            <textarea name="body" id="body" rows="10" cols="35"></textarea><br>
+                            <input type="submit" name=submit value="Submit"/>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

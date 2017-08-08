@@ -98,7 +98,7 @@ $error = false;
     <section>
         <div class="container" style="margin-top: auto">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:lavenderblush;">
+                <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:#b0e0e6; border-width:2px">
                     <div class="panel-heading">Tell us where we are doing badly - WebOil</div>
                     <div class="panel-body">
                         <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">

@@ -141,7 +141,7 @@ if (isset($_POST['btn-login'])) {
     <section>
 
         <div class="container" style="margin-top: 70px; background-color:#b0e0e6; border:3px solid #006400;">
-            <div class="panel-heading">Web Application Description - WebOil</div>
+            <h3 class="panel-heading">Web Application Description - WebOil</h3>
             <div class="panel-body"><p>
                     This web application which I called RGUEthics is an online application that will manage RGU
                     student’s

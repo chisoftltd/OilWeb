@@ -116,7 +116,7 @@ include_once '../db/dbconnect.php';
         <div style="width: 100%" class="btn-group">
             <div class="row">
                 <button onclick="document.getElementById('drilling').style.display='block'" style="width: 30%;">
-                    Well Drilling
+                    Drilling
                 </button>
                 <button onclick="document.getElementById('control').style.display='block'" style="width: 30%">
                     Well Control

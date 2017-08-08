@@ -98,7 +98,7 @@ $error = false;
 
     <hr>
     <section>
-        <div class="container" style="margin-top: 50px;">
+        <div class="container" style="margin-top: 50px; background-color:#b0e0e6; border:3px solid #006400;">
             <div class="panel-heading">Tell us where we are doing badly - WebOil</div>
             <div class="panel-body">
                 <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">

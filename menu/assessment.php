@@ -13,7 +13,7 @@ if (!isset($_SESSION['usr_id'])) {
     echo "''<h1>.Timed Out!.</h1>";
 }*/
 
-include_once 'dbconnect.php';
+include_once '../db/dbconnect.php';
 
 //set validation error flag as false
 $error = false;
@@ -62,7 +62,7 @@ if (isset($_POST['deleteform'])) {
     <title>RGUEthics | Research Registration</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main-style2.css">
+    <link rel="stylesheet" href="/css/main-style2.css">
 </head>
 <body>
 <header>
@@ -707,7 +707,7 @@ if (isset($_POST['deleteform'])) {
     </div>
 </section>
 <footer>
-    <?php include 'include/footer.php'; ?>
+    <?php include '../include/footer.php'; ?>
 </footer>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>

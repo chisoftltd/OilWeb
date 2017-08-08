@@ -11,19 +11,24 @@ if (isset($_SESSION['user']) != "") {
 
 $error = false;
 ?>
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+    <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Coding Cage - Login & Registration System</title>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <link rel="stylesheet" href="../css/main-style.css">
+        <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="/css/main-style.css">
     </head>
     <body>
+    <header>
         <div>
-            <?php include 'include/header.php'; ?>
+            <?php include '../include/header.php'; ?>
         </div>
-        <div>
+    </header>
+
+    <hr>
+    <section>
+        <div class="container">
             <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
                 <label for="subject">Subject of email:</label><br>
                 <input type="text" name="subject" id="subject"/><br>
@@ -32,10 +37,15 @@ $error = false;
                 <input type="submit" name=submit value="Submit"/>
             </form>
         </div>
+    </section>
+    <hr>
+    <footer>
         <div>
-            <?php include 'include/footer.php'; ?>
+            <?php include '../include/footer.php'; ?>
 
         </div>
+    </footer>
+
     </body>
-</html>
+    </html>
 <?php ob_end_flush(); ?>

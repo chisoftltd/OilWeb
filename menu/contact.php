@@ -96,7 +96,7 @@ $error = false;
 
     <hr>
     <section>
-        <div class="container">
+        <div class="container" style="margin-top: auto">
             <div class="row">
                 <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:lavenderblush;">
                     <div class="panel-heading">Tell us where we are doing badly - WebOil</div>

@@ -140,9 +140,9 @@ if (isset($_POST['btn-login'])) {
     </header>
     <section>
 
-        <div class="container" style="margin-top: auto">
+        <div class="container" style="margin-top: 20px">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-10" style="background-color:#b0e0e6; border-width:2px">
+                <div class="col-xs-12 col-sm-10 col-md-10" style="background-color:#b0e0e6; border:3px solid #006400;">
                     <div class="panel-heading">Web Application Description - WebOil</div>
                     <div class="panel-body"><p>
                             This web application which I called RGUEthics is an online application that will manage RGU

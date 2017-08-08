@@ -98,7 +98,7 @@ $error = false;
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-10">
+                <div class="col-xs-12 col-sm-10 col-md-10 " style="background-color:lavenderblush;">
                     <form action="sendemail.php" method="post" style="margin: 0 auto; width:250px;">
                         <label for="subject">Subject of email:</label><br>
                         <input type="text" name="subject" id="subject"/><br>

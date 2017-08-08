@@ -142,7 +142,7 @@ if (isset($_POST['btn-login'])) {
 
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-10 col-md-10">
+                <div class="col-xs-12 col-sm-10 col-md-10 blockquote-reverse" style="background-color: seagreen;">
                     <h3>Web Application Description - WebOil</h3>
                     <p>
                         This web application which I called RGUEthics is an online application that will manage RGU

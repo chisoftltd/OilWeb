@@ -88,8 +88,8 @@ include_once '../db/dbconnect.php';
                             <input type="text" class="form-control" placeholder="Search">
                             <div class="input-group-btn">
                                 <button class="btn btn-default" type="submit">
-                                    <a href="">
-                                        <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+                                    <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                                        <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-md hidden-lg">Search</span>
                                     </a>
                                 </button>
                             </div>
@@ -110,7 +110,44 @@ include_once '../db/dbconnect.php';
 <hr> <!-- draw a line-->
 <section>
     <div id="mainBodyContent" class="container-fluid">
+        <!-- Search Modal -->
+        <div id="modalSearch" class="modal fade" role="dialog">
+            <div class="modal-dialog">
 
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Search Cambia Research</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Add the modal body here -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modal-body">
+            <!-- Replace the following with your own search script from https://www.google.com/cse. -->
+            <script>
+                (function ()
+                {
+                    var cx = '008246143810435871214:nr0bhziz1xo';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <gcse:search></gcse:search>
+        </div>
     </div>
 </section><!-- end of section-->
 
@@ -123,5 +160,20 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Latest compiled JavaScript -->
+
+<!-- These styles fix CSE and Bootstrap 3 conflict -->
+<style type="text/css">
+    .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
+    {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+    input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
+    {
+        box-sizing: content-box;
+        line-height: normal;
+    }
+</style>
 </body>
 </html>

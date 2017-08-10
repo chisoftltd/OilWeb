@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
+    font: 14px Georgia, serif;
 }
 
 #logo {
@@ -8,57 +9,6 @@ html, body {
     height: 87px;
     margin-top: 50px;
 }
-/*
-header {
-    margin:0px;
-    padding: 0px;
-}
-
-.header-links {
-    border: 3px;
-    background-color: deepskyblue;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
-}
-
-.header-links li {
-    display: inline;
-}
-
-.header-links a {
-    display: inline-block;
-    padding: 10px;
-}
-
-li a:hover:not(.active) {
-    background-color: #555555;
-    color: dodgerblue;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-.topic {
-    float: left;
-    width: 250px;
-    height: 400px;
-    border: 1px dashed skyblue;
-    margin-right: 15px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding: 1px;
-    cursor: pointer;
-    left: 0px;
-}
-
-.effect {
-    box-shadow: 0 10px 6px -6px #777;
-}
-*/
 
 .col-md-3:hover {
     background-color: skyblue;
@@ -170,36 +120,6 @@ li a:hover {
     background: #125688;
     color: white;
 }
-/*
-article img {
-    margin: 0 1.5em 1.5em 0;
-    box-shadow: 0 0 8px 4px black;
-    border: .5em groove #fff;
-}
-
-body {
-    margin: 3% auto;
-    background: #ddd;
-    text-shadow: 0 .8px #111;
-}
-
-article {
-    border: .5em outset #aac !important;
-    border-radius: 1em !important;
-    box-shadow: 0 0 23px #000 !important;
-}
-
-header span.glyphicon {
-    color: #DDD;
-    text-shadow: 2px 2px #111 !important;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
-}
-*/
-/*Note that the blur() Effect is not supported as css3 in FFGecko and IEX*/
 
 /***** Modal *****/
 
@@ -244,3 +164,128 @@ header span.glyphicon {
     border-width: 2px;
     margin-bottom: 20px;
 }
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #b0e0e6;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 2px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 15px 30px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    margin: 10px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+

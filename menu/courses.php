@@ -120,8 +120,8 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-
-                <hr/>
+        </div>
+        <div class="row">
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
                                                                                                alt="control image"
@@ -136,9 +136,11 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <hr/>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Casing & Cementing</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -147,9 +149,63 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <hr/>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
+                <h3>Preview</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
+                <h3>Preview</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
+                <h3>Preview</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
+                <h3>Preview</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -160,7 +216,8 @@ include_once '../db/dbconnect.php';
                 </p></div>
             <hr/>
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -169,9 +226,11 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <hr/>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -180,9 +239,11 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <hr/>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -191,53 +252,11 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <hr/>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p></div>
-            <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p></div>
-            <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p></div>
-            <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p></div>
-            <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="100" align="left">
+                                                            class="img-thumbnail gap-right" width="100" height="100"
+                                                            align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also

@@ -120,8 +120,7 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p><hr> <!-- draw a line--></div>
-        </div>
-        <div class="row">
+        
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
                                                                                                alt="control image"

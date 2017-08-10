@@ -213,7 +213,7 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr> <!-- draw a line--></div>
             <hr/>
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="100"
@@ -225,7 +225,7 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr> <!-- draw a line--></div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
@@ -238,7 +238,7 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr> <!-- draw a line--></div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
@@ -251,7 +251,7 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr> <!-- draw a line--></div>
         </div>
 
         <div class="row">
@@ -265,11 +265,11 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr> <!-- draw a line--></div>
         </div>
     </div>
 </section><!-- end of section-->
-<hr> <!-- draw a line-->
+
 <footer>
     <!-- footer area-->
     <div>

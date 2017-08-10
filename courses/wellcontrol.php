@@ -218,7 +218,6 @@ include_once '../db/dbconnect.php';
                                 <figure class="pull-left bs-example">
                                     <?php
                                     $file = "Well_Control_notes";
-                                    echo $file;
                                     $query = "SELECT id, fileName FROM uploadfile WHERE fileName=" . $file;
                                     $result = mysqli_query($link, $query) or die('Error, query failed');
                                     $row = mysqli_fetch_array($result);

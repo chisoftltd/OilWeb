@@ -289,3 +289,25 @@ span.psw {
     background-color: #3e8e41;
 }
 
+#map-outer {
+    height: 440px;
+    padding: 20px;
+    border: 2px solid #CCC;
+    margin-bottom: 20px;
+    background-color: #b0e0e6
+}
+
+#map-container {
+    height: 400px
+}
+
+@media all and (max-width: 991px) {
+    #map-outer {
+        height: 650px
+    }
+}
+
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}

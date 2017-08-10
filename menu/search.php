@@ -30,7 +30,7 @@ include_once '../db/dbconnect.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="/css/main-style.css">
+    <link rel="stylesheet" href="/css/search-style.css">
 
     <!-- These styles fix CSE and Bootstrap 3 conflict -->
     <style type="text/css">

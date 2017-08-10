@@ -112,7 +112,7 @@ include_once 'db/dbconnect.php';
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
                     plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
+                    also discussed. The student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><a href="courses/wellcontrol.php"><img src="images/control.jpg"

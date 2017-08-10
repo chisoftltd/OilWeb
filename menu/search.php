@@ -31,6 +31,20 @@ include_once '../db/dbconnect.php';
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="/css/main-style.css">
+
+    <!-- These styles fix CSE and Bootstrap 3 conflict -->
+    <style type="text/css">
+        .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after, .gsc-inline-block {
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+        }
+
+        input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
+            box-sizing: content-box;
+            line-height: normal;
+        }
+    </style>
 </head>
 <body><!-- Body area start-->
 
@@ -59,19 +73,13 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/contact.php">Contact Us</a></li>
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text"><span
-                                class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
+                                    class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                    <form class="navbar-form navbar-right">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                    <li><a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
+                                    class="hidden-sm hidden-md hidden-lg">Search</span>
+                        </a></li>
                 <?php } else { ?>
                     <li><a href="/index.php">Home</a></>
                     <li><a href="/menu/about.php">About Us</a></li>
@@ -83,18 +91,10 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                     <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                    <form class="navbar-form navbar-right">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                                        <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span class="hidden-sm hidden-md hidden-lg">Search</span>
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                    <li><a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
+                                    class="hidden-sm hidden-md hidden-lg">Search</span>
+                        </a></li>
                 <?php } ?>
             </ul>
         </div>
@@ -123,8 +123,7 @@ include_once '../db/dbconnect.php';
                     <div class="modal-body">
                         <!-- Replace the following with your own search script from https://www.google.com/cse. -->
                         <script>
-                            (function ()
-                            {
+                            (function () {
                                 var cx = '008246143810435871214:nr0bhziz1xo';
                                 var gcse = document.createElement('script');
                                 gcse.type = 'text/javascript';
@@ -158,20 +157,5 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Latest compiled JavaScript -->
-
-<!-- These styles fix CSE and Bootstrap 3 conflict -->
-<style type="text/css">
-    .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after,  .gsc-inline-block
-    {
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-    }
-    input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button
-    {
-        box-sizing: content-box;
-        line-height: normal;
-    }
-</style>
 </body>
 </html>

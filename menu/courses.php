@@ -120,9 +120,9 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <form>
-                <hr>
-            </form>
+
+                <hr/>
+
             <div class="col-xs-12 col-sm-12 col-md-12"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
                                                                                                alt="control image"
                                                                                                class="img-thumbnail pull-left gap-right"
@@ -137,7 +137,7 @@ include_once '../db/dbconnect.php';
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
             <form>
-                <hr>
+                <hr/>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
@@ -162,9 +162,7 @@ include_once '../db/dbconnect.php';
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
-            <form>
-                <hr>
-            </form>
+            <hr/>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>

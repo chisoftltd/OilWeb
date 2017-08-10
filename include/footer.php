@@ -2,7 +2,7 @@
 <footer>
     <nav>
         <form>
-            <hr>
+            <hr/>
         </form>
         <p style="text-align: center;">
             <strong>Follow us</strong>

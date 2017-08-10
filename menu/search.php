@@ -121,7 +121,21 @@ include_once '../db/dbconnect.php';
                         <h4 class="modal-title">Search Cambia Research</h4>
                     </div>
                     <div class="modal-body">
-                        <!-- Add the modal body here -->
+                        <!-- Replace the following with your own search script from https://www.google.com/cse. -->
+                        <script>
+                            (function ()
+                            {
+                                var cx = '008246143810435871214:nr0bhziz1xo';
+                                var gcse = document.createElement('script');
+                                gcse.type = 'text/javascript';
+                                gcse.async = true;
+                                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                    '//cse.google.com/cse.js?cx=' + cx;
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(gcse, s);
+                            })();
+                        </script>
+                        <gcse:search></gcse:search>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -131,23 +145,7 @@ include_once '../db/dbconnect.php';
             </div>
         </div>
 
-        <div class="modal-body">
-            <!-- Replace the following with your own search script from https://www.google.com/cse. -->
-            <script>
-                (function ()
-                {
-                    var cx = '008246143810435871214:nr0bhziz1xo';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                        '//cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                })();
-            </script>
-            <gcse:search></gcse:search>
-        </div>
+
     </div>
 </section><!-- end of section-->
 

@@ -91,10 +91,17 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                     <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                    <li><a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
-                                    class="hidden-sm hidden-md hidden-lg">Search</span>
-                        </a></li>
+                    <li><form class="navbar-form navbar-right">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                                <div class="input-group-btn">
+                                    <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
+                                        <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
+                                                class="hidden-sm hidden-md hidden-lg">Search</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </form></li>
                 <?php } ?>
             </ul>
         </div>

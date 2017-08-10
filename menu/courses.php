@@ -253,10 +253,11 @@ include_once '../db/dbconnect.php';
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>
         </div>
+
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="100"
-                                                            align="left" hspace="20" hspace="20">
+                                                            align="left" hspace="20">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also

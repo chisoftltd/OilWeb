@@ -111,7 +111,7 @@ include_once '../db/dbconnect.php';
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12"><a href=" /courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail" width="100"
-                            height="80" align="left"></a>
+                            height="100" align="left"></a>
                 <h3>Drilling</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -125,8 +125,8 @@ include_once '../db/dbconnect.php';
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
                                                                                                alt="control image"
-                                                                                               class="img-thumbnail"
-                                                                                               width="100" height="80"
+                                                                                               class="img-thumbnail pull-left gap-right"
+                                                                                               width="100" height="100"
                                                                                                align="left"></a>
                 <h3>Control</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
@@ -140,7 +140,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Casing & Cementing</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -153,7 +153,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -166,7 +166,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -179,7 +179,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -192,7 +192,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -205,7 +205,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -218,7 +218,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -231,7 +231,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -242,7 +242,7 @@ include_once '../db/dbconnect.php';
                 </p></div>
             <hr>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -255,7 +255,7 @@ include_once '../db/dbconnect.php';
                 <hr>
             </form>
             <div class="col-xs-12 col-sm-12 col-md-12"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail" width="100" height="80" align="left">
+                                                            class="img-thumbnail pull-left gap-right" width="100" height="100" align="left">
                 <h3>Preview</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also

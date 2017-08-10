@@ -119,7 +119,7 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                </p><hr></div>
         </div>
         <div class="row">
 

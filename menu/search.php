@@ -123,13 +123,12 @@ include_once '../db/dbconnect.php';
                     <div class="modal-body">
                         <!-- Replace the following with your own search script from https://www.google.com/cse. -->
                         <script>
-                            (function () {
-                                var cx = '008246143810435871214:nr0bhziz1xo';
+                            (function() {
+                                var cx = '011824172964035905645:yq3y---qh74';
                                 var gcse = document.createElement('script');
                                 gcse.type = 'text/javascript';
                                 gcse.async = true;
-                                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                                    '//cse.google.com/cse.js?cx=' + cx;
+                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
                                 var s = document.getElementsByTagName('script')[0];
                                 s.parentNode.insertBefore(gcse, s);
                             })();

@@ -106,7 +106,7 @@ include_once 'db/dbconnect.php';
             <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                               alt="drilling image"
                                                                                               class="img-thumbnail"
-                                                                                              width="185" height="180"></a>
+                                                                                              width="180" height="180"></a>
                 <h3>Drilling</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also

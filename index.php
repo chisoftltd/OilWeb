@@ -103,7 +103,7 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling2.jpg"
+            <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                               alt="drilling image"
                                                                                               class="img-thumbnail"
                                                                                               width="200" height="200"></a>

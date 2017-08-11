@@ -113,7 +113,7 @@ session_start();
     <div class="content">
         <div id="page-wrap">
 
-            <h1>Final Quiz for Lip building</h1>
+            <h1>Your Quiz score for WebOil</h1>
 
             <?php
 

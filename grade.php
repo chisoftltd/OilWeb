@@ -125,19 +125,19 @@ session_start();
 
             $totalCorrect = 0;
 
-            if ($answer1 == "B") {
+            if ($answer1 == "A") {
                 $totalCorrect++;
             }
-            if ($answer2 == "A") {
+            if ($answer2 == "B") {
                 $totalCorrect++;
             }
-            if ($answer3 == "C") {
+            if ($answer3 == "A") {
                 $totalCorrect++;
             }
-            if ($answer4 == "D") {
+            if ($answer4 == "B") {
                 $totalCorrect++;
             }
-            if ($answer5) {
+            if ($answer5 == "D") {
                 $totalCorrect++;
             }
 

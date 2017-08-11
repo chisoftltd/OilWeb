@@ -198,12 +198,12 @@ if (isset($_POST['deleteform'])) {
                             <legend style="text-align: center">Drilling Quiz</legend>
                             <ol>
                                 <li>
-                                    <h5>CSS Stands for...</h5>
+                                    <h5>What is drilling Mud used for?</h5>
                                     <div class="form-group">
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Computer Styled Sections </label>
+                                            <label for="question-1-answers-A">A) Control subsurface pressures. </label>
                                         </div>
                                     </div>
 
@@ -211,7 +211,7 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) Cascading Style Sheets</label>
+                                            <label for="question-1-answers-B">B) Move cuttings to the bottom of the hole</label>
                                         </div>
                                     </div>
 
@@ -219,7 +219,7 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) Crazy Solid Shapes</label>
+                                            <label for="question-1-answers-C">C) Prevent recovery of information from the hole.</label>
                                         </div>
                                     </div>
 
@@ -227,115 +227,112 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) None of the above</label>
+                                            <label for="question-1-answers-D">D) Warm and de-lubricate the bit.</label>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>Internet Explorer 6 was released in...</h5>
+                                    <h5>What instrument is used to measure Mud Weight?</h5>
                                     <div class="form-group">
                                         <input type="radio" name="question-2-answers" id="question-2-answers-A"
                                                value="A"/>
-                                        <label for="question-2-answers-A">A) 2001</label>
+                                        <label for="question-2-answers-A">A) LTLP filter press</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-2-answers" id="question-2-answers-B"
                                                value="B"/>
-                                        <label for="question-2-answers-B">B) 1998</label>
+                                        <label for="question-2-answers-B">B) Mud Balance</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-2-answers" id="question-2-answers-C"
                                                value="C"/>
-                                        <label for="question-2-answers-C">C) 2006</label>
+                                        <label for="question-2-answers-C">C) HTHP filter press</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-2-answers" id="question-2-answers-D"
                                                value="D"/>
-                                        <label for="question-2-answers-D">D) 2003</label>
+                                        <label for="question-2-answers-D">D) API Extreme Pressure Tester.</label>
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>SEO Stand for...</h5>
+                                    <h5>Which of the following personnel should not be on site during drilling?</h5>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-A"
                                                value="A"/>
-                                        <label for="question-3-answers-A">A) Secret Enterprise
-                                            Organizations</label>
+                                        <label for="question-3-answers-A">A) Drilling
+                                            Superintendent</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-B"
                                                value="B"/>
-                                        <label for="question-3-answers-B">B) Special Endowment
-                                            Opportunity</label>
+                                        <label for="question-3-answers-B">B) Derrickman</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-C"
                                                value="C"/>
-                                        <label for="question-3-answers-C">C) Search Engine Optimization</label>
+                                        <label for="question-3-answers-C">C) Driller</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-D"
                                                value="D"/>
-                                        <label for="question-3-answers-D">D) Seals End Olives</label>
+                                        <label for="question-3-answers-D">D) Rig Mechanic</label>
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>A 404 Error...</h5>
+                                    <h5>Which of the following RIG is used offshore?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-A"
                                                value="A"/>
-                                        <label for="question-4-answers-A">A) is an HTTP Status Code meaning Page
-                                            Not Found</label>
+                                        <label for="question-4-answers-A">A) cruseships</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-B"
                                                value="B"/>
-                                        <label for="question-4-answers-B">B) is a good excuse for a clever
-                                            design</label>
+                                        <label for="question-4-answers-B">B) Semisubmersible
+                                            rigs</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-C"
                                                value="C"/>
-                                        <label for="question-4-answers-C">C) should be monitored for in web
-                                            analytics</label>
+                                        <label for="question-4-answers-C">C) Jack-down rigs,</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-D"
                                                value="D"/>
-                                        <label for="question-4-answers-D">D) All of the above</label>
+                                        <label for="question-4-answers-D">D) None of the above</label>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>Your favorite website is</h5>
+                                    <h5>Which of the following is constituent of Mud?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-5-answers" id="question-5-answers-A"
                                                value="A"/>
-                                        <label for="question-5-answers-A">A) CSS-Tricks</label>
+                                        <label for="question-5-answers-A">A) Oil Based Mud (OBM)</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-5-answers" id="question-5-answers-B"
                                                value="B"/>
-                                        <label for="question-5-answers-B">B) CSS-Tricks</label>
+                                        <label for="question-5-answers-B">B) Water Based Mud (WBM)</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-5-answers" id="question-5-answers-C"
                                                value="C"/>
-                                        <label for="question-5-answers-C">C) CSS-Tricks</label>
+                                        <label for="question-5-answers-C">C) Gas, aerated muds</label>
                                     </div>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-5-answers" id="question-5-answers-D"
                                                value="D"/>
-                                        <label for="question-5-answers-D">D) CSS-Tricks</label>
+                                        <label for="question-5-answers-D">D) All of the above</label>
                                     </div>
 
                                 </li>

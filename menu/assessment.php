@@ -186,7 +186,7 @@ if (isset($_POST['deleteform'])) {
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
-                    <form role="form" class="modal-content animate" action="<?php echo $_SERVER['PHP_SELF']; ?>"
+                    <form role="form" class="modal-content animate" action="/grade.php"
                           method="post"
                           name="ethicsform">
                         <div class="imgcontainer">

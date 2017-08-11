@@ -158,7 +158,7 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Drilling</h4>
                                                 </div>
-                                                <div class="modal-body">
+                                                <div class="modal-body" style="width: 580px; height: 335px">
                                                     <iframe id="drilling1Video" width="560" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>

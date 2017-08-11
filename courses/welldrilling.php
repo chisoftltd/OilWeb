@@ -159,7 +159,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Drilling</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="drilling1Video" width="460" height="315"
+                                                    <iframe id="drilling1Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -240,7 +240,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Drilling</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="drilling2Video" width="560" height="315"
+                                                    <iframe id="drilling2Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -374,7 +374,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Drilling</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="drilling3Video" width="560" height="315"
+                                                    <iframe id="drilling3Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -568,7 +568,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Drilling</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="drilling4Video" width="560" height="315"
+                                                    <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>

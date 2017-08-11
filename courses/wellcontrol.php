@@ -160,7 +160,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="control1Video" width="560" height="315"
+                                                    <iframe id="control1Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -241,7 +241,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="control2Video" width="560" height="315"
+                                                    <iframe id="control2Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -375,7 +375,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="control3Video" width="560" height="315"
+                                                    <iframe id="control3Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>
@@ -569,7 +569,7 @@ include_once '../db/dbconnect.php';
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <iframe id="control4Video" width="560" height="315"
+                                                    <iframe id="control4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
                                                 </div>

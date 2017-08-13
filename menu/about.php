@@ -1,7 +1,7 @@
 <?php
 ob_start();
 session_start();
-require_once '../db/dbconnect.php';
+require_once 'dbconnect.php';
 
 // it will never let you open index(login) page if session is set
 if (isset($_SESSION['user']) != "") {
@@ -58,130 +58,62 @@ if (isset($_POST['btn-login'])) {
     <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>WebOil | About Us</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
-        <link rel="stylesheet" href="/css/main-style.css">
+        <title>RGUEthics- About Us</title>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/main-style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+              integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+              crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
     </head>
     <body>
-    <header>
-        <!-- add top navigational bar using bootstrap-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
-                        <!--<span class="sr-only">Toggle navigation</span>-->
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/index.php">Home | WebOil E-Solution</a>
-                </div>
-                <div class="collapse navbar-collapse" id="navweboil">
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- check if same user is still same as the active session user and load appropriate menu options -->
-                        <?php if (isset($_SESSION['usr_id'])) { ?>
-                            <li><a href="signinindex.php">Home</a></>
-                            <li class="active"><a href="/menu/about.php">About Us</a></li>
-                            <li><a href="/menu/courses.php">Courses</a></li>
-                            <li><a href="/menu/assessment.php">Assessment</a></li>
-                            <li><a href="/menu/submission.php">Submission</a></li>
-                            <li><a href="/menu/demo.php">Demo</a></li>
-                            <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
-                            <li><a href="/menu/help.php">Help</a></li>
-                            <li><p class="navbar-text"><span
-                                            class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
-                                </p></li>
-                            <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                            <form class="navbar-form navbar-right">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default" type="submit">
-                                            <i class="glyphicon glyphicon-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        <?php } else { ?>
-                            <li><a href="/index.php">Home</a></>
-                            <li class="active"><a href="/menu/about.php">About Us</a></li>
-                            <li><a href="/menu/courses.php">Courses</a></li>
-                            <li><a href="/menu/assessment.php">Assessment</a></li>
-                            <li><a href="/menu/submission.php">Submission</a></li>
-                            <li><a href="/menu/demo.php">Demo</a></li>
-                            <li><a href="/menu/contact.php">Contact Us</a></li>
-                            <li><a href="/menu/help.php">Help</a></li>
-                            <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
-                            <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a>
-                            </li>
-                            <form class="navbar-form navbar-right">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default" type="submit">
-                                            <i class="glyphicon glyphicon-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        <?php } ?>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <section>
+    <div>
+        <?php include 'include/header.php'; ?>
+    </div>
+    <div class="container">
+        <h3>Web Application Description - WebOil</h3>
+        <p>
+            Another time is upon us now, new ways of doing things and new ways of understanding! (Siôn Simon - West
+            Midlands, 2011) New ways driven by technology, internet and web technology! I am here to chat about the
+            future of education, eLearning! The first online teaching started in the early 1980s, based on the invention
+            of computer conferencing by Murray Turoff in 1970 (Hiltz and Turoff, 1978).</p>
+        <p>Computer conferencing or computer-mediated communication (CMC) enables asynchronous communication between
+            dispersed individuals. Asynchronous means that the user can communicate at any time, because messages from
+            all participants are centrally stored, ordered and accessible on demand.</p>
+        <p>Early computer conferencing depended on local computer networks, usually within a single institution. One of
+            the first institutions to offer teaching through computer conferencing was the New Jersey Institute of
+            Technology in the USA. Using specially designed computer conferencing software called ‘Virtual Classroom’,
+            between 1985 and 1987 Roxanne Hiltz and Murray Turoff constructed ‘a prototypical virtual classroom,
+            offering many courses fully or partially online (Harasim, 1990).</p>
+        <p>The popularity of eLearning is growing as internet speed becomes faster; and cost of computers and mobile
+            devices drops. The initial cost of developing a very robust eLearning tutor could be very high when compared
+            with developing classroom teaching materials and retraining the instructors.</p>
+        <p>However, because of delivery cost – web servers and technical support - are lower than arranging classroom
+            facilities, learners’ travel cost, job time lost and instructor time (Valentina and Nelly, 2014); eLearning
+            tutor is economically better, so will OilWeb. </p>
+        <p>Additional advantages (War Child Holland, 2015) OilWeb will offer is the wider reach, so course instructors
+            or facilitators can reach dispersed participants that are:</p>
+        <ul>
+            <li>in difficult to reach places, like war zones;</li>
+            <li>busy at work or have family commitments;</li>
+            <li>hindered by cultural and religious beliefs;</li>
+            <li>limited access to transportation.</li>
+        </ul>
 
-        <div class="container" style="margin-top: 70px; background-color:#b0e0e6; border:3px solid #006400;">
-            <h3 class="panel-heading">Web Application Description - WebOil</h3>
-            <div class="panel-body"><p>
-                    This web application which I called RGUEthics is an online application that will manage RGU
-                    student’s
-                    experiment ethics. </p>
-                <p>The interface should have a logo, navigation bar with elements like “Home”, “About Us”,
-                    “Student”,
-                    “Experiment Approval Officers (EAO)”, “Contact US” and “Login”. </p>
-                <p>The interface should have a “News Section” about current government and university policy on
-                    research
-                    ethics. </p>
-                <p>The landing page should contain a summary of, a least five, ongoing experiments. Also present
-                    on
-                    the
-                    interface is are logos to Social media platforms like Facebook etc. </p>
-                <p>The application will allow students, after authentication to seek approval for their propose
-                    experiment
-                    from
-                    EAO. EAOs should be able to approve, request additional information or reject an experiment
-                    proposal. </p>
-                <p>To implement fairness and objectivity each experiment will be randomly assign to two
-                    different
-                    EAOs, by
-                    an
-                    Administrator.
-                </p>
-                <p>Furthermore, the application will allow students and staff to submit assessment of EAO and
-                    the
-                    EAOs in
-                    turn
-                    will also have same permission for the Administrators.
-                </p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div>
-            <?php include '../include/footer.php'; ?>
-        </div>
-    </footer>
-
+    </div>
+    <div>
+        <?php include 'include/footer.php'; ?>
+    </div>
     </body>
     </html>
 <?php ob_end_flush(); ?>

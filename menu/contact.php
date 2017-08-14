@@ -145,7 +145,7 @@ if (isset($_POST["submit"])) {
                         <div id="address" class="col-md-4">
                             <h2>Our Location</h2>
                             <address>
-                                <strong>RGUEthics | Research Ethics Solution</strong><br>
+                                <strong>WebOil | Research Ethics Solution</strong><br>
                                 Robert Gordon University<br>
                                 Garthdee House<br>
                                 Garthdee Road<br>

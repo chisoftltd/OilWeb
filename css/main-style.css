@@ -11,6 +11,7 @@ html, body {
 }
 .col-xs-12 col-sm-3 col-md-3{
     margin-top: 20px;
+    border-bottom: 1px solid black;
 }
 .col-md-3:hover {
     background-color: skyblue;

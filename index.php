@@ -127,7 +127,7 @@ include_once 'db/dbconnect.php';
                                                                               class="img-thumbnail"
                                                                               width="200"
                                                                               height="200"></a>
-                    <h4>Control</h4>
+                    <h5>Control</h5>
                     <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
                         and
                         the components and function of surface and subsea well control equipment. Also covered

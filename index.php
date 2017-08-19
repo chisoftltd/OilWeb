@@ -180,6 +180,9 @@ include_once 'db/dbconnect.php';
                     <h3>Rig Components</h3>
                     <p>This topic is designed for use by students to gain an overall appreciation of the
                         general components of a drilling rig and the equipment utilised during drilling.
+                        A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
+                        crown block and travelling block, and a drilling fluid circulation system including
+                        the standpipe, rotary hose, drilling fluid pits and pumps.
                         <a href="/courses/rigcomponents.php">Continue>></a>.
                     </p>
                 </div>

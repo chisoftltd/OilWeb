@@ -214,7 +214,7 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/decommissioning.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/decommissioning.php"><img src="images/decommissioning.jpg" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200"></a>
                     <h3>Decommissioning</h3>
                     <p>In this topic the student is introduced to the milestone activities associated with

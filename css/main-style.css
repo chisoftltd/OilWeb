@@ -12,6 +12,7 @@ html, body {
 .text-area{
     margin-top: 50px;
     border: 2px solid black;
+    padding:10px;
 }
 
 .col-md-3:hover {

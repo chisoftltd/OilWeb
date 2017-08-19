@@ -9,7 +9,9 @@ html, body {
     height: 87px;
     margin-top: 50px;
 }
-
+.col-md-3{
+    margin-top: 10px;
+}
 .col-md-3:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;

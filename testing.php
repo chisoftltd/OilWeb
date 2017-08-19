@@ -87,7 +87,7 @@ if (isset($_POST['deleteform'])) {
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li class="active"><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/submission.php">Submission</a></li>
-                        <li><a href="/menu/demo.php">Demo</a></li>
+
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><p class="navbar-text"><span
@@ -110,7 +110,7 @@ if (isset($_POST['deleteform'])) {
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li class="active"><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/submission.php">Submission</a></li>
-                        <li><a href="/menu/demo.php">Demo</a></li>
+
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>

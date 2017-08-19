@@ -115,7 +115,8 @@ include_once 'db/dbconnect.php';
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
+                    plan and execute a well. </p>
+                <p> Different organisational structures to deliver a well are
                     also discussed. The student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
                 </p></div>

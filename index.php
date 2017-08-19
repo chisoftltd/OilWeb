@@ -106,7 +106,8 @@ include_once 'db/dbconnect.php';
     <div class="container">
         <div class="row">
             <h2>Welcome to WebOil</h2>
-            <p>An online platform to help you on your way to excieting and sustaianable career in <strong>Oil and Gas</strong>strong> Industry</p>
+            <p>An online platform to help you on your way to excieting and sustaianable career in <strong>Oil and
+                    Gas</strong>strong> Industry</p>
             <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                               alt="drilling image"
                                                                                               class="img-thumbnail"
@@ -115,11 +116,9 @@ include_once 'db/dbconnect.php';
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. </p>
-                <p> Different organisational structures to deliver a well are
-                    also discussed. The student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p></div>
+                    plan and execute a well. Click <a href="/courses/welldrilling.php">here</a> for more information.
+                </p>
+            </div>
             <div class="col-xs-12 col-sm-3 col-md-3"><a href="courses/wellcontrol.php"><img src="images/control.jpg"
                                                                                             alt="control image"
                                                                                             class="img-thumbnail"
@@ -127,38 +126,30 @@ include_once 'db/dbconnect.php';
                                                                                             height="200"></a>
                 <h3>Control</h3>
                 <p>This topic discusses the causes of a kick, methods of kick detection, well control procedures, and
-                    the components and function of surface and subsea well control equipment.
-
-                </p>
-                <p>this topic covers Operational Pressures and will give students a
-                    good understanding of the pressure relationships in the wellbore and rock
-                    formation.</p>
-                <p>
-                    Formation Pressure is discussed next and describes what formation pressure is,
-                    its relevance, its relationship with other pressures and its evaluation.</p>
-                <p>
-                    Fracture Pressure is covered last, defining what fracture pressure is, its relevance
-                    and evaluation.</p></div>
+                    the components and function of surface and subsea well control equipment. This topic covers
+                    Operational Pressures and will give students a good understanding of the pressure relationships in
+                    the wellbore and rock formation. Click <a href="/courses/wellcontrol.php">here</a> for more
+                    information.</p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/casingcementing.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
                 <h3>Casing & Cementing</h3>
                 <p>This topic is designed for use by students to gain an understanding of the principles behind the use
-                    of casing within the wellbore and the factors involved in casing string design.</p>
-                <p>Another topic covered are the functions of oilwell cement, the API classification and
+                    of casing within the wellbore and the factors involved in casing string design. Another topic
+                    covered
+                    are the functions of oilwell cement, the API classification and
                     properties of dry cement and neat slurry and the effect of additives on these
-                    properties. Primary and stage cementing procedures are described along with the
-                    equipment used e.g, float collars, stage collars, surface equipment, centralisers
-                    and scratchers. Inner string and liner cementing are covered.
+                    properties. Click <a href="/courses/fluids/wellcasingcementing.php">here</a> for more
+                    information.
                 </p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
+                <h3>Well Completion</h3>
+                <p>It is the process of converting a drilled wellbore into a production or injection system.
+                    The interface between the reservoir and surface production
+                    The resulting system should establish a safe and efficient connection between the reservoir, the
+                    wellbore up to surface so that hydrocarbons can be produced.
+                    Click <a href="/courses/wellcompletion.php">here</a> for more
+                    information.
                 </p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">

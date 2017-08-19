@@ -9,18 +9,11 @@ html, body {
     height: 87px;
     margin-top: 50px;
 }
-.col-xs-12{
+.text-area{
     margin-top: 50px;
     border: 2px solid black;
 }
-.col-sm-3{
-    margin-top: 50px;
-    border: 2px solid black;
-}
-. col-md-3{
-    margin-top: 50px;
-    border: 2px solid black;
-}
+
 .col-md-3:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;

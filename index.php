@@ -108,16 +108,16 @@ include_once 'db/dbconnect.php';
             <h1>Welcome to WebOil</h1>
             <h2>An online platform to help you on your way to excieting and sustaianable career in <strong>Oil and
                     Gas</strong> Industry.</h2>
-            <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
-                                                                                              alt="drilling image"
-                                                                                              class="img-thumbnail"
-                                                                                              width="200" height="200"></a>
-                <h3>Drilling</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Click <a href="/courses/welldrilling.php">here</a> for more information.
-                </p>
+            <div class="col-xs-12 col-sm-3 col-md-3"><div class="text-area"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
+                                                                                                   alt="drilling image"
+                                                                                                   class="img-thumbnail"
+                                                                                                   width="200" height="200"></a>
+                    <h3>Drilling</h3>
+                    <p>In this topic the student is introduced to the milestone activities associated with
+                        planning for and executing a well construction programme. They will also
+                        discover in more detail the roles and responsibilities of core personnel required to
+                        plan and execute a well. Click <a href="/courses/welldrilling.php">here</a> for more information.
+                    </p></div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3"><a href="courses/wellcontrol.php"><img src="images/control.jpg"
                                                                                             alt="control image"

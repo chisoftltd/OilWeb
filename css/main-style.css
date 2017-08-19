@@ -18,7 +18,7 @@ html, body {
     background-color: skyblue;
     border-bottom: 1px solid black;
     color: black;
-    width: 250px;
+    width: 230px;
     border-radius: 20px;
     z-index: 10;
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);

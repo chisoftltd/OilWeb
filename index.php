@@ -188,21 +188,20 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/storageandexport.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/storageandexport.php"><img src="images/storageandexport.jpg" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200"></a>
                     <h3>Storage and Export</h3>
-                    <p>In this topic the student is introduced to the milestone activities associated with
-                        planning for and executing a well construction programme. They will also
-                        discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Different organisational structures to deliver a well are
-                        also discussed. In addition, the student learns about generic objectives for a well
-                        and what specific information is required to allow comprehensive well planning.
+                    <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
+                        12 psia, depending on its origin, the processing it has undergone and the degree of
+                        ‘weathering’, which has occurred. It is possible to pump most United Kingdom (UK)
+                        North Sea crude at ambient temperature, but some of the recent Eocene developments
+                        will yield a crude that will need treatment for economic pumping.
                         <a href="/courses/storageandexport.php">Continue>></a>.
                     </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/offshore/flowlines.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/offshore/flowlines.php"><img src="images/flowlines.jpg" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200">
                     </a>                    <h3>Flowlines</h3>
                     <p>In this topic the student is introduced to the milestone activities associated with

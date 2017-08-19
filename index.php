@@ -117,8 +117,7 @@ include_once 'db/dbconnect.php';
                     <p>In this course the student is introduced to the milestone activities associated with
                         planning for and executing a well construction programme. They will also
                         discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Click <a href="/courses/welldrilling.php">here</a> for more
-                        information.
+                        plan and execute a well. <a href="/courses/welldrilling.php">Continue>></a>.
                     </p>
                 </div>
             </div>
@@ -176,15 +175,12 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/rigcomponents.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/rigcomponents.php"><img src="images/rigcomponents.png" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200"></a>
                     <h3>Rig Components</h3>
-                    <p>In this topic the student is introduced to the milestone activities associated with
-                        planning for and executing a well construction programme. They will also
-                        discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Different organisational structures to deliver a well are
-                        also discussed. In addition, the student learns about generic objectives for a well
-                        and what specific information is required to allow comprehensive well planning.
+                    <p>This topic is designed for use by students to gain an overall appreciation of the
+                        general components of a drilling rig and the equipment utilised during drilling.
+                        <a href="/courses/rigcomponents.php">Continue>></a>.
                     </p>
                 </div>
             </div>
@@ -198,6 +194,7 @@ include_once 'db/dbconnect.php';
                         plan and execute a well. Different organisational structures to deliver a well are
                         also discussed. In addition, the student learns about generic objectives for a well
                         and what specific information is required to allow comprehensive well planning.
+                        <a href="/courses/storageandexport.php">Continue>></a>.
                     </p>
                 </div>
             </div>

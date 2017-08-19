@@ -151,7 +151,7 @@ include_once 'db/dbconnect.php';
                     Click <a href="/courses/wellcompletion.php">here</a> for more
                     information.
                 </p></div>
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/treatment.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
                 <h3>Water, Oil & Gas Treatment</h3>
                 <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have to

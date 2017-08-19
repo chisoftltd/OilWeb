@@ -13,8 +13,7 @@ html, body {
 .col-md-3:hover {
     background-color: skyblue;
     border-bottom: 1px solid black;
-    color: indianred;
-    /*text-shadow: 1px 1px blue;*/
+    color: black;
     border-radius: 15px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -315,4 +314,8 @@ span.psw {
     background-color: #b0e0e6;
     border: 2px solid green;
 
+}
+p {
+    height: 200px;
+    width: 50%;
 }

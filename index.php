@@ -153,13 +153,11 @@ include_once 'db/dbconnect.php';
                 </p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
+                <h3>Water, Oil & Gas Treatment</h3>
+                <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have to undergo extensive treatment.
+                    In this course you will be enligthen on the processes and stages invloved. Processes like 3-Phase Horizontal Separator, Vertical Heater -Treater and Skim Pile for Water Discharge.
+                    Click <a href="/courses/treatment.php">here</a> for more
+                    information.
                 </p></div>
             <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">

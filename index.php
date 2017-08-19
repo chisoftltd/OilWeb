@@ -141,7 +141,7 @@ include_once 'db/dbconnect.php';
                     properties. Click <a href="/courses/fluids/wellcasingcementing.php">here</a> for more
                     information.
                 </p></div>
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/wellcompletion.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
                 <h3>Well Completion</h3>
                 <p>It is the process of converting a drilled wellbore into a production or injection system.

@@ -127,7 +127,7 @@ include_once 'db/dbconnect.php';
                                                                               class="img-thumbnail"
                                                                               width="200"
                                                                               height="200"></a>
-                    <h3>Control</h3>
+                    <h4>Control</h4>
                     <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
                         and
                         the components and function of surface and subsea well control equipment. Also covered
@@ -140,7 +140,7 @@ include_once 'db/dbconnect.php';
             <div class="col-xs-12 col-sm-3 col-md-3">
                 <div class="text-area"><a href="courses/fluids/wellcasingcementing.php"><img src="images/casingcementing.jpg" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200"></a>
-                    <h5>Casing & Cementing</h5>
+                    <h4>Casing & Cementing</h4>
                     <p>This course is designed for use by students to gain an understanding of the principles behind the
                         use of casing within the wellbore and the factors involved in casing string design. Also
                         covered are the functions of oilwell cement, the API classification and properties of dry cement

@@ -88,7 +88,7 @@ if (isset($_POST["submit"])) {
                             <li><a href="signinindex.php">Home</a></>
                             <li><a href="/menu/about.php">About Us</a></li>
                             <li><a href="/menu/courses.php">Courses</a></li>
-                            <li><a href="/menu/assessment.php">Assessment</a></li>
+                            <li><a href="/menu/assessment.php">Test Yourself</a></li>
                             <li><a href="/menu/submission.php">Submission</a></li>
                             <li><a href="/menu/demo.php">Demo</a></li>
                             <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
@@ -111,7 +111,7 @@ if (isset($_POST["submit"])) {
                             <li><a href="/index.php">Home</a></>
                             <li><a href="/menu/about.php">About Us</a></li>
                             <li><a href="/menu/courses.php">Courses</a></li>
-                            <li><a href="/menu/assessment.php">Assessment</a></li>
+                            <li><a href="/menu/assessment.php">Test Yourself</a></li>
                             <li><a href="/menu/submission.php">Submission</a></li>
                             <li><a href="/menu/demo.php">Demo</a></li>
                             <li class="active"><a href="/menu/contact.php">Contact Us</a></li>

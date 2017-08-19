@@ -138,7 +138,7 @@ include_once 'db/dbconnect.php';
                 <p>
                     Fracture Pressure is covered last, defining what fracture pressure is, its relevance
                     and evaluation.</p></div>
-            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/casing&cementing.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-3 col-md-3"><img src="images/casingcementing.jpg" alt="Drilling"
                                                           class="img-thumbnail" width="200" height="200">
                 <h3>Casing & Cementing</h3>
                 <p>This topic is designed for use by students to gain an understanding of the principles behind the use

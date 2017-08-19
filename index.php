@@ -105,9 +105,9 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="container">
         <div class="row">
-            <h2>Welcome to WebOil</h2>
-            <p>An online platform to help you on your way to excieting and sustaianable career in <strong>Oil and
-                    Gas</strong>strong> Industry</p>
+            <h1>Welcome to WebOil</h1>
+            <h2>An online platform to help you on your way to excieting and sustaianable career in <strong>Oil and
+                    Gas</strong> Industry.</h2>
             <div class="col-xs-12 col-sm-3 col-md-3"><a href=" courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                               alt="drilling image"
                                                                                               class="img-thumbnail"

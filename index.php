@@ -204,12 +204,12 @@ include_once 'db/dbconnect.php';
                 <div class="text-area"><a href="courses/offshore/flowlines.php"><img src="images/flowlines.jpg" alt="Drilling"
                                                class="img-thumbnail" width="200" height="200">
                     </a>                    <h3>Flowlines</h3>
-                    <p>In this topic the student is introduced to the milestone activities associated with
-                        planning for and executing a well construction programme. They will also
-                        discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Different organisational structures to deliver a well are
-                        also discussed. In addition, the student learns about generic objectives for a well
-                        and what specific information is required to allow comprehensive well planning.
+                    <p>Like any other engineering task, the design of a pipeline needs to be tackled
+                        systematically. Figure 1 is a route map through this systematic process. This systematic
+                        process is rarely a straightforward sequence of operations; usually the design process
+                        requires that a series of loops be performed due to the complex interactions between
+                        the different factors inherent in the design process.
+                        <a href="/courses/offshore/flowlines.php">Continue>></a>.
                     </p>
                 </div>
             </div>

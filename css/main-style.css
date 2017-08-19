@@ -311,7 +311,8 @@ span.psw {
 .container{
     background-color: #b0e0e6;
     border: 2px solid green;
-
+    height: auto;
+    width: auto;
 }
 p {
     height: 150px;

@@ -115,7 +115,7 @@ include_once '../db/dbconnect.php';
                     <ul class="list-group nav" role="tablist">
                         <li class="list-group-item">
                             <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
-                                <h4>Generic Activities</h4>
+                                <h4>Introduction to Well Drilling</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -140,7 +140,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Generic Activities</h1>
+                                    Well Drilling Course</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
@@ -156,7 +156,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Drilling</h4>
+                                                    <h3 class="modal-title">Oil and Gas Well Drilling</h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling1Video" width="450" height="315"
@@ -191,7 +191,7 @@ include_once '../db/dbconnect.php';
                                     <li>Operational phase;</li>
                                     <li>Post well activities.</li>
                                 </ul>
-                                <hr/>
+                                <hr>
                                 <p>While it would be ideal if the activities shown above could be laid out in an
                                     ordered sequence it is more often the case that many of the activities occur in
                                     parallel. Also it is common for plans to evolve and change as operational

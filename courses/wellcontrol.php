@@ -425,7 +425,7 @@ include_once '../db/dbconnect.php';
                                                 <h3>Equation 1</h3>
                                             </div>
                                             <div class="col-md-9">
-                                                \[MAASP = Formation BreakDown Pressure - Head of mud in use
+                                                MAASP = Formation BreakDown Pressure - Head of mud in use
                                                 <br>
                                                 or
 
@@ -433,9 +433,7 @@ include_once '../db/dbconnect.php';
                                                 <br>
                                                 Where
 
-                                                <br> E.M.W = Equivalent mud weight at which formation breaks at shoe\]
-                                                <script type="text/javascript"
-                                                        src="http://www.hostmath.com/Math/MathJax.js?config=OK"></script>
+                                                <br> E.M.W = Equivalent mud weight at which formation breaks at shoe
                                             </div>
                                         </div>
                                     </div>

@@ -106,7 +106,8 @@ include_once 'db/dbconnect.php';
     <div class="container">
         <div class="row">
             <h1 style="text-align: center">Welcome to WebOil</h1>
-            <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career in <strong>Oil and
+            <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
+                in <strong>Oil and
                     Gas</strong> Industry.</h2>
             <form>
                 <hr>
@@ -117,10 +118,12 @@ include_once 'db/dbconnect.php';
                                                                                class="img-thumbnail"
                                                                                width="200" height="200"></a>
                     <h3>Drilling</h3>
-                    <p>In this course you will learn more about the student is introduced to the milestone activities associated with
+                    <p>In this course you will learn more about the student is introduced to the milestone activities
+                        associated with
                         planning for and executing a well construction programme. They will also
                         discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course material.
+                        plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access
+                        course material.
                     </p>
                 </div>
             </div>
@@ -159,7 +162,8 @@ include_once 'db/dbconnect.php';
                                                                                  class="img-thumbnail" width="200"
                                                                                  height="200"></a>
                     <h3>Well Completion</h3>
-                    <p>In this course you will learn more about the process of converting a drilled wellbore into a production or injection system.
+                    <p>In this course you will learn more about the process of converting a drilled wellbore into a
+                        production or injection system.
                         The interface between the reservoir and surface production. The resulting system should
                         establish a safe and efficient connection between the reservoir, the
                         wellbore up to surface so that hydrocarbons can be produced.
@@ -243,7 +247,8 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/fluids/muds.php"><img src="images/drillingfluid.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/fluids/muds.php"><img src="images/drillingfluid.jpg"
+                                                                              alt="Drilling"
                                                                               class="img-thumbnail" width="200"
                                                                               height="200"></a>
                     <h3>Drilling Fluids or Muds</h3>
@@ -257,10 +262,11 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/separationandcontrol.php"><img src="images/formationfluidseparation.png"
-                                                                                       alt="Drilling"
-                                                                                       class="img-thumbnail" width="200"
-                                                                                       height="200"></a>
+                <div class="text-area"><a href="courses/separationandcontrol.php"><img
+                                src="images/formationfluidseparation.png"
+                                alt="Drilling"
+                                class="img-thumbnail" width="200"
+                                height="200"></a>
                     <h3>Formation Fluid Separation</h3>
                     <p>In this topic the student is introduced to the milestone activities associated with
                         planning for and executing a well construction programme. They will also
@@ -272,7 +278,8 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/measurement.php"><img src="images/oilgasmeasurement.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/measurement.php"><img src="images/oilgasmeasurement.jpg"
+                                                                              alt="Drilling"
                                                                               class="img-thumbnail" width="200"
                                                                               height="200"></a>
                     <h3>Oil & Gas Measurement</h3>

@@ -164,11 +164,11 @@ include_once '../db/dbconnect.php';
                 <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/treatment.php"><img src="/images/treatment.jpg"
-                                                                                            alt="Drilling"
-                                                                                            class="img-thumbnail gap-right"
-                                                                                            width="100" height="120"
-                                                                                            align="left"
-                                                                                            hspace="20"></a>
+                                                                                             alt="Drilling"
+                                                                                             class="img-thumbnail gap-right"
+                                                                                             width="100" height="120"
+                                                                                             align="left"
+                                                                                             hspace="20"></a>
                 <h3>Water, Oil & Gas Treatment</h3>
                 <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have
                     to undergo extensive treatment. In this course you will be enligthen on the processes and stages
@@ -179,22 +179,24 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/rigcomponents.php"><img src="/images/rigcomponents.png" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                                                                align="left" hspace="20"></a>
-                    <h3>Rig Components</h3>
-                    <p>This topic is designed for use by students to gain an overall appreciation of the
-                        general components of a drilling rig and the equipment utilised during drilling.
-                        A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
-                        crown block and travelling block, and a drilling fluid circulation system including
-                        the standpipe, rotary hose, drilling fluid pits and pumps.
-                        <a href="/courses/rigcomponents.php">Continue>></a>.
-                    </p>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/rigcomponents.php"><img
+                            src="/images/rigcomponents.png" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
+                <h3>Rig Components</h3>
+                <p>This topic is designed for use by students to gain an overall appreciation of the
+                    general components of a drilling rig and the equipment utilised during drilling.
+                    A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
+                    crown block and travelling block, and a drilling fluid circulation system including
+                    the standpipe, rotary hose, drilling fluid pits and pumps.
+                    <a href="/courses/rigcomponents.php">Continue>></a>.
+                </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/storageandexport.php"><img src="/images/storageandexport.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                                                                   align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/storageandexport.php"><img
+                            src="/images/storageandexport.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Storage and Export</h3>
                 <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
                     12 psia, depending on its origin, the processing it has undergone and the degree of
@@ -205,9 +207,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/offshore/flowlines.php"><img src="/images/flowlines.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                                                                      align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/offshore/flowlines.php"><img
+                            src="/images/flowlines.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 </a>
                 <h3>Flowlines</h3>
                 <p>Like any other engineering task, the design of a pipeline needs to be tackled
@@ -216,11 +219,13 @@ include_once '../db/dbconnect.php';
                     requires that a series of loops be performed due to the complex interactions between
                     the different factors inherent in the design process.
                     <a href="/courses/offshore/flowlines.php">Continue>></a>.
-                </p><hr> <!-- draw a line--></div>
+                </p>
+                <hr> <!-- draw a line--></div>
             <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/decommissioning.php"><img src="/images/decommissioning.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/decommissioning.php"><img
+                            src="/images/decommissioning.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Decommissioning</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -231,9 +236,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img src="/images/drillingfluid.jpg"  alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img
+                            src="/images/drillingfluid.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Drilling Fluids or Muds</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -244,9 +250,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/separationandcontrol.php"><img src="/images/formationfluidseparation.png" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                                                                       align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/separationandcontrol.php"><img
+                            src="/images/formationfluidseparation.png" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Formation Fluid Separation</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
@@ -257,9 +264,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/measurement.php"><img src="/images/oilgasmeasurement.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                                                              align="left" hspace="20"></a>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/measurement.php"><img
+                            src="/images/oilgasmeasurement.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Oil & Gas Measurement</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also

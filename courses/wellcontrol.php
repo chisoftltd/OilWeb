@@ -782,8 +782,8 @@ include_once '../db/dbconnect.php';
         }
     };
 
-    $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, {
+    $('#cmdcontrol').click(function () {
+        doc.fromHTML($('#control').html(), 15, 15, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });

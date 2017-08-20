@@ -2,7 +2,6 @@
  * Created by 1609963 on 20/08/2017.
  */
 var doc = new jsPDF();
-doc.setFont("courier");
 var specialElementHandlers = {
     '#editor': function (element, renderer) {
         return true;

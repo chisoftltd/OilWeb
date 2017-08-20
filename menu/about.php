@@ -133,7 +133,7 @@ if (isset($_POST['btn-login'])) {
 
         <div class="container" style="margin-top: 50px">
 
-            <h3 style="margin-top:10px; text-align: center">Web Application Description - WebOil</h3>
+            <h2 style="margin-top:10px; text-align: center">Web Application Description - WebOil</h2>
             <form>
                 <hr>
             </form>

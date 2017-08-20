@@ -29,6 +29,23 @@ include_once '../db/dbconnect.php';
     <script src="/js/weboil.js"></script>
     <script src="/js/pdfgenerator.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+    <script type="text/javascript">
+        var doc = new jsPDF();
+        doc.setFont("courier");
+        var specialElementHandlers = {
+            '#editor': function (element, renderer) {
+                return true;
+            }
+        };
+
+        $('#cmd').click(function () {
+            doc.fromHTML($('#seite2').html(), 15, 15, {
+                'width': 3170,
+                'elementHandlers': specialElementHandlers
+            });
+            doc.save('Well-Planning-Objectives.pdf');
+        });
+    </script>
     <!-- Add css file-->
     <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

@@ -136,8 +136,8 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/fluids/wellcasingcementing.php"><img
-                            src="images/casingcementing.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/wellcasingcementing.php"><img
+                            src="/images/casingcementing.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
                 <h3>Casing & Cementing</h3>
@@ -149,8 +149,8 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/wellcompletion.php"><img
-                            src="images/wellcompletion.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcompletion.php"><img
+                            src="/images/wellcompletion.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
                 <h3>Well Completion</h3>
@@ -179,7 +179,7 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/rigcomponents.php"><img src="images/rigcomponents.png" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/rigcomponents.php"><img src="/images/rigcomponents.png" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                                                                 align="left" hspace="20"></a>
                     <h3>Rig Components</h3>
@@ -192,7 +192,7 @@ include_once '../db/dbconnect.php';
                     </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/storageandexport.php"><img src="images/storageandexport.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/storageandexport.php"><img src="/images/storageandexport.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                                                                    align="left" hspace="20"></a>
                 <h3>Storage and Export</h3>
@@ -205,7 +205,7 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/offshore/flowlines.php"><img src="images/flowlines.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/offshore/flowlines.php"><img src="/images/flowlines.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                             align="left" hspace="20">
                 </a>
@@ -218,7 +218,7 @@ include_once '../db/dbconnect.php';
                     <a href="/courses/offshore/flowlines.php">Continue>></a>.
                 </p><hr> <!-- draw a line--></div>
             <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/decommissioning.php"><img src="images/decommissioning.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/decommissioning.php"><img src="/images/decommissioning.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                             align="left" hspace="20"></a>
                 <h3>Decommissioning</h3>
@@ -231,7 +231,7 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/fluids/muds.php"><img src="images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                             align="left" hspace="20"></a>
                 <h3>Drilling Fluids or Muds</h3>

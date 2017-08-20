@@ -729,7 +729,7 @@ include_once '../db/dbconnect.php';
             'width': 100,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Planning-Objectives.pdf');
+        doc.save('Well-Drilling-Objectives.pdf');
     });
 
     $('#cmdenv').click(function () {
@@ -737,7 +737,7 @@ include_once '../db/dbconnect.php';
             'width': 100,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Planning-Objectives.pdf');
+        doc.save('Well-Environmental-Objectives.pdf');
     });
 
     $('#cmdop').click(function () {
@@ -745,7 +745,7 @@ include_once '../db/dbconnect.php';
             'width': 100,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Planning-Objectives.pdf');
+        doc.save('Well-Operation-Objectives.pdf');
     });
 </script>
 </body>

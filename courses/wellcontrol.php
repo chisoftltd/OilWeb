@@ -116,7 +116,7 @@ include_once '../db/dbconnect.php';
                     <ul class="list-group nav" role="tablist">
                         <li class="list-group-item">
                             <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
-                                <h4>Well Control</h4>
+                                <h3>Well Control</h3>
                             </a>
                         </li>
                         <li class="list-group-item">

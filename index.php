@@ -117,10 +117,10 @@ include_once 'db/dbconnect.php';
                                                                                class="img-thumbnail"
                                                                                width="200" height="200"></a>
                     <h3>Drilling</h3>
-                    <p>In this course the student is introduced to the milestone activities associated with
+                    <p>In this course you will learn more about the student is introduced to the milestone activities associated with
                         planning for and executing a well construction programme. They will also
                         discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. <a href="/courses/welldrilling.php">Continue>></a>.
+                        plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course material.
                     </p>
                 </div>
             </div>
@@ -130,7 +130,7 @@ include_once 'db/dbconnect.php';
                                                                               class="img-thumbnail"
                                                                               width="200"
                                                                               height="200"></a>
-                    <h4>Control</h4>
+                    <h3>Control</h3>
                     <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
                         and
                         the components and function of surface and subsea well control equipment. Also covered
@@ -144,7 +144,7 @@ include_once 'db/dbconnect.php';
                 <div class="text-area"><a href="courses/fluids/wellcasingcementing.php"><img
                                 src="images/casingcementing.jpg" alt="Drilling"
                                 class="img-thumbnail" width="200" height="200"></a>
-                    <h4>Casing & Cementing</h4>
+                    <h3>Casing & Cementing</h3>
                     <p>This course is designed for use by students to gain an understanding of the principles behind the
                         use of casing within the wellbore and the factors involved in casing string design. Also
                         covered are the functions of oilwell cement, the API classification and properties of dry cement
@@ -159,7 +159,7 @@ include_once 'db/dbconnect.php';
                                                                                  class="img-thumbnail" width="200"
                                                                                  height="200"></a>
                     <h3>Well Completion</h3>
-                    <p>It is the process of converting a drilled wellbore into a production or injection system.
+                    <p>In this course you will learn more about the process of converting a drilled wellbore into a production or injection system.
                         The interface between the reservoir and surface production. The resulting system should
                         establish a safe and efficient connection between the reservoir, the
                         wellbore up to surface so that hydrocarbons can be produced.
@@ -175,8 +175,8 @@ include_once 'db/dbconnect.php';
                     <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have
                         to undergo extensive treatment. In this course you will be enligthen on the processes and stages
                         invloved. Processes like
-                        <strong>3-Phase Horizontal Separator, Vertical Heater -Treater and Skim Pile for Water
-                            Discharge.</strong>
+                        <i>3-Phase Horizontal Separator, Vertical Heater -Treater and Skim Pile for Water
+                            Discharge.</i>
                         <a href="/courses/treatment.php">Continue>></a>
                     </p>
                 </div>

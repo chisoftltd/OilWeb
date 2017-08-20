@@ -122,7 +122,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
-                                <h4>Activity Descriptions</h4>
+                                <h3>Excessive Swabbing</h3>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -313,14 +313,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions</h1>
+                                    Excessive Swabbing</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl2" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Swabbing Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl2" class="modal fade">
                                         <div class="modal-dialog">

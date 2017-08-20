@@ -105,8 +105,8 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="container">
         <div class="row">
-            <h1 style="text-align: center ">Welcome to WebOil</h1>
-            <h2>An online platform to help you on your way to exciting and sustainable career in <strong>Oil and
+            <h1 style="text-align: center">Welcome to WebOil</h1>
+            <h2 style="text-align: center>An online platform to help you on your way to exciting and sustainable career in <strong>Oil and
                     Gas</strong> Industry.</h2>
             <form>
                 <hr>

@@ -419,12 +419,14 @@ include_once '../db/dbconnect.php';
                                         tolerated without risking losses while controlling a kick. The MAASP is
                                         estimated
                                         from the following equation:</p>
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <h3>Equation 1</h3>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <img src="/images/MAASP.JPG" alt="MAASP" width="491" height="150">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h3>Equation 1</h3>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <img src="/images/MAASP.JPG" alt="MAASP" width="491" height="150">
+                                            </div>
                                         </div>
                                     </div>
                                     <h3>Rig Capacity for Weighting Mud</h3>

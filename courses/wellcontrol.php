@@ -425,7 +425,16 @@ include_once '../db/dbconnect.php';
                                                 <h3>Equation 1</h3>
                                             </div>
                                             <div class="col-md-9">
-                                                <img src="/images/MAASP.JPG" alt="MAASP" width="491" height="150">
+                                                \[MAASP = Formation BreakDown Pressure - Head of mud in use
+
+                                                or
+
+                                                MAASP = (E.M.W - MWMUD) x 0.052 x Shoe Depth (TVD)
+
+                                                Where
+
+                                                E.M.W = Equivalent mud weight at which formation breaks at shoe\]
+                                                <script type="text/javascript" src="http://www.hostmath.com/Math/MathJax.js?config=OK"></script>
                                             </div>
                                         </div>
                                     </div>

@@ -475,6 +475,85 @@ include_once '../db/dbconnect.php';
                                         circulation rate. This is called the kill rate. The pressure losses must always
                                         include the choke line pressure losses, especially offshore, with a subsea BOP,
                                         where this could be substantial.</p>
+
+                                    <h3>Pump, String, and Hole Configuration.</h3>
+                                    <p>This includes the data used for the determination of the lag time (surface to bit
+                                        and bit to surface) and contains:</p>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                        <li>Pump capacity
+                                        </li>
+                                        <li>Hole size
+                                        </li>
+                                        <li>Drill string capacity (internal volume)
+                                        </li>
+                                        <li>BHA capacity
+                                        </li>
+                                        <li>Annular capacity (bit to casing shoe and casing shoe to BOP)
+                                        </li>
+                                        <li>Casing data (size, weight, burst pressure, shoe depth)
+                                        </li>
+                                        <li>The worksheet includes the space to fill in lag time in strokes or minutes
+                                            for the proposed kill rate.
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        This estimation is usually computerised and continuously logged. IT IS
+                                        IMPORTANT THAT YOU KNOW HOW TO CALCULATE THESE THINGS WITHOUT A
+                                        COMPUTER.
+                                    </p>
+                                    <h3> Kick Detection Techniques.</h3>
+                                    <p>There are a number of indicators that provide early warning of kick occurrence.
+                                        Positive kick indicators are:</p>
+                                    <ul>
+                                        <li>
+
+                                            Mud pit level/flow increase
+                                        </li>
+                                        <li> Incorrect hole fill up during trip
+                                        </li>
+                                        <li> Decrease in standpipe pressure/increase in pump rate
+                                        </li>
+                                        <li> Increase/decrease in drill stem weight.
+
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Potential indicators are:</p>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                        <li> Increase in penetration rate;
+                                        </li>
+                                        <li> Lost circulation;
+                                        </li>
+                                        <li> Changes in gas levels, mud density and mud conductivity.
+
+                                        </li>
+                                    </ul>
+                                    <p>Parameters used for detecting abnormal pressure zones are also potential kick
+                                        indicators. These include:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                        <li> Torque, overpull and drag;
+                                        </li>
+                                        <li> Shale caving increase;
+                                        </li>
+                                        <li> Shale density/shale factor changes;
+                                        </li>
+                                        <li> Flowline mud temperature changes;
+                                        </li>
+                                        <li> ‘d’ Exponent changes.
+
+                                        </li>
+                                    </ul>
+                                    <p> The surest indicators of a kick occurring are <strong>Mud Pit Level Increase and
+                                            Flow
+                                            Increase together.</strong>
+                                    </p>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

@@ -249,7 +249,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3><i>Well Planning Request / Well Objectives</i></h3>
+                                <h3>Well Planning Request / Well Objectives</h3>
                                 <p>The main purpose of a well planning request is to provide the agreed basis for
                                     design. This document should form the start point for the planning process and
                                     should be referred back to throughout the planning and execution phases to
@@ -272,8 +272,9 @@ include_once '../db/dbconnect.php';
                                     well will help to make the appropriate choices. The identification of objectives
                                     also provides the basis for performance evaluation at the completion of the well.
                                 </p>
-                                <h4><i>Allocation of Engineering/Operational Resources
-                                    </i></h4>
+                                <hr/>
+                                <h3>Allocation of Engineering/Operational Resources
+                                    </h3>
                                 <p>No well can be planned and drilled without the allocation of the required skills to
                                     turn a request into reality. Many skills and talents are required but probably the
                                     most important key to success is to ensure that clear accountability is assigned
@@ -289,7 +290,7 @@ include_once '../db/dbconnect.php';
                                     <li>Welltest/Completions Design Engineering;</li>
                                     <li>Welltest/Completions Operations Engineering.</li>
                                 </ul>
-                                <hr/>
+
                                 <p>Dependent on scale and maturity of operations the roles can be combined or
                                     indeed may require multiple positions to fulfil the plan. The above roles could be
                                     considered core within a well construction organisation. There are, however,
@@ -309,7 +310,8 @@ include_once '../db/dbconnect.php';
                                 <p>The requirements for resources vary dependent on the current stage in the
                                     delivery process. It is vital to have a clear plan for timely access to
                                     resources. </p>
-                                <h4><i>Review of Special Considerations</i></h4>
+                                <hr>
+                                <h3>Review of Special Considerations</h3>
                                 <p>Once aware of a possible well a review of any special considerations should be
                                     performed. These could include:
                                 </p>
@@ -327,8 +329,8 @@ include_once '../db/dbconnect.php';
                                 </ul>
                                 <p>This initial review allows a quick response if the nature of the well requires
                                     greater planning time or resources (or both).</p>
-                                <hr/>
-                                <h4><i>Government/Legislative Requirements</i></h4>
+                                <hr>
+                                <h3>Government/Legislative Requirements</h3>
                                 <p>All wells are subject to government approvals in various guises. For the purpose
                                     of this module the requirements for the United Kingdom Continental Shelf
                                     (UKCS) will be considered. Different countries will have their own requirements.</p>

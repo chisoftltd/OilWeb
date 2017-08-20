@@ -166,7 +166,7 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"><strong>Launch Drilling Video</strong></figcaption>
                                 </figure>
                                 <p> The time required to plan and execute a well construction programme is
                                     dependent on many variables including sub-surface complexity, location and type

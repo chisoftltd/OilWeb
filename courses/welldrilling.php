@@ -706,7 +706,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmd').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 5, {
+        doc.fromHTML($('#planning').html(), 15, 0.5, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });

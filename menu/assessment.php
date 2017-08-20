@@ -196,7 +196,7 @@ if (isset($_POST['deleteform'])) {
                             <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
                         </div>
                         <fieldset>
-                            <legend style="text-align: center">Drilling Quiz</legend>
+                            <legend style="text-align: center">Well Drilling Quiz</legend>
                             <ol>
                                 <li>
                                     <h5>What is drilling Mud used for?</h5>
@@ -369,7 +369,7 @@ if (isset($_POST['deleteform'])) {
                             <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">-->
                         </div>
                         <fieldset>
-                            <legend style="text-align: center">Control Quiz</legend>
+                            <legend style="text-align: center">Well Control Quiz</legend>
 
                             <ol>
                                 <li>

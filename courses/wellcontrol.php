@@ -427,7 +427,42 @@ include_once '../db/dbconnect.php';
                                             <img src="/images/MAASP.JPG" alt="MAASP" width="300" height="150">
                                         </div>
                                     </div>
+                                    <h3>Rig Capacity for Weighting Mud</h3>
+                                    <p> Although this data does not appear in the well-kill worksheet, it is important,
+                                        as
+                                        it defines the number of circulation cycles necessary to regain primary control
+                                        with the given change of mud. The rig capacity depends on total reserves of
+                                        weighting materials (Barites, etc) and the maximum rate of addition to system.
+                                        The maximum rate of addition is measured in lb/min or kg/min. Backup supply
+                                        MUST always be available on the rig.</p>
 
+                                    <h3>System Pressure Losses (SPL) at Slow Pump Rate SPR
+                                        (or Slow Circulation Rate - SCR)</h3>
+                                    <p>Circulation at the normal pump rate for drilling may produce surface pressures
+                                        greater than the MAASP. We use a slow pump rate to kill the well partly for this
+                                        reason, but also because it gives us more time to think, to observe what is
+                                        happening and to DO THE JOB CAREFULLY. Therefore a System Pressure Loss at
+                                        Slow Pump Rate (SPR, or SCR – Slow Circulation Rate) for kick control must be
+                                        determined at regular intervals. This is usually 20 or 30 strokes per minute for
+                                        a
+                                        large triplex pump.</p>
+                                    <p>This slow rate must be taken:</p>
+                                    <ul>
+                                        <li>
+                                        </li>
+                                        <li>At the start of each tour
+                                        </li>
+                                        <li>If the mud weight changes
+                                        </li>
+                                        <li>If bit configuration changes (e.g. a nozzle becomes plugged)
+                                        </li>
+                                        <li>After bit and/or BHA changes.
+                                        </li>
+                                    </ul>
+                                    <p>If a kick occurs, the influx will be circulated out at the predetermined slow
+                                        circulation rate. This is called the kill rate. The pressure losses must always
+                                        include the choke line pressure losses, especially offshore, with a subsea BOP,
+                                        where this could be substantial.</p>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

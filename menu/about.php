@@ -131,7 +131,7 @@ if (isset($_POST['btn-login'])) {
     </header>
     <section>
 
-        <div class="container" style="margin-top: 50px">
+        <div class="container" style="margin-top: 30px">
 
             <h2 style="margin-top:10px; text-align: center">Web Application Description - WebOil</h2>
             <form>

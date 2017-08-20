@@ -250,7 +250,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3>Well Planning Request / Well Objectives</h3>
+                                <h3 id="planning">Well Planning Request / Well Objectives</h3>
                                 <p>The main purpose of a well planning request is to provide the agreed basis for
                                     design. This document should form the start point for the planning process and
                                     should be referred back to throughout the planning and execution phases to
@@ -705,7 +705,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmd').click(function () {
-        doc.fromHTML($('#seite2').html(), 5, 5, {
+        doc.fromHTML($('#planning').html(), 5, 5, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });

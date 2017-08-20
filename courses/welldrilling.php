@@ -28,7 +28,7 @@ include_once '../db/dbconnect.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="/js/weboil.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
-    <script type="text/javascript">
+    <script>
         var doc = new jsPDF();
         doc.setFont("courier");
         var specialElementHandlers = {

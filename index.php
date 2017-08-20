@@ -200,7 +200,7 @@ include_once 'db/dbconnect.php';
                 <div class="text-area"><a href="courses/storageandexport.php"><img src="images/storageandexport.jpg"
                                                                                    alt="Drilling"
                                                                                    class="img-thumbnail" width="200"
-                                                                                   height="200"></a>
+                                                                                   height="180"></a>
                     <h3>Storage and Export</h3>
                     <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
                         12 psia, depending on its origin, the processing it has undergone and the degree of

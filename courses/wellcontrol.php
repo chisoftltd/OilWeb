@@ -304,7 +304,8 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdcontrol">generate PDF</button>                      </footer>
+                                <button id="cmdcontrol">generate PDF</button>
+                            </footer>
                         </article>
                     </div>
 
@@ -340,105 +341,100 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Well Planning Request / Well Objectives</i></h4>
-                                <p>The main purpose of a well planning request is to provide the agreed basis for
-                                    design. This document should form the start point for the planning process and
-                                    should be referred back to throughout the planning and execution phases to
-                                    ensure that all decisions take into account the original basis for the well.</p>
-                                <p>
-                                    Ideally the request should be a formal document signed off by the appropriate
-                                    levels of authority in both the requesting and executing organisations.
-                                </p>
-                                <p>
-                                    Who generates the final, formally agreed request is not necessarily important. It
-                                    may be that the party responsible for well design compiles the request after
-                                    discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
-                                    document. What is important, however, is that the request is jointly reviewed
-                                    and accepted.
-                                </p>
-                                <p>
-                                    An integral part of the request document should be a prioritised list of objectives
-                                    for the well. In both the planning and operational phases of a well, decisions and
-                                    compromises may be required and a clear understanding of the priorities of the
-                                    well will help to make the appropriate choices. The identification of objectives
-                                    also provides the basis for performance evaluation at the completion of the well.
-                                </p>
-                                <h4><i>Allocation of Engineering/Operational Resources
-                                    </i></h4>
-                                <p>No well can be planned and drilled without the allocation of the required skills to
-                                    turn a request into reality. Many skills and talents are required but probably the
-                                    most important key to success is to ensure that clear accountability is assigned
-                                    for delivery of the well.</p>
-                                <p>
-                                    Typically the core resources required to deliver a well would include the
-                                    following:
-                                </p>
-                                <ul>
-                                    <li>Well Operations Supervision – onshore and offshore;</li>
-                                    <li>Well Design Engineering;</li>
-                                    <li>Well Operations Engineering;</li>
-                                    <li>Welltest/Completions Design Engineering;</li>
-                                    <li>Welltest/Completions Operations Engineering.</li>
-                                </ul>
-                                <hr/>
-                                <p>Dependent on scale and maturity of operations the roles can be combined or
-                                    indeed may require multiple positions to fulfil the plan. The above roles could be
-                                    considered core within a well construction organisation. There are, however,
-                                    many other roles which support delivery of a well:</p>
-                                <ul>
-                                    <li>Contracts preparation and negotiation;</li>
-                                    <li>Environmental preparation and monitoring;</li>
-                                    <li>Audit and quality control of suppliers;</li>
-                                    <li>Invoice processing;</li>
-                                    <li>Health and safety expertise;
-                                    </li>
-                                    <li>Cost management;</li>
-                                    <li>Marine specialisation;</li>
-                                    <li>Administrative and technical support;</li>
-                                    <li>Logistics and transport.</li>
-                                </ul>
-                                <p>The requirements for resources vary dependent on the current stage in the
-                                    delivery process. It is vital to have a clear plan for timely access to
-                                    resources. </p>
-                                <h4><i>Review of Special Considerations</i></h4>
-                                <p>Once aware of a possible well a review of any special considerations should be
-                                    performed. These could include:
-                                </p>
-                                <ul>
-                                    <li>more stringent notification requirements;</li>
-                                    <li>more stringent environmental requirements (i.e, drilling in an
-                                        environmentally sensitive area);
-                                    </li>
-                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
-                                        seasonal access restrictions;
-                                    </li>
-                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
-                                        high hydrogen Sulphide (H2S – ‘sour’).
-                                    </li>
-                                </ul>
-                                <p>This initial review allows a quick response if the nature of the well requires
-                                    greater planning time or resources (or both).</p>
-                                <hr/>
-                                <h4><i>Government/Legislative Requirements</i></h4>
-                                <p>All wells are subject to government approvals in various guises. For the purpose
-                                    of this module the requirements for the United Kingdom Continental Shelf
-                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
-                                <p>In general the planning requirements for the UKCS fall into the following
-                                    categories:
-                                </p>
-                                <ul>
-                                    <li>Consent to drill wells (Department of Trade and Industry);
-                                    </li>
-                                    <li>Consent to site mobile installations (Department of Transport, Local
-                                        government and the Regions);
-                                    </li>
-                                    <li>Well Notification (Health and Safety Executive);
-                                    </li>
-                                </ul>
+                                <div id="swab">
+                                    <h3>Excessive Swabbing</h3>
+                                    <p>As noted earlier, swabbing is the reduction of bottom hole pressure caused by
+                                        upward pipe movement. As the pipe is being pulled out during trips, mud flows
+                                        down through the annulus to replace the volume of drilling tools removed from
+                                        the hole. There is, thus, viscous drag between upward-moving drill stem and the
+                                        mud, and between the downward mud flow and the casing/hole. This causes a
+                                        frictional pressure loss in the direction of the surface. The result is reduced
+                                        bottom hole pressure. The higher the trip speed, the worse this effect. The swab
+                                        pressure depends on:</p>
+                                    <ul>
+                                        <li>Pipe velocity.</li>
+                                        <li>Bit and/or BHA ‘balling’</li>
+                                        <li>
+                                            Clearance between pipe and hole - the smaller the annular cross section,
+                                            the greater the swabbing action.
+                                        </li>
+                                        <li>
+                                            Mud rheology - the higher the viscosity, the greater the swabbing action.
+                                        </li>
+                                    </ul>
+                                    <h3>Excessive Drilling Rate in Gas-Bearing Formations</h3>
+                                    <hr>
+                                    <p>The densities of formation fluids (gas, oil or water) are much lower than that of
+                                        conventional drilling fluids. Any influx of formation fluid therefore reduces
+                                        the
+                                        mud density in the annulus. This influx, otherwise known as mud cut, is
+                                        measured using sensors that measure mud density and conductivity at injection
+                                        and at flow line.</p>
+                                    <p>Mud cut may occur from:</p>
+                                    <ul>
+                                        <li>
+                                            Influx due to inadequate mud weight or swabbing
+                                        </li>
+                                        <li>Diffusion of fluid into the hole due to the pressure in the annulus being
+                                            lower than the pore pressure
+                                        </li>
+                                        <li>Air entrained in mud during trips (the so-called ‘kelly air’)
+                                        </li>
+                                        <li>Expansion of drilled gas as it reaches the surface.
+
+                                        </li>
+                                    </ul>
+                                    <p>The majority of such kick problems arise from the reduction of mud weight due
+                                        to the expansion of drilled gas, especially in large diameter holes, such as
+                                        surface holes drilled at high rates. For such holes drilled without a blowout
+                                        preventer in place, a small reduction in mud weight can lead to a violent kick
+                                        and
+                                        with the loss of primary control, lead to a blowout.</p>
+                                    <h3>Kick Detection</h3>
+                                    <p>A kick can occur at any time while drilling a well. To prevent any major
+                                        catastrophe, early kick detection is essential for proper well control. As a
+                                        primary
+                                        precaution, it is important for all personnel, including the mud logger, to be
+                                        in a
+                                        state of readiness. Certain pre-kick information must be collected and available
+                                        for use in case a kick occurs. These include volumes and pressures data. A Kick
+                                    </p>
+                                    <h2>Pre-kick data requirements are as follows:</h2>
+                                    <h3>Maximum Working Casing Pressure</h3>
+                                    <p>The casing and blowout preventer (BOP) are designed for the different expected
+                                        pressures during each drilling phase. This is determined during well planning
+                                        and
+                                        is generally the maximum pressure rating of the BOP and its outlets or 80% of
+                                        the burst pressure of the last casing. The 80% consideration is a safety factor
+                                        for
+                                        the casing string.
+                                    </p>
+                                    <h3>Maximum Allowable Annulus Surface Pressure (MAASP)</h3>
+                                    <p> This is the annulus pressure at the surface that corresponds to the pressure at
+                                        the weakest point of the hole. Fracture gradient at the last casing shoe usually
+                                        defines the weakest point. However; for some boreholes, the MAASP can be the
+                                        casing burst pressure or BOP rupture pressure if they are less than the fracture
+                                        gradient (this is poor well design) or a permeable or weaker formation in the
+                                        open hole. The MAASP represents the maximum annulus pressure that can be
+                                        tolerated without risking losses while controlling a kick. The MAASP is
+                                        estimated
+                                        from the following equation:</p>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h2>Equation 1</h2>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <img src="/images/MAASP.JPG" alt="MAASP" width="300" height="150">
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
+                                <div id="editor"></div>
+                                <button id="cmdswab"></button>
                             </footer>
                         </article>
                     </div>
@@ -788,15 +784,15 @@ include_once '../db/dbconnect.php';
             'width': 100,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Planning-Objectives.pdf');
+        doc.save('Well-control-Objectives.pdf');
     });
 
-    $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 15, {
+    $('#cmdswab').click(function () {
+        doc.fromHTML($('#swab').html(), 15, 15, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Drilling-Objectives.pdf');
+        doc.save('Well-swabbing.pdf');
     });
 
     $('#cmdenv').click(function () {

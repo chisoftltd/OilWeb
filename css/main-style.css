@@ -29,6 +29,13 @@ h3:hover{
     font-size: medium;
 }
 
+.col-md-9{
+    width: 400px;
+    border: 2px solid lightgray;
+    padding: 25px;
+    margin: 25px
+}
+
 .topic img {
     float: inherit;
     margin: 5px 5px 5px 5px;

@@ -302,10 +302,8 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <a href="/files/WellControlnotes.pdf" download>
-                                    Click to download this Course
-                                </a>
-                            </footer>
+                                <div id="editor"></div>
+                                <button id="cmdcontrol">generate PDF</button>                      </footer>
                         </article>
                     </div>
 
@@ -772,8 +770,50 @@ include_once '../db/dbconnect.php';
         <?php include '../include/footer.php'; ?>
     </div>
 </footer>
+<!-- Latest compiled JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Latest compiled JavaScript -->
+<script>
+    var doc = new jsPDF();
+    doc.setFont("courier");
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
+        }
+    };
+
+    $('#cmdplanning').click(function () {
+        doc.fromHTML($('#planning').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+    });
+
+    $('#cmddrill').click(function () {
+        doc.fromHTML($('#drill').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Drilling-Objectives.pdf');
+    });
+
+    $('#cmdenv').click(function () {
+        doc.fromHTML($('#env').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Environmental-Objectives.pdf');
+    });
+
+    $('#cmdop').click(function () {
+        doc.fromHTML($('#op').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Operation-Objectives.pdf');
+    });
+</script>
+
 </body>
 </html>

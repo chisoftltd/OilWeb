@@ -107,8 +107,8 @@ include_once '../db/dbconnect.php';
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href=" /courses/welldrilling.php"><img
-                            src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="90"
-                            height="95" align="left" hspace="20"></a>
+                            src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
+                            height="120" align="left" hspace="20"></a>
                 <h3>Drilling</h3>
                 <p>In this course you will learn more about the student is introduced to the milestone activities
                     associated with

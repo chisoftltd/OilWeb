@@ -143,7 +143,7 @@ include_once 'db/dbconnect.php';
             <div class="col-xs-12 col-sm-3 col-md-3">
                 <div class="text-area"><a href="courses/fluids/wellcasingcementing.php"><img
                                 src="images/casingcementing.jpg" alt="Drilling"
-                                class="img-thumbnail" width="200" height="200"></a>
+                                class="img-thumbnail" width="200" height="180"></a>
                     <h3>Casing & Cementing</h3>
                     <p>This course is designed for use by students to gain an understanding of the principles behind the
                         use of casing within the wellbore and the factors involved in casing string design. Also

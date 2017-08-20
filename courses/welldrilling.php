@@ -705,8 +705,8 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmd').click(function () {
-        doc.fromHTML($('#seite2').html(), 15, 15, {
-            'width': 3170,
+        doc.fromHTML($('#seite2').html(), 15, 0.5, {
+            'width': 10,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Planning-Objectives.pdf');

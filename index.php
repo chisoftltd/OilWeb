@@ -243,7 +243,7 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/fluids/muds.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/fluids/muds.php"><img src="images/drillingfluid.jpg" alt="Drilling"
                                                                               class="img-thumbnail" width="200"
                                                                               height="200"></a>
                     <h3>Drilling Fluids or Muds</h3>
@@ -257,7 +257,7 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/separationandcontrol.php"><img src="images/drilling2.jpg"
+                <div class="text-area"><a href="courses/separationandcontrol.php"><img src="images/formationfluidseparation.png"
                                                                                        alt="Drilling"
                                                                                        class="img-thumbnail" width="200"
                                                                                        height="200"></a>
@@ -272,7 +272,7 @@ include_once 'db/dbconnect.php';
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <div class="text-area"><a href="courses/measurement.php"><img src="images/drilling2.jpg" alt="Drilling"
+                <div class="text-area"><a href="courses/measurement.php"><img src="images/oilgasmeasurement.jpg" alt="Drilling"
                                                                               class="img-thumbnail" width="200"
                                                                               height="200"></a>
                     <h3>Oil & Gas Measurement</h3>

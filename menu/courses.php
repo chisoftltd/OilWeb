@@ -207,7 +207,7 @@ include_once '../db/dbconnect.php';
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/offshore/flowlines.php"><img src="/images/flowlines.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
+                                                                                                      align="left" hspace="20"></a>
                 </a>
                 <h3>Flowlines</h3>
                 <p>Like any other engineering task, the design of a pipeline needs to be tackled
@@ -231,7 +231,7 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img src="/images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img src="/images/drillingfluid.jpg"  alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                             align="left" hspace="20"></a>
                 <h3>Drilling Fluids or Muds</h3>
@@ -244,10 +244,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/separationandcontrol.php"><img src="/images/formationfluidseparation.png" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
+                                                                                                       align="left" hspace="20"></a>
+                <h3>Formation Fluid Separation</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
@@ -257,10 +257,10 @@ include_once '../db/dbconnect.php';
                 </p>
                 <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/measurement.php"><img src="/images/oilgasmeasurement.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
+                                                                                              align="left" hspace="20"></a>
+                <h3>Oil & Gas Measurement</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to

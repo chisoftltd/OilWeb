@@ -127,7 +127,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                <h4>Activity Descriptions cont...</h4>
+                                <h4>Lost Circulation</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -554,6 +554,78 @@ include_once '../db/dbconnect.php';
                                             Flow
                                             Increase together.</strong>
                                     </p>
+                                    <h3>Incorrect Fill-up During Trips</h3>
+                                    <p>When pulling out of the hole, if the volume of mud pumped to keep the hole full
+                                        is less than that normally required, then there is an evidence of influx. The
+                                        mud
+                                        volume required should be equal to or slightly greater than the displacement of
+                                        the drill pipe (normally five stands) pulled. Mud loggers and drilling engineers
+                                        MUST follow trips even though an automatic trip monitor is usually used.</p>
+                                    <p>Conversely during a trip into the hole, the downward movement of the drill pipe
+                                        expels fluid from the annulus to the trip tank or active mud system. This return
+                                        flow should cease a few seconds after pipe movement stops. If flow continues,
+                                        then there is may be a kick.</p>
+                                    <h3>Decrease in Standpipe Pressure/Increase in Pump Rate</h3>
+                                    <p>As indicated in the U-tube analogy, influx of fluid into the annulus creates an
+                                        imbalance resulting in a decrease in hydrostatic pressure in the annulus. In
+                                        such
+                                        an unbalanced system, gravity helps move drilling fluid down the hole, requiring
+                                        less energy from the pump. This will result in a decrease in the standpipe
+                                        pressure.</p>
+                                    <p>This is not the only reason that there may be an increase in pump rate and
+                                        decrease in standpipe pressure: a wash-out in the drill stem can also cause
+                                        these
+                                        indicators. It is important to pick up and check for flow. If there is no flow
+                                        but
+                                        the rate of change of pressure is showing an increasing trend, it is probably a
+                                        wash-out. Either way, it cannot be ignored – action must be taken.</p>
+                                    <h3>Increase/Decrease in Drill Stem Weight</h3>
+                                    <p>Any influx into the wellbore from the formation reduces the density of the
+                                        annular drilling fluid. This reduces the buoyant force acting upwards on the
+                                        drill
+                                        stem. A sensitive weight indicator will register this change as an increase in
+                                        drill
+                                        stem weight. For very large kicks, fluid may enter the annulus with enough force
+                                        to cause a decrease in indicated string weight. At this point, you have probably
+                                        left things too long and probably have a blowout on your hands.
+                                    </p>
+                                    <h3>Increase in Penetration Rate (Drilling Break)</h3>
+                                    <p>A marked increase in rate of penetration (ROP) may indicate either changes in
+                                        the type of formation being drilled or a reduction in the positive difference
+                                        between the mud pressure and pore pressure.</p>
+                                    <p>Generally, the following parameters affect the ROP:</p>
+                                    <ul>
+                                        <li>
+                                            Rock type
+                                        </li>
+                                        <li> Formation bulk density/porosity
+                                        </li>
+                                        <li> Difference between mud pressure and formation pore pressure
+                                        </li>
+                                        <li> Bit type/wear
+                                        </li>
+                                        <li> Hydraulics
+                                        </li>
+                                        <li> Weight on bit
+                                        </li>
+                                        <li> Rotary speed
+                                        </li>
+                                        <li> Personnel/equipment.</li>
+                                    </ul>
+                                    <p>Drilling breaks (i.e. where the rate of penetration increases significantly) are
+                                        generally evidence of porosity change. Drilling rate tends to decrease with
+                                        depth.
+                                        Thus when a drilling break occurs, it may be an evidence of transition to an
+                                        abnormal zone. It is crucial at this point to stop drilling and check for flows.
+                                    </p>
+
+                                    <p>
+                                        Remember that the work of drilling is a combination of work done by the bit and
+                                        the mud impact, combined with the effect of pore pressure. If the latter exceeds
+                                        the downward pressure from the mud, as rock is removed, the pore pressure will
+                                        tend to break down the formation and assist the work of drilling.
+
+                                    </p>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">
@@ -568,14 +640,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
+                                    Lost Circulation</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Lost Circulation Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl3" class="modal fade">
                                         <div class="modal-dialog">
@@ -596,165 +668,17 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Environmental consent (DTI)</i></h4>
-                                <p>It is illegal to commence operations without the relevant approvals or
-                                    notifications in place.
-                                </p>
-                                <p>Further requirements exist during the operational phase:
-                                </p>
-                                <ul>
-                                    <li>Rig move notification (various);
-                                    </li>
-                                    <li>Well commencement notification (DTI);
-                                    </li>
-                                    <li>Weekly Activity Report (HSE);
-                                    </li>
-                                    <li>Incident reporting (DTI/HSE);
-                                    </li>
-                                </ul>
-                                <p>Any material change to design or chemical usage (HSE/DTI).
-                                </p>
-                                <p>After the end of operations communications to close out a specific well include:</p>
-                                <ul>
-                                    <li>
-                                        Chemical Discharge Records (DTI or agent);
-                                    </li>
-                                    <li>Rig Emissions Data (DTI or agent);
-                                    </li>
-                                    <li>Conclusion of work (HSE).</li>
-                                </ul>
-                                <p>It is also important to be aware of the life cycle approach to well integrity
-                                    adopted in the UKCS which means that even after a well has been finished a
-                                    responsibility remains to ensure that the well is fit for its intended purpose until
-                                    it is finally abandoned. </p>
-                                <h4><i>Well Design
-                                    </i></h4>
-                                <p>The following questions have to be adequately addressed before a design can be
-                                    considered to be acceptable:
-                                </p>
-                                <hr/>
-                                <ul>
-                                    <li>Does the design allow for the expected life of the well?
-                                    </li>
-                                    <li>Are the materials used to construct the well suitable for the fluids and
-                                        conditions expected throughout the well’s life?
-                                    </li>
-                                    <li>Do any unusual risks to people, plant or the environment result due to the
-                                        chosen design? If so have alternatives been considered? Has risk been
-                                        mitigated?
-                                    </li>
-                                    <li>Has the operability of the design been considered in terms of operational
-                                        risk or cost? Is the risked cost acceptable? Have both the construction and
-                                        post completion phases been considered?
-                                    </li>
-                                    <li>Will the client objectives be met by the design?</li>
-                                </ul>
-                                <p>The basic requirement for any well design is to meet the client’s requirements at
-                                    an economic cost while maintaining the risk to peoples’ health and the
-                                    environment below acceptable limits.</p>
-                                <h4><i>Sourcing of Materials and Services
-                                    </i></h4>
-                                <p>The execution of a well programme requires a complex interaction of suppliers,
-                                    materials and equipment. It may be that all supplies and services have been
-                                    prearranged
-                                    or that no purchase or supply agreements are in place at all. In any
-                                    event arrangements must be made to ensure that the required products and
-                                    services are available. These could include:</p>
-                                <ul>
-                                    <li>Rig and crew hire including catering;
-                                    </li>
-                                    <li>Marine transport;
-                                    </li>
-                                    <li>Anchor Handling Vessels (AHVs);
-                                    </li>
-                                    <li>Rig move planning, navigation and anchoring equipment;
-                                    </li>
-                                    <li>All casing and tubulars;
-                                    </li>
-                                    <li>Wellheads and associated rental equipment;</li>
-                                    <li>Xmas trees;
-                                    </li>
-                                    <li>Completion components;
-                                    </li>
-                                    <li>Mud materials and engineering;
-                                    </li>
-                                    <li>Cement materials and engineering;
-                                    </li>
-                                    <li>Directional drilling equipment and personnel;
-                                    </li>
-                                    <li>Measurement While Drilling (MWD) and Logging While Drilling (LWD)
-                                        equipment and personnel;
-                                    </li>
-                                    <li>Directional Surveying equipment and personnel;
-                                    </li>
-                                    <li>Electric line logging equipment and personnel;
-                                    </li>
-                                    <li>Mud Logging equipment and personnel;
-                                    </li>
-                                    <li>Solids control equipment and personnel;
-                                    </li>
-                                    <li>Drill bits;
-                                    </li>
-                                    <li> Drill string rentals;
-                                    </li>
-                                    <li> Fishing / abandonment equipment and personnel;
-                                    </li>
-                                    <li> Casing and tubing handling equipment and personnel;
-                                    </li>
-                                    <li> Coring equipment and personnel;
-                                    </li>
-                                    <li> Perforating equipment and personnel;
-                                    </li>
-                                    <li> Weather forecasting;
-                                    </li>
-                                    <li> Communications service and equipment;
-                                    </li>
-                                    <li> Site survey vessel, equipment and personnel.
-                                    </li>
-                                </ul>
-                                <p>Prior to commencement of operations a detailed load-out list should be prepared
-                                    which lists all equipment required for the well. This assists in the callout of the
-                                    required equipment at the appropriate time during the well and also serves as a
-                                    check that nothing has been forgotten.</p>
-                                <h4><i>Site Survey</i></h4>
-                                <p>The requirement for a site survey prior to moving a rig onto a location must be
-                                    determined. If a survey is required then it must be organised and performed in
-                                    time to allow delivery of, and reaction to, the results.
-                                </p>
-                                <p>A site survey is normally performed to acquire data for the following reasons:</p>
-                                <ul>
-                                    <li>To identify significant debris on the seabed at the intended location;
-                                    </li>
-                                    <li> To assess the seabed anchor holding characteristics;
-                                    </li>
-                                    <li> To assess the potential for shallow gas in surface hole.</li>
-                                </ul>
-                                <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
-                                    work. For certain areas there may be a seasonal limitation on the shooting of site
-                                    survey seismic.</p>
-                                <p>The survey itself is carried out from a specialised vessel. Typically the work
-                                    involves shooting seismic of varying definition over a pre-planned grid which will
-                                    cover the anchor pattern area and include a more concentrated grid around the
-                                    proposed location for shallow gas definition. It is common for a consultant to be
-                                    hired to provide third party quality assurance during site survey work.
-                                </p>
-                                <p>Outcomes from a site survey could include:
-                                </p>
-                                <ul>
-                                    <li>Everything looks fine to anchor up and drill at the location;
-                                    </li>
-                                    <li>There are indications of shallow gas which may justify moving surface
-                                        location or adopting special shallow gas procedures;
-                                    </li>
-                                    <li>Re-selection of anchor type, fluke angle or requirement to reinforce certain
-                                        anchors with ‘piggy backs’ (additional anchor run of the main anchor to
-                                        provide additional hold).
-                                    </li>
-                                </ul>
+                                <div class="lostC">
+
+                                    <h3>Lost Circulation</h3>
+
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
+                                <button id="cmdlostC">generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -921,8 +845,8 @@ include_once '../db/dbconnect.php';
         doc.save('Well-swabbing.pdf');
     });
 
-    $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').html(), 15, 15, {
+    $('#cmdlostC').click(function () {
+        doc.fromHTML($('#lostC').html(), 15, 15, {
             'width': 150,
             'elementHandlers': specialElementHandlers
         });

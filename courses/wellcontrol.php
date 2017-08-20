@@ -671,7 +671,142 @@ include_once '../db/dbconnect.php';
                                 <div class="lostC">
 
                                     <h3>Lost Circulation</h3>
+                                    <p>Loss of substantial quantity of mud into the formation will result in reduction
+                                        in
+                                        hydrostatic column height. If not checked, this can result in a kick.</p>
+                                    <h3>Changes in Gas Levels/Mud Density/Mud Conductivity</h3>
+                                    <p>Gas extracted from the mud comes from one or more of four sources:</p>
+                                    <ul>
+                                        <li>
+                                            <strong>Liberated gas</strong> which is the measured gas from the return mud
+                                            flow,
+                                            released from the pore spaces of the drilled cuttings. It is the so-called
+                                            ‘background gas’ during circulation. If there is overbalance, and the ROP is
+                                            constant with flow rate, this is liberated gas.
+                                        </li>
+                                        <li>
+                                            <strong>Produced Gas</strong> enters the wellbore from adjacent permeable
+                                            formations
+                                            when underbalance exists. A background gas increase when ROP is
+                                            constant is an indicator of produced gas, but…
+                                        </li>
 
+                                        </li>
+                                        <li><strong>Recycled Gas</strong> is the gas recirculated into the hole, which
+                                            has not been
+                                            removed in surface treatment. It appears on detection equipment as an
+                                            increase in background levels.
+                                        </li>
+                                        <li><strong>Contamination Gas</strong> results from chemical breakdown of mud
+                                            additives. It
+                                            is usually due to bacterial action.
+                                        </li>
+                                        <li><strong>Connection Gas</strong> and Trip Gas are short duration gas peaks
+                                            caused by
+                                            swabbing action and occur with bottoms up (i.e. the mud which was at the
+                                            bottom of the hole when the swabbing action occurred reaches surface).
+                                    </ul>
+                                    <p>Depending on sensitivity level, surface monitors should detect a relatively
+                                        steady
+                                        level of gas extracted from mud during normal drilling. This background gas
+                                        level may show occasional variations depending on penetration rate, mud
+                                        pumping rate and the hydrocarbon content of the section drilled. Under normal
+                                        conditions, the background gas should remain within about 50% of local average.
+                                        It is crucial that all gas values must be reported whether they are significant
+                                        or
+                                        not. Thorough inspection of gas monitoring systems and calibration as part of
+                                        routine maintenance is essential to preventing potential disasters.</p>
+                                    <p>
+                                        Connection and trip gas are most common while drilling. The connection gas
+                                        peaks are a clear sign that pressures are near balance, making for optimum ROP.
+                                        Swabbing is the main cause of connection/trip gas as it creates negative
+                                        differential pressure. Effects of gas expansion at surface are varied. Evidence
+                                        includes:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Rapid fall in flow line mud density
+                                        </li>
+                                        <li> Increase in return flow
+                                        </li>
+                                        <li> Mud pit level increase
+                                        </li>
+                                        <li> Rapid increase in total gas or hydrocarbon levels.
+                                        </li>
+                                    </ul>
+                                    <h3>Well Control Procedures</h3>
+                                    <p>Control procedures must be initiated immediately after a kick has been detected.
+                                        Decisions concerning control operation rest on the Company man (the Operator’s
+                                        representative) as well as on the on-site Tool Pusher and drilling engineer. The
+                                        mud loggers and drilling engineers are responsible for monitoring and recording
+                                        circulation pressures, gas and pump strokes. The primary and secondary well
+                                        controls involve the prevention or the removal of influx without damage to the
+                                        hole, personnel or equipment as well as prevention of further influx.</p>
+                                    <p>Kick control procedures involve the following: </p>
+                                    <ol>
+                                        <li>
+                                            Shut in the well - follow a predefined procedure
+                                        </li>
+                                        <li> Observe shut-in pressures and kick volume
+                                        </li>
+                                        <li> Make kill calculations for:
+                                        </li>
+                                        <ul>
+                                            <li>
+                                                Formation pressure
+                                            </li>
+                                            <li>BHP to maintain while circulating
+                                            </li>
+                                            <li>Kill mud density
+                                            </li>
+                                            <li>Initial and final circulation pressures
+                                            </li>
+                                            <li>Drill pipe pressure schedules
+                                            </li>
+                                            <li>Weighting material volume required
+                                            </li>
+                                        </ul>
+
+                                        <il> Define weighing up and circulating procedure using one of the following
+                                            methods:
+                                        </il>
+                                        <ul>
+                                            <li>
+                                                Driller’s method
+                                            </li>
+                                            <li>Wait and Weight method (Engineer’s method)
+                                            </li>
+                                            <li>Concurrent method (circulate and weight)
+                                            </li>
+                                            <li>Top Kill method.</li>
+                                        </ul>
+                                        <p>The first two are preferred for kicks during drilling. The concurrent method
+                                            requires greater skill and care. The Top Kill method is used when it is
+                                            impossible to get proper circulation around the system via the drill stem or
+                                            tubing, or doing so would cause greater problems (exceeding MAASP,
+                                            casing burst pressure etc).</p>
+                                        <il>Make interpretation of the influx including:</il>
+                                        <ul>
+                                            <il>Height and density of influx.
+                                                </li>
+                                                <li>Annulus pressure behaviour while circulating.
+                                            </il>
+                                        </ul>
+                                        <il>Proceed with circulation using the following guide rules:</il>
+                                        <ul>
+                                            <il>
+
+                                                At all times during circulation, the Bottom Hole Pressure (BHP) must
+                                                be high enough to prevent further influx;
+                                                </li>
+                                                <li>For the safety of the rig and personnel, surface pressure should not
+                                                    at any time exceed the predetermined MAASP value.
+                                            </il>
+                                        </ul>
+                                        <p>Maintenance of BHP at the proper level is through the application of back
+                                            pressure via the adjustable choke.</p>
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

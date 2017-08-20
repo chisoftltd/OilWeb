@@ -818,7 +818,7 @@ include_once '../db/dbconnect.php';
 
     $('#cmdcontrol').click(function () {
         doc.fromHTML($('#control').html(), 15, 15, {
-            'width': 100,
+            'width': 150,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-control-Objectives.pdf');
@@ -826,7 +826,7 @@ include_once '../db/dbconnect.php';
 
     $('#cmdswab').click(function () {
         doc.fromHTML($('#swab').html(), 15, 15, {
-            'width': 100,
+            'width': 400,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-swabbing.pdf');
@@ -834,7 +834,7 @@ include_once '../db/dbconnect.php';
 
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 15, {
-            'width': 100,
+            'width': 150,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Environmental-Objectives.pdf');
@@ -842,7 +842,7 @@ include_once '../db/dbconnect.php';
 
     $('#cmdop').click(function () {
         doc.fromHTML($('#op').html(), 15, 15, {
-            'width': 100,
+            'width': 150,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Operation-Objectives.pdf');

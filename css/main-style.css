@@ -25,6 +25,9 @@ html, body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
 }
 
+h3:hover{
+    font-weight: lighter;
+}
 .topic img {
     float: inherit;
     margin: 5px 5px 5px 5px;

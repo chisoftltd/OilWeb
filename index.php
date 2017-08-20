@@ -108,6 +108,7 @@ include_once 'db/dbconnect.php';
             <h1>Welcome to WebOil</h1>
             <h2>An online platform to help you on your way to exciting and sustainable career in <strong>Oil and
                     Gas</strong> Industry.</h2>
+            <hr>
             <div class="col-xs-12 col-sm-3 col-md-3">
                 <div class="text-area"><a href="courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                alt="drilling image"

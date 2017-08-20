@@ -168,52 +168,55 @@ include_once '../db/dbconnect.php';
                                         </div>
                                     </div>
                                     <figcaption class="text-center"><strong>Drilling Video</strong></figcaption>
-                                </figure>
-                                <p> The time required to plan and execute a well construction programme is
-                                    dependent on many variables including sub-surface complexity, location and type
-                                    of well. For any well, however, there are common activities which must be
-                                    addressed to enable comprehensive planning and operational control. For the
-                                    purposes of this topic we will assume a single well, drilled from a semisubmersible
-                                    rig. The main activities are:</p>
-                                <ul>
-                                    <li>Receipt of well planning request / well objectives;</li>
-                                    <li>Allocation of engineering / operational resources;</li>
-                                    <li>Review of special considerations (licence requirements, physical
-                                        restrictions);
-                                    </li>
-                                    <li>Well design;</li>
-                                    <li>Government/legislative requirements;</li>
-                                    <li>Sourcing of materials and services including rig;</li>
-                                    <li>Site survey;</li>
-                                    <li>Operational plan;</li>
-                                    <li>Risk identification and mitigation;</li>
-                                    <li>Time /cost generation;</li>
-                                    <li>Pre-operational review;</li>
-                                    <li>Operational phase;</li>
-                                    <li>Post well activities.</li>
-                                </ul>
-                                <hr>
-                                <p>While it would be ideal if the activities shown above could be laid out in an
-                                    ordered sequence it is more often the case that many of the activities occur in
-                                    parallel. Also it is common for plans to evolve and change as operational
-                                    definition is refined. In particular the generation of the time/cost estimate does
-                                    not tend to be a one off event. Invariably costs are required at an early stage
-                                    where little detailed planning or review has been performed. Hence accuracy of
-                                    the estimate develops throughout the planning phase and different classes of
-                                    estimate are often provided dependent on position on the planning/execution
-                                    timeline.</p>
-                                <p>
-                                    The main activities listed above are discussed in more detail throughout this
-                                    module but there follows a summary of the important aspects of each activity
-                                    and what deliverables might be expected.
-                                </p>
+                                </figure><div id="drill">
+                                    <p> The time required to plan and execute a well construction programme is
+                                        dependent on many variables including sub-surface complexity, location and type
+                                        of well. For any well, however, there are common activities which must be
+                                        addressed to enable comprehensive planning and operational control. For the
+                                        purposes of this topic we will assume a single well, drilled from a semisubmersible
+                                        rig. The main activities are:</p>
+                                    <ul>
+                                        <li>Receipt of well planning request / well objectives;</li>
+                                        <li>Allocation of engineering / operational resources;</li>
+                                        <li>Review of special considerations (licence requirements, physical
+                                            restrictions);
+                                        </li>
+                                        <li>Well design;</li>
+                                        <li>Government/legislative requirements;</li>
+                                        <li>Sourcing of materials and services including rig;</li>
+                                        <li>Site survey;</li>
+                                        <li>Operational plan;</li>
+                                        <li>Risk identification and mitigation;</li>
+                                        <li>Time /cost generation;</li>
+                                        <li>Pre-operational review;</li>
+                                        <li>Operational phase;</li>
+                                        <li>Post well activities.</li>
+                                    </ul>
+                                    <hr>
+                                    <p>While it would be ideal if the activities shown above could be laid out in an
+                                        ordered sequence it is more often the case that many of the activities occur in
+                                        parallel. Also it is common for plans to evolve and change as operational
+                                        definition is refined. In particular the generation of the time/cost estimate does
+                                        not tend to be a one off event. Invariably costs are required at an early stage
+                                        where little detailed planning or review has been performed. Hence accuracy of
+                                        the estimate develops throughout the planning phase and different classes of
+                                        estimate are often provided dependent on position on the planning/execution
+                                        timeline.</p>
+                                    <p>
+                                        The main activities listed above are discussed in more detail throughout this
+                                        module but there follows a summary of the important aspects of each activity
+                                        and what deliverables might be expected.
+                                    </p></div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <a href="/files/OilGasDrilling.pdf" download>
+                                <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
-                                </a>
+                                </a>-->
+                                <div id="editor"></div>
+                                <button id="cmddrill">generate PDF</button>
+
                             </footer>
                         </article>
                     </div>
@@ -389,170 +392,174 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3>Environmental consent (DTI)</h3>
-                                <p>It is illegal to commence operations without the relevant approvals or
-                                    notifications in place.
-                                </p>
-                                <p>Further requirements exist during the operational phase:
-                                </p>
-                                <ul>
-                                    <li>Rig move notification (various);
-                                    </li>
-                                    <li>Well commencement notification (DTI);
-                                    </li>
-                                    <li>Weekly Activity Report (HSE);
-                                    </li>
-                                    <li>Incident reporting (DTI/HSE);
-                                    </li>
-                                </ul>
-                                <p>Any material change to design or chemical usage (HSE/DTI).
-                                </p>
-                                <hr>
-                                <h3>Plan for Decommission</h3>
-                                <p>Even before drilling decommissioning of the well is also planned. After the end of operations communications to close out a specific well include:</p>
-                                <ul>
-                                    <li>
-                                        Chemical Discharge Records (DTI or agent);
-                                    </li>
-                                    <li>Rig Emissions Data (DTI or agent);
-                                    </li>
-                                    <li>Conclusion of work (HSE).</li>
-                                </ul>
-                                <p>It is also important to be aware of the life cycle approach to well integrity
-                                    adopted in the UKCS which means that even after a well has been finished a
-                                    responsibility remains to ensure that the well is fit for its intended purpose until
-                                    it is finally abandoned. </p>
-                                <hr>
-                                <h3>Well Design
+                                <div id="env">
+                                    <h3>Environmental consent (DTI)</h3>
+                                    <p>It is illegal to commence operations without the relevant approvals or
+                                        notifications in place.
+                                    </p>
+                                    <p>Further requirements exist during the operational phase:
+                                    </p>
+                                    <ul>
+                                        <li>Rig move notification (various);
+                                        </li>
+                                        <li>Well commencement notification (DTI);
+                                        </li>
+                                        <li>Weekly Activity Report (HSE);
+                                        </li>
+                                        <li>Incident reporting (DTI/HSE);
+                                        </li>
+                                    </ul>
+                                    <p>Any material change to design or chemical usage (HSE/DTI).
+                                    </p>
+                                    <hr>
+                                    <h3>Plan for Decommission</h3>
+                                    <p>Even before drilling decommissioning of the well is also planned. After the end of operations communications to close out a specific well include:</p>
+                                    <ul>
+                                        <li>
+                                            Chemical Discharge Records (DTI or agent);
+                                        </li>
+                                        <li>Rig Emissions Data (DTI or agent);
+                                        </li>
+                                        <li>Conclusion of work (HSE).</li>
+                                    </ul>
+                                    <p>It is also important to be aware of the life cycle approach to well integrity
+                                        adopted in the UKCS which means that even after a well has been finished a
+                                        responsibility remains to ensure that the well is fit for its intended purpose until
+                                        it is finally abandoned. </p>
+                                    <hr>
+                                    <h3>Well Design
                                     </h3>
-                                <p>The following questions have to be adequately addressed before a design can be
-                                    considered to be acceptable:
-                                </p>
+                                    <p>The following questions have to be adequately addressed before a design can be
+                                        considered to be acceptable:
+                                    </p>
 
-                                <ul>
-                                    <li>Does the design allow for the expected life of the well?
-                                    </li>
-                                    <li>Are the materials used to construct the well suitable for the fluids and
-                                        conditions expected throughout the well’s life?
-                                    </li>
-                                    <li>Do any unusual risks to people, plant or the environment result due to the
-                                        chosen design? If so have alternatives been considered? Has risk been
-                                        mitigated?
-                                    </li>
-                                    <li>Has the operability of the design been considered in terms of operational
-                                        risk or cost? Is the risked cost acceptable? Have both the construction and
-                                        post completion phases been considered?
-                                    </li>
-                                    <li>Will the client objectives be met by the design?</li>
-                                </ul>
-                                <p>The basic requirement for any well design is to meet the client’s requirements at
-                                    an economic cost while maintaining the risk to peoples’ health and the
-                                    environment below acceptable limits.</p>
-                                <hr>
-                                <h3>Sourcing of Materials and Services
+                                    <ul>
+                                        <li>Does the design allow for the expected life of the well?
+                                        </li>
+                                        <li>Are the materials used to construct the well suitable for the fluids and
+                                            conditions expected throughout the well’s life?
+                                        </li>
+                                        <li>Do any unusual risks to people, plant or the environment result due to the
+                                            chosen design? If so have alternatives been considered? Has risk been
+                                            mitigated?
+                                        </li>
+                                        <li>Has the operability of the design been considered in terms of operational
+                                            risk or cost? Is the risked cost acceptable? Have both the construction and
+                                            post completion phases been considered?
+                                        </li>
+                                        <li>Will the client objectives be met by the design?</li>
+                                    </ul>
+                                    <p>The basic requirement for any well design is to meet the client’s requirements at
+                                        an economic cost while maintaining the risk to peoples’ health and the
+                                        environment below acceptable limits.</p>
+                                    <hr>
+                                    <h3>Sourcing of Materials and Services
                                     </h3>
-                                <p>The execution of a well programme requires a complex interaction of suppliers,
-                                    materials and equipment. It may be that all supplies and services have been
-                                    prearranged
-                                    or that no purchase or supply agreements are in place at all. In any
-                                    event arrangements must be made to ensure that the required products and
-                                    services are available. These could include:</p>
-                                <ul>
-                                    <li>Rig and crew hire including catering;
-                                    </li>
-                                    <li>Marine transport;
-                                    </li>
-                                    <li>Anchor Handling Vessels (AHVs);
-                                    </li>
-                                    <li>Rig move planning, navigation and anchoring equipment;
-                                    </li>
-                                    <li>All casing and tubulars;
-                                    </li>
-                                    <li>Wellheads and associated rental equipment;</li>
-                                    <li>Xmas trees;
-                                    </li>
-                                    <li>Completion components;
-                                    </li>
-                                    <li>Mud materials and engineering;
-                                    </li>
-                                    <li>Cement materials and engineering;
-                                    </li>
-                                    <li>Directional drilling equipment and personnel;
-                                    </li>
-                                    <li>Measurement While Drilling (MWD) and Logging While Drilling (LWD)
-                                        equipment and personnel;
-                                    </li>
-                                    <li>Directional Surveying equipment and personnel;
-                                    </li>
-                                    <li>Electric line logging equipment and personnel;
-                                    </li>
-                                    <li>Mud Logging equipment and personnel;
-                                    </li>
-                                    <li>Solids control equipment and personnel;
-                                    </li>
-                                    <li>Drill bits;
-                                    </li>
-                                    <li> Drill string rentals;
-                                    </li>
-                                    <li> Fishing / abandonment equipment and personnel;
-                                    </li>
-                                    <li> Casing and tubing handling equipment and personnel;
-                                    </li>
-                                    <li> Coring equipment and personnel;
-                                    </li>
-                                    <li> Perforating equipment and personnel;
-                                    </li>
-                                    <li> Weather forecasting;
-                                    </li>
-                                    <li> Communications service and equipment;
-                                    </li>
-                                    <li> Site survey vessel, equipment and personnel.
-                                    </li>
-                                </ul>
-                                <p>Prior to commencement of operations a detailed load-out list should be prepared
-                                    which lists all equipment required for the well. This assists in the callout of the
-                                    required equipment at the appropriate time during the well and also serves as a
-                                    check that nothing has been forgotten.</p>
-                                <hr>
-                                <h3>Site Survey</h3>
-                                <p>The requirement for a site survey prior to moving a rig onto a location must be
-                                    determined. If a survey is required then it must be organised and performed in
-                                    time to allow delivery of, and reaction to, the results.
-                                </p>
-                                <p>A site survey is normally performed to acquire data for the following reasons:</p>
-                                <ul>
-                                    <li>To identify significant debris on the seabed at the intended location;
-                                    </li>
-                                    <li> To assess the seabed anchor holding characteristics;
-                                    </li>
-                                    <li> To assess the potential for shallow gas in surface hole.</li>
-                                </ul>
-                                <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
-                                    work. For certain areas there may be a seasonal limitation on the shooting of site
-                                    survey seismic.</p>
-                                <p>The survey itself is carried out from a specialised vessel. Typically the work
-                                    involves shooting seismic of varying definition over a pre-planned grid which will
-                                    cover the anchor pattern area and include a more concentrated grid around the
-                                    proposed location for shallow gas definition. It is common for a consultant to be
-                                    hired to provide third party quality assurance during site survey work.
-                                </p>
-                                <p>Outcomes from a site survey could include:
-                                </p>
-                                <ul>
-                                    <li>Everything looks fine to anchor up and drill at the location;
-                                    </li>
-                                    <li>There are indications of shallow gas which may justify moving surface
-                                        location or adopting special shallow gas procedures;
-                                    </li>
-                                    <li>Re-selection of anchor type, fluke angle or requirement to reinforce certain
-                                        anchors with ‘piggy backs’ (additional anchor run of the main anchor to
-                                        provide additional hold).
-                                    </li>
-                                </ul>
+                                    <p>The execution of a well programme requires a complex interaction of suppliers,
+                                        materials and equipment. It may be that all supplies and services have been
+                                        prearranged
+                                        or that no purchase or supply agreements are in place at all. In any
+                                        event arrangements must be made to ensure that the required products and
+                                        services are available. These could include:</p>
+                                    <ul>
+                                        <li>Rig and crew hire including catering;
+                                        </li>
+                                        <li>Marine transport;
+                                        </li>
+                                        <li>Anchor Handling Vessels (AHVs);
+                                        </li>
+                                        <li>Rig move planning, navigation and anchoring equipment;
+                                        </li>
+                                        <li>All casing and tubulars;
+                                        </li>
+                                        <li>Wellheads and associated rental equipment;</li>
+                                        <li>Xmas trees;
+                                        </li>
+                                        <li>Completion components;
+                                        </li>
+                                        <li>Mud materials and engineering;
+                                        </li>
+                                        <li>Cement materials and engineering;
+                                        </li>
+                                        <li>Directional drilling equipment and personnel;
+                                        </li>
+                                        <li>Measurement While Drilling (MWD) and Logging While Drilling (LWD)
+                                            equipment and personnel;
+                                        </li>
+                                        <li>Directional Surveying equipment and personnel;
+                                        </li>
+                                        <li>Electric line logging equipment and personnel;
+                                        </li>
+                                        <li>Mud Logging equipment and personnel;
+                                        </li>
+                                        <li>Solids control equipment and personnel;
+                                        </li>
+                                        <li>Drill bits;
+                                        </li>
+                                        <li> Drill string rentals;
+                                        </li>
+                                        <li> Fishing / abandonment equipment and personnel;
+                                        </li>
+                                        <li> Casing and tubing handling equipment and personnel;
+                                        </li>
+                                        <li> Coring equipment and personnel;
+                                        </li>
+                                        <li> Perforating equipment and personnel;
+                                        </li>
+                                        <li> Weather forecasting;
+                                        </li>
+                                        <li> Communications service and equipment;
+                                        </li>
+                                        <li> Site survey vessel, equipment and personnel.
+                                        </li>
+                                    </ul>
+                                    <p>Prior to commencement of operations a detailed load-out list should be prepared
+                                        which lists all equipment required for the well. This assists in the callout of the
+                                        required equipment at the appropriate time during the well and also serves as a
+                                        check that nothing has been forgotten.</p>
+                                    <hr>
+                                    <h3>Site Survey</h3>
+                                    <p>The requirement for a site survey prior to moving a rig onto a location must be
+                                        determined. If a survey is required then it must be organised and performed in
+                                        time to allow delivery of, and reaction to, the results.
+                                    </p>
+                                    <p>A site survey is normally performed to acquire data for the following reasons:</p>
+                                    <ul>
+                                        <li>To identify significant debris on the seabed at the intended location;
+                                        </li>
+                                        <li> To assess the seabed anchor holding characteristics;
+                                        </li>
+                                        <li> To assess the potential for shallow gas in surface hole.</li>
+                                    </ul>
+                                    <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
+                                        work. For certain areas there may be a seasonal limitation on the shooting of site
+                                        survey seismic.</p>
+                                    <p>The survey itself is carried out from a specialised vessel. Typically the work
+                                        involves shooting seismic of varying definition over a pre-planned grid which will
+                                        cover the anchor pattern area and include a more concentrated grid around the
+                                        proposed location for shallow gas definition. It is common for a consultant to be
+                                        hired to provide third party quality assurance during site survey work.
+                                    </p>
+                                    <p>Outcomes from a site survey could include:
+                                    </p>
+                                    <ul>
+                                        <li>Everything looks fine to anchor up and drill at the location;
+                                        </li>
+                                        <li>There are indications of shallow gas which may justify moving surface
+                                            location or adopting special shallow gas procedures;
+                                        </li>
+                                        <li>Re-selection of anchor type, fluke angle or requirement to reinforce certain
+                                            anchors with ‘piggy backs’ (additional anchor run of the main anchor to
+                                            provide additional hold).
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
+                                <button id="cmdenv">generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -588,95 +595,99 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3>Operational Plan</h3>
-                                <p>Ultimately the well design has to be translated into an operational plan, or
-                                    programme. This provides the approved reference for those charged with
-                                    constructing the well. Programmes come in many different styles and formats
-                                    but, typically, should include the following:
-                                </p>
-                                <ul>
-                                    <li>Appropriate approvals and distribution;
-                                    </li>
-                                    <li>Purpose of well;
-                                    </li>
-                                    <li>Prioritised objectives for the well;
-                                    </li>
-                                    <li>Budget data (time and cost);
-                                    </li>
-                                    <li>Description of the well design (e.g, casing specification and setting depths,
-                                        directional profile, intended cement coverage)
-                                    </li>
-                                    <li>Details of expected geology;
-                                    </li>
-                                    <li>Operational procedure;
-                                    </li>
-                                    <li> Anticipated hazards, risks, mitigation and contingencies;
-                                    </li>
-                                    <li>Data acquisition requirements (e.g, logging, sampling);
-                                    </li>
-                                    <li>Summary of third party programmes such as cementing, drilling fluids and
-                                        directional plan;
-                                    </li>
-                                    <li>Contact details.
-                                    </li>
-                                </ul>
-                                <p>The format and detail for a programme will also depend on the type of well to be
-                                    drilled. For example the fortieth well on a development programme may require
-                                    little more than a one page summary sheet whereas the first High Pressure High
-                                    Temperature (HPHT) well in a virgin area could warrant the well construction
-                                    equivalent of War and Peace. In consideration of the detail required it is useful to
-                                    put yourself in the place of the well-site supervisor charged with delivering the
-                                    well objectives</p>
-                                <hr>
-                                <h3>Risk Identification and Mitigation
+                                <div id="op">
+                                    <h3>Operational Plan</h3>
+                                    <p>Ultimately the well design has to be translated into an operational plan, or
+                                        programme. This provides the approved reference for those charged with
+                                        constructing the well. Programmes come in many different styles and formats
+                                        but, typically, should include the following:
+                                    </p>
+                                    <ul>
+                                        <li>Appropriate approvals and distribution;
+                                        </li>
+                                        <li>Purpose of well;
+                                        </li>
+                                        <li>Prioritised objectives for the well;
+                                        </li>
+                                        <li>Budget data (time and cost);
+                                        </li>
+                                        <li>Description of the well design (e.g, casing specification and setting depths,
+                                            directional profile, intended cement coverage)
+                                        </li>
+                                        <li>Details of expected geology;
+                                        </li>
+                                        <li>Operational procedure;
+                                        </li>
+                                        <li> Anticipated hazards, risks, mitigation and contingencies;
+                                        </li>
+                                        <li>Data acquisition requirements (e.g, logging, sampling);
+                                        </li>
+                                        <li>Summary of third party programmes such as cementing, drilling fluids and
+                                            directional plan;
+                                        </li>
+                                        <li>Contact details.
+                                        </li>
+                                    </ul>
+                                    <p>The format and detail for a programme will also depend on the type of well to be
+                                        drilled. For example the fortieth well on a development programme may require
+                                        little more than a one page summary sheet whereas the first High Pressure High
+                                        Temperature (HPHT) well in a virgin area could warrant the well construction
+                                        equivalent of War and Peace. In consideration of the detail required it is useful to
+                                        put yourself in the place of the well-site supervisor charged with delivering the
+                                        well objectives</p>
+                                    <hr>
+                                    <h3>Risk Identification and Mitigation
                                     </h3>
-                                <p>The management of risk for a well construction process covers Health, Safety
-                                    and Environment (HS&E) risk and operational risk. The former is concerned with
-                                    protection of people and the environment the latter with protection of the
-                                    business plan which incorporates promises for budget and schedule. As HS&E
-                                    and business cultures have developed there has been a tendency to separate
-                                    these features in terms of how they are dealt with in the planning process.
-                                    Ultimately, however, there appears to be growing consensus that good HSE
-                                    management means good operational management and vice versa. Therefore,
-                                    instead of having separate processes to consider HS&E and operational risk, all
-                                    forms of risk are considered in the one risk management process.</p>
-                                <p>Management of risk is an iterative process. No matter at what stage in the well
-                                    construction process identification and understanding of risk should never be far
-                                    from the mind. The processes required involve anything from the awareness of
-                                    experienced personnel while compiling plans to full blown hazard operability and
-                                    analysis studies involving multi-disciplined teams, formal processes and many
-                                    days of scrutiny. The scale, complexity and novelty of the project also should
-                                    determine the scale, complexity and novelty of the risk management process.
-                                </p>
-                                <p>In simple terms there are two important times where full accountability of risk
-                                    should be formally considered. Firstly at the concept selection phase where the
-                                    various options are being reviewed; secondly, once the proposed design and
-                                    operational process have been sufficiently defined to allow in depth review.</p>
-                                <hr>
-                                <h3>Time / Cost Estimate Generation
+                                    <p>The management of risk for a well construction process covers Health, Safety
+                                        and Environment (HS&E) risk and operational risk. The former is concerned with
+                                        protection of people and the environment the latter with protection of the
+                                        business plan which incorporates promises for budget and schedule. As HS&E
+                                        and business cultures have developed there has been a tendency to separate
+                                        these features in terms of how they are dealt with in the planning process.
+                                        Ultimately, however, there appears to be growing consensus that good HSE
+                                        management means good operational management and vice versa. Therefore,
+                                        instead of having separate processes to consider HS&E and operational risk, all
+                                        forms of risk are considered in the one risk management process.</p>
+                                    <p>Management of risk is an iterative process. No matter at what stage in the well
+                                        construction process identification and understanding of risk should never be far
+                                        from the mind. The processes required involve anything from the awareness of
+                                        experienced personnel while compiling plans to full blown hazard operability and
+                                        analysis studies involving multi-disciplined teams, formal processes and many
+                                        days of scrutiny. The scale, complexity and novelty of the project also should
+                                        determine the scale, complexity and novelty of the risk management process.
+                                    </p>
+                                    <p>In simple terms there are two important times where full accountability of risk
+                                        should be formally considered. Firstly at the concept selection phase where the
+                                        various options are being reviewed; secondly, once the proposed design and
+                                        operational process have been sufficiently defined to allow in depth review.</p>
+                                    <hr>
+                                    <h3>Time / Cost Estimate Generation
                                     </h3>
-                                <p>The time / cost estimate is the cornerstone of a well construction organisations’
-                                    commitment to the business it serves. It is a promise that the objectives will be
-                                    delivered at a given cost. The fundamental issue with time/cost estimation is that
-                                    business plans are often drawn up before the well is sufficiently defined both in
-                                    terms of objectives and design. This is not such a concern if the well in question
-                                    is a repeat of previous types but when dealing with new well types it is difficult
-                                    to
-                                    give precise information.
-                                </p>
-                                <p>Estimates are often classified to reflect the level of uncertainty. Examples of
-                                    classifications and their likely variance could be:</p>
-                                <ul>
-                                    <li>Budgetary: +/- 30%
-                                    </li>
-                                    <li>Appropriation: +/- 10%
-                                    </li>
-                                    <li>Pre operational: +/- 5%</li>
-                                </ul>
+                                    <p>The time / cost estimate is the cornerstone of a well construction organisations’
+                                        commitment to the business it serves. It is a promise that the objectives will be
+                                        delivered at a given cost. The fundamental issue with time/cost estimation is that
+                                        business plans are often drawn up before the well is sufficiently defined both in
+                                        terms of objectives and design. This is not such a concern if the well in question
+                                        is a repeat of previous types but when dealing with new well types it is difficult
+                                        to
+                                        give precise information.
+                                    </p>
+                                    <p>Estimates are often classified to reflect the level of uncertainty. Examples of
+                                        classifications and their likely variance could be:</p>
+                                    <ul>
+                                        <li>Budgetary: +/- 30%
+                                        </li>
+                                        <li>Appropriation: +/- 10%
+                                        </li>
+                                        <li>Pre operational: +/- 5%</li>
+                                    </ul>
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
+                                <button id="cmdop">generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -705,8 +716,32 @@ include_once '../db/dbconnect.php';
         }
     };
 
-    $('#cmd').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 0.5, {
+    $('#cmdplanning').click(function () {
+        doc.fromHTML($('#planning').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+    });
+
+    $('#cmddrill').click(function () {
+        doc.fromHTML($('#drill').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+    });
+
+    $('#cmdenv').click(function () {
+        doc.fromHTML($('#env').html(), 15, 15, {
+            'width': 100,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+    });
+
+    $('#cmdop').click(function () {
+        doc.fromHTML($('#op').html(), 15, 15, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });

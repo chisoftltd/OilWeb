@@ -424,7 +424,7 @@ include_once '../db/dbconnect.php';
                                             <h2>Equation 1</h2>
                                         </div>
                                         <div class="col-md-9">
-                                            <img src="/images/MAASP.JPG" alt="MAASP" width="300" height="150">
+                                            <img src="/images/MAASP.JPG" alt="MAASP" width="491" height="150">
                                         </div>
                                     </div>
                                     <h3>Rig Capacity for Weighting Mud</h3>

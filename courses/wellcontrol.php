@@ -972,7 +972,7 @@ include_once '../db/dbconnect.php';
 
     $('#cmdswab').click(function () {
         doc.fromHTML($('#swab').html(), 15, 15, {
-            'width': 400,
+            'width': 250,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-swabbing.pdf');

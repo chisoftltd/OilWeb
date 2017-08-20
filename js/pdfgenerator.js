@@ -10,7 +10,7 @@ var specialElementHandlers = {
 
 $('#cmd').click(function () {
     doc.fromHTML($('#seite2').html(), 15, 15, {
-        'width': 3170,
+        'width': 170,
         'elementHandlers': specialElementHandlers
     });
     doc.save('Well-Planning-Objectives.pdf');

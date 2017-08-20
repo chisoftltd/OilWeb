@@ -116,7 +116,7 @@ include_once '../db/dbconnect.php';
                     <ul class="list-group nav" role="tablist">
                         <li class="list-group-item">
                             <a href="#seite1" data-toggle="tab" aria-controls="seite1" role="tab">
-                                <h4>Generic Activities</h4>
+                                <h4>Well Control</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
@@ -141,14 +141,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Generic Activities</h1>
+                                    Well Control</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl1" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Well Control Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl1" class="modal fade">
                                         <div class="modal-dialog">

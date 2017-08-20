@@ -419,7 +419,7 @@ include_once '../db/dbconnect.php';
                                         tolerated without risking losses while controlling a kick. The MAASP is
                                         estimated
                                         from the following equation:</p>
-                                    <div class="container">
+                                    <div class="container equ">
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <h3>Equation 1</h3>

@@ -316,3 +316,10 @@ span.psw {
 hr{
     border: 2px solid green;
 }
+
+.equ{
+    background-color: #b0e0e6;
+    border: 2px solid green;
+    height: auto;
+    width: auto;
+}

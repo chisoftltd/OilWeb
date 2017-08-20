@@ -983,7 +983,7 @@ include_once '../db/dbconnect.php';
             'width': 150,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Environmental-Objectives.pdf');
+        doc.save('Well-Lost-Control.pdf');
     });
 
     $('#cmdop').click(function () {

@@ -110,12 +110,10 @@ include_once '../db/dbconnect.php';
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="90"
                             height="95" align="left" hspace="20"></a>
                 <h3>Drilling</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
+                <p>In this course you will learn more about the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
+                    plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course material.
                 </p><hr> <!-- draw a line--></div>
 
 

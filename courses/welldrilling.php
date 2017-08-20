@@ -120,17 +120,17 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite2" data-toggle="tab" aria-controls="seite2" role="tab">
-                                <h4>Activity Descriptions</h4>
+                                <h4>Well Planning Request / Well Objectives</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite3" data-toggle="tab" aria-controls="seite3" role="tab">
-                                <h4>Activity Descriptions cont...</h4>
+                                <h4>Drill Environmental consent (DTI)</h4>
                             </a>
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
-                                <h4>Activity Descriptions cont...</h4>
+                                <h4>Drill Operational Plan</h4>
                             </a>
                         </li>
                     </ul>
@@ -357,14 +357,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
+                                    Environmental consent (DTI)</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myDrilling3" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Drilling Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myDrilling3" class="modal fade">
                                         <div class="modal-dialog">
@@ -373,7 +373,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Drilling</h4>
+                                                    <h3 class="modal-title">Oil and Gas Well Drilling</h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling3Video" width="450" height="315"
@@ -385,7 +385,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Environmental consent (DTI)</i></h4>
+                                <h3>Environmental consent (DTI)</h3>
                                 <p>It is illegal to commence operations without the relevant approvals or
                                     notifications in place.
                                 </p>
@@ -403,7 +403,9 @@ include_once '../db/dbconnect.php';
                                 </ul>
                                 <p>Any material change to design or chemical usage (HSE/DTI).
                                 </p>
-                                <p>After the end of operations communications to close out a specific well include:</p>
+                                <hr>
+                                <h3>Plan for Decommission</h3>
+                                <p>Even before drilling decommissioning of the well is also planned. After the end of operations communications to close out a specific well include:</p>
                                 <ul>
                                     <li>
                                         Chemical Discharge Records (DTI or agent);
@@ -416,12 +418,13 @@ include_once '../db/dbconnect.php';
                                     adopted in the UKCS which means that even after a well has been finished a
                                     responsibility remains to ensure that the well is fit for its intended purpose until
                                     it is finally abandoned. </p>
-                                <h4><i>Well Design
-                                    </i></h4>
+                                <hr>
+                                <h3>Well Design
+                                    </h3>
                                 <p>The following questions have to be adequately addressed before a design can be
                                     considered to be acceptable:
                                 </p>
-                                <hr/>
+
                                 <ul>
                                     <li>Does the design allow for the expected life of the well?
                                     </li>
@@ -441,8 +444,9 @@ include_once '../db/dbconnect.php';
                                 <p>The basic requirement for any well design is to meet the client’s requirements at
                                     an economic cost while maintaining the risk to peoples’ health and the
                                     environment below acceptable limits.</p>
-                                <h4><i>Sourcing of Materials and Services
-                                    </i></h4>
+                                <hr>
+                                <h3>Sourcing of Materials and Services
+                                    </h3>
                                 <p>The execution of a well programme requires a complex interaction of suppliers,
                                     materials and equipment. It may be that all supplies and services have been
                                     prearranged
@@ -505,7 +509,8 @@ include_once '../db/dbconnect.php';
                                     which lists all equipment required for the well. This assists in the callout of the
                                     required equipment at the appropriate time during the well and also serves as a
                                     check that nothing has been forgotten.</p>
-                                <h4><i>Site Survey</i></h4>
+                                <hr>
+                                <h3>Site Survey</h3>
                                 <p>The requirement for a site survey prior to moving a rig onto a location must be
                                     determined. If a survey is required then it must be organised and performed in
                                     time to allow delivery of, and reaction to, the results.
@@ -551,14 +556,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
+                                    Well Operational Plan</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Drilling Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myDrilling4" class="modal fade">
                                         <div class="modal-dialog">
@@ -579,7 +584,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Operational Plan</i></h4>
+                                <h3>Operational Plan</h3>
                                 <p>Ultimately the well design has to be translated into an operational plan, or
                                     programme. This provides the approved reference for those charged with
                                     constructing the well. Programmes come in many different styles and formats
@@ -618,8 +623,9 @@ include_once '../db/dbconnect.php';
                                     equivalent of War and Peace. In consideration of the detail required it is useful to
                                     put yourself in the place of the well-site supervisor charged with delivering the
                                     well objectives</p>
-                                <h4><i>Risk Identification and Mitigation
-                                    </i></h4>
+                                <hr>
+                                <h3>Risk Identification and Mitigation
+                                    </h3>
                                 <p>The management of risk for a well construction process covers Health, Safety
                                     and Environment (HS&E) risk and operational risk. The former is concerned with
                                     protection of people and the environment the latter with protection of the
@@ -642,8 +648,9 @@ include_once '../db/dbconnect.php';
                                     should be formally considered. Firstly at the concept selection phase where the
                                     various options are being reviewed; secondly, once the proposed design and
                                     operational process have been sufficiently defined to allow in depth review.</p>
-                                <h4><i>Time / Cost Estimate Generation
-                                    </i></h4>
+                                <hr>
+                                <h3>Time / Cost Estimate Generation
+                                    </h3>
                                 <p>The time / cost estimate is the cornerstone of a well construction organisations’
                                     commitment to the business it serves. It is a promise that the objectives will be
                                     delivered at a given cost. The fundamental issue with time/cost estimation is that

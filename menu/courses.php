@@ -110,11 +110,14 @@ include_once '../db/dbconnect.php';
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="90"
                             height="95" align="left" hspace="20"></a>
                 <h3>Drilling</h3>
-                <p>In this course you will learn more about the student is introduced to the milestone activities associated with
+                <p>In this course you will learn more about the student is introduced to the milestone activities
+                    associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course material.
-                </p><hr> <!-- draw a line--></div>
+                    plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course
+                    material.
+                </p>
+                <hr> <!-- draw a line--></div>
 
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
@@ -123,97 +126,123 @@ include_once '../db/dbconnect.php';
                                                                                                width="100" height="120"
                                                                                                align="left" hspace="20"></a>
                 <h3>Control</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
+                <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
+                    and
+                    the components and function of surface and subsea well control equipment. Also covered
+                    are Operational Pressures and will give students a good understanding of the pressure
+                    relationships
+                    in
+                    the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
+                </p>
+                <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/fluids/wellcasingcementing.php"><img
+                            src="images/casingcementing.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
                 <h3>Casing & Cementing</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
+                <p>This course is designed for use by students to gain an understanding of the principles behind the
+                    use of casing within the wellbore and the factors involved in casing string design. Also
+                    covered are the functions of oilwell cement, the API classification and properties of dry cement
+                    and neat slurry and the effect of additives on these
+                    properties. <a href="/courses/fluids/wellcasingcementing.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
 
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/wellcompletion.php"><img
+                            src="images/wellcompletion.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
+                <h3>Well Completion</h3>
+                <p>In this course you will learn more about the process of converting a drilled wellbore into a
+                    production or injection system.
+                    The interface between the reservoir and surface production. The resulting system should
+                    establish a safe and efficient connection between the reservoir, the
+                    wellbore up to surface so that hydrocarbons can be produced.
+                    <a href="/courses/wellcompletion.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/treatment.php"><img src="/images/treatment.jpg"
+                                                                                            alt="Drilling"
+                                                                                            class="img-thumbnail gap-right"
+                                                                                            width="100" height="120"
+                                                                                            align="left"
+                                                                                            hspace="20"></a>
+                <h3>Water, Oil & Gas Treatment</h3>
+                <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have
+                    to undergo extensive treatment. In this course you will be enligthen on the processes and stages
+                    invloved. Processes like
+                    <i>3-Phase Horizontal Separator, Vertical Heater -Treater and Skim Pile for Water
+                        Discharge.</i>
+                    <a href="/courses/treatment.php">Continue>></a>
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/rigcomponents.php"><img src="images/rigcomponents.png" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="120"
+                                                                                                align="left" hspace="20"></a>
+                    <h3>Rig Components</h3>
+                    <p>This topic is designed for use by students to gain an overall appreciation of the
+                        general components of a drilling rig and the equipment utilised during drilling.
+                        A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
+                        crown block and travelling block, and a drilling fluid circulation system including
+                        the standpipe, rotary hose, drilling fluid pits and pumps.
+                        <a href="/courses/rigcomponents.php">Continue>></a>.
+                    </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/storageandexport.php"><img src="images/storageandexport.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="120"
+                                                                                                   align="left" hspace="20"></a>
+                <h3>Storage and Export</h3>
+                <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
+                    12 psia, depending on its origin, the processing it has undergone and the degree of
+                    ‘weathering’, which has occurred. It is possible to pump most United Kingdom (UK)
+                    North Sea crude at ambient temperature, but some of the recent Eocene developments
+                    will yield a crude that will need treatment for economic pumping.
+                    <a href="/courses/storageandexport.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/offshore/flowlines.php"><img src="images/flowlines.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
                                                             align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
-
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
-
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
-
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
-
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
+                </a>
+                <h3>Flowlines</h3>
+                <p>Like any other engineering task, the design of a pipeline needs to be tackled
+                    systematically. Figure 1 is a route map through this systematic process. This systematic
+                    process is rarely a straightforward sequence of operations; usually the design process
+                    requires that a series of loops be performed due to the complex interactions between
+                    the different factors inherent in the design process.
+                    <a href="/courses/offshore/flowlines.php">Continue>></a>.
                 </p><hr> <!-- draw a line--></div>
             <hr/>
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/decommissioning.php"><img src="images/decommissioning.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
+                                                            align="left" hspace="20"></a>
+                <h3>Decommissioning</h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="courses/fluids/muds.php"><img src="images/drilling2.jpg" alt="Drilling"
+                                                            class="img-thumbnail gap-right" width="100" height="120"
+                                                            align="left" hspace="20"></a>
+                <h3>Drilling Fluids or Muds</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p>
+                <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"
@@ -225,19 +254,8 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Different organisational structures to deliver a well are
                     also discussed. In addition, the student learns about generic objectives for a well
                     and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
-
-            <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
-                                                            class="img-thumbnail gap-right" width="100" height="120"
-                                                            align="left" hspace="20">
-                <h3>Preview</h3>
-                <p>In this topic the student is introduced to the milestone activities associated with
-                    planning for and executing a well construction programme. They will also
-                    discover in more detail the roles and responsibilities of core personnel required to
-                    plan and execute a well. Different organisational structures to deliver a well are
-                    also discussed. In addition, the student learns about generic objectives for a well
-                    and what specific information is required to allow comprehensive well planning.
-                </p><hr> <!-- draw a line--></div>
+                </p>
+                <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><img src="/images/drilling2.jpg" alt="Drilling"
                                                             class="img-thumbnail gap-right" width="100" height="120"

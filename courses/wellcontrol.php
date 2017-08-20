@@ -169,44 +169,135 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <p> The time required to plan and execute a well construction programme is
-                                    dependent on many variables including sub-surface complexity, location and type
-                                    of well. For any well, however, there are common activities which must be
-                                    addressed to enable comprehensive planning and operational control. For the
-                                    purposes of this topic we will assume a single well, drilled from a semisubmersible
-                                    rig. The main activities are:</p>
-                                <ul>
-                                    <li>Receipt of well planning request / well objectives;</li>
-                                    <li>Allocation of engineering / operational resources;</li>
-                                    <li>Review of special considerations (licence requirements, physical
-                                        restrictions);
-                                    </li>
-                                    <li>Well design;</li>
-                                    <li>Government/legislative requirements;</li>
-                                    <li>Sourcing of materials and services including rig;</li>
-                                    <li>Site survey;</li>
-                                    <li>Operational plan;</li>
-                                    <li>Risk identification and mitigation;</li>
-                                    <li>Time /cost generation;</li>
-                                    <li>Pre-operational review;</li>
-                                    <li>Operational phase;</li>
-                                    <li>Post well activities.</li>
-                                </ul>
-                                <hr/>
-                                <p>While it would be ideal if the activities shown above could be laid out in an
-                                    ordered sequence it is more often the case that many of the activities occur in
-                                    parallel. Also it is common for plans to evolve and change as operational
-                                    definition is refined. In particular the generation of the time/cost estimate does
-                                    not tend to be a one off event. Invariably costs are required at an early stage
-                                    where little detailed planning or review has been performed. Hence accuracy of
-                                    the estimate develops throughout the planning phase and different classes of
-                                    estimate are often provided dependent on position on the planning/execution
-                                    timeline.</p>
-                                <p>
-                                    The main activities listed above are discussed in more detail throughout this
-                                    module but there follows a summary of the important aspects of each activity
-                                    and what deliverables might be expected.
-                                </p>
+                                <div id="control">
+                                    <h2>Well Control</h2>
+                                    <p> This topic discusses the causes of a kick, methods of kick detection, well
+                                        control
+                                        procedures, and the components and function of surface and subsea well control
+                                        equipment.</p>
+                                    <h3>Kick Causes</h3>
+                                    <hr>
+                                    <p>A kick is the term used to describe the inflow of formation fluid into the
+                                        wellbore
+                                        during a drilling operation. This mainly arises due to the formation pore
+                                        pressure
+                                        being greater than the hydrostatic pressure imposed by the mud column. This
+                                        can happen in a normally or abnormally geopressured formation.
+                                        A kick may be composed of water (usually salt water), oil, natural gas or a
+                                        combination of these fluids. The influx of formation fluid may arise for a
+                                        variety
+                                        of reasons. The four main causes are</p>
+                                    <ul>
+                                        <li>Insufficient mud weight</li>
+                                        <li>
+                                            Not keeping the hole full
+                                        </li>
+                                        <li>
+                                            Swabbing
+                                        </li>
+                                        <li>
+                                            Loss of circulation (partial or complete).
+                                        </li>
+                                        <li>
+                                    </ul>
+
+                                    <p>Kicks generally occur during trips, with influx occurring from a combination of
+                                        the
+                                        effects of swabbing and failure to keep the hole full. Swabbing is primarily the
+                                        result of the viscous drag between the upward-moving drill stem and the
+                                        downward-moving mud. The latter is moving downwards to replace the volume
+                                        of drill-stem equipment removed from the hole (the open-end displacement).
+                                        The faster the pipe is moved, the greater this viscous drag becomes, hence the
+                                        greater the reduction in annulus pressure.</p>
+                                    <p>
+                                        There is also the ‘piston effect’ of the bit and stabilisers, if they are
+                                        ‘balled-up’
+                                        with mud and clay. <strong>It must be realised that this is not, normally, the
+                                            primary cause of swabbing.</strong>
+                                    </p>
+                                    <p>Kicks occur during drilling operations most often because of insufficient mud
+                                        weight. </p>
+
+                                    <h3>Insufficient Mud Weight
+                                    </h3>
+                                    <hr>
+                                    <p>Insufficient mud weight may occur due to:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Penetration of an abnormal pressure zone.
+                                        </li>
+                                        <li>
+                                            Accidental dilution of the mud by fluid addition at surface. (This occurs
+                                            more often than it should. Usually a water valve is left open during a
+                                            period of fast drilling through clay-rich formations and gets forgotten.)
+                                        </li>
+                                        <li>
+                                            Dilution of mud by influx from an aquifer exposed to open hole.
+                                        </li>
+                                        <li>
+                                            Gradual mud density reduction due to gas cut and failure to degas the
+                                            mud at surface.
+                                        </li>
+                                        <li>
+                                            Improper mud mixing and poor quality control in measurement.
+                                        </li>
+                                    </ul>
+                                    <p> For strategic operational reasons, a borehole may be drilled underbalanced with
+                                        a controlled kick (i.e. continuous production) taking place. This requires
+                                        specialised systems and equipment and is beyond the scope of this present
+                                        module.
+                                    </p>
+                                    <hr>
+                                    <h3>Low Level of Drilling Fluid Column</h3>
+                                    <p>Two conditions may lower the fluid column in the annulus. These are:</p>
+                                    <ul>
+                                        <li>
+                                            Failure to keep the hole full during a trip.
+                                        </li>
+                                        <li>Failure to keep the hole full during a trip.</li>
+                                        </li>
+                                        Lost circulation during drilling.
+                                        <li>
+                                    </ul>
+                                    <p>
+                                        In pulling out the drill stem, the driller must refill the hole with mud of
+                                        equivalent
+                                        volume. Monitoring the volume of mud filling the hole is done with the use of
+                                        the
+                                        Trip Tank. (This may be known as the “Possum belly” on some rigs.
+                                        Unfortunately, this term is used to refer to different things on different rigs,
+                                        so
+                                        avoid it.)</p>
+                                    <P>
+                                        The trip tank is a small mud tank (approx. 50bbls) separate from the active
+                                        pits.
+                                        This trip tank is equipped with a volume gauge that can be monitored from the
+                                        rig floor and/or mud loggers’ console. In monitoring the trip, the driller must
+                                        calculate the theoretical mud volume displaced by one or five stands of drill
+                                        pipe.
+                                        During the trip, the driller then measures the actual mud volume pumped into
+                                        the hole for each stand of pipe pulled.</p>
+                                    <P>
+                                        Lost circulation is the loss of substantial quantity or whole mud into the
+                                        formation. It may occur as a result of:</p>
+                                    <ul>
+                                        <li>Mud loss to a porous, cavernous or vuggy formation.</li>
+                                        <li>
+                                            Penetration of depleted or subnormal zones.
+                                        </li>
+                                        <li>
+                                            Mud loss to fractures opened by excessive annulus pressure. This may be
+                                            due to annular blockage, surge pressures, excessive hydraulics, pressures
+                                            imposed to break mud gel strength.
+                                    </ul>
+                                    <p> Lost circulation will result in insufficient mud column and thus reduction in
+                                        bottom-hole pressure. A kick due to lost circulation can be a major well control
+                                        problem. When the well is shut in, an underground blow-out can occur, where
+                                        the high-pressure formation ‘supercharges’ the lower pressure formation. This
+                                        has been known to cause contamination of aquifers and other regrettable
+                                        problems.</p>
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU

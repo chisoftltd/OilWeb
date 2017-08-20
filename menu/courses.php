@@ -118,7 +118,7 @@ include_once '../db/dbconnect.php';
                     material.
                 </p>
                 <form>
-                    <!--<hr>-->
+                    <hr>
                 </form> <!-- draw a line--></div>
 
 

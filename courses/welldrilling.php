@@ -250,103 +250,104 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3 id="planning">Well Planning Request / Well Objectives</h3>
-                                <p>The main purpose of a well planning request is to provide the agreed basis for
-                                    design. This document should form the start point for the planning process and
-                                    should be referred back to throughout the planning and execution phases to
-                                    ensure that all decisions take into account the original basis for the well.</p>
-                                <p>
-                                    Ideally the request should be a formal document signed off by the appropriate
-                                    levels of authority in both the requesting and executing organisations.
-                                </p>
-                                <p>
-                                    Who generates the final, formally agreed request is not necessarily important. It
-                                    may be that the party responsible for well design compiles the request after
-                                    discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
-                                    document. What is important, however, is that the request is jointly reviewed
-                                    and accepted.
-                                </p>
-                                <p>
-                                    An integral part of the request document should be a prioritised list of objectives
-                                    for the well. In both the planning and operational phases of a well, decisions and
-                                    compromises may be required and a clear understanding of the priorities of the
-                                    well will help to make the appropriate choices. The identification of objectives
-                                    also provides the basis for performance evaluation at the completion of the well.
-                                </p>
-                                <hr/>
-                                <h3>Allocation of Engineering/Operational Resources
+                                <div id="planning">
+                                    <h3 >Well Planning Request / Well Objectives</h3>
+                                    <p>The main purpose of a well planning request is to provide the agreed basis for
+                                        design. This document should form the start point for the planning process and
+                                        should be referred back to throughout the planning and execution phases to
+                                        ensure that all decisions take into account the original basis for the well.</p>
+                                    <p>
+                                        Ideally the request should be a formal document signed off by the appropriate
+                                        levels of authority in both the requesting and executing organisations.
+                                    </p>
+                                    <p>
+                                        Who generates the final, formally agreed request is not necessarily important. It
+                                        may be that the party responsible for well design compiles the request after
+                                        discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
+                                        document. What is important, however, is that the request is jointly reviewed
+                                        and accepted.
+                                    </p>
+                                    <p>
+                                        An integral part of the request document should be a prioritised list of objectives
+                                        for the well. In both the planning and operational phases of a well, decisions and
+                                        compromises may be required and a clear understanding of the priorities of the
+                                        well will help to make the appropriate choices. The identification of objectives
+                                        also provides the basis for performance evaluation at the completion of the well.
+                                    </p>
+                                    <hr/>
+                                    <h3>Allocation of Engineering/Operational Resources
                                     </h3>
-                                <p>No well can be planned and drilled without the allocation of the required skills to
-                                    turn a request into reality. Many skills and talents are required but probably the
-                                    most important key to success is to ensure that clear accountability is assigned
-                                    for delivery of the well.</p>
-                                <p>
-                                    Typically the core resources required to deliver a well would include the
-                                    following:
-                                </p>
-                                <ul>
-                                    <li>Well Operations Supervision – onshore and offshore;</li>
-                                    <li>Well Design Engineering;</li>
-                                    <li>Well Operations Engineering;</li>
-                                    <li>Welltest/Completions Design Engineering;</li>
-                                    <li>Welltest/Completions Operations Engineering.</li>
-                                </ul>
+                                    <p>No well can be planned and drilled without the allocation of the required skills to
+                                        turn a request into reality. Many skills and talents are required but probably the
+                                        most important key to success is to ensure that clear accountability is assigned
+                                        for delivery of the well.</p>
+                                    <p>
+                                        Typically the core resources required to deliver a well would include the
+                                        following:
+                                    </p>
+                                    <ul>
+                                        <li>Well Operations Supervision – onshore and offshore;</li>
+                                        <li>Well Design Engineering;</li>
+                                        <li>Well Operations Engineering;</li>
+                                        <li>Welltest/Completions Design Engineering;</li>
+                                        <li>Welltest/Completions Operations Engineering.</li>
+                                    </ul>
 
-                                <p>Dependent on scale and maturity of operations the roles can be combined or
-                                    indeed may require multiple positions to fulfil the plan. The above roles could be
-                                    considered core within a well construction organisation. There are, however,
-                                    many other roles which support delivery of a well:</p>
-                                <ul>
-                                    <li>Contracts preparation and negotiation;</li>
-                                    <li>Environmental preparation and monitoring;</li>
-                                    <li>Audit and quality control of suppliers;</li>
-                                    <li>Invoice processing;</li>
-                                    <li>Health and safety expertise;
-                                    </li>
-                                    <li>Cost management;</li>
-                                    <li>Marine specialisation;</li>
-                                    <li>Administrative and technical support;</li>
-                                    <li>Logistics and transport.</li>
-                                </ul>
-                                <p>The requirements for resources vary dependent on the current stage in the
-                                    delivery process. It is vital to have a clear plan for timely access to
-                                    resources. </p>
-                                <hr>
-                                <h3>Review of Special Considerations</h3>
-                                <p>Once aware of a possible well a review of any special considerations should be
-                                    performed. These could include:
-                                </p>
-                                <ul>
-                                    <li>more stringent notification requirements;</li>
-                                    <li>more stringent environmental requirements (i.e, drilling in an
-                                        environmentally sensitive area);
-                                    </li>
-                                    <li>physical constraints (e.g, pipelines, proximity of other installations);
-                                        seasonal access restrictions;
-                                    </li>
-                                    <li>severe environment (High Pressure High temperature (HPHT), deepwater,
-                                        high hydrogen Sulphide (H2S – ‘sour’).
-                                    </li>
-                                </ul>
-                                <p>This initial review allows a quick response if the nature of the well requires
-                                    greater planning time or resources (or both).</p>
-                                <hr>
-                                <h3>Government/Legislative Requirements</h3>
-                                <p>All wells are subject to government approvals in various guises. For the purpose
-                                    of this module the requirements for the United Kingdom Continental Shelf
-                                    (UKCS) will be considered. Different countries will have their own requirements.</p>
-                                <p>In general the planning requirements for the UKCS fall into the following
-                                    categories:
-                                </p>
-                                <ul>
-                                    <li>Consent to drill wells (Department of Trade and Industry);
-                                    </li>
-                                    <li>Consent to site mobile installations (Department of Transport, Local
-                                        government and the Regions);
-                                    </li>
-                                    <li>Well Notification (Health and Safety Executive);
-                                    </li>
-                                </ul>
+                                    <p>Dependent on scale and maturity of operations the roles can be combined or
+                                        indeed may require multiple positions to fulfil the plan. The above roles could be
+                                        considered core within a well construction organisation. There are, however,
+                                        many other roles which support delivery of a well:</p>
+                                    <ul>
+                                        <li>Contracts preparation and negotiation;</li>
+                                        <li>Environmental preparation and monitoring;</li>
+                                        <li>Audit and quality control of suppliers;</li>
+                                        <li>Invoice processing;</li>
+                                        <li>Health and safety expertise;
+                                        </li>
+                                        <li>Cost management;</li>
+                                        <li>Marine specialisation;</li>
+                                        <li>Administrative and technical support;</li>
+                                        <li>Logistics and transport.</li>
+                                    </ul>
+                                    <p>The requirements for resources vary dependent on the current stage in the
+                                        delivery process. It is vital to have a clear plan for timely access to
+                                        resources. </p>
+                                    <hr>
+                                    <h3>Review of Special Considerations</h3>
+                                    <p>Once aware of a possible well a review of any special considerations should be
+                                        performed. These could include:
+                                    </p>
+                                    <ul>
+                                        <li>more stringent notification requirements;</li>
+                                        <li>more stringent environmental requirements (i.e, drilling in an
+                                            environmentally sensitive area);
+                                        </li>
+                                        <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                            seasonal access restrictions;
+                                        </li>
+                                        <li>severe environment (High Pressure High temperature (HPHT), deepwater,
+                                            high hydrogen Sulphide (H2S – ‘sour’).
+                                        </li>
+                                    </ul>
+                                    <p>This initial review allows a quick response if the nature of the well requires
+                                        greater planning time or resources (or both).</p>
+                                    <hr>
+                                    <h3>Government/Legislative Requirements</h3>
+                                    <p>All wells are subject to government approvals in various guises. For the purpose
+                                        of this module the requirements for the United Kingdom Continental Shelf
+                                        (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                    <p>In general the planning requirements for the UKCS fall into the following
+                                        categories:
+                                    </p>
+                                    <ul>
+                                        <li>Consent to drill wells (Department of Trade and Industry);
+                                        </li>
+                                        <li>Consent to site mobile installations (Department of Transport, Local
+                                            government and the Regions);
+                                        </li>
+                                        <li>Well Notification (Health and Safety Executive);
+                                        </li>
+                                    </ul></div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
@@ -705,7 +706,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmd').click(function () {
-        doc.fromHTML($('#planning').html(), 5, 5, {
+        doc.fromHTML($('#planning').html(), 15, 5, {
             'width': 100,
             'elementHandlers': specialElementHandlers
         });

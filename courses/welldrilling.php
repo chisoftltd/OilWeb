@@ -28,23 +28,6 @@ include_once '../db/dbconnect.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="/js/weboil.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
-    <script>
-        var doc = new jsPDF();
-        doc.setFont("courier");
-        var specialElementHandlers = {
-            '#editor': function (element, renderer) {
-                return true;
-            }
-        };
-
-        $('#cmd').click(function () {
-            doc.fromHTML($('#seite2').html(), 15, 15, {
-                'width': 3170,
-                'elementHandlers': specialElementHandlers
-            });
-            doc.save('Well-Planning-Objectives.pdf');
-        });
-    </script>
     <!-- Add css file-->
     <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -368,9 +351,8 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                <div id="editor">
+                                <div id="editor"></div>
                                 <button id="cmd">generate PDF</button>
-                                </div>
                             </footer>
                         </article>
                     </div>
@@ -710,8 +692,25 @@ include_once '../db/dbconnect.php';
         <?php include '../include/footer.php'; ?>
     </div>
 </footer>
+<!-- Latest compiled JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- Latest compiled JavaScript -->
+<script>
+    var doc = new jsPDF();
+    doc.setFont("courier");
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
+        }
+    };
+
+    $('#cmd').click(function () {
+        doc.fromHTML($('#seite2').html(), 15, 15, {
+            'width': 3170,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+    });
+</script>
 </body>
 </html>

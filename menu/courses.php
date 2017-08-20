@@ -106,7 +106,7 @@ include_once '../db/dbconnect.php';
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-11 col-md-11"><a href=" /courses/welldrilling.php"><img
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
                             height="120" align="left" hspace="20"></a>
                 <h3>Drilling</h3>
@@ -117,7 +117,9 @@ include_once '../db/dbconnect.php';
                     plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course
                     material.
                 </p>
-                <hr> <!-- draw a line--></div>
+                <form>
+                    <hr>
+                </form> <!-- draw a line--></div>
 
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"

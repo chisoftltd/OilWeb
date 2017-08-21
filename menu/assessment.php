@@ -353,10 +353,10 @@ if (isset($_POST['deleteform'])) {
                                         <label for="answers-6C">C) type of well</label>
 
                                         <input type="checkbox" name="answer-question-6[]" value="D" id="answer-6D"/>
-                                        <label for="answers-6D">D) None of the above</label>
+                                        <label for="answers-6D">D) All of the above.</label>
 
                                         <input type="checkbox" name="answer-question-6[]" value="E" id="answer-6E"/>
-                                        <label for="answers-6E">E) All of the above.</label>
+                                        <label for="answers-6E">E) None of the above.</label>
                                     </form>
                                 </li>
                                 <li>

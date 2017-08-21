@@ -765,9 +765,9 @@ include_once '../db/dbconnect.php';
                                             </li>
                                         </ul>
 
-                                        <il> Define weighing up and circulating procedure using one of the following
+                                        <li> Define weighing up and circulating procedure using one of the following
                                             methods:
-                                        </il>
+                                        </li>
                                         <ul>
                                             <li>
                                                 Driller’s method
@@ -783,28 +783,28 @@ include_once '../db/dbconnect.php';
                                             impossible to get proper circulation around the system via the drill stem or
                                             tubing, or doing so would cause greater problems (exceeding MAASP,
                                             casing burst pressure etc).</p>
-                                        <il>Make interpretation of the influx including:</il>
+                                        <li>Make interpretation of the influx including:</li>
                                         <ul>
-                                            <il>Height and density of influx.
+                                            <li>Height and density of influx.
                                                 </li>
                                                 <li>Annulus pressure behaviour while circulating.
-                                            </il>
+                                            </li>
                                         </ul>
-                                        <il>Proceed with circulation using the following guide rules:</il>
+                                        <li>Proceed with circulation using the following guide rules:</li>
                                         <ul>
-                                            <il>
+                                            <li>
 
                                                 At all times during circulation, the Bottom Hole Pressure (BHP) must
                                                 be high enough to prevent further influx;
                                                 </li>
                                                 <li>For the safety of the rig and personnel, surface pressure should not
                                                     at any time exceed the predetermined MAASP value.
-                                            </il>
+                                            </li>
                                         </ul>
+                                    </ol>
                                         <p>Maintenance of BHP at the proper level is through the application of back
                                             pressure via the adjustable choke.</p>
-                                        </li>
-                                    </ol>
+                                      
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

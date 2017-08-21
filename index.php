@@ -118,9 +118,9 @@ include_once 'db/dbconnect.php';
             <hr>
 
             <div style="max-width:1000px">
-                <img class="mySlides" src="images/drilling.jpg" style="width:100%">
-                <img class="mySlides" src="images/control.jpg" style="width:100%">
-                <img class="mySlides" src="images/casingcementing.jpg" style="width:100%">
+                <img class="mySlides" src="images/drilling.jpg" style="width:100%; height: 50%">
+                <img class="mySlides" src="images/control.jpg" style="width:100%; height: 50%">
+                <img class="mySlides" src="images/casingcementing.jpg" style="width:100%; height: 50%">
                 <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
                     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
                     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>

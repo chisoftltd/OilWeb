@@ -119,20 +119,23 @@ include_once 'db/dbconnect.php';
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
                 <div class="mySlides"><a href="courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                               style="width:100%; height: 300px"></a>
-                    <p class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+                    <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
+    filter: alpha(opacity=60)">
                         Well Drilling Course
                     </p>
                 </div>
                 <p class="mySlides"><a href="courses/wellcontrol.php"><img src="images/control.jpg"
-                                                                             style="width:100%; height: 300px"></a>
-                    <div class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
-                        Well Control Course
-                    </div>
+                                                                           style="width:100%; height: 300px"></a>
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
+    filter: alpha(opacity=60)">
+                    Well Control Course
+                </div>
                 </p>
                 <div class="mySlides"><a href="courses/fluids/wellcasingcementing.php"><img
-                                                                                            src="images/casingcementing.jpg"
-                                                                                            style="width:100%; height: 300px"></a>
-                    <p class="w3-display-bottommiddle w3-large w3-container w3-padding-16 w3-black">
+                                src="images/casingcementing.jpg"
+                                style="width:100%; height: 300px"></a>
+                    <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
+    filter: alpha(opacity=60)">
                         Well Casing and Cementing Course
                     </p>
                 </div>

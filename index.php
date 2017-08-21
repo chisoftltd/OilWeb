@@ -32,7 +32,9 @@ include_once 'db/dbconnect.php';
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
     <style>
-        .mySlides {display:none;}
+        .mySlides {
+            display: none;
+        }
     </style>
 </head>
 <body><!-- Body area start-->
@@ -112,8 +114,8 @@ include_once 'db/dbconnect.php';
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>
-<hr>
-            <div class="w3-content w3-section" style="max-width:800px">
+            <hr>
+            <div class="w3-content w3-section" style="max-width:1000px; max-height: 500px">
                 <img class="mySlides" src="images/drilling.jpg" style="width:100%">
                 <img class="mySlides" src="images/control.jpg" style="width:100%">
                 <img class="mySlides" src="images/casingcementing.jpg" style="width:100%">
@@ -130,8 +132,10 @@ include_once 'db/dbconnect.php';
                         x[i].style.display = "none";
                     }
                     myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}
-                    x[myIndex-1].style.display = "block";
+                    if (myIndex > x.length) {
+                        myIndex = 1
+                    }
+                    x[myIndex - 1].style.display = "block";
                     setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
             </script>

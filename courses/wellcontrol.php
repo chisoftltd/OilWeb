@@ -749,22 +749,23 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li> Make kill calculations for:
                                         </li>
-                                        <ul>
-                                            <li>
-                                                Formation pressure
-                                            </li>
-                                            <li>BHP to maintain while circulating
-                                            </li>
-                                            <li>Kill mud density
-                                            </li>
-                                            <li>Initial and final circulation pressures
-                                            </li>
-                                            <li>Drill pipe pressure schedules
-                                            </li>
-                                            <li>Weighting material volume required
-                                            </li>
-                                        </ul>
-
+                                        <div>
+                                            <ul>
+                                                <li>
+                                                    Formation pressure
+                                                </li>
+                                                <li>BHP to maintain while circulating
+                                                </li>
+                                                <li>Kill mud density
+                                                </li>
+                                                <li>Initial and final circulation pressures
+                                                </li>
+                                                <li>Drill pipe pressure schedules
+                                                </li>
+                                                <li>Weighting material volume required
+                                                </li>
+                                            </ul>
+                                        </div>
                                         <li> Define weighing up and circulating procedure using one of the following
                                             methods:
                                         </li>
@@ -786,8 +787,8 @@ include_once '../db/dbconnect.php';
                                         <li>Make interpretation of the influx including:</li>
                                         <ul>
                                             <li>Height and density of influx.
-                                                </li>
-                                                <li>Annulus pressure behaviour while circulating.
+                                            </li>
+                                            <li>Annulus pressure behaviour while circulating.
                                             </li>
                                         </ul>
                                         <li>Proceed with circulation using the following guide rules:</li>
@@ -796,15 +797,36 @@ include_once '../db/dbconnect.php';
 
                                                 At all times during circulation, the Bottom Hole Pressure (BHP) must
                                                 be high enough to prevent further influx;
-                                                </li>
-                                                <li>For the safety of the rig and personnel, surface pressure should not
-                                                    at any time exceed the predetermined MAASP value.
+                                            </li>
+                                            <li>For the safety of the rig and personnel, surface pressure should not
+                                                at any time exceed the predetermined MAASP value.
                                             </li>
                                         </ul>
                                     </ol>
-                                        <p>Maintenance of BHP at the proper level is through the application of back
-                                            pressure via the adjustable choke.</p>
-                                      
+                                    <p>Maintenance of BHP at the proper level is through the application of back
+                                        pressure via the adjustable choke.</p>
+                                    <p>
+                                        A uniform kick control worksheet should be issued to all well control personnel.
+                                        Any method based on the above rules is a constant or balanced BHP method of kick
+                                        control. The variation of the Balanced BHP method is common in different well
+                                        site. Use differs in the circulation procedure. The methods are based in the
+                                        step by step procedures listed above but may vary depending on the following
+                                        situations:</p>
+                                    <ul>
+                                        <li>The bit is at or near bottom
+                                        </li>
+                                        <li>The top of the influx is below the casing shoe - the weakest point
+                                        </li>
+                                        <li>The influx is gas.</li>
+                                    </ul>
+
+                                    <p>If the bit is off bottom or top of the influx is above casing shoe, successful
+                                        influx control may require special procedures. To permit circulation from just
+                                        off bottom, it would be normal to run in or strip the string back to bottom.
+                                        Stripping requires the pipe to be run back in with either the annular BOP or
+                                        pipe rams closed around the pipe, carefully maintaining back-pressure on the
+                                        well.
+                                    </p>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">
@@ -819,14 +841,14 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Activity Descriptions cont...</h1>
+                                    Surface Well Control Equipment</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Demo Video</a>
+                                        Well Control Video</a>
                                     <!-- Modal HTML -->
                                     <div id="myControl4" class="modal fade">
                                         <div class="modal-dialog">

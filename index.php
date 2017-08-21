@@ -31,6 +31,7 @@ include_once 'db/dbconnect.php';
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         .mySlides {
             display: none;

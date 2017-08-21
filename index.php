@@ -116,9 +116,21 @@ include_once 'db/dbconnect.php';
                     Gas</strong> Industry.</h2>
             <hr>
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
-                <img class="mySlides" src="images/drilling.jpg" style="width:1000px; height: 300px">
-                <img class="mySlides" src="images/control.jpg" style="width:1000px">
-                <img class="mySlides" src="images/casingcementing.jpg" style="width:1000px">
+                <a href="courses/welldrilling.php"><img class="mySlides" src="images/drilling.jpg"
+                                                        style="width:100%; height: 300px"></a>
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-green">
+                    Well Drilling Course
+                </div>
+                <a href="courses/wellcontrol.php"><img class="mySlides" src="images/control.jpg"
+                                                       style="width:100%; height: 300px"></a>
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-green">
+                    Well Control Course
+                </div>
+                <a href="courses/fluids/wellcasingcementing.php"><img class="mySlides" src="images/casingcementing.jpg"
+                                                                      style="width:100%; height: 300px"></a>
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-green">
+                    Well Casing and Cementing Course
+                </div>
             </div>
 
             <script>

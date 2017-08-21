@@ -337,6 +337,29 @@ if (isset($_POST['deleteform'])) {
                                     </div>
 
                                 </li>
+                                <li>
+                                    <h5>The time required to plan and execute a well construction programme is dependent on (select all that apply)</h5>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6A"/>
+                                        <label for="answers-6A">A) sub-surface complexity</label>
+                                    </form>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6B"/>
+                                        <label for="answers-6B">B) location</label>
+                                    </form>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6C"/>
+                                        <label for="answers-6C">C) type of well</label>
+                                    </form>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6D"/>
+                                        <label for="answers-6D">D) None of the above>
+                                    </form>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6E"/>
+                                        <label for="answers-6E">E) All of the above.</label>
+                                    </form>
+                                </li>
 
                             </ol>
                             <input type="submit" value="Submit Quiz"/>
@@ -514,6 +537,7 @@ if (isset($_POST['deleteform'])) {
                                     </div>
 
                                 </li>
+
 
                             </ol>
                             <input type="submit" value="Submit Quiz"/>

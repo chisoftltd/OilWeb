@@ -109,7 +109,7 @@ session_start();
     <div class="content">
         <div id="page-wrap">
 
-            <h1>Your Quiz score for WebOil</h1>
+            <h1 style="text-align: center">Your Quiz score for WebOil</h1>
 
             <?php
 

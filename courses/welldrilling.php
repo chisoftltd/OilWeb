@@ -136,7 +136,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite5" role="tab">
-                                <h4>Rig Staff Organisation</h4>
+                                <h4>Rig Organisation</h4>
                             </a>
                         </li>
                     </ul>
@@ -856,7 +856,7 @@ include_once '../db/dbconnect.php';
                         <article class="panel panel-default">
                             <header class="panel-heading">
                                 <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
-                                    Rig Staff Organisation</h1>
+                                    Rig Organisation</h1>
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
@@ -872,7 +872,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Rig Staff Organisation</h4>
+                                                    <h4 class="modal-title">Rig Organisation</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling4Video" width="450" height="315"

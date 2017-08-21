@@ -937,14 +937,14 @@ include_once '../db/dbconnect.php';
                                         and examples of the internal components used in ram type BOPs.</p>
                                     <figure>
                                         <img src="/images/surfaceequipment.jpg" alt="Surface Well Equipment"
-                                             style="width: 100%; height: 50%">
+                                             style="width: 65%; height: 50%; margin-left: 15%">
                                         <figcaption><strong>Figure 1.</strong> Layout of Surface Well Control Equipment.
                                         </figcaption>
                                     </figure>
                                     <p></p>
                                     <figure>
                                         <img src="/images/conventionalbopstack.jpg" alt="Conventional BOP Stack"
-                                             style="width: 100%; height: 50%">
+                                             style="width: 65%; height: 50%; margin-left: 15%">
                                         <figcaption><strong>Figure 2.</strong> Conventional BOP Stack.
                                         </figcaption>
                                     </figure>

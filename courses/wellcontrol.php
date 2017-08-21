@@ -879,7 +879,8 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <div id="surface"><h3>Surface Well Control Equipment</h3>
+                                <div id="surface">
+                                    <h3>Surface Well Control Equipment</h3>
                                     <p>The control equipment is laid out as shown in Figure 1 and is made up of:</p>
                                     <ol>
                                         <li>Blow out preventers - Usually mounted in a stack including annular and ram
@@ -914,14 +915,12 @@ include_once '../db/dbconnect.php';
                                             <li>Several manual gate valves.</li>
                                             The adjustable chokes permit precise control of return flow rate and back
                                             pressure.
-                                            <li
-                                            ">Kelly Cock, Float Valve or Inside BOP
-                                            (Figure 6) - To prevent back flow via the drill pipe.
+                                            <li>Kelly Cock, Float Valve or Inside BOP
+                                                (Figure 6) - To prevent back flow via the drill pipe.
                                             </li>
                                         </ul>
-                                        <li
-                                        ">Mud/Gas separators and Degassers -
-                                        Equipment for removing gas from mud.
+                                        <li>Mud/Gas separators and Degassers -
+                                            Equipment for removing gas from mud.
                                         </li>
                                     </ol>
                                     <p>For subsea well control equipment, the layout and configuration are rather
@@ -1008,17 +1007,13 @@ include_once '../db/dbconnect.php';
     });
 
     $('#cmdsurface').click(function () {
-        doc.fromHTML($('#surface').html(), 15, 15,
-            'width'
-        :
-        150,
-            'elementHandlers'
-        :
-        specialElementHandlers
+        doc.fromHTML($('#surface').html(), 15, 15, {
+            'width': 150,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-surface-equipment.pdf');
     });
-    doc.save('Well-Operation-Objectives.pdf');
-    })
-    ;
+
 </script>
 
 </body>

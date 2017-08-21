@@ -338,7 +338,7 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>The time required to plan and execute a well construction programme is dependent on (select all that apply)</h5>
+                                    <h5>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>

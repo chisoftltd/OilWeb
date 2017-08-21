@@ -112,9 +112,9 @@ include_once 'db/dbconnect.php';
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>
-
-            <div class="w3-content w3-section" style="max-width:1000px">
-                <img class="mySlides" src="images/drilling.jpg" style="width:100%; position: inherit">
+<hr>
+            <div class="w3-content w3-section" style="max-width:800px">
+                <img class="mySlides" src="images/drilling.jpg" style="width:100%">
                 <img class="mySlides" src="images/control.jpg" style="width:100%">
                 <img class="mySlides" src="images/casingcementing.jpg" style="width:100%">
             </div>

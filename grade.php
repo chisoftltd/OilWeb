@@ -121,8 +121,8 @@ session_start();
             $answer6 ='';
 
             if (!empty($_POST['answer-question-6'])) {
-                foreach ($_POST['answer-question-6'] as $check) {
-                    echo $check. "<br/>". "<br/>";
+                foreach ($_POST['answer-question-6'] as $selected) {
+                    echo $selected. "<br/>". "<br/>";
                     $answer6 = $answer6 . $_POST['answer-question-6'];
                 }
                 echo $answer6. "<br/>". "<br/>";

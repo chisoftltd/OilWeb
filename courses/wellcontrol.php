@@ -750,18 +750,18 @@ include_once '../db/dbconnect.php';
                                         <li> Make kill calculations for:
                                         </li>
                                         <ul>
-                                            <li >
+                                            <li>
                                                 Formation pressure
                                             </li>
-                                            <li >BHP to maintain while circulating
+                                            <li>BHP to maintain while circulating
                                             </li>
-                                            <li >Kill mud density
+                                            <li>Kill mud density
                                             </li>
-                                            <li >Initial and final circulation pressures
+                                            <li>Initial and final circulation pressures
                                             </li>
-                                            <li >Drill pipe pressure schedules
+                                            <li>Drill pipe pressure schedules
                                             </li>
-                                            <li >Weighting material volume required
+                                            <li>Weighting material volume required
                                             </li>
                                         </ul>
 
@@ -770,41 +770,43 @@ include_once '../db/dbconnect.php';
                                             methods:
                                         </li>
                                         <ul>
-                                            <li >
+                                            <li>
                                                 Driller’s method
                                             </li>
-                                            <li >Wait and Weight method (Engineer’s
+                                            <li>Wait and Weight method (Engineer’s
                                                 method)
                                             </li>
-                                            <li >Concurrent method (circulate and
+                                            <li>Concurrent method (circulate and
                                                 weight)
                                             </li>
-                                            <li >Top Kill method.</li>
+                                            <li>Top Kill method.</li>
                                         </ul>
                                         The first two are preferred for kicks during drilling. The concurrent method
                                         requires greater skill and care. The Top Kill method is used when it is
                                         impossible to get proper circulation around the system via the drill stem or
                                         tubing, or doing so would cause greater problems (exceeding MAASP,
                                         casing burst pressure etc).
-                                        <li ">Make interpretation of the influx
-                                            including:
+                                        <li
+                                        ">Make interpretation of the influx
+                                        including:
                                         </li>
                                         <ul>
-                                            <li >Height and density of influx.
+                                            <li>Height and density of influx.
                                             </li>
-                                            <li >Annulus pressure behaviour while
+                                            <li>Annulus pressure behaviour while
                                                 circulating.
                                             </li>
                                         </ul>
-                                        <li ">Proceed with circulation using the
-                                            following guide rules:
+                                        <li
+                                        ">Proceed with circulation using the
+                                        following guide rules:
                                         </li>
                                         <ul>
-                                            <li >
+                                            <li>
                                                 At all times during circulation, the Bottom Hole Pressure (BHP) must
                                                 be high enough to prevent further influx;
                                             </li>
-                                            <li >For the safety of the rig and
+                                            <li>For the safety of the rig and
                                                 personnel,
                                                 surface pressure should not
                                                 at any time exceed the predetermined MAASP value.
@@ -900,27 +902,39 @@ include_once '../db/dbconnect.php';
                                             typical choke manifold includes:
                                         </li>
                                         <ul>
-                                            <li >One hydraulically operated BOP outlet
+                                            <li>One hydraulically operated BOP outlet
                                                 valve
                                                 for positive closure
                                             </li>
-                                            <li >Two to four adjustable chokes
+                                            <li>Two to four adjustable chokes
                                                 (variable-opening valves). One or more may be remotely actuated, the
                                                 others
                                                 are usually directly operated by handwheel
                                             </li>
-                                            <li >Several manual gate valves.</li>
+                                            <li>Several manual gate valves.</li>
                                             The adjustable chokes permit precise control of return flow rate and back
                                             pressure.
-                                            <li ">Kelly Cock, Float Valve or Inside BOP
-                                                (Figure 6) - To prevent back flow via the drill pipe.
+                                            <li
+                                            ">Kelly Cock, Float Valve or Inside BOP
+                                            (Figure 6) - To prevent back flow via the drill pipe.
                                             </li>
                                         </ul>
-                                        <li ">Mud/Gas separators and Degassers -
-                                            Equipment for removing gas from mud.
+                                        <li
+                                        ">Mud/Gas separators and Degassers -
+                                        Equipment for removing gas from mud.
                                         </li>
                                     </ol>
-
+                                    <p>For subsea well control equipment, the layout and configuration are rather
+                                        different. They may include (Figures 7 and 8):</p>
+                                    <ul>
+                                        <li>Templates - Temporary and permanent guide bases
+                                        </li>
+                                        <li>Subsea BOP stack
+                                        </li>
+                                        <li>Marine riser, etc.</li>
+                                    </ul>
+                                    <p>Figure 9 shows a double ram type BOP unit generally used in sub-sea BOP stacks,
+                                        and examples of the internal components used in ram type BOPs.</p>
 
                                 </div>
                             </div>
@@ -983,11 +997,16 @@ include_once '../db/dbconnect.php';
 
     $('#cmdsurface').click(function () {
         doc.fromHTML($('#surface').html(), 15, 15,
-            'width': 150,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('Well-Operation-Objectives.pdf');
+            'width'
+        :
+        150,
+            'elementHandlers'
+        :
+        specialElementHandlers
     });
+    doc.save('Well-Operation-Objectives.pdf');
+    })
+    ;
 </script>
 
 </body>

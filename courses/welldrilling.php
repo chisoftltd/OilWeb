@@ -430,7 +430,7 @@ include_once '../db/dbconnect.php';
                                     </p>
                                     <hr>
                                     <h3>Plan for Decommission</h3>
-                                    <p>Even before drilling decommissioning of the well is also planned. After the end
+                                    <p>Even before drilling commence, decommissioning of the well is also planned. After the end
                                         of operations communications to close out a specific well include:</p>
                                     <ul>
                                         <li>

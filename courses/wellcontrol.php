@@ -947,6 +947,12 @@ include_once '../db/dbconnect.php';
                                         <figcaption><strong>Figure 2.</strong> Conventional BOP Stack.
                                         </figcaption>
                                     </figure>
+                                    <figure>
+                                        <img src="/images/annularbopcomponents.JPG" alt="Annular BOP Components"
+                                             style="width: 50%; height: 50%; margin-left: 15%">
+                                        <figcaption><strong>Figure 3.</strong> Annular BOP Components.
+                                        </figcaption>
+                                    </figure>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

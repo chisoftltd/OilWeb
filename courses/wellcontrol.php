@@ -749,35 +749,38 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li> Make kill calculations for:
                                         </li>
-                                        <li style="list-style-type: circle;">
-                                            Formation pressure
-                                        </li>
-                                        <li style="list-style-type: circle;">BHP to maintain while circulating
-                                        </li>
-                                        <li style="list-style-type: circle;">Kill mud density
-                                        </li>
-                                        <li style="list-style-type: circle;">Initial and final circulation pressures
-                                        </li>
-                                        <li style="list-style-type: circle;">Drill pipe pressure schedules
-                                        </li>
-                                        <li style="list-style-type: circle;">Weighting material volume required
-                                        </li>
-
+                                        <ul>
+                                            <li style="list-style-type: circle;">
+                                                Formation pressure
+                                            </li>
+                                            <li style="list-style-type: circle;">BHP to maintain while circulating
+                                            </li>
+                                            <li style="list-style-type: circle;">Kill mud density
+                                            </li>
+                                            <li style="list-style-type: circle;">Initial and final circulation pressures
+                                            </li>
+                                            <li style="list-style-type: circle;">Drill pipe pressure schedules
+                                            </li>
+                                            <li style="list-style-type: circle;">Weighting material volume required
+                                            </li>
+                                        </ul>
 
                                         <li style="list-style-type: decimal;"> Define weighing up and circulating
                                             procedure using one of the following
                                             methods:
                                         </li>
-
-                                        <li style="list-style-type: circle;">
-                                            Driller’s method
-                                        </li>
-                                        <li style="list-style-type: circle;">Wait and Weight method (Engineer’s method)
-                                        </li>
-                                        <li style="list-style-type: circle;">Concurrent method (circulate and weight)
-                                        </li>
-                                        <li style="list-style-type: circle;">Top Kill method.</li>
-
+                                        <ul>
+                                            <li style="list-style-type: circle;">
+                                                Driller’s method
+                                            </li>
+                                            <li style="list-style-type: circle;">Wait and Weight method (Engineer’s
+                                                method)
+                                            </li>
+                                            <li style="list-style-type: circle;">Concurrent method (circulate and
+                                                weight)
+                                            </li>
+                                            <li style="list-style-type: circle;">Top Kill method.</li>
+                                        </ul>
                                         The first two are preferred for kicks during drilling. The concurrent method
                                         requires greater skill and care. The Top Kill method is used when it is
                                         impossible to get proper circulation around the system via the drill stem or
@@ -786,27 +789,27 @@ include_once '../db/dbconnect.php';
                                         <li style="list-style-type: decimal;">Make interpretation of the influx
                                             including:
                                         </li>
-
-                                        <li style="list-style-type: circle;">Height and density of influx.
-                                        </li>
-                                        <li style="list-style-type: circle;">Annulus pressure behaviour while
-                                            circulating.
-                                        </li>
-
+                                        <ul>
+                                            <li style="list-style-type: circle;">Height and density of influx.
+                                            </li>
+                                            <li style="list-style-type: circle;">Annulus pressure behaviour while
+                                                circulating.
+                                            </li>
+                                        </ul>
                                         <li style="list-style-type: decimal;">Proceed with circulation using the
                                             following guide rules:
                                         </li>
-
-                                        <li style="list-style-type: circle;">
-
-                                            At all times during circulation, the Bottom Hole Pressure (BHP) must
-                                            be high enough to prevent further influx;
-                                        </li>
-                                        <li style="list-style-type: circle;">For the safety of the rig and personnel,
-                                            surface pressure should not
-                                            at any time exceed the predetermined MAASP value.
-                                        </li>
-
+                                        <ul>
+                                            <li style="list-style-type: circle;">
+                                                At all times during circulation, the Bottom Hole Pressure (BHP) must
+                                                be high enough to prevent further influx;
+                                            </li>
+                                            <li style="list-style-type: circle;">For the safety of the rig and
+                                                personnel,
+                                                surface pressure should not
+                                                at any time exceed the predetermined MAASP value.
+                                            </li>
+                                        </ul>
                                     </ol>
                                     <p>Maintenance of BHP at the proper level is through the application of back
                                         pressure via the adjustable choke.</p>
@@ -896,19 +899,23 @@ include_once '../db/dbconnect.php';
                                             produced fluids and route them to separator, flare or holding tank or pit. A
                                             typical choke manifold includes:
                                         </li>
-                                        <li style="list-style-type: circle;">One hydraulically operated BOP outlet valve
-                                            for positive closure
-                                        </li>
-                                        <li style="list-style-type: circle;">Two to four adjustable chokes
-                                            (variable-opening valves). One or more may be remotely actuated, the others
-                                            are usually directly operated by handwheel
-                                        </li>
-                                        <li style="list-style-type: circle;">Several manual gate valves.</li>
-                                        The adjustable chokes permit precise control of return flow rate and back
-                                        pressure.
-                                        <li style="list-style-type: decimal;">Kelly Cock, Float Valve or Inside BOP
-                                            (Figure 6) - To prevent back flow via the drill pipe.
-                                        </li>
+                                        <ul>
+                                            <li style="list-style-type: circle;">One hydraulically operated BOP outlet
+                                                valve
+                                                for positive closure
+                                            </li>
+                                            <li style="list-style-type: circle;">Two to four adjustable chokes
+                                                (variable-opening valves). One or more may be remotely actuated, the
+                                                others
+                                                are usually directly operated by handwheel
+                                            </li>
+                                            <li style="list-style-type: circle;">Several manual gate valves.</li>
+                                            The adjustable chokes permit precise control of return flow rate and back
+                                            pressure.
+                                            <li style="list-style-type: decimal;">Kelly Cock, Float Valve or Inside BOP
+                                                (Figure 6) - To prevent back flow via the drill pipe.
+                                            </li>
+                                        </ul>
                                         <li style="list-style-type: decimal;">Mud/Gas separators and Degassers -
                                             Equipment for removing gas from mud.
                                         </li>

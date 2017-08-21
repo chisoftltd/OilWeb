@@ -749,56 +749,63 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li> Make kill calculations for:
                                         </li>
-                                                <li style="list-style-type: circle;">
-                                                    Formation pressure
-                                                </li>
-                                                <li style="list-style-type: circle;">BHP to maintain while circulating
-                                                </li>
-                                                <li style="list-style-type: circle;">Kill mud density
-                                                </li>
-                                                <li style="list-style-type: circle;">Initial and final circulation pressures
-                                                </li>
-                                                <li style="list-style-type: circle;">Drill pipe pressure schedules
-                                                </li>
-                                                <li style="list-style-type: circle;">Weighting material volume required
-                                                </li>
+                                        <li style="list-style-type: circle;">
+                                            Formation pressure
+                                        </li>
+                                        <li style="list-style-type: circle;">BHP to maintain while circulating
+                                        </li>
+                                        <li style="list-style-type: circle;">Kill mud density
+                                        </li>
+                                        <li style="list-style-type: circle;">Initial and final circulation pressures
+                                        </li>
+                                        <li style="list-style-type: circle;">Drill pipe pressure schedules
+                                        </li>
+                                        <li style="list-style-type: circle;">Weighting material volume required
+                                        </li>
 
 
-                                        <li style="list-style-type: decimal;"> Define weighing up and circulating procedure using one of the following
+                                        <li style="list-style-type: decimal;"> Define weighing up and circulating
+                                            procedure using one of the following
                                             methods:
                                         </li>
 
-                                            <li style="list-style-type: circle;">
-                                                Driller’s method
-                                            </li>
-                                            <li style="list-style-type: circle;">Wait and Weight method (Engineer’s method)
-                                            </li>
-                                            <li style="list-style-type: circle;">Concurrent method (circulate and weight)
-                                            </li>
-                                            <li style="list-style-type: circle;">Top Kill method.</li>
+                                        <li style="list-style-type: circle;">
+                                            Driller’s method
+                                        </li>
+                                        <li style="list-style-type: circle;">Wait and Weight method (Engineer’s method)
+                                        </li>
+                                        <li style="list-style-type: circle;">Concurrent method (circulate and weight)
+                                        </li>
+                                        <li style="list-style-type: circle;">Top Kill method.</li>
 
                                         The first two are preferred for kicks during drilling. The concurrent method
-                                            requires greater skill and care. The Top Kill method is used when it is
-                                            impossible to get proper circulation around the system via the drill stem or
-                                            tubing, or doing so would cause greater problems (exceeding MAASP,
-                                            casing burst pressure etc).
-                                        <li style="list-style-type: decimal;">Make interpretation of the influx including:</li>
+                                        requires greater skill and care. The Top Kill method is used when it is
+                                        impossible to get proper circulation around the system via the drill stem or
+                                        tubing, or doing so would cause greater problems (exceeding MAASP,
+                                        casing burst pressure etc).
+                                        <li style="list-style-type: decimal;">Make interpretation of the influx
+                                            including:
+                                        </li>
 
-                                            <li style="list-style-type: circle;">Height and density of influx.
-                                            </li>
-                                            <li style="list-style-type: circle;">Annulus pressure behaviour while circulating.
-                                            </li>
+                                        <li style="list-style-type: circle;">Height and density of influx.
+                                        </li>
+                                        <li style="list-style-type: circle;">Annulus pressure behaviour while
+                                            circulating.
+                                        </li>
 
-                                        <li style="list-style-type: decimal;">Proceed with circulation using the following guide rules:</li>
+                                        <li style="list-style-type: decimal;">Proceed with circulation using the
+                                            following guide rules:
+                                        </li>
 
-                                            <li style="list-style-type: circle;">
+                                        <li style="list-style-type: circle;">
 
-                                                At all times during circulation, the Bottom Hole Pressure (BHP) must
-                                                be high enough to prevent further influx;
-                                            </li>
-                                            <li style="list-style-type: circle;">For the safety of the rig and personnel, surface pressure should not
-                                                at any time exceed the predetermined MAASP value.
-                                            </li>
+                                            At all times during circulation, the Bottom Hole Pressure (BHP) must
+                                            be high enough to prevent further influx;
+                                        </li>
+                                        <li style="list-style-type: circle;">For the safety of the rig and personnel,
+                                            surface pressure should not
+                                            at any time exceed the predetermined MAASP value.
+                                        </li>
 
                                     </ol>
                                     <p>Maintenance of BHP at the proper level is through the application of back
@@ -867,89 +874,48 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h3>Surface Well Control Equipment</h3>
-                                <p>Ultimately the well design has to be translated into an operational plan, or
-                                    programme. This provides the approved reference for those charged with
-                                    constructing the well. Programmes come in many different styles and formats
-                                    but, typically, should include the following:
-                                </p>
-                                <ul>
-                                    <li>Appropriate approvals and distribution;
-                                    </li>
-                                    <li>Purpose of well;
-                                    </li>
-                                    <li>Prioritised objectives for the well;
-                                    </li>
-                                    <li>Budget data (time and cost);
-                                    </li>
-                                    <li>Description of the well design (e.g, casing specification and setting depths,
-                                        directional profile, intended cement coverage)
-                                    </li>
-                                    <li>Details of expected geology;
-                                    </li>
-                                    <li>Operational procedure;
-                                    </li>
-                                    <li> Anticipated hazards, risks, mitigation and contingencies;
-                                    </li>
-                                    <li>Data acquisition requirements (e.g, logging, sampling);
-                                    </li>
-                                    <li>Summary of third party programmes such as cementing, drilling fluids and
-                                        directional plan;
-                                    </li>
-                                    <li>Contact details.
-                                    </li>
-                                </ul>
-                                <p>The format and detail for a programme will also depend on the type of well to be
-                                    drilled. For example the fortieth well on a development programme may require
-                                    little more than a one page summary sheet whereas the first High Pressure High
-                                    Temperature (HPHT) well in a virgin area could warrant the well construction
-                                    equivalent of War and Peace. In consideration of the detail required it is useful to
-                                    put yourself in the place of the well-site supervisor charged with delivering the
-                                    well objectives</p>
-                                <h4><i>Risk Identification and Mitigation
-                                    </i></h4>
-                                <p>The management of risk for a well construction process covers Health, Safety
-                                    and Environment (HS&E) risk and operational risk. The former is concerned with
-                                    protection of people and the environment the latter with protection of the
-                                    business plan which incorporates promises for budget and schedule. As HS&E
-                                    and business cultures have developed there has been a tendency to separate
-                                    these features in terms of how they are dealt with in the planning process.
-                                    Ultimately, however, there appears to be growing consensus that good HSE
-                                    management means good operational management and vice versa. Therefore,
-                                    instead of having separate processes to consider HS&E and operational risk, all
-                                    forms of risk are considered in the one risk management process.</p>
-                                <p>Management of risk is an iterative process. No matter at what stage in the well
-                                    construction process identification and understanding of risk should never be far
-                                    from the mind. The processes required involve anything from the awareness of
-                                    experienced personnel while compiling plans to full blown hazard operability and
-                                    analysis studies involving multi-disciplined teams, formal processes and many
-                                    days of scrutiny. The scale, complexity and novelty of the project also should
-                                    determine the scale, complexity and novelty of the risk management process.
-                                </p>
-                                <p>In simple terms there are two important times where full accountability of risk
-                                    should be formally considered. Firstly at the concept selection phase where the
-                                    various options are being reviewed; secondly, once the proposed design and
-                                    operational process have been sufficiently defined to allow in depth review.</p>
-                                <h4><i>Time / Cost Estimate Generation
-                                    </i></h4>
-                                <p>The time / cost estimate is the cornerstone of a well construction organisations’
-                                    commitment to the business it serves. It is a promise that the objectives will be
-                                    delivered at a given cost. The fundamental issue with time/cost estimation is that
-                                    business plans are often drawn up before the well is sufficiently defined both in
-                                    terms of objectives and design. This is not such a concern if the well in question
-                                    is a repeat of previous types but when dealing with new well types it is difficult
-                                    to
-                                    give precise information.
-                                </p>
-                                <p>Estimates are often classified to reflect the level of uncertainty. Examples of
-                                    classifications and their likely variance could be:</p>
-                                <ul>
-                                    <li>Budgetary: +/- 30%
-                                    </li>
-                                    <li>Appropriation: +/- 10%
-                                    </li>
-                                    <li>Pre operational: +/- 5%</li>
-                                </ul>
+                                <div id="surface"><h3>Surface Well Control Equipment</h3>
+                                    <p>The control equipment is laid out as shown in Figure 1 and is made up of:</p>
+                                    <ol>
+                                        <li>Blow out preventers - Usually mounted in a stack including annular and ram
+                                            type preventers. Figure 2 is an example of a BOP stack arrangement of single
+                                            ram units and annular unit for surface use, showing operation of different
+                                            components. Figure 3 shows two different makes of annular BOP with varying
+                                            sealing element design. Principles of operation are essentially the same in
+                                            both cases; it is the method of deformation of the element that is
+                                            different.
+                                        </li>
+                                        <li>Drilling Spool (Figure 2) for attachment of high pressure choke and kill
+                                            lines, for circulation with the BOP closed.
+                                        </li>
+                                        <li>Casing head (Figure 2) - This is welded to the first surface casing and it
+                                            provides support and pressure seal for the BOP stack and future casing
+                                            strings.
+                                        </li>
+                                        <li>Choke Manifold and Control Panel (Figure 4 and 5) - To control flow of
+                                            produced fluids and route them to separator, flare or holding tank or pit. A
+                                            typical choke manifold includes:
+                                        </li>
+                                        <li style="list-style-type: circle;">One hydraulically operated BOP outlet valve
+                                            for positive closure
+                                        </li>
+                                        <li style="list-style-type: circle;">Two to four adjustable chokes
+                                            (variable-opening valves). One or more may be remotely actuated, the others
+                                            are usually directly operated by handwheel
+                                        </li>
+                                        <li style="list-style-type: circle;">Several manual gate valves.</li>
+                                        The adjustable chokes permit precise control of return flow rate and back
+                                        pressure.
+                                        <li style="list-style-type: decimal;">Kelly Cock, Float Valve or Inside BOP
+                                            (Figure 6) - To prevent back flow via the drill pipe.
+                                        </li>
+                                        <li style="list-style-type: decimal;">Mud/Gas separators and Degassers -
+                                            Equipment for removing gas from mud.
+                                        </li>
+                                    </ol>
+
+
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU

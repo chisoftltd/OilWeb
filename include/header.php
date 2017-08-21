@@ -9,7 +9,7 @@ and open the template in the editor.
         <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo"/></a>
 
     </div>
-    <div style="float: left"><p>Translate this page:</p>
+    <div style="float: right"><p>Translate this page:</p>
 
         <div id="google_translate_element"></div>
 

@@ -340,23 +340,23 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>The time required to plan and execute a well construction programme is dependent on (select all that apply)</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6A"/>
+                                        <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
                                     </form>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6B"/>
+                                        <input type="checkbox" name="answer-question-6[]" value="B" id="answer-6B"/>
                                         <label for="answers-6B">B) location</label>
                                     </form>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6C"/>
+                                        <input type="checkbox" name="answer-question-6[]" value="C" id="answer-6C"/>
                                         <label for="answers-6C">C) type of well</label>
                                     </form>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6D"/>
+                                        <input type="checkbox" name="answer-question-6[]" value="D" id="answer-6D"/>
                                         <label for="answers-6D">D) None of the above>
                                     </form>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6" value="sub-surface" id="answer-6E"/>
+                                        <input type="checkbox" name="answer-question-6[]" value="E" id="answer-6E"/>
                                         <label for="answers-6E">E) All of the above.</label>
                                     </form>
                                 </li>

@@ -119,6 +119,16 @@ session_start();
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
 
+
+
+if(!empty($_POST['answer-question-6'])) {
+    foreach($_POST['answer-question-6'] as $check) {
+        echo $check;
+        $answer6 .= $_POST['answer-question-6'];
+    }
+}
+
+
             $totalCorrect = 0;
 
             if ($answer1 == "A") {
@@ -136,8 +146,11 @@ session_start();
             if ($answer5 == "D") {
                 $totalCorrect++;
             }
+            if ($answer6 == "ABC"){
+                $totalCorrect++;
+            }
 
-            echo "<div id='results'>$totalCorrect / 5 correct</div>";
+            echo "<div id='results'>$totalCorrect / 6 correct</div>";
 
             ?>
 

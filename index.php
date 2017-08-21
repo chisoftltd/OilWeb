@@ -116,9 +116,9 @@ include_once 'db/dbconnect.php';
                     Gas</strong> Industry.</h2>
             <hr>
             <div class="w3-content w3-section" style="max-height 100px; max-width:100px; margin-left:7%">
-                <img class="mySlides" src="images/drilling.jpg" style="width:100%">
-                <img class="mySlides" src="images/control.jpg" style="width:100%">
-                <img class="mySlides" src="images/casingcementing.jpg" style="width:100%">
+                <img class="mySlides" src="images/drilling.jpg" style="width:100px">
+                <img class="mySlides" src="images/control.jpg" style="width:100px">
+                <img class="mySlides" src="images/casingcementing.jpg" style="width:100px">
             </div>
 
             <script>

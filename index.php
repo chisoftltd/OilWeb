@@ -30,8 +30,8 @@ include_once 'db/dbconnect.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/main-style.css">
     <style>
         .mySlides {
             display: none;

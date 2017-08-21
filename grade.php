@@ -118,7 +118,7 @@ session_start();
             $answer3 = $_POST['question-3-answers'];
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
-            $answer6;
+            $answer6 ='';
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $check) {
@@ -161,7 +161,7 @@ session_start();
                 $correctanswer5 = "D) All of the above" . "<br/>". "<br/>";
                 echo "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5;
             }
-            $correctanswer6;
+            $correctanswer6='';
             if ($answer6 == "ABC") {
                 $totalCorrect++;
             } else {

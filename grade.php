@@ -133,23 +133,46 @@ session_start();
 
             if ($answer1 == "A") {
                 $totalCorrect++;
+            } else {
+                $correctanswer1 = "A) Control subsurface pressures.";
+                echo $correctanswer1;
             }
             if ($answer2 == "B") {
                 $totalCorrect++;
+            } else {
+                $correctanswer2 = "B) Mud Balance.";
+                echo $correctanswer2;
             }
             if ($answer3 == "A") {
                 $totalCorrect++;
+            } else {
+                $correctanswer3 = "A) Drilling Superintendent";
+                echo $correctanswer3;
             }
             if ($answer4 == "B") {
                 $totalCorrect++;
+            } else {
+                $correctanswer4 = "B) Semisubmersible rigs";
+                echo $correctanswer4;
             }
             if ($answer5 == "D") {
                 $totalCorrect++;
+            } else {
+                $correctanswer5 = "D) All of the above";
+                echo $correctanswer5;
             }
+            $correctanswer6;
             if ($answer6 == "ABC") {
                 $totalCorrect++;
+            } else {
+                $correctanswer6 = "A) sub-surface complexity" . "<br/>";
+                $correctanswer6 = $correctanswer6 . "B) location" . "<br/>";
+                $correctanswer6 = $correctanswer6 . "C) type of well";
+                echo $correctanswer6;
             }
-
+            if ($totalCorrect == 6) {
+                echo $correctanswer1 . "<br/>" . $correctanswer2 . "<br/>" . $correctanswer3 . "<br/>" . $correctanswer4 . "<br/>" . $correctanswer5 . $correctanswer6;
+            }
             echo "<div id='results'>$totalCorrect / 6 correct</div>";
 
             ?>

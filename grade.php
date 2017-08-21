@@ -137,13 +137,15 @@ session_start();
             } else {
                 $correctanswer1 = '<h4 style="color: darkgreen">A) Control subsurface pressures</h4>' . "<br/>" . "<br/>";
                 echo "<h3 style='color: blue'>What is drilling Mud used for?</h3>" . "<br/>" . $correctanswer1;
+                echo '<hr style="border: 1px solid black">';
             }
-            echo '<hr style="border: 1px solid black">';
+
             if ($answer2 == "B") {
                 $totalCorrect++;
             } else {
                 $correctanswer2 = '<h4 style="color: darkgreen">B) Mud Balance</h4>' . "<br/>" . "<br/>";
                 echo "<h3 style='color: blue'>What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctanswer2;
+                echo '<hr style="border: 1px solid black">';
             }
             if ($answer3 == "A") {
                 $totalCorrect++;
@@ -156,12 +158,14 @@ session_start();
             } else {
                 $correctanswer4 = '<h4 style="color: darkgreen">B) Semisubmersible rigs</h4>' . "<br/>" . "<br/>";
                 echo "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer4;
+                echo '<hr style="border: 1px solid black">';
             }
             if ($answer5 == "D") {
                 $totalCorrect++;
             } else {
                 $correctanswer5 = '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>" . "<br/>";
                 echo "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
+                echo '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = '';
             if (trim($answer6, '') == 'ABC') {
@@ -171,9 +175,11 @@ session_start();
                 $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
                 $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">C) type of well</h4>';
                 echo "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctanswer6 . "<br/>" . "<br/>";
+                echo '<hr style="border: 1px solid black">';
             }
             if ($totalCorrect === 6) {
                 echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6;
+                
             }
             echo '<hr style="border: 2px solid green">';
             echo "<div id='results'>$totalCorrect / 6 correct</div>";

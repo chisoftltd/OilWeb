@@ -991,7 +991,7 @@ include_once '../db/dbconnect.php';
     });
 
     $('#cmdswab').click(function () {
-        doc.fromHTML($('#swab').html(), 15, 15, {
+        doc.fromHTML($('#swab').html(), 15, 30, {
             'width': 250,
             'elementHandlers': specialElementHandlers
         });
@@ -999,7 +999,7 @@ include_once '../db/dbconnect.php';
     });
 
     $('#cmdlostC').click(function () {
-        doc.fromHTML($('#lostC').html(), 15, 15, {
+        doc.fromHTML($('#lostC').html(), 15, 45, {
             'width': 150,
             'elementHandlers': specialElementHandlers
         });
@@ -1007,8 +1007,8 @@ include_once '../db/dbconnect.php';
     });
 
     $('#cmdsurface').click(function () {
-        doc.fromHTML($('#surface').html(), 15, 15, {
-            'width': 150,
+        doc.fromHTML($('#surface').html(), 15, 60, {
+            'width': 250,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-surface-equipment.pdf');

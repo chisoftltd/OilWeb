@@ -132,7 +132,7 @@ include_once '../db/dbconnect.php';
                         </li>
                         <li class="list-group-item">
                             <a href="#seite4" data-toggle="tab" aria-controls="seite4" role="tab">
-                                <h4>Activity Descriptions cont...</h4>
+                                <h4>Surface Well Control Equipment</h4>
                             </a>
                         </li>
                     </ul>
@@ -689,7 +689,7 @@ include_once '../db/dbconnect.php';
                                             constant is an indicator of produced gas, but…
                                         </li>
 
-                                        </li>
+
                                         <li><strong>Recycled Gas</strong> is the gas recirculated into the hole, which
                                             has not been
                                             removed in surface treatment. It appears on detection equipment as an
@@ -749,59 +749,57 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li> Make kill calculations for:
                                         </li>
-                                        <div>
-                                            <ul>
-                                                <li>
+                                                <li style="list-style-type: circle;">
                                                     Formation pressure
                                                 </li>
-                                                <li>BHP to maintain while circulating
+                                                <li style="list-style-type: circle;">BHP to maintain while circulating
                                                 </li>
-                                                <li>Kill mud density
+                                                <li style="list-style-type: circle;">Kill mud density
                                                 </li>
-                                                <li>Initial and final circulation pressures
+                                                <li style="list-style-type: circle;">Initial and final circulation pressures
                                                 </li>
-                                                <li>Drill pipe pressure schedules
+                                                <li style="list-style-type: circle;">Drill pipe pressure schedules
                                                 </li>
-                                                <li>Weighting material volume required
+                                                <li style="list-style-type: circle;">Weighting material volume required
                                                 </li>
-                                            </ul>
-                                        </div>
-                                        <li> Define weighing up and circulating procedure using one of the following
+
+
+                                        <li style="list-style-type: decimal;"> Define weighing up and circulating procedure using one of the following
                                             methods:
                                         </li>
-                                        <ul>
-                                            <li>
+
+                                            <li style="list-style-type: circle;">
                                                 Driller’s method
                                             </li>
-                                            <li>Wait and Weight method (Engineer’s method)
+                                            <li style="list-style-type: circle;">Wait and Weight method (Engineer’s method)
                                             </li>
-                                            <li>Concurrent method (circulate and weight)
+                                            <li style="list-style-type: circle;">Concurrent method (circulate and weight)
                                             </li>
-                                            <li>Top Kill method.</li>
-                                        </ul>
-                                        <p>The first two are preferred for kicks during drilling. The concurrent method
+                                            <li style="list-style-type: circle;">Top Kill method.</li>
+
+                                        The first two are preferred for kicks during drilling. The concurrent method
                                             requires greater skill and care. The Top Kill method is used when it is
                                             impossible to get proper circulation around the system via the drill stem or
                                             tubing, or doing so would cause greater problems (exceeding MAASP,
-                                            casing burst pressure etc).</p>
-                                        <li>Make interpretation of the influx including:</li>
-                                        <ul>
-                                            <li>Height and density of influx.
+                                            casing burst pressure etc).
+                                        <li style="list-style-type: decimal;">Make interpretation of the influx including:</li>
+
+                                            <li style="list-style-type: circle;">Height and density of influx.
                                             </li>
-                                            <li>Annulus pressure behaviour while circulating.
+                                            <li style="list-style-type: circle;">Annulus pressure behaviour while circulating.
                                             </li>
-                                        </ul>
-                                        <li>Proceed with circulation using the following guide rules:</li>
-                                        <ul>
-                                            <li>
+
+                                        <li style="list-style-type: decimal;">Proceed with circulation using the following guide rules:</li>
+
+                                            <li style="list-style-type: circle;">
 
                                                 At all times during circulation, the Bottom Hole Pressure (BHP) must
                                                 be high enough to prevent further influx;
                                             </li>
-                                            <li>For the safety of the rig and personnel, surface pressure should not
+                                            <li style="list-style-type: circle;">For the safety of the rig and personnel, surface pressure should not
                                                 at any time exceed the predetermined MAASP value.
                                             </li>
-                                        </ul>
+
                                     </ol>
                                     <p>Maintenance of BHP at the proper level is through the application of back
                                         pressure via the adjustable choke.</p>
@@ -869,7 +867,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <h4><i>Operational Plan</i></h4>
+                                <h3>Surface Well Control Equipment</h3>
                                 <p>Ultimately the well design has to be translated into an operational plan, or
                                     programme. This provides the approved reference for those charged with
                                     constructing the well. Programmes come in many different styles and formats

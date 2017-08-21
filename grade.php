@@ -118,12 +118,12 @@ session_start();
             $answer3 = $_POST['question-3-answers'];
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
-
+            $answer6;
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $check) {
                     echo $check;
-                    $answer6 .= $_POST['answer-question-6'];
+                    $answer6 = $answer6 . $_POST['answer-question-6'];
                 }
                 echo $answer6;
             }

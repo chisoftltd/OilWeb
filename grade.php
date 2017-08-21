@@ -122,10 +122,10 @@ session_start();
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
-                    echo $selected. "<br/>". "<br/>";
+                    echo $selected. "<br/>";
                     $answer6 = $answer6 . $_POST['answer-question-6'];
                 }
-                echo $answer6. "<br/>". "<br/>";
+                echo $answer6. "<br/>";
             }
 
 
@@ -134,43 +134,43 @@ session_start();
             if ($answer1 == "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer1 = "A) Control subsurface pressures" . "<br/>". "<br/>";
-                echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1;
+                $correctanswer1 = "<h4>"."A) Control subsurface pressures" . "</h4>"."<br/>". "<br/>";
+                echo "<h3>"."What is drilling Mud used for?". "</h3>" . "<br/>" . $correctanswer1;
             }
             if ($answer2 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer2 = "B) Mud Balance" . "<br/>". "<br/>";
-                echo "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2;
+                $correctanswer2 = "<h4>"."B) Mud Balance" . "</h4>". "<br/>". "<br/>";
+                echo "<h3>"."What instrument is used to measure Mud Weight?" . "</h3>". "<br/>" . $correctanswer2;
             }
             if ($answer3 == "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer3 = "A) Drilling Superintendent" . "<br/>". "<br/>";
-                echo "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3;
+                $correctanswer3 = "<h4>"."A) Drilling Superintendent" . "</h4>". "<br/>". "<br/>";
+                echo "<h3>"."Which of the following personnel should not be on site during drilling?". "</h3>" . "<br/>" . $correctanswer3;
             }
             if ($answer4 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer4 = "B) Semisubmersible rigs" . "<br/>". "<br/>";
-                echo "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4;
+                $correctanswer4 = "<h4>"."B) Semisubmersible rigs" . "</h4>". "<br/>". "<br/>";
+                echo "<h3>"."Which of the following RIG is used offshore?" . "</h3>". "<br/>" . $correctanswer4;
             }
             if ($answer5 == "D") {
                 $totalCorrect++;
             } else {
-                $correctanswer5 = "D) All of the above" . "<br/>". "<br/>";
-                echo "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5;
+                $correctanswer5 = "<h4>"."D) All of the above" . "</h4>". "<br/>". "<br/>";
+                echo "<h3>"."Which of the following is constituent of Mud?". "</h3>" . "<br/>" . $correctanswer5;
             }
             $correctanswer6='';
             if ($answer6 == "ABC") {
                 $totalCorrect++;
             } else {
-                $correctanswer6 = "A) sub-surface complexity" . "<br/>";
-                $correctanswer6 = $correctanswer6 . "B) location" . "<br/>";
-                $correctanswer6 = $correctanswer6 . "C) type of well";
-                echo "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6. "<br/>". "<br/>";
+                $correctanswer6 = "<h4>"."A) sub-surface complexity" . "</h4>". "<br/>";
+                $correctanswer6 = $correctanswer6 . "<h4>"."B) location" . "</h4>". "<br/>";
+                $correctanswer6 = $correctanswer6 . "<h4>"."C) type of well". "</h4>";
+                echo "<h3>"."The time required to plan and execute a well construction programme is dependent on (select all that apply)?". "</h3>" . "<br/>" . $correctanswer6. "<br/>". "<br/>";
             }
-            if ($totalCorrect !== 6) {
+            if ($totalCorrect === 6) {
                 echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6;
             }
             echo "<div id='results'>$totalCorrect / 6 correct</div>";

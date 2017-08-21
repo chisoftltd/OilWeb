@@ -134,31 +134,31 @@ session_start();
             if ($answer1 == "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer1 = "A) Control subsurface pressures.";
+                $correctanswer1 = "A) Control subsurface pressures". "<br/>";
                 echo $correctanswer1;
             }
             if ($answer2 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer2 = "B) Mud Balance.";
+                $correctanswer2 = "B) Mud Balance". "<br/>";
                 echo $correctanswer2;
             }
             if ($answer3 == "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer3 = "A) Drilling Superintendent";
+                $correctanswer3 = "A) Drilling Superintendent". "<br/>";
                 echo $correctanswer3;
             }
             if ($answer4 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer4 = "B) Semisubmersible rigs";
+                $correctanswer4 = "B) Semisubmersible rigs". "<br/>";
                 echo $correctanswer4;
             }
             if ($answer5 == "D") {
                 $totalCorrect++;
             } else {
-                $correctanswer5 = "D) All of the above";
+                $correctanswer5 = "D) All of the above". "<br/>";
                 echo $correctanswer5;
             }
             $correctanswer6;

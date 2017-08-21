@@ -138,6 +138,7 @@ session_start();
                 $correctanswer1 = '<h4 style="color: darkgreen">A) Control subsurface pressures</h4>' . "<br/>" . "<br/>";
                 echo "<h3 style='color: blue'>What is drilling Mud used for?</h3>" . "<br/>" . $correctanswer1;
             }
+            echo '<hr style="border: 1px solid black">';
             if ($answer2 == "B") {
                 $totalCorrect++;
             } else {

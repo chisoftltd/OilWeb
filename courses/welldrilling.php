@@ -168,12 +168,14 @@ include_once '../db/dbconnect.php';
                                         </div>
                                     </div>
                                     <figcaption class="text-center"><strong>Drilling Video</strong></figcaption>
-                                </figure><div id="drill">
+                                </figure>
+                                <div id="drill">
                                     <p> The time required to plan and execute a well construction programme is
                                         dependent on many variables including sub-surface complexity, location and type
                                         of well. For any well, however, there are common activities which must be
                                         addressed to enable comprehensive planning and operational control. For the
-                                        purposes of this topic we will assume a single well, drilled from a semisubmersible
+                                        purposes of this topic we will assume a single well, drilled from a
+                                        semisubmersible
                                         rig. The main activities are:</p>
                                     <ul>
                                         <li>Receipt of well planning request / well objectives;</li>
@@ -196,7 +198,8 @@ include_once '../db/dbconnect.php';
                                     <p>While it would be ideal if the activities shown above could be laid out in an
                                         ordered sequence it is more often the case that many of the activities occur in
                                         parallel. Also it is common for plans to evolve and change as operational
-                                        definition is refined. In particular the generation of the time/cost estimate does
+                                        definition is refined. In particular the generation of the time/cost estimate
+                                        does
                                         not tend to be a one off event. Invariably costs are required at an early stage
                                         where little detailed planning or review has been performed. Hence accuracy of
                                         the estimate develops throughout the planning phase and different classes of
@@ -254,7 +257,7 @@ include_once '../db/dbconnect.php';
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
                                 <div id="planning">
-                                    <h3 >Well Planning Request / Well Objectives</h3>
+                                    <h3>Well Planning Request / Well Objectives</h3>
                                     <p>The main purpose of a well planning request is to provide the agreed basis for
                                         design. This document should form the start point for the planning process and
                                         should be referred back to throughout the planning and execution phases to
@@ -264,24 +267,30 @@ include_once '../db/dbconnect.php';
                                         levels of authority in both the requesting and executing organisations.
                                     </p>
                                     <p>
-                                        Who generates the final, formally agreed request is not necessarily important. It
+                                        Who generates the final, formally agreed request is not necessarily important.
+                                        It
                                         may be that the party responsible for well design compiles the request after
                                         discussions with the requestor (or ‘Client’). Perhaps the Client prepares the
                                         document. What is important, however, is that the request is jointly reviewed
                                         and accepted.
                                     </p>
                                     <p>
-                                        An integral part of the request document should be a prioritised list of objectives
-                                        for the well. In both the planning and operational phases of a well, decisions and
+                                        An integral part of the request document should be a prioritised list of
+                                        objectives
+                                        for the well. In both the planning and operational phases of a well, decisions
+                                        and
                                         compromises may be required and a clear understanding of the priorities of the
                                         well will help to make the appropriate choices. The identification of objectives
-                                        also provides the basis for performance evaluation at the completion of the well.
+                                        also provides the basis for performance evaluation at the completion of the
+                                        well.
                                     </p>
                                     <hr/>
                                     <h3>Allocation of Engineering/Operational Resources
                                     </h3>
-                                    <p>No well can be planned and drilled without the allocation of the required skills to
-                                        turn a request into reality. Many skills and talents are required but probably the
+                                    <p>No well can be planned and drilled without the allocation of the required skills
+                                        to
+                                        turn a request into reality. Many skills and talents are required but probably
+                                        the
                                         most important key to success is to ensure that clear accountability is assigned
                                         for delivery of the well.</p>
                                     <p>
@@ -297,7 +306,8 @@ include_once '../db/dbconnect.php';
                                     </ul>
 
                                     <p>Dependent on scale and maturity of operations the roles can be combined or
-                                        indeed may require multiple positions to fulfil the plan. The above roles could be
+                                        indeed may require multiple positions to fulfil the plan. The above roles could
+                                        be
                                         considered core within a well construction organisation. There are, however,
                                         many other roles which support delivery of a well:</p>
                                     <ul>
@@ -338,7 +348,8 @@ include_once '../db/dbconnect.php';
                                     <h3>Government/Legislative Requirements</h3>
                                     <p>All wells are subject to government approvals in various guises. For the purpose
                                         of this module the requirements for the United Kingdom Continental Shelf
-                                        (UKCS) will be considered. Different countries will have their own requirements.</p>
+                                        (UKCS) will be considered. Different countries will have their own
+                                        requirements.</p>
                                     <p>In general the planning requirements for the UKCS fall into the following
                                         categories:
                                     </p>
@@ -350,7 +361,8 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li>Well Notification (Health and Safety Executive);
                                         </li>
-                                    </ul></div>
+                                    </ul>
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
@@ -413,7 +425,8 @@ include_once '../db/dbconnect.php';
                                     </p>
                                     <hr>
                                     <h3>Plan for Decommission</h3>
-                                    <p>Even before drilling decommissioning of the well is also planned. After the end of operations communications to close out a specific well include:</p>
+                                    <p>Even before drilling decommissioning of the well is also planned. After the end
+                                        of operations communications to close out a specific well include:</p>
                                     <ul>
                                         <li>
                                             Chemical Discharge Records (DTI or agent);
@@ -424,7 +437,8 @@ include_once '../db/dbconnect.php';
                                     </ul>
                                     <p>It is also important to be aware of the life cycle approach to well integrity
                                         adopted in the UKCS which means that even after a well has been finished a
-                                        responsibility remains to ensure that the well is fit for its intended purpose until
+                                        responsibility remains to ensure that the well is fit for its intended purpose
+                                        until
                                         it is finally abandoned. </p>
                                     <hr>
                                     <h3>Well Design
@@ -514,7 +528,8 @@ include_once '../db/dbconnect.php';
                                         </li>
                                     </ul>
                                     <p>Prior to commencement of operations a detailed load-out list should be prepared
-                                        which lists all equipment required for the well. This assists in the callout of the
+                                        which lists all equipment required for the well. This assists in the callout of
+                                        the
                                         required equipment at the appropriate time during the well and also serves as a
                                         check that nothing has been forgotten.</p>
                                     <hr>
@@ -523,7 +538,8 @@ include_once '../db/dbconnect.php';
                                         determined. If a survey is required then it must be organised and performed in
                                         time to allow delivery of, and reaction to, the results.
                                     </p>
-                                    <p>A site survey is normally performed to acquire data for the following reasons:</p>
+                                    <p>A site survey is normally performed to acquire data for the following
+                                        reasons:</p>
                                     <ul>
                                         <li>To identify significant debris on the seabed at the intended location;
                                         </li>
@@ -532,12 +548,15 @@ include_once '../db/dbconnect.php';
                                         <li> To assess the potential for shallow gas in surface hole.</li>
                                     </ul>
                                     <p>For the UKCS it is a requirement to notify the DTI at least 28 days prior to the
-                                        work. For certain areas there may be a seasonal limitation on the shooting of site
+                                        work. For certain areas there may be a seasonal limitation on the shooting of
+                                        site
                                         survey seismic.</p>
                                     <p>The survey itself is carried out from a specialised vessel. Typically the work
-                                        involves shooting seismic of varying definition over a pre-planned grid which will
+                                        involves shooting seismic of varying definition over a pre-planned grid which
+                                        will
                                         cover the anchor pattern area and include a more concentrated grid around the
-                                        proposed location for shallow gas definition. It is common for a consultant to be
+                                        proposed location for shallow gas definition. It is common for a consultant to
+                                        be
                                         hired to provide third party quality assurance during site survey work.
                                     </p>
                                     <p>Outcomes from a site survey could include:
@@ -611,7 +630,8 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li>Budget data (time and cost);
                                         </li>
-                                        <li>Description of the well design (e.g, casing specification and setting depths,
+                                        <li>Description of the well design (e.g, casing specification and setting
+                                            depths,
                                             directional profile, intended cement coverage)
                                         </li>
                                         <li>Details of expected geology;
@@ -632,8 +652,10 @@ include_once '../db/dbconnect.php';
                                         drilled. For example the fortieth well on a development programme may require
                                         little more than a one page summary sheet whereas the first High Pressure High
                                         Temperature (HPHT) well in a virgin area could warrant the well construction
-                                        equivalent of War and Peace. In consideration of the detail required it is useful to
-                                        put yourself in the place of the well-site supervisor charged with delivering the
+                                        equivalent of War and Peace. In consideration of the detail required it is
+                                        useful to
+                                        put yourself in the place of the well-site supervisor charged with delivering
+                                        the
                                         well objectives</p>
                                     <hr>
                                     <h3>Risk Identification and Mitigation
@@ -649,7 +671,8 @@ include_once '../db/dbconnect.php';
                                         instead of having separate processes to consider HS&E and operational risk, all
                                         forms of risk are considered in the one risk management process.</p>
                                     <p>Management of risk is an iterative process. No matter at what stage in the well
-                                        construction process identification and understanding of risk should never be far
+                                        construction process identification and understanding of risk should never be
+                                        far
                                         from the mind. The processes required involve anything from the awareness of
                                         experienced personnel while compiling plans to full blown hazard operability and
                                         analysis studies involving multi-disciplined teams, formal processes and many
@@ -664,11 +687,16 @@ include_once '../db/dbconnect.php';
                                     <h3>Time / Cost Estimate Generation
                                     </h3>
                                     <p>The time / cost estimate is the cornerstone of a well construction organisations’
-                                        commitment to the business it serves. It is a promise that the objectives will be
-                                        delivered at a given cost. The fundamental issue with time/cost estimation is that
-                                        business plans are often drawn up before the well is sufficiently defined both in
-                                        terms of objectives and design. This is not such a concern if the well in question
-                                        is a repeat of previous types but when dealing with new well types it is difficult
+                                        commitment to the business it serves. It is a promise that the objectives will
+                                        be
+                                        delivered at a given cost. The fundamental issue with time/cost estimation is
+                                        that
+                                        business plans are often drawn up before the well is sufficiently defined both
+                                        in
+                                        terms of objectives and design. This is not such a concern if the well in
+                                        question
+                                        is a repeat of previous types but when dealing with new well types it is
+                                        difficult
                                         to
                                         give precise information.
                                     </p>
@@ -681,6 +709,105 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li>Pre operational: +/- 5%</li>
                                     </ul>
+                                    <p>As with risk management, the estimation process is iterative. The key advice is
+                                        to ensure that the client group are kept closely in the loop as estimates evolve
+                                        and no room is left for misunderstanding the current cost situation for the
+                                        well.</p>
+                                    <h3>Pre-operational Review</h3>
+                                    <hr>
+                                    <p>Prior to commencement of operations it is good practice to review the programme
+                                        with those closely involved with its implementation. This is commonly referred
+                                        to as a Pre Spud Meeting referring to the common term for commencement of
+                                        drilling. The main aims are to ensure that the objectives and performance
+                                        measures for the well are understood, the operational plan and operational risks
+                                        are communicated and lines of communication are established for the operational
+                                        phase. The gathering also serves to help build team rapport which can greatly
+                                        enhance the ultimate performance on the well.</p>
+                                    <p>The review is also an opportunity to capture any last minute input which could
+                                        contribute to improving the plan. Typically meeting attendees would include
+                                        those responsible creating the well plan, representatives from the client
+                                        group, wellsite supervisors, office and wellsite based service providers
+                                        including rig crew and logistics co-ordinators.</p>
+                                    <p>A final opportunity for communication prior to commencement of operations is for
+                                        the plan to presented to crews at the wellsite either by the well planners or
+                                        the wellsite supervisors.</p>
+                                    <h3>Operational Phase</h3>
+                                    <hr>
+                                    <p>The main requirements during the construction phase are:</p>
+                                    <ul>
+                                        <li>To implement the plan as intended;
+                                        </li>
+                                        <li>To effectively manage any deviation from the intended plan whatever the
+                                            cause (e.g, operational problems, geology not as predicted, change in
+                                            objectives);
+                                        </li>
+                                        <li>To comply with all reporting requirements internal and external to the
+                                            organisation;
+                                        </li>
+                                        <li>To monitor and report current and forecast costs;
+                                        </li>
+                                        <li>To manage logistics such that all equipment and personnel are available at
+                                            wellsite as required.
+                                        </li>
+                                    </ul>
+                                    <h3>Post Well Activities</h3>
+                                    <hr>
+                                    <p> Once finished the following activities are required to effectively close out the
+                                        well construction process:</p>
+                                    <ul>
+                                        <li>
+                                            Receive and review all third party operational reports;
+                                        </li>
+                                        <li>Hold ‘wash-up’ meeting to discuss results;
+                                        </li>
+                                        <li>Produce final well cost;
+                                        </li>
+                                        <li>Obtain Client feedback on performance;
+                                        </li>
+                                        <li>Prepare well history to include:
+                                        </li>
+                                        <li>Appropriate approvals and distribution;
+                                        </li>
+                                        <li>Original purpose of well;
+                                        </li>
+                                        <li>Measure of attainment of objectives;
+                                        </li>
+                                        <li>Actual vs. planned time and cost data
+                                        </li>
+                                        <li>Description of the well as built (e.g, casing specification and setting
+                                            depths, directional profile, cement coverage)
+                                        </li>
+                                        <li>Details of encountered geology;
+                                        </li>
+                                        <li>Operational review including recommendations for future work;
+                                        </li>
+                                        <li>Encountered hazards/risks, mitigation and contingencies employed;
+                                        </li>
+                                        <li>Breakdown of non productive time during well;
+                                        </li>
+                                        <li>Data acquisition performed (e.g, logging, sampling);
+                                        </li>
+                                        <li>Summary of third party reports such as cementing, drilling fluids and
+                                            directional plan;
+                                        </li>
+                                        <li>For development wells ensure appropriate handover to production organisation
+                                            including basis for design, operational limits and monitoring requirements;
+                                        </li>
+                                        <li>Finalise any external reporting requirements;
+                                        </li>
+                                        <li>Distribute reports and archive as required.
+                                        </li>
+                                    </ul>
+                                    <p>Although the major portion of the well construction process is complete by this
+                                        stage it should be remembered that a responsibility for the well remains with
+                                        the well construction organisation until it is finally abandoned. This should
+                                        include ensuring that well conditions are monitored to check the well is being
+                                        operated within the original design basis. It may be a requirement to re-enter
+                                        the well at some point to repair or change the completion components. There may
+                                        also be a future utility to act as a host well for a sidetrack to a new
+                                        sub-surface location. Ultimately the well will be abandoned at the end of its
+                                        productive life. All of these activities require a similar process to that used
+                                        for the original well construction.</p>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

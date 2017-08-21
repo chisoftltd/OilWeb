@@ -115,10 +115,10 @@ include_once 'db/dbconnect.php';
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>
             <hr>
-            <div class="w3-content w3-section" style="max-height 100px; max-width:100px; margin-left:7%">
-                <img class="mySlides" src="images/drilling.jpg" style="width:100px">
-                <img class="mySlides" src="images/control.jpg" style="width:100px">
-                <img class="mySlides" src="images/casingcementing.jpg" style="width:100px">
+            <div class="w3-content w3-section" style="max-height 300px; max-width:500px; margin-left:7%">
+                <img class="mySlides" src="images/drilling.jpg" style="width:500px">
+                <img class="mySlides" src="images/control.jpg" style="width:500px">
+                <img class="mySlides" src="images/casingcementing.jpg" style="width:500px">
             </div>
 
             <script>

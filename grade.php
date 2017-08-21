@@ -162,7 +162,7 @@ session_start();
                 echo "<h3>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
             }
             $correctanswer6='';
-            if ($answer6 == "ABC") {
+            if (trim($answer6,"") == "ABC") {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = "<h4>A) sub-surface complexity</h4>". "<br/>";

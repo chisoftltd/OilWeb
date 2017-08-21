@@ -134,6 +134,11 @@ include_once '../db/dbconnect.php';
                                 <h4>Drill Operational Plan</h4>
                             </a>
                         </li>
+                        <li class="list-group-item">
+                            <a href="#seite4" data-toggle="tab" aria-controls="seite5" role="tab">
+                                <h4>Rig Staff Organisation</h4>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-8 tab-content">
@@ -244,7 +249,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h3 class="modal-title">Oil and Gas Well Drilling</h3>
+                                                    <h3 class="modal-title">Well Planning Request / Well Objectives</h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling2Video" width="450" height="315"
@@ -392,7 +397,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h3 class="modal-title">Oil and Gas Well Drilling</h3>
+                                                    <h3 class="modal-title">Environmental consent (DTI)</h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling3Video" width="450" height="315"
@@ -602,7 +607,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Drilling</h4>
+                                                    <h4 class="modal-title">Well Operational Plan</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling4Video" width="450" height="315"
@@ -808,6 +813,360 @@ include_once '../db/dbconnect.php';
                                         sub-surface location. Ultimately the well will be abandoned at the end of its
                                         productive life. All of these activities require a similar process to that used
                                         for the original well construction.</p>
+                                    <h3>Time Line</h3>
+                                    <hr>
+                                    <p>Having identified the main activities associated with the well construction
+                                        process it would appear straightforward to show a generic timeline incorporating
+                                        these activities. Unfortunately the variable nature of wells means that for each
+                                        project a different timeline can be drawn up. In fact it is good practice to
+                                        draw up a timeline for each well you become involved with to recognise its
+                                        uniqueness and highlight the planning issues at an early stage. Some of the main
+                                        variables to consider are as follows:</p>
+                                    <ul>
+                                        <li> Government approval processes, especially environmental, could take times
+                                            ranging from 4 weeks up to a year or more dependent on license conditions,
+                                            requirement for full blown consultation etc.;
+                                        </li>
+                                        <li>Dependent on materials required deliveries could range from zero time
+                                            because equipment is available in stock to in excess of 12 months;
+                                        </li>
+                                        <li>Is the well to be drilled in a mature, well serviced location or in a remote
+                                            location? The provision of support infrastructure may have to be added into
+                                            the equation.
+                                        </li>
+                                        <li>Complexity of well design has a major bearing. Is the well a follow on from
+                                            similar types using the same design or is it brand new, complex and
+                                            requiring detailed design work?
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <footer class="panel-footer clearfix ">
+                                <address class="pull-right">&copy; RGU
+                                </address>
+                                <div id="editor"></div>
+                                <button id="cmdop">generate PDF</button>
+                            </footer>
+                        </article>
+                    </div>
+
+
+                    <div role="tabpanel" class="tab-pane fade" id="seite5">
+                        <article class="panel panel-default">
+                            <header class="panel-heading">
+                                <h1 class="text-muted text-center"><span class="glyphicon glyphicon-pencil"></span>
+                                    Rig Staff Organisation</h1>
+                            </header>
+                            <div class="panel-body">
+                                <figure class="pull-right bs-example">
+                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                class="glyphicon glyphicon-play"></span> Launch
+                                        Rig Staff Video</a>
+                                    <!-- Modal HTML -->
+                                    <div id="myDrilling4" class="modal fade">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Rig Staff Organisation</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <iframe id="drilling4Video" width="450" height="315"
+                                                            src="https://www.youtube.com/embed/SfazJ6P_g7w"
+                                                            frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                </figure>
+                                <div id="organisation">
+                                    <h3> Roles and Responsibilities of Core Personnel</h3>
+                                    <p>There follows a summary of roles and responsibilities for personnel which could
+                                        be considered core to a well construction organisation. Note that titles are by
+                                        no means standard and that there are probably as many ways to organise for well
+                                        construction as there are oil companies. While the positions may not be
+                                        replicated, the responsibilities and accountabilities should be addressed in any
+                                        organisation.
+                                    </p>
+                                    <h3>Drilling Manager</h3>
+                                    <hr>
+                                    <p>The Drilling Manager has overall responsibility for a well construction
+                                        department or discipline to manage its business objectives within the greater
+                                        organisation it serves. Specific responsibilities should include:</p>
+                                    <ul>
+                                        <li>Overall accountability for safety of operations;
+                                        </li>
+                                        <li>Setting, monitoring and reporting of performance measures for the department
+                                            or discipline;
+                                        </li>
+                                        <li>Making sure that adequate resources exist to fulfil business plans (e.g,
+                                            personnel, rigs, equipment);
+                                        </li>
+                                        <li>Ensuring that processes and procedures exist which comply with local
+                                            legislative requirements and internal standards;
+                                        </li>
+                                        <li>Recruitment, personnel development and appraisal;
+                                        </li>
+                                        <li>Representation of the well construction organisation internally and
+                                            externally including management of conflict.
+                                        </li>
+                                    </ul>
+                                    <h3>Drilling Superintendent</h3>
+                                    <hr>
+                                    <p>The Drilling Superintendent normally has direct operational responsibility for
+                                        one or more rigs. Specific responsibilities should include:</p>
+                                    <ul>
+                                        <li>Line management responsibility for safety of operations;
+                                        </li>
+                                        <li>Accountability for operational performance including cost management;
+                                        </li>
+                                        <li>Ensuring wells are planned and constructed as per internal processes;
+                                        </li>
+                                        <li>Operational supervision;
+                                        </li>
+                                        <li>Line management of operational personnel;
+                                        </li>
+                                        <li>Performance management of third party services;
+                                        </li>
+                                        <li>Client, partner and government liaison.</li>
+                                    </ul>
+                                    <p>Dependent on the size of the organisation and scope of work the Drilling Manager
+                                        and Drilling Superintendent roles may merge.</p>
+                                    <h3>Engineering Manager</h3>
+                                    <hr>
+                                    <p>The Engineering Manager has responsibility for the engineering discipline and
+                                        standards within a well construction organisation. The main responsibilities
+                                        are:</p>
+                                    <ul>
+                                        <li>Maintenance of technical standards and procedures for engineering
+                                            activities;
+                                        </li>
+                                        <li>Audit/review/approval of well design proposals;
+                                        </li>
+                                        <li>Technical overview of special studies and early project activities;
+                                        </li>
+                                        <li>Maintenance of technical competence for engineering staff;
+                                        </li>
+                                        <li>Technical development of engineers;
+                                        </li>
+                                        <li>Knowledge transfer;
+                                        </li>
+                                        <li>Implementation and management of work systems.</li>
+                                    </ul>
+                                    <h3>Drilling Engineer</h3>
+                                    <hr>
+                                    <p>The Drilling Engineer is responsible to the Drilling Superintendent for the safe
+                                        engineering and design of the wells. Specific responsibilities are:</p>
+                                    <ul>
+                                        <li> Act as the ‘Focal Point’ for Clients to ensure all well objectives are
+                                            identified and met;
+                                        </li>
+                                        <li>Production of safe / achievable design taking into account known or probable
+                                            hazards;
+                                        </li>
+                                        <li>Production of detailed Time Cost Estimates for the well, and monitoring well
+                                            costs to ensure that they are accurate;
+                                        </li>
+                                        <li>Production of operational programmes;
+                                        </li>
+                                        <li>Ensuring that the relevant Government Notifications and Approval requests
+                                            are submitted it time to achieve the planned start date, and confirming that
+                                            they are in place before the relevant work commences;
+                                        </li>
+                                        <li>Sourcing all relevant material and services;
+                                        </li>
+                                        <li>Presentation and participation at relevant planning, pre-spud and wellsite
+                                            meetings;
+                                        </li>
+                                        <li>Provision of office based support during operations;
+                                        </li>
+                                        <li>Timely compilation of well history and ad-hoc reports;
+                                        </li>
+                                        <li>Final archiving of well material and handover information to production
+                                            organisation.
+                                        </li>
+                                    </ul>
+                                    <p>As well as having direct accountability to the Drilling Superintendent the
+                                        Drilling Engineer should also be accountable to the Engineering Manager for the
+                                        following:</p>
+
+                                    <li>Providing all necessary information, backup, and input to the engineering audit
+                                        process;
+                                    </li>
+                                    <li>Ensuring that any requirements arising from risk assessments, peer reviews,
+                                        audits etc. are actioned;
+                                    </li>
+                                    <li>Notification of any potential change to programme which requires review and
+                                        approval;
+                                    </li>
+                                    <li>Adherence to approved technical standards and procedures.</li>
+                                    <p>Dependent on organisational preference the Drilling Engineering role may be split
+                                        whereby one engineer (or group) is responsible for the planning phase handing
+                                        over to another engineer (or group) for the implementation phase. In this case
+                                        clear demarcation is required to ensure that all responsibilities are assigned
+                                        and understood.</p>
+                                    <h3>Completions / Well Test Engineer</h3>
+                                    <hr>
+                                    <p>Increasingly the role of Completions or Well Test Engineer is differentiated from
+                                        that of Drilling Engineer especially in larger organisations and for more
+                                        complex operations. These roles specialise in the activities performed after a
+                                        well has been drilled. The Completions Engineer deals with the design and
+                                        installation of the permanent conduit which allows production from or injection
+                                        to the well. The Well Test Engineer deals with the design and operation of
+                                        temporary completions and surface equipment to allow short term production from
+                                        or injection to a well for evaluation purposes. Because the knowledge and skills
+                                        required for each role are largely complimentary they are treated as one for the
+                                        purpose of this module.</p>
+                                    <p>Although a specialised role within the overall Well Construction process it
+                                        should not be surprising that the generic responsibilities are identical to
+                                        those for the Drilling Engineer as listed above.</p>
+                                    <h3>Drilling Supervisors</h3>
+                                    <hr>
+                                    <p>Drilling Supervisors are responsible to the Drilling Superintendent for the safe,
+                                        cost effective and environmentally aware delivery of the well programme. The
+                                        position acts as the on site co-ordinator responsible for translation of the
+                                        overall work programme into the finished product. In particular, they are
+                                        responsible for:</p>
+                                    <ul>
+                                        <li>Direct liaison with the offshore rig management for all aspects of company
+                                            business. This includes monitoring safe working practices.
+                                        </li>
+                                        <li>Liaison with the Drilling Superintendent during operations including formal
+                                            reporting;
+                                        </li>
+                                        <li>Monitoring of progress against the well programme and the Drilling
+                                            Superintendent of any deviation from the programme;
+                                        </li>
+                                        <li>Preparation of specific work instructions for the rig crew;
+                                        </li>
+                                        <li>Evaluating and reporting on the quality of service and HS&E performance of
+                                            the rig contractor and service companies;
+                                        </li>
+                                        <li>Liaison between the installation and the onshore emergency response room in
+                                            the event of an incident, emergency, or oil spill;
+                                        </li>
+                                        <li>Specialist advice and guidance to the rig on well control;
+                                        </li>
+                                        <li>Technical control of third party contractors on the rig;
+                                        </li>
+                                        <li>Calling off and returning materials and services;
+                                        </li>
+                                        <li>Controlling costs within their sphere of responsibility;
+                                        </li>
+                                        <li>Timely compilation of daily and ad-hoc reports for transmission to the base
+                                            office;
+                                        </li>
+                                        <li>Supervision and development of wellsite engineers.</li>
+                                    </ul>
+                                    <p>To assist in their duties Drilling Supervisors may be supplemented with wellsite
+                                        engineers and materials / logistics co-ordinators.</p>
+                                    <h3>Roles and Responsibilities of Support Organisations</h3>
+                                    <hr>
+                                    <h4>Client Group</h4>
+                                    <p>The client group is invariably the central customer for supply of well
+                                        construction services so it may seem strange to list them here as support. It
+                                        is, however, helpful to regard this group as support when considering all inputs
+                                        required to plan and execute a successful operation. The main requirements from
+                                        the client group are:</p>
+                                    <ul>
+                                        <li>Supply of well objectives;
+                                        </li>
+                                        <li>Supply of prognosed geology;
+                                        </li>
+                                        <li>Determination of expected sub-surface hazards;
+                                        </li>
+                                        <li>Details of evaluation requirements during the construction process;
+                                        </li>
+                                        <li>Assistance with site survey planning and evaluation (especially geophysical
+                                            support);
+                                        </li>
+                                        <li>Scheduling information;
+                                        </li>
+                                        <li>Wellsite support for geological evaluation;
+                                        </li>
+                                        <li>Evaluation of well performance.</li>
+                                    </ul>
+                                    <h3>Health, Safety and Environmental</h3>
+                                    <p>In the ever developing area of Health, Safety and the Environmental awareness and
+                                        compliance, it is important to have access to strong support which ensures that
+                                        full consideration is given during the planning and execution of well
+                                        activities. Required areas of support include:</p>
+
+                                    <ul>
+                                        <li>Development of HS&E policy, plans and goals;
+                                        </li>
+                                        <li>Promotion of an active HS&E culture;
+                                        </li>
+                                        <li>Monitoring of HS&E performance, both internal and of suppliers;
+                                        </li>
+                                        <li>Organisation of audits and investigations;
+                                        </li>
+                                        <li>Legislation awareness and implementation;
+                                        </li>
+                                        <li>Emergency and oil spill response.</li>
+                                    </ul>
+                                    <h3>Fiscal</h3>
+                                    <p>Control of financial matters is central to any construction project and this is
+                                        no different for the well construction business. Areas for which support is
+                                        required include:</p>
+                                    <ul>
+                                        <li>Creation and maintenance of cost control systems;
+                                        </li>
+                                        <li>Participation in cost estimation;
+                                        </li>
+                                        <li>Cost tracking and forecasting including final estimate once work complete;
+                                        </li>
+                                        <li>Financial audit participation and reporting;
+                                        </li>
+                                        <li>Invoice processing and payment;
+                                        </li>
+                                        <li>Reconciliation of charged costs to final estimated costs.</li>
+                                    </ul>
+                                    <h3>Contracts</h3>
+                                    <hr>
+                                    <p>The materials and services required for a well operation are many and complex. It
+                                        is important to cover supply with clear contractual arrangements which are
+                                        understood by both parties (supplier and receiver). Support is required in the
+                                        following areas:</p>
+                                    <ul>
+                                        <li>Compilation of tender documentation;
+                                        </li>
+                                        <li>Issuance of bid documents and focal point for related communications;
+                                        </li>
+                                        <li>Non-technical aspects of bid evaluation;</li>
+                                        </li>
+                                        <li>Negotiation of terms and conditions;
+                                        </li>
+                                        <li>Evaluation compilation;
+                                        </li>
+                                        <li>Ongoing contract administration and interpretation;
+                                        </li>
+                                        <li>Provision of market information, especially for rigs.</li>
+                                        <h3>Materials / Logistics</h3>
+                                        <hr>
+                                        <p>One of the most challenging aspects of delivering a well executed operational
+                                            programme is to ensure the availability of the correct equipment at the
+                                            correct time. In order to achieve this support is required as follows:</p>
+                                        <ul>
+                                            <li>Maintenance of stock equipment lists;
+                                            </li>
+                                            <li>Storage of equipment;
+                                            </li>
+                                            <li>Assistance in preparation of load out lists;
+                                            </li>
+                                            <li>Co-ordination of Quality Control / Quality Assurance processes;
+                                            </li>
+                                            <li>Organisation of transport (land, helicopters, boats);
+                                            </li>
+                                            <li>Liaison with suppliers for delivery of equipment and personnel.</li>
+                                        </ul>
+                                    </ul>
+
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">
@@ -852,24 +1211,24 @@ include_once '../db/dbconnect.php';
     });
 
     $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 30, {
-            'width': 150,
+        doc.fromHTML($('#drill').html(), 15, 25, {
+            'width': 200,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Drilling-Objectives.pdf');
     });
 
     $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').html(), 15, 45, {
-            'width': 150,
+        doc.fromHTML($('#env').html(), 15, 35, {
+            'width': 300,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Environmental-Objectives.pdf');
     });
 
     $('#cmdop').click(function () {
-        doc.fromHTML($('#op').html(), 15, 60, {
-            'width': 150,
+        doc.fromHTML($('#op').html(), 15, 45, {
+            'width': 450,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Operation-Objectives.pdf');

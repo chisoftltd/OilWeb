@@ -212,7 +212,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) Move cuttings to the bottom of the hole</label>
+                                            <label for="question-1-answers-B">B) Move cuttings to the bottom of the
+                                                hole</label>
                                         </div>
                                     </div>
 
@@ -220,7 +221,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) Prevent recovery of information from the hole.</label>
+                                            <label for="question-1-answers-C">C) Prevent recovery of information from
+                                                the hole.</label>
                                         </div>
                                     </div>
 
@@ -338,24 +340,21 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h5>
+                                    <h5>The time required to plan and execute a well construction programme is dependent
+                                        on (select all that apply)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
-                                    </form>
-                                    <form class="form-group">
+
                                         <input type="checkbox" name="answer-question-6[]" value="B" id="answer-6B"/>
                                         <label for="answers-6B">B) location</label>
-                                    </form>
-                                    <form class="form-group">
+
                                         <input type="checkbox" name="answer-question-6[]" value="C" id="answer-6C"/>
                                         <label for="answers-6C">C) type of well</label>
-                                    </form>
-                                    <form class="form-group">
+
                                         <input type="checkbox" name="answer-question-6[]" value="D" id="answer-6D"/>
-                                        <label for="answers-6D">D) None of the above>
-                                    </form>
-                                    <form class="form-group">
+                                        <label for="answers-6D">D) None of the above></label>
+
                                         <input type="checkbox" name="answer-question-6[]" value="E" id="answer-6E"/>
                                         <label for="answers-6E">E) All of the above.</label>
                                     </form>

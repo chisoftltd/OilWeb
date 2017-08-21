@@ -170,7 +170,7 @@ session_start();
                 $correctanswer6 = $correctanswer6 . "C) type of well";
                 echo "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6. "<br/>". "<br/>";
             }
-            if ($totalCorrect == 6) {
+            if ($totalCorrect !== 6) {
                 echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6;
             }
             echo "<div id='results'>$totalCorrect / 6 correct</div>";

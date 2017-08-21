@@ -125,6 +125,7 @@ session_start();
                     echo $check;
                     $answer6 .= $_POST['answer-question-6'];
                 }
+                echo $answer6;
             }
 
 

@@ -927,6 +927,8 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
+                                <button id="cmdsurface">generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -979,8 +981,8 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Lost-Control.pdf');
     });
 
-    $('#cmdop').click(function () {
-        doc.fromHTML($('#op').html(), 15, 15, {
+    $('#cmdsurface').click(function () {
+        doc.fromHTML($('#surface').html(), 15, 15,
             'width': 150,
             'elementHandlers': specialElementHandlers
         });

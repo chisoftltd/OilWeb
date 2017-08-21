@@ -31,6 +31,9 @@ include_once 'db/dbconnect.php';
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
+    <style>
+        .mySlides {display:none;}
+    </style>
 </head>
 <body><!-- Body area start-->
 <header>
@@ -132,7 +135,7 @@ include_once 'db/dbconnect.php';
                     setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
             </script>
-            
+
             <form>
                 <hr>
             </form>

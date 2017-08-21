@@ -935,7 +935,9 @@ include_once '../db/dbconnect.php';
                                     </ul>
                                     <p>Figure 9 shows a double ram type BOP unit generally used in sub-sea BOP stacks,
                                         and examples of the internal components used in ram type BOPs.</p>
-
+<figure>
+    <img src="images/surfaceequipment.jpg" alt="Surface Well ">
+</figure>
                                 </div>
                             </div>
                             <footer class="panel-footer clearfix ">

@@ -30,22 +30,10 @@ include_once 'db/dbconnect.php';
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/main-style.css">
     <style>
         .mySlides {
             display: none;
-
-        .w3-left, .w3-right, .w3-badge {
-            cursor: pointer
-        }
-
-        .w3-badge {
-            height: 13px;
-            width: 13px;
-            padding: 0
-        }
-
         }
     </style>
 </head>
@@ -127,51 +115,28 @@ include_once 'db/dbconnect.php';
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>
             <hr>
-
-            <div style="max-width:1000px">
-                <img class="mySlides" src="images/drilling.jpg" style="width:100%; height: 50%">
-                <img class="mySlides" src="images/control.jpg" style="width:100%; height: 50%">
-                <img class="mySlides" src="images/casingcementing.jpg" style="width:100%; height: 50%">
-                <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
-                     style="width:100%">
-                    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-                    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-                    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-                </div>
+            <div class="w3-content w3-section" style="max-width:1000px">
+                <img class="mySlides" src="images/drilling.jpg" style="width:100%; height: 50px">
+                <img class="mySlides" src="images/control.jpg" style="width:100%; height: 50px">
+                <img class="mySlides" src="images/casingcementing.jpg" style="width:100%; height: 50px">
             </div>
 
             <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
+                var myIndex = 0;
+                carousel();
 
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
-                }
-
-                function currentDiv(n) {
-                    showDivs(slideIndex = n);
-                }
-
-                function showDivs(n) {
+                function carousel() {
                     var i;
                     var x = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("demo");
-                    if (n > x.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = x.length
-                    }
                     for (i = 0; i < x.length; i++) {
                         x[i].style.display = "none";
                     }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" w3-white", "");
+                    myIndex++;
+                    if (myIndex > x.length) {
+                        myIndex = 1
                     }
-                    x[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " w3-white";
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
             </script>
 

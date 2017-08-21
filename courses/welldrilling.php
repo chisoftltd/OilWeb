@@ -1173,7 +1173,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdop">generate PDF</button>
+                                <button id="cmdorganisation">generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1228,6 +1228,14 @@ include_once '../db/dbconnect.php';
 
     $('#cmdop').click(function () {
         doc.fromHTML($('#op').html(), 15, 45, {
+            'width': 450,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Operation-Objectives.pdf');
+    });
+
+    $('#cmdorganisation').click(function () {
+        doc.fromHTML($('#organisation').html(), 15, 45, {
             'width': 450,
             'elementHandlers': specialElementHandlers
         });

@@ -120,13 +120,12 @@ session_start();
             $answer5 = $_POST['question-5-answers'];
 
 
-
-if(!empty($_POST['answer-question-6'])) {
-    foreach($_POST['answer-question-6'] as $check) {
-        echo $check;
-        $answer6 .= $_POST['answer-question-6'];
-    }
-}
+            if (!empty($_POST['answer-question-6'])) {
+                foreach ($_POST['answer-question-6'] as $check) {
+                    echo $check;
+                    $answer6 .= $_POST['answer-question-6'];
+                }
+            }
 
 
             $totalCorrect = 0;
@@ -146,7 +145,7 @@ if(!empty($_POST['answer-question-6'])) {
             if ($answer5 == "D") {
                 $totalCorrect++;
             }
-            if ($answer6 == "ABC"){
+            if ($answer6 == "ABC") {
                 $totalCorrect++;
             }
 

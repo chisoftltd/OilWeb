@@ -150,6 +150,16 @@ session_start();
                 }
             }
 
+            echo $answer1;
+            echo $answer2;
+            echo $answer3;
+            echo $answer4;
+            echo $answer5;
+            echo $answer6;
+            echo $answer7;
+            echo $answer8;
+            echo $answer9;
+            
 
             $totalCorrect = 0;
 
@@ -229,7 +239,7 @@ session_start();
                 $correctanswer9 = '<h4 style="color: darkgreen">B) Blow out preventers</h4>' . "<br/>";
                 $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">C) Casing head.</h4>' . "<br/>";
                 $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">E) Drilling Spool.</h4>' . "<br/>";
-                $correctanswer9 = "<h9 style='color: blue'>Surface Well Control Equipment is made of?</h9>" . "<br/>" . $correctanswer9 . "<br/>" . "<br/>";
+                $correctanswer9 = "<h3 style='color: blue'>Surface Well Control Equipment is made of?</h3>" . "<br/>" . $correctanswer9 . "<br/>" . "<br/>";
                 $correctanswer9 = $correctanswer9 . '<hr style="border: 1px solid black">';
             }
 

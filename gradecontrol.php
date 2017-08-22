@@ -127,24 +127,31 @@ session_start();
                     $answer3 = $answer3 . $selected;
                 }
             }
-            echo $answer3 . "<br/>";
 
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
             $answer6 = "";
-
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
                     $answer6 = $answer6 . $selected;
                 }
             }
+
             $answer7 = $_POST['question-7-answers'];
+
+            echo $answer1 . "<br/>";
+            echo $answer2 . "<br/>";
+            echo $answer3 . "<br/>";
+            echo $answer4 . "<br/>";
+            echo $answer5 . "<br/>";
+            echo $answer6 . "<br/>";
+            echo $answer7;
 
 
             $totalCorrect = 0;
 
-            if ($answer1 == "B") {
+            if ($answer1 === "B") {
                 $totalCorrect++;
             } else {
                 $correctanswer1 = '<h4 style="color: darkgreen">B) Inflow of formation fluid into the
@@ -153,7 +160,7 @@ session_start();
                 $correctanswer1 = $correctanswer1 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer2 == "B") {
+            if ($answer2 === "B") {
                 $totalCorrect++;
             } else {
                 $correctanswer2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Allowable Annular Surface Pressure</p>" . "<br/>";
@@ -173,23 +180,22 @@ session_start();
             }
 
 
-            if ($answer4 == "D") {
+            if ($answer4 === "D") {
                 $totalCorrect++;
             } else {
                 $correctanswer4 = '<h4 style="color: darkgreen">D) Surface to bit and bit to surface.</h4>' . "<br/>" . "<br/>";
                 $correctanswer4 = "<h3 style='color: blue'>What is lag time?</h3>" . "<br/>" . $correctanswer4;
                 $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
             }
-            if ($answer5 == "B") {
+            if ($answer5 === "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer5 = '<h4 style="color: darkgreen">B) Evidence of transition to an
-                                            abnormal zone.</h4>' . "<br/>" . "<br/>";
+                $correctanswer5 = '<h4 style="color: darkgreen">B) Evidence of transition to an abnormal zone.</h4>' . "<br/>" . "<br/>";
                 $correctanswer5 = "<h3 style='color: blue'>What is Drilling breaks?</h3>" . "<br/>" . $correctanswer5;
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer6 == "CE") {
+            if ($answer6 === "CE") {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">C) Loss of circulation.</h4>' . "<br/>";
@@ -198,7 +204,7 @@ session_start();
                 $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer7 == "A") {
+            if ($answer7 === "A") {
                 $totalCorrect++;
             } else {
                 $correctanswer7 = '<h4 style="color: darkgreen">A) It creates negative

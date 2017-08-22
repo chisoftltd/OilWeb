@@ -122,7 +122,6 @@ session_start();
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
-
                     $answer6 = $answer6 . $selected;
                 }
 
@@ -175,7 +174,7 @@ session_start();
                 echo '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = '';
-            if (trim($answer6, '') == 'ABC'  or trim($answer6, '') == 'D') {
+            if (trim($answer6, '') === 'ABC'  or trim($answer6, '') == 'D') {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
@@ -186,7 +185,7 @@ session_start();
             }
 
             $correctanswer7 = '';
-            if (trim($answer7, '') =='AC'){
+            if (trim($answer7, '') ==='AC'){
                 $totalCorrect++;
             }else{
                 $correctanswer7 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";

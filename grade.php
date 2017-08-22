@@ -120,7 +120,7 @@ session_start();
             $answer6 = "";
             $answer7 = "";
 
-            print(['answer-question-6']);
+            print(['answer-question-6']). "<br/>";
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
                     $answer6 = $answer6 . $selected;
@@ -131,8 +131,8 @@ session_start();
             print(['answer-question-7']);
 
             if (!empty($_POST['answer-question-7'])) {
-                foreach ($_POST['answer-question-7'] as $selected) {
-                    $answer7 = $answer7 . $selected;
+                foreach ($_POST['answer-question-7'] as $checked) {
+                    $answer7 = $answer7 . $checked;
                 }
             }
             echo $answer7 . "<br/>";

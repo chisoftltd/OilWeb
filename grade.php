@@ -170,7 +170,7 @@ session_start();
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = '';
-            if ($answer6 === 'ABC' or trim($answer6, '') == 'D') {
+            if ($answer6 === 'ABC' or $answer6 == 'D') {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";

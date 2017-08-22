@@ -159,35 +159,35 @@ session_start();
                 $totalCorrect++;
             } else {
                 $correctanswer4 = '<h4 style="color: darkgreen">B) Semisubmersible rigs</h4>' . "<br/>" . "<br/>";
-                $correctanswer4 =  "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer4;
-                $correctanswer4 = $correctanswer4.'<hr style="border: 1px solid black">';
+                $correctanswer4 = "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer4;
+                $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
             }
             if ($answer5 == "D") {
                 $totalCorrect++;
             } else {
                 $correctanswer5 = '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>" . "<br/>";
-                $correctanswer5 =  "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
-                $correctanswer5 = $correctanswer5 .'<hr style="border: 1px solid black">';
+                $correctanswer5 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
+                $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = '';
-            if (trim($answer6, '') === 'ABC' or trim($answer6, '') == 'D') {
+            if ($answer6 === 'ABC' or trim($answer6, '') == 'D') {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
                 $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
                 $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">C) type of well</h4>';
                 $correctanswer6 = "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctanswer6 . "<br/>" . "<br/>";
-                $correctanswer6 =$correctanswer6.'<hr style="border: 1px solid black">';
+                $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
             }
 
             $correctanswer7 = '';
-            if (trim($answer7, '') === 'AC') {
+            if ($answer7 === 'AC') {
                 $totalCorrect++;
             } else {
                 $correctanswer7 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
                 $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
-                $correctanswer7 =  "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer7 . "<br/>" . "<br/>";
-                $correctanswer7 = $correctanswer7.'<hr style="border: 1px solid black">';
+                $correctanswer7 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer7 . "<br/>" . "<br/>";
+                $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
             }
 
             echo '<hr style="border: 2px solid green">';
@@ -202,20 +202,20 @@ session_start();
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
-                if ($correctanswer1 !==""){
-                    $correction = $correctanswer1."<br/>";
-                }elseif ($correctanswer2 !== ""){
-                    $correction = $correction.$correctanswer2."<br/>";
-                }elseif ($correctanswer3 !== ""){
-                    $correction = $correction.$correctanswer3."<br/>";
-                }elseif ($correctanswer4 !==""){
-                    $correction = $correction.$correctanswer4."<br/>";
-                }elseif ($correctanswer5 !== ""){
-                    $correction = $correction.$correctanswer5."<br/>";
-                }elseif ($correctanswer6 !== ""){
-                    $correction = $correction.$correctanswer6."<br/>";
-                }elseif ($correctanswer7 !== ""){
-                    $correction = $correction.$correctanswer7."<br/>";
+                if ($correctanswer1 != "") {
+                    $correction = $correctanswer1 . "<br/>";
+                } elseif ($correctanswer2 != "") {
+                    $correction = $correction . $correctanswer2 . "<br/>";
+                } elseif ($correctanswer3 != "") {
+                    $correction = $correction . $correctanswer3 . "<br/>";
+                } elseif ($correctanswer4 != "") {
+                    $correction = $correction . $correctanswer4 . "<br/>";
+                } elseif ($correctanswer5 != "") {
+                    $correction = $correction . $correctanswer5 . "<br/>";
+                } elseif ($correctanswer6 != "") {
+                    $correction = $correction . $correctanswer6 . "<br/>";
+                } elseif ($correctanswer7 != "") {
+                    $correction = $correction . $correctanswer7 . "<br/>";
                 }
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3><strong><a href='/menu/assessment.php'>Go back and try again</a> </strong></h3>";

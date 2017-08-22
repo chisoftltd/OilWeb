@@ -104,7 +104,7 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div class="content">
+    <div class="container" style="background-color: #b0e0e6">
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
             <li><a href="/contact.php">Courses</a></li>

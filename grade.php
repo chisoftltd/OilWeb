@@ -117,8 +117,8 @@ session_start();
             $answer3 = $_POST['question-3-answers'];
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
-            $answer6 = '';
-            $answer7 = '';
+            $answer6 = "";
+            $answer7 = "";
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
@@ -126,7 +126,7 @@ session_start();
                 }
             }
 
-            echo ($_POST['answer-question-7']);
+            echo($_POST['answer-question-7']);
             if (!empty($_POST['answer-question-7'])) {
                 foreach ($_POST['answer-question-7'] as $selected) {
                     $answer7 = $answer7 . $selected;
@@ -165,15 +165,19 @@ session_start();
                 $correctanswer4 = "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer4;
                 $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
             }
-            if ($answer5 == "D") {
+            if ($answer5 == "D" or $answer5 == "ABC") {
                 $totalCorrect++;
             } else {
-                $correctanswer5 = '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>" . "<br/>";
+                $correctanswer5 = '<h4 style="color: darkgreen">A) Oil Based Mud (OBM)</h4>' . "<br/>";
+                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">B) Water Based Mud (WBM)</h4>' . "<br/>";
+                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">C) Gas, aerated muds</h4>' . "<br/>";
+                $correctanswer5 = $correctanswer5 . '<h4 style="color: black">OR</h4>' . "<br/>";
+                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>";
                 $correctanswer5 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
-            $correctanswer6 = '';
-            if ($answer6 === 'ABC' or $answer6 === 'D') {
+            $correctanswer6 = "";
+            if ($answer6 == "ABC" or $answer6 == "D") {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
@@ -183,9 +187,9 @@ session_start();
                 $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
             }
 
-            $correctanswer7 = '';
+            $correctanswer7 = "";
             echo $answer7 . "<br/>";
-            if ($answer7 === 'AC') {
+            if ($answer7 === "AC") {
                 $totalCorrect++;
             } else {
                 $correctanswer7 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";

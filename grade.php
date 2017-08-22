@@ -223,7 +223,7 @@ session_start();
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
                 echo '<hr style="border: 2px solid green">';
-                echo "<h3><strong><a href='/menu/assessment.php'>Go back and try again</a> </strong></h3>";
+                echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }
 
 

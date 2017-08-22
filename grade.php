@@ -200,15 +200,24 @@ session_start();
 
             } else {
                 echo '<hr style="border: 2px solid green">';
-                echo '<h2>Incorrect answer</h2>';
+                echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
-                echo $correctanswer1."<br/>";
-                echo $correctanswer2."<br/>";
-                echo $correctanswer3."<br/>";
-                echo $correctanswer4."<br/>";
-                echo $correctanswer5."<br/>";
-                echo $correctanswer6."<br/>";
-                echo $correctanswer7."<br/>";
+                if ($correctanswer1 !==""){
+                    $correction = $correctanswer1."<br/>";
+                }elseif ($correctanswer2 !== ""){
+                    $correction = $correction.$correctanswer2."<br/>";
+                }elseif ($correctanswer3 !== ""){
+                    $correction = $correction.$correctanswer3."<br/>";
+                }elseif ($correctanswer4 !==""){
+                    $correction = $correction.$correctanswer4."<br/>";
+                }elseif ($correctanswer5 !== ""){
+                    $correction = $correction.$correctanswer5."<br/>";
+                }elseif ($correctanswer6 !== ""){
+                    $correction = $correction.$correctanswer6."<br/>";
+                }elseif ($correctanswer7 !== ""){
+                    $correction = $correction.$correctanswer7."<br/>";
+                }
+                echo '<hr style="border: 2px solid green">';
                 echo "<h3><strong><a href='/menu/assessment.php'>Go back and try again</a> </strong></h3>";
             }
 

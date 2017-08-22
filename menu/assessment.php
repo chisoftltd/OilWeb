@@ -188,7 +188,7 @@ if (isset($_POST['deleteform'])) {
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
                     <form role="form" class="modal-content animate" action="/grade.php"
-                          method="post"
+                          method=""
                           name="ethicsform">
                         <div class="imgcontainer">
                         <span onclick="document.getElementById('drilling').style.display='none'" class="close"

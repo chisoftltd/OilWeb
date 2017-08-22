@@ -473,6 +473,7 @@ include_once '../db/dbconnect.php';
                                         where this could be substantial.</p>
 
                                     <h3>Pump, String, and Hole Configuration.</h3>
+                                    <hr>
                                     <p>This includes the data used for the determination of the lag time (surface to bit
                                         and bit to surface) and contains:</p>
                                     <ul>

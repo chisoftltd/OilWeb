@@ -2,10 +2,9 @@
 /**
  * Created by PhpStorm.
  * User: 1609963
- * Date: 21/04/2017
- * Time: 16:19
+ * Date: 22/08/2017
+ * Time: 19:38
  */
-
 // Start a session
 session_start();
 
@@ -116,94 +115,98 @@ session_start();
             $correctanswer3 = "";
             $correctanswer4 = "";
             $correctanswer5 = "";
+            $correctanswer6 = "";
+            $correctanswer7 = "";
+
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
-            $answer3 = $_POST['question-3-answers'];
+
+            $answer3 = "";
+            if (!empty($_POST['answer-question-3'])) {
+                foreach ($_POST['answer-question-3'] as $selected) {
+                    $answer3 = $answer3 . $selected;
+                }
+            }
+            echo $answer3 . "<br/>";
+
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
             $answer6 = "";
-            $answer7 = "";
 
-            print(['answer-question-6']). "<br/>";
+
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
                     $answer6 = $answer6 . $selected;
                 }
             }
-            echo $answer6 . "<br/>";
+            $answer7 = $_POST['question-7-answers'];
 
-            print(['answer-question-7']);
-
-            if (!empty($_POST['answer-question-7'])) {
-                foreach ($_POST['answer-question-7'] as $checked) {
-                    $answer7 = $answer7 . $checked;
-                }
-            }
-            echo $answer7 . "<br/>";
 
             $totalCorrect = 0;
 
-            if ($answer1 == "A") {
+            if ($answer1 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer1 = '<h4 style="color: darkgreen">A) Control subsurface pressures</h4>' . "<br/>" . "<br/>";
-                $correctanswer1 = "<h3 style='color: blue'>What is drilling Mud used for?</h3>" . "<br/>" . $correctanswer1;
+                $correctanswer1 = '<h4 style="color: darkgreen">B) Inflow of formation fluid into the
+                                                wellbore.</h4>' . "<br/>";
+                $correctanswer1 = "<h3 style='color: blue'>What is a Kick?</h3>" . "<br/>" . $correctanswer1;
                 $correctanswer1 = $correctanswer1 . '<hr style="border: 1px solid black">';
             }
 
             if ($answer2 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer2 = '<h4 style="color: darkgreen">B) Mud Balance</h4>' . "<br/>" . "<br/>";
-                $correctanswer2 = "<h3 style='color: blue'>What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctanswer2;
+                $correctanswer2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Allowable Annular Surface Pressure</p>" . "<br/>";
+                $correctanswer2 = "<h3 style='color: blue'>The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?</h3>" . "<br/>" . $correctanswer2;
                 $correctanswer2 = $correctanswer2 . '<hr style="border: 1px solid black">';
             }
-            if ($answer3 == "A") {
+
+
+            if ($answer3 === "ABC") {
                 $totalCorrect++;
             } else {
-                $correctanswer3 = '<h4 style="color: darkgreen">A) Drilling Superintendent</h4>' . "<br/>" . "<br/>";
-                $correctanswer3 = "<h3 style='color: blue'>Which of the following personnel should not be on site during drilling?</h3>" . "<br/>" . $correctanswer3;
+                $correctanswer3 = '<h4 style="color: darkgreen">A) Salt water</h4>' . "<br/>";
+                $correctanswer3 = $correctanswer3 . '<h4 style="color: darkgreen">B) Gas</h4>' . "<br/>";
+                $correctanswer3 = $correctanswer3 . '<h4 style="color: darkgreen">C) Oil</h4>' . "<br/>";
+                $correctanswer3 = "<h3 style='color: blue'>A Kick can be composed of?</h3>" . "<br/>" . $correctanswer3 . "<br/>" . "<br/>";
                 $correctanswer3 = $correctanswer3 . '<hr style="border: 1px solid black">';
             }
-            if ($answer4 == "B") {
+
+
+            if ($answer4 == "D") {
                 $totalCorrect++;
             } else {
-                $correctanswer4 = '<h4 style="color: darkgreen">B) Semisubmersible rigs</h4>' . "<br/>" . "<br/>";
-                $correctanswer4 = "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer4;
+                $correctanswer4 = '<h4 style="color: darkgreen">D) Surface to bit and bit to surface.</h4>' . "<br/>" . "<br/>";
+                $correctanswer4 = "<h3 style='color: blue'>What is lag time?</h3>" . "<br/>" . $correctanswer4;
                 $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
             }
-            if ($answer5 == "D" or $answer5 == "ABC") {
+            if ($answer5 == "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer5 = '<h4 style="color: darkgreen">A) Oil Based Mud (OBM)</h4>' . "<br/>";
-                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">B) Water Based Mud (WBM)</h4>' . "<br/>";
-                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">C) Gas, aerated muds</h4>' . "<br/>";
-                $correctanswer5 = $correctanswer5 . '<h4 style="color: black">OR</h4>' . "<br/>";
-                $correctanswer5 = $correctanswer5 . '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>";
-                $correctanswer5 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
+                $correctanswer5 = '<h4 style="color: darkgreen">B) Evidence of transition to an
+                                            abnormal zone.</h4>' . "<br/>" . "<br/>";
+                $correctanswer5 = "<h3 style='color: blue'>What is Drilling breaks?</h3>" . "<br/>" . $correctanswer5;
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
-            $correctanswer6 = "";
-            if ($answer6 == "ABC" or $answer6 == "D") {
+
+            if ($answer6 == "CE") {
                 $totalCorrect++;
             } else {
-                $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">C) type of well</h4>';
-                $correctanswer6 = "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctanswer6 . "<br/>" . "<br/>";
+                $correctanswer6 = '<h4 style="color: darkgreen">C) Loss of circulation.</h4>' . "<br/>";
+                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">E) Swabbing.</h4>' . "<br/>";
+                $correctanswer6 = "<h3 style='color: blue'>What can cause a Kick?</h3>" . "<br/>" . $correctanswer6;
                 $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
             }
 
-            $correctanswer7 = "";
-            echo $answer7 . "<br/>";
-            if ($answer7 === "AC") {
+            if ($answer7 == "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer7 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
-                $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
-                $correctanswer7 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer7 . "<br/>" . "<br/>";
+                $correctanswer7 = '<h4 style="color: darkgreen">A) It creates negative
+                                            differential pressure</h4>';
+                $correctanswer7 = "<h3 style='color: blue'>What is the effect of Swabbing on connection/trip gas?</h3>" . "<br/>" . $correctanswer7;
                 $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
             }
+
 
             echo '<hr style="border: 2px solid green">';
             echo "<div id='results'>$totalCorrect / 7 correct</div>";
@@ -211,7 +214,7 @@ session_start();
             if ($totalCorrect === 7) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
-                echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6;
+                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" . "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" . "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" . "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" . $correctanswer7;
 
             } else {
                 echo '<hr style="border: 2px solid green">';

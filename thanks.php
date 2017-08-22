@@ -98,8 +98,8 @@
 </form>
 <section>
     <div class="container">
-        <h1>Thank you for contact us. We will get back to you soon!</h1>
-        <p>For urgent issues, call us on 075-79044346 </p>
+        <h1 style="text-align: center">Thank you for contact us. We will get back to you soon!</h1>
+        <p "text-align: center">For urgent issues, call us on 075-79044346 </p>
     </div>
 </section>
 <footer>

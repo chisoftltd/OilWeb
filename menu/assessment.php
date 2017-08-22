@@ -204,7 +204,7 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Pressure waveform from a 0.82 kg SUS charge detonated </label>
+                                            <label for="question-1-answers-A">A) Pressure waveform from a 0.82 kg SUS charge detonated. </label>
                                         </div>
                                     </div>
 
@@ -213,7 +213,7 @@ if (isset($_POST['deleteform'])) {
                                             <input type="radio" name="question-1-answers" id="question-1-answers-B"
                                                    value="B"/>
                                             <label for="question-1-answers-B">B) More stringent environmental requirements (i.e, drilling in an
-                                                environmentally sensitive area)</label>
+                                                environmentally sensitive area).</label>
                                         </div>
                                     </div>
 
@@ -221,8 +221,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) severe environment (High Pressure High temperature (HPHT), deepwater,
-                                                high hydrogen Sulphide (H2S – ‘sour’).</label>
+                                            <label for="question-1-answers-C">C) Severe environment report (High Pressure High temperature (HPHT), deepwater,
+                                                high hydrogen Sulphide).</label>
                                         </div>
                                     </div>
 
@@ -230,7 +230,7 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) physical constraints (e.g, pipelines, proximity of other installations)
+                                            <label for="question-1-answers-D">D) Physical constraints (e.g, pipelines, proximity of other installations)
                                                 seasonal access restrictions.</label>
                                         </div>
                                     </div>
@@ -273,17 +273,17 @@ if (isset($_POST['deleteform'])) {
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-B"
                                                value="B"/>
-                                        <label for="question-3-answers-B">B) Derrickman</label>
+                                        <label for="question-3-answers-B">B) Derrick Manager</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-C"
                                                value="C"/>
-                                        <label for="question-3-answers-C">C) Driller</label>
+                                        <label for="question-3-answers-C">C) Driller Supervisor</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-3-answers" id="question-3-answers-D"
                                                value="D"/>
-                                        <label for="question-3-answers-D">D) Rig Mechanic</label>
+                                        <label for="question-3-answers-D">D) Rig Inspector</label>
                                     </div>
                                 </li>
                                 <li>
@@ -297,7 +297,7 @@ if (isset($_POST['deleteform'])) {
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-B"
                                                value="B"/>
-                                        <label for="question-4-answers-B">B) Rig move notification (various)</label>
+                                        <label for="question-4-answers-B">B) Rig move notification</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-C"

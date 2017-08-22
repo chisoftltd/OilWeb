@@ -199,12 +199,12 @@ if (isset($_POST['deleteform'])) {
                             <legend style="text-align: center">Well Drilling Quiz</legend>
                             <ol>
                                 <li>
-                                    <h5>What special considerations are performed before drilling a well?</h5>
+                                    <h5>What special considerations are not performed before drilling a well?</h5>
                                     <div class="form-group">
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Control subsurface pressures. </label>
+                                            <label for="question-1-answers-A">A) Pressure waveform from a 0.82 kg SUS charge detonated </label>
                                         </div>
                                     </div>
 
@@ -212,8 +212,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) Move cuttings to the bottom of the
-                                                hole</label>
+                                            <label for="question-1-answers-B">B) More stringent environmental requirements (i.e, drilling in an
+                                                environmentally sensitive area)</label>
                                         </div>
                                     </div>
 
@@ -221,8 +221,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) Prevent recovery of information from
-                                                the hole.</label>
+                                            <label for="question-1-answers-C">C) severe environment (High Pressure High temperature (HPHT), deepwater,
+                                                high hydrogen Sulphide (H2S – ‘sour’).</label>
                                         </div>
                                     </div>
 
@@ -230,13 +230,14 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) Warm and de-lubricate the bit.</label>
+                                            <label for="question-1-answers-D">D) physical constraints (e.g, pipelines, proximity of other installations)
+                                                seasonal access restrictions.</label>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>What instrument is used to measure Mud Weight?</h5>
+                                    <h5>What instrument is used to measure drilling fluid Weight?</h5>
                                     <div class="form-group">
                                         <input type="radio" name="question-2-answers" id="question-2-answers-A"
                                                value="A"/>
@@ -286,28 +287,27 @@ if (isset($_POST['deleteform'])) {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Which of the following RIGs are used offshore?</h5>
+                                    <h5>Which of these requirements exist during the operational phase of drilling?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-A"
                                                value="A"/>
-                                        <label for="question-4-answers-A">A) cruseships</label>
+                                        <label for="question-4-answers-A">A) Conclusion of Rig work (HSE)</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-B"
                                                value="B"/>
-                                        <label for="question-4-answers-B">B) Semisubmersible
-                                            rigs</label>
+                                        <label for="question-4-answers-B">B) Rig move notification (various)</label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-C"
                                                value="C"/>
-                                        <label for="question-4-answers-C">C) Jack-down rigs,</label>
+                                        <label for="question-4-answers-C">C) Rig Emissions Cost </label>
                                     </div>
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-D"
                                                value="D"/>
-                                        <label for="question-4-answers-D">D) None of the above</label>
+                                        <label for="question-4-answers-D">D) Drill fluid Discharge Records (DTI or agent)</label>
                                     </div>
                                 </li>
 

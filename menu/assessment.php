@@ -286,7 +286,7 @@ if (isset($_POST['deleteform'])) {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Which of the following RIG is used offshore?</h5>
+                                    <h5>Which of the following RIGs are used offshore?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-A"

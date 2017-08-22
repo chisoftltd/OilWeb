@@ -430,7 +430,8 @@ include_once '../db/dbconnect.php';
                                     </p>
                                     <hr>
                                     <h3>Plan for Decommission</h3>
-                                    <p>Even before drilling commence, decommissioning of the well is also planned. After the end
+                                    <p>Even before drilling commence, decommissioning of the well is also planned. After
+                                        the end
                                         of operations communications to close out a specific well include:</p>
                                     <ul>
                                         <li>
@@ -994,17 +995,19 @@ include_once '../db/dbconnect.php';
                                     <p>As well as having direct accountability to the Drilling Superintendent the
                                         Drilling Engineer should also be accountable to the Engineering Manager for the
                                         following:</p>
-
-                                    <li>Providing all necessary information, backup, and input to the engineering audit
-                                        process;
-                                    </li>
-                                    <li>Ensuring that any requirements arising from risk assessments, peer reviews,
-                                        audits etc. are actioned;
-                                    </li>
-                                    <li>Notification of any potential change to programme which requires review and
-                                        approval;
-                                    </li>
-                                    <li>Adherence to approved technical standards and procedures.</li>
+                                    <ul>
+                                        <li>Providing all necessary information, backup, and input to the engineering
+                                            audit
+                                            process;
+                                        </li>
+                                        <li>Ensuring that any requirements arising from risk assessments, peer reviews,
+                                            audits etc. are actioned;
+                                        </li>
+                                        <li>Notification of any potential change to programme which requires review and
+                                            approval;
+                                        </li>
+                                        <li>Adherence to approved technical standards and procedures.</li>
+                                    </ul>
                                     <p>Dependent on organisational preference the Drilling Engineering role may be split
                                         whereby one engineer (or group) is responsible for the planning phase handing
                                         over to another engineer (or group) for the implementation phase. In this case
@@ -1138,7 +1141,7 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li>Issuance of bid documents and focal point for related communications;
                                         </li>
-                                        <li>Non-technical aspects of bid evaluation;</li>
+                                        <li>Non-technical aspects of bid evaluation;
                                         </li>
                                         <li>Negotiation of terms and conditions;
                                         </li>
@@ -1147,25 +1150,26 @@ include_once '../db/dbconnect.php';
                                         <li>Ongoing contract administration and interpretation;
                                         </li>
                                         <li>Provision of market information, especially for rigs.</li>
-                                        <h3>Materials / Logistics</h3>
-                                        <hr>
-                                        <p>One of the most challenging aspects of delivering a well executed operational
-                                            programme is to ensure the availability of the correct equipment at the
-                                            correct time. In order to achieve this support is required as follows:</p>
-                                        <ul>
-                                            <li>Maintenance of stock equipment lists;
-                                            </li>
-                                            <li>Storage of equipment;
-                                            </li>
-                                            <li>Assistance in preparation of load out lists;
-                                            </li>
-                                            <li>Co-ordination of Quality Control / Quality Assurance processes;
-                                            </li>
-                                            <li>Organisation of transport (land, helicopters, boats);
-                                            </li>
-                                            <li>Liaison with suppliers for delivery of equipment and personnel.</li>
-                                        </ul>
                                     </ul>
+                                    <h3>Materials and Logistics</h3>
+                                    <hr>
+                                    <p>One of the most challenging aspects of delivering a well executed operational
+                                        programme is to ensure the availability of the correct equipment at the
+                                        correct time. In order to achieve this support is required as follows:</p>
+                                    <ul>
+                                        <li>Maintenance of stock equipment lists;
+                                        </li>
+                                        <li>Storage of equipment;
+                                        </li>
+                                        <li>Assistance in preparation of load out lists;
+                                        </li>
+                                        <li>Co-ordination of Quality Control / Quality Assurance processes;
+                                        </li>
+                                        <li>Organisation of transport (land, helicopters, boats);
+                                        </li>
+                                        <li>Liaison with suppliers for delivery of equipment and personnel.</li>
+                                    </ul>
+
 
                                 </div>
                             </div>

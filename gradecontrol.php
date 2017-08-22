@@ -118,6 +118,7 @@ session_start();
             $correctanswer6 = "";
             $correctanswer7 = "";
             $correctanswer8 = "";
+            $correctanswer9 = "";
 
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -141,6 +142,13 @@ session_start();
 
             $answer7 = $_POST['question-7-answers'];
             $answer8 = $_POST['question-8-answers'];
+            $answer9 = "";
+
+            if (!empty($_POST['answer-question-9'])) {
+                foreach ($_POST['answer-question-9'] as $selected) {
+                    $answer9 = $answer9 . $selected;
+                }
+            }
 
 
             $totalCorrect = 0;
@@ -208,18 +216,35 @@ session_start();
             }
 
             if ($answer8 === "B") {
+                $totalCorrect++;
+            } else {
                 $correctanswer8 = '<h4 style="color: darkgreen">B) Driller’s method.</h4>';
                 $correctanswer8 = "<h3 style='color: blue'>Which of these methods are used to manage a Kick?</h3>" . "<br/>" . $correctanswer8;
                 $correctanswer8 = $correctanswer8 . '<hr style="border: 1px solid black">';
             }
 
+            if ($answer9 === "BCE") {
+                $totalCorrect++;
+            } else {
+                $correctanswer9 = '<h4 style="color: darkgreen">B) Blow out preventers</h4>' . "<br/>";
+                $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">C) Casing head.</h4>' . "<br/>";
+                $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">E) Drilling Spool.</h4>' . "<br/>";
+                $correctanswer9 = "<h9 style='color: blue'>Surface Well Control Equipment is made of?</h9>" . "<br/>" . $correctanswer9 . "<br/>" . "<br/>";
+                $correctanswer9 = $correctanswer9 . '<hr style="border: 1px solid black">';
+            }
+
             echo '<hr style="border: 2px solid green">';
-            echo "<div id='results'>$totalCorrect / 8 correct</div>";
+            echo "<div id='results'>$totalCorrect / 9 correct</div>";
 
             if ($totalCorrect === 8) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
-                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" . "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" . "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" . "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" . $correctanswer7 . "<br/>" . $correctanswer8;
+                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" .
+                    "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" .
+                    "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" .
+                    "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" .
+                    $correctanswer7 . "<br/>" . "Which of these methods are used to manage a Kick?" . $correctanswer8 . "<br/>" .
+                    "Surface Well Control Equipment is made of?" . $correctanswer9;
 
             } else {
                 echo '<hr style="border: 2px solid green">';
@@ -250,7 +275,9 @@ session_start();
                 if ($correctanswer8 !== '') {
                     $correction = $correction . $correctanswer8 . "<br/>";
                 }
-
+                if ($correctanswer9 !== '') {
+                    $correction = $correction . $correctanswer9 . "<br/>";
+                }
 
                 echo $correction;
                 echo '<hr style="border: 2px solid green">';

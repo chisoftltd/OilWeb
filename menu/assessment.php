@@ -603,6 +603,27 @@ if (isset($_POST['deleteform'])) {
                                     </div>
 
                                 </li>
+
+                                <li>
+                                    <h5>Surface Well Control Equipment is made of?</h5>
+                                    <form class="form-group">
+                                        <input type="checkbox" name="answer-question-9[]" value="A" id="answer-9A"/>
+                                        <label for="answers-9A">A) Bits.</label>
+                                        <br/>
+                                        <input type="checkbox" name="answer-question-9[]" value="B" id="answer-9B"/>
+                                        <label for="answers-9B">B) Blow out preventers</label>
+                                        <br/>
+                                        <input type="checkbox" name="answer-question-9[]" value="C" id="answer-9C"/>
+                                        <label for="answers-9C">C) Casing head.</label>
+                                        <br/>
+                                        <input type="checkbox" name="answer-question-9[]" value="D" id="answer-9D"/>
+                                        <label for="answers-9D">D) Drilling Fluid.</label>
+                                        <br/>
+                                        <input type="checkbox" name="answer-question-9[]" value="E" id="answer-9E"/>
+                                        <label for="answers-9E">E) Drilling Spool.</label>
+                                    </form>
+                                </li>
+
                             </ol>
                             <input type="submit" value="Submit Quiz"/>
 

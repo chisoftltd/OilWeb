@@ -77,6 +77,13 @@ if (isset($_POST['signup'])) {
             content: "*";
             color: red;
         }
+
+        .form-group .control-label:before {
+            color: black;
+            content: "*";
+            position: absolute;
+            margin-left: -15px;
+        }
     </style>
 </head>
 <body><!-- Body area start-->
@@ -163,28 +170,28 @@ if (isset($_POST['signup'])) {
                         <legend>Student Registration</legend>
 
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name" class="col-md-2 control-label">Name</label>
                             <input type="text" name="name" placeholder="Enter Full Name" required
                                    value="<?php if ($error) echo $name; ?>" class="form-control"/>
                             <span class="text-danger"><?php if (isset($name_error)) echo $name_error; ?></span>
                         </div>
 
                         <div class="form-group">
-                            <label for="name">Email</label>
+                            <label for="name" class="col-md-2 control-label">Email</label>
                             <input type="email" name="email" placeholder="Email" required
                                    value="<?php if ($error) echo $email; ?>" class="form-control"/>
                             <span class="text-danger"><?php if (isset($email_error)) echo $email_error; ?></span>
                         </div>
 
                         <div class="form-group">
-                            <label for="name">Password</label>
+                            <label for="name" class="col-md-2 control-label">Password</label>
                             <input type="password" name="password" placeholder="Password" required
                                    class="form-control"/>
                             <span class="text-danger"><?php if (isset($password_error)) echo $password_error; ?></span>
                         </div>
 
                         <div class="form-group">
-                            <label for="name">Confirm Password</label>
+                            <label for="name" class="col-md-2 control-label">Confirm Password</label>
                             <input type="password" name="cpassword" placeholder="Confirm Password" required
                                    class="form-control"/>
                             <span class="text-danger"><?php if (isset($cpassword_error)) echo $cpassword_error; ?></span>

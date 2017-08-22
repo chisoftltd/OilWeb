@@ -171,7 +171,6 @@ session_start();
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = '';
-            echo $answer6 . "<br/>";
             if ($answer6 === 'ABC' or $answer6 === 'D') {
                 $totalCorrect++;
             } else {
@@ -206,25 +205,25 @@ session_start();
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
                 $correction = '';
-                if ($correctanswer1 != "") {
+                if ($correctanswer1 !== '') {
                     $correction = $correctanswer1 . "<br/>";
                 }
                 if ($correctanswer2 !== '') {
                     $correction = $correction . $correctanswer2 . "<br/>";
                 }
-                if ($correctanswer3 != '') {
+                if ($correctanswer3 !== '') {
                     $correction = $correction . $correctanswer3 . "<br/>";
                 }
-                if ($correctanswer4 != '') {
+                if ($correctanswer4 !== '') {
                     $correction = $correction . $correctanswer4 . "<br/>";
                 }
-                if ($correctanswer5 != '') {
+                if ($correctanswer5 !== '') {
                     $correction = $correction . $correctanswer5 . "<br/>";
                 }
-                if ($correctanswer6 != '') {
+                if ($correctanswer6 !== '') {
                     $correction = $correction . $correctanswer6 . "<br/>";
                 }
-                if ($correctanswer7 != '') {
+                if ($correctanswer7 !== '') {
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
                 echo '<hr style="border: 2px solid green">';

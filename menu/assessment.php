@@ -153,11 +153,11 @@ if (isset($_POST['deleteform'])) {
         </div>
         <div style="width: 100%" class="btn-group">
             <div class="row">
-                <button onclick="document.getElementById('drilling').style.display='block'" style="width: 30%;">
-                    Well Drilling
-                </button>
                 <button onclick="document.getElementById('control').style.display='block'" style="width: 30%">
                     Well Control
+                </button>
+                <button onclick="document.getElementById('drilling').style.display='block'" style="width: 30%;">
+                    Well Drilling
                 </button>
                 <button onclick="document.getElementById('completion').style.display='block'" style="width: 30%;">
                     Well Completion

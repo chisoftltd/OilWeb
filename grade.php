@@ -129,6 +129,7 @@ session_start();
                 foreach ($_POST['answer-question-7'] as $selected) {
                     $answer7 = $answer7 . $selected;
                 }
+
             }
 
             $totalCorrect = 0;
@@ -169,8 +170,10 @@ session_start();
                 $correctanswer5 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer5;
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
-            $correctanswer6 = '';
-            if ($answer6 === 'ABC' or $answer6 == 'D') {
+            $correctanswer6 = "";
+            echo "$answer6" . " " . $answer6;
+            echo "$correctanswer6" . " " . $correctanswer6;
+            if ($answer6 === "ABC" or $answer6 === "D") {
                 $totalCorrect++;
             } else {
                 $correctanswer6 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
@@ -181,6 +184,8 @@ session_start();
             }
 
             $correctanswer7 = '';
+            echo "$answer7" . " " . $answer7;
+            echo "correctanswer7" . " " . $correctanswer7;
             if ($answer7 === 'AC') {
                 $totalCorrect++;
             } else {

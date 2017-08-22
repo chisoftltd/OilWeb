@@ -342,7 +342,7 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>The time required to plan and execute a well construction programme is dependent
                                         on (select all that apply)?</h5>
-                                    <form class="form-group">
+                                    <form class="form-group6">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
                                         <br/>
@@ -361,15 +361,15 @@ if (isset($_POST['deleteform'])) {
                                 </li>
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
-                                    <form class="form-group">
+                                    <form class="form-group7">
                                         <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="B" id="answer-7B"/>
-                                        <label for="answers-7B">B) Loss of Fluid Test Programme (OECD)</label>
+                                        <label for="answers-7B">B) Incident reporting (DTI/HSE)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="C" id="answer-7C"/>
-                                        <label for="answers-7C">C) Incident reporting (DTI/HSE)</label>
+                                        <label for="answers-7C">C) Loss of Fluid Test Programme (OECD)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="D" id="answer-7D"/>
                                         <label for="answers-7D">D) All of the above.</label>

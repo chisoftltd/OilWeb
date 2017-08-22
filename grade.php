@@ -191,7 +191,6 @@ session_start();
                 $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
                 $correctanswer7 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer7 . "<br/>" . "<br/>";
                 $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
-                echo $correctanswer7;
             }
 
             echo '<hr style="border: 2px solid green">';

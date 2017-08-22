@@ -205,6 +205,7 @@ session_start();
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
+                $correction = '';
                 if ($correctanswer1 != "") {
                     $correction = $correctanswer1 . "<br/>";
                 }

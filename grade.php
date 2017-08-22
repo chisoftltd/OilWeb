@@ -129,8 +129,8 @@ session_start();
                 foreach ($_POST['answer-question-7'] as $selected) {
                     $answer7 = $answer7 . $selected;
                 }
-
             }
+            echo $answer7 . "<br/>";
 
             $totalCorrect = 0;
 
@@ -208,22 +208,22 @@ session_start();
                 if ($correctanswer1 != "") {
                     $correction = $correctanswer1 . "<br/>";
                 }
-                if ($correctanswer2 != "") {
+                if ($correctanswer2 !== '') {
                     $correction = $correction . $correctanswer2 . "<br/>";
                 }
-                if ($correctanswer3 != "") {
+                if ($correctanswer3 != '') {
                     $correction = $correction . $correctanswer3 . "<br/>";
                 }
-                if ($correctanswer4 != "") {
+                if ($correctanswer4 != '') {
                     $correction = $correction . $correctanswer4 . "<br/>";
                 }
-                if ($correctanswer5 != "") {
+                if ($correctanswer5 != '') {
                     $correction = $correction . $correctanswer5 . "<br/>";
                 }
-                if ($correctanswer6 != "") {
+                if ($correctanswer6 != '') {
                     $correction = $correction . $correctanswer6 . "<br/>";
                 }
-                if ($correctanswer7 != "") {
+                if ($correctanswer7 != '') {
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
                 echo '<hr style="border: 2px solid green">';

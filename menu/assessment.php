@@ -361,7 +361,7 @@ if (isset($_POST['deleteform'])) {
                                 </li>
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
-                                    <form class="form-group">
+                                    <form class="form-group" action="/grade.php" method="post" name="ethicsform">
                                         <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>

@@ -366,10 +366,10 @@ if (isset($_POST['deleteform'])) {
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="B" id="answer-7B"/>
-                                        <label for="answers-7B">B) Incident reporting (DTI/HSE)</label>
+                                        <label for="answers-7B">B) Loss of Fluid Test Programme (OECD)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="C" id="answer-7C"/>
-                                        <label for="answers-7C">C) Loss of Fluid Test Programme (OECD)</label>
+                                        <label for="answers-7C">C) Incident reporting (DTI/HSE)</label>
                                         <br/>
                                         <input type="checkbox" name="answer-question-7[]" value="D" id="answer-7D"/>
                                         <label for="answers-7D">D) All of the above.</label>

@@ -159,7 +159,7 @@ session_start();
             echo $answer7;
             echo $answer8;
             echo $answer9;
-            
+
 
             $totalCorrect = 0;
 

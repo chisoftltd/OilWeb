@@ -118,6 +118,7 @@ session_start();
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
             $answer6 = '';
+            $answer7 = '';
 
             if (!empty($_POST['answer-question-6'])) {
                 foreach ($_POST['answer-question-6'] as $selected) {
@@ -125,7 +126,13 @@ session_start();
                     $answer6 = $answer6 . $selected;
                 }
 
+            } elseif ($_POST['answer-question-7']){
+                foreach ($_POST['answer-question-7'] as $selected){
+                    $answer7 = $answer7.$selected;
+                }
             }
+
+
 
             echo '<hr style="border: 2px solid green">';
             echo '<h2 style="text-align: center">Correct Answer</h2>';
@@ -177,12 +184,30 @@ session_start();
                 echo "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctanswer6 . "<br/>" . "<br/>";
                 echo '<hr style="border: 1px solid black">';
             }
-            if ($totalCorrect === 6) {
+
+            $correctanswer7 = '';
+            if (trim($answer7, '') =='AC'){
+                $totalCorrect++;
+            }else{
+                $correctanswer7 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
+                $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
+                echo "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer7 . "<br/>" . "<br/>";
+                echo '<hr style="border: 1px solid black">';
+            }
+
+            echo '<hr style="border: 2px solid green">';
+            echo "<div id='results'>$totalCorrect / 7 correct</div>";
+
+            if ($totalCorrect === 7) {
+                echo '<hr style="border: 2px solid green">';
+                echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
                 echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer3 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer5 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer6;
 
+            }else{
+                echo '<hr style="border: 2px solid green">';
+                echo "<h3 style='color: darkred'><strong><a href='/menu/assessment.php'>Go back and try again</a> </strong></h3>";
             }
-            echo '<hr style="border: 2px solid green">';
-            echo "<div id='results'>$totalCorrect / 6 correct</div>";
+
 
             ?>
 

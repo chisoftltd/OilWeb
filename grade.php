@@ -125,7 +125,7 @@ session_start();
                     $answer6 = $answer6 . $selected;
                 }
             }
-            if ($_POST['answer-question-7']) {
+            if (!empty($_POST['answer-question-7'])) {
                 foreach ($_POST['answer-question-7'] as $selected) {
                     $answer7 = $answer7 . $selected;
                 }

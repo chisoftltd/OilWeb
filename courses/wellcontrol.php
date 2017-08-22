@@ -255,7 +255,7 @@ include_once '../db/dbconnect.php';
                                             Failure to keep the hole full during a trip.
                                         </li>
                                         <li>Failure to keep the hole full during a trip.</li>
-                                        </li>
+
                                         Lost circulation during drilling.
                                         <li>
                                     </ul>
@@ -784,9 +784,9 @@ include_once '../db/dbconnect.php';
                                         impossible to get proper circulation around the system via the drill stem or
                                         tubing, or doing so would cause greater problems (exceeding MAASP,
                                         casing burst pressure etc).
-                                        <li
-                                        ">Make interpretation of the influx
-                                        including:
+                                        <li>
+                                            Make interpretation of the influx
+                                            including:
                                         </li>
                                         <ul>
                                             <li>Height and density of influx.
@@ -795,9 +795,8 @@ include_once '../db/dbconnect.php';
                                                 circulating.
                                             </li>
                                         </ul>
-                                        <li
-                                        ">Proceed with circulation using the
-                                        following guide rules:
+                                        <li>Proceed with circulation using the
+                                            following guide rules:
                                         </li>
                                         <ul>
                                             <li>
@@ -911,8 +910,10 @@ include_once '../db/dbconnect.php';
                                                 are usually directly operated by handwheel
                                             </li>
                                             <li>Several manual gate valves.</li>
-                                            The adjustable chokes permit precise control of return flow rate and back
-                                            pressure.
+                                            <li>The adjustable chokes permit precise control of return flow rate and
+                                                back
+                                                pressure.
+                                            </li>
                                             <li>Kelly Cock, Float Valve or Inside BOP
                                                 (Figure 6) - To prevent back flow via the drill pipe.
                                             </li>

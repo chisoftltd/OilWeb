@@ -359,6 +359,7 @@ if (isset($_POST['deleteform'])) {
                                         <label for="answers-6E">E) None of the above.</label>
                                     </form>
                                 </li>
+                                
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
                                     <form class="form-group7">

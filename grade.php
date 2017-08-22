@@ -111,7 +111,11 @@ session_start();
             <h1 style="text-align: center">Your Quiz score for WebOil</h1>
 
             <?php
-
+            $correctanswer1 = "";
+            $correctanswer2 = "";
+            $correctanswer3 = "";
+            $correctanswer4 = "";
+            $correctanswer5 = "";
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
             $answer3 = $_POST['question-3-answers'];
@@ -244,7 +248,7 @@ session_start();
     </div>
 
     <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <script type="text/javascript">

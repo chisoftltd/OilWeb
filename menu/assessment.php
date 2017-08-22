@@ -204,7 +204,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Pressure waveform from a 0.82 kg SUS charge detonated. </label>
+                                            <label for="question-1-answers-A">A) Pressure waveform from a 0.82 kg SUS
+                                                charge detonated. </label>
                                         </div>
                                     </div>
 
@@ -212,7 +213,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) More stringent environmental requirements (i.e, drilling in an
+                                            <label for="question-1-answers-B">B) More stringent environmental
+                                                requirements (i.e, drilling in an
                                                 environmentally sensitive area).</label>
                                         </div>
                                     </div>
@@ -221,7 +223,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) Severe environment report (High Pressure High temperature (HPHT), deepwater,
+                                            <label for="question-1-answers-C">C) Severe environment report (High
+                                                Pressure High temperature (HPHT), deepwater,
                                                 high hydrogen Sulphide).</label>
                                         </div>
                                     </div>
@@ -230,7 +233,8 @@ if (isset($_POST['deleteform'])) {
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) Physical constraints (e.g, pipelines, proximity of other installations)
+                                            <label for="question-1-answers-D">D) Physical constraints (e.g, pipelines,
+                                                proximity of other installations)
                                                 seasonal access restrictions.</label>
                                         </div>
                                     </div>
@@ -307,7 +311,8 @@ if (isset($_POST['deleteform'])) {
                                     <div class="form-group">
                                         <input type="radio" name="question-4-answers" id="question-4-answers-D"
                                                value="D"/>
-                                        <label for="question-4-answers-D">D) Drill fluid Discharge Records (DTI or agent)</label>
+                                        <label for="question-4-answers-D">D) Drill fluid Discharge Records (DTI or
+                                            agent)</label>
                                     </div>
                                 </li>
 
@@ -342,7 +347,7 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>The time required to plan and execute a well construction programme is dependent
                                         on (select all that apply)?</h5>
-                                    <form class="form-group6">
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
                                         <br/>
@@ -361,7 +366,7 @@ if (isset($_POST['deleteform'])) {
                                 </li>
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
-                                    <form class="form-group7">
+                                    <form class="form-group" action="/grade.php" method="post" name="ethicsform">
                                         <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>

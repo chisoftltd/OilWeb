@@ -124,8 +124,8 @@ session_start();
                 foreach ($_POST['answer-question-6'] as $selected) {
                     $answer6 = $answer6 . $selected;
                 }
-
-            } elseif ($_POST['answer-question-7']) {
+            }
+            if ($_POST['answer-question-7']) {
                 foreach ($_POST['answer-question-7'] as $selected) {
                     $answer7 = $answer7 . $selected;
                 }
@@ -171,8 +171,8 @@ session_start();
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = "";
-            echo "$answer6" . " " . $answer6."<br/>";
-            echo "$correctanswer6" . " " . $correctanswer6."<br/>";
+            echo "$answer6-" . "-" . $answer6 . "<br/>";
+            echo "$correctanswer6:" . ":" . $correctanswer6 . "<br/>";
             if ($answer6 === "ABC" or $answer6 === "D") {
                 $totalCorrect++;
             } else {
@@ -184,8 +184,8 @@ session_start();
             }
 
             $correctanswer7 = '';
-            echo "$answer7" . " " . $answer7."<br/>";
-            echo "correctanswer7" . " " . $correctanswer7."<br/>";
+            echo "$answer7=" . "=" . $answer7 . "<br/>";
+            echo "correctanswer7=" . "=" . $correctanswer7 . "<br/>";
             if ($answer7 === 'AC') {
                 $totalCorrect++;
             } else {
@@ -209,17 +209,23 @@ session_start();
                 echo '<hr style="border: 2px solid green">';
                 if ($correctanswer1 != "") {
                     $correction = $correctanswer1 . "<br/>";
-                } elseif ($correctanswer2 != "") {
+                }
+                if ($correctanswer2 != "") {
                     $correction = $correction . $correctanswer2 . "<br/>";
-                } elseif ($correctanswer3 != "") {
+                }
+                if ($correctanswer3 != "") {
                     $correction = $correction . $correctanswer3 . "<br/>";
-                } elseif ($correctanswer4 != "") {
+                }
+                if ($correctanswer4 != "") {
                     $correction = $correction . $correctanswer4 . "<br/>";
-                } elseif ($correctanswer5 != "") {
+                }
+                if ($correctanswer5 != "") {
                     $correction = $correction . $correctanswer5 . "<br/>";
-                } elseif ($correctanswer6 != "") {
+                }
+                if ($correctanswer6 != "") {
                     $correction = $correction . $correctanswer6 . "<br/>";
-                } elseif ($correctanswer7 != "") {
+                }
+                if ($correctanswer7 != "") {
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
                 echo '<hr style="border: 2px solid green">';

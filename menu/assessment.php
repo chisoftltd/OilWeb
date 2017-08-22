@@ -574,14 +574,14 @@ if (isset($_POST['deleteform'])) {
                                     <h5>What is the effect of Swabbing on connection/trip gas?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                        <input type="radio" name="question-7-answers" id="question-5-answers-A"
                                                value="A"/>
                                         <label for="question-5-answers-A">A) It creates negative
                                             differential pressure</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                        <input type="radio" name="question-7-answers" id="question-5-answers-B"
                                                value="B"/>
                                         <label for="question-5-answers-B">B) It creates posative
                                             differential pressure.</label>

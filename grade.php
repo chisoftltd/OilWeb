@@ -228,6 +228,7 @@ session_start();
                 if ($correctanswer7 !== '') {
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
+                echo $correction;
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }

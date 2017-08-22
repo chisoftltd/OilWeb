@@ -199,7 +199,7 @@ if (isset($_POST['deleteform'])) {
                             <legend style="text-align: center">Well Drilling Quiz</legend>
                             <ol>
                                 <li>
-                                    <h5>What is drilling Mud used for?</h5>
+                                    <h5>What special considerations are performed before drilling a well?</h5>
                                     <div class="form-group">
                                         <div>
                                             <input type="radio" name="question-1-answers" id="question-1-answers-A"

@@ -340,7 +340,7 @@ include_once '../db/dbconnect.php';
                                         <li>more stringent environmental requirements (i.e, drilling in an
                                             environmentally sensitive area);
                                         </li>
-                                        <li>physical constraints (e.g, pipelines, proximity of other installations);
+                                        <li>physical constraints (e.g, pipelines, proximity of other installations)
                                             seasonal access restrictions;
                                         </li>
                                         <li>severe environment (High Pressure High temperature (HPHT), deepwater,

@@ -345,16 +345,20 @@ if (isset($_POST['deleteform'])) {
                                     <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
-
+                                    </form>
+                                        <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="B" id="answer-6B"/>
                                         <label for="answers-6B">B) location</label>
-
+                                        </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="C" id="answer-6C"/>
                                         <label for="answers-6C">C) type of well</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="D" id="answer-6D"/>
                                         <label for="answers-6D">D) All of the above.</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="E" id="answer-6E"/>
                                         <label for="answers-6E">E) None of the above.</label>
                                     </form>
@@ -364,16 +368,20 @@ if (isset($_POST['deleteform'])) {
                                     <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="B" id="answer-7B"/>
                                         <label for="answers-7B">B) Loss of Fluid Test Programme (OECD)</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="C" id="answer-7C"/>
                                         <label for="answers-7C">C) Incident reporting (DTI/HSE)</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="D" id="answer-7D"/>
                                         <label for="answers-7D">D) All of the above.</label>
-
+                                    </form>
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="E" id="answer-7E"/>
                                         <label for="answers-7E">E) None of the above.</label>
                                     </form>

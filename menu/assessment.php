@@ -188,7 +188,7 @@ if (isset($_POST['deleteform'])) {
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
                     <form role="form" class="modal-content animate" action="/grade.php"
-                          method=""
+                          method="POST"
                           name="ethicsform">
                         <div class="imgcontainer">
                         <span onclick="document.getElementById('drilling').style.display='none'" class="close"
@@ -342,7 +342,7 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>The time required to plan and execute a well construction programme is dependent
                                         on (select all that apply)?</h5>
-                                    <form class="form-group6">
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
                                         <label for="answers-6A">A) sub-surface complexity</label>
                                         <br/>
@@ -361,7 +361,7 @@ if (isset($_POST['deleteform'])) {
                                 </li>
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
-                                    <form class="form-group7">
+                                    <form class="form-group">
                                         <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
                                         <label for="answers-7A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>

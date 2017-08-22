@@ -214,9 +214,9 @@ session_start();
             }
 
             echo '<hr style="border: 2px solid green">';
-            echo "<div id='results'>$totalCorrect / 7 correct</div>";
+            echo "<div id='results'>$totalCorrect / 8 correct</div>";
 
-            if ($totalCorrect === 7) {
+            if ($totalCorrect === 8) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
                 echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" . "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" . "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" . "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" . $correctanswer7 . "<br/>" . $correctanswer8;

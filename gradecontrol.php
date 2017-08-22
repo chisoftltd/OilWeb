@@ -117,6 +117,7 @@ session_start();
             $correctanswer5 = "";
             $correctanswer6 = "";
             $correctanswer7 = "";
+            $correctanswer8 = "";
 
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
@@ -139,7 +140,7 @@ session_start();
             }
 
             $answer7 = $_POST['question-7-answers'];
-
+            $answer8 = $_POST['question-8-answers'];
 
 
             $totalCorrect = 0;
@@ -206,6 +207,11 @@ session_start();
                 $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
             }
 
+            if ($answer8 === "B") {
+                $correctanswer8 = '<h4 style="color: darkgreen">B) Driller’s method.</h4>';
+                $correctanswer8 = "<h3 style='color: blue'>Which of these methods are used to manage a Kick?</h3>" . "<br/>" . $correctanswer8;
+                $correctanswer8 = $correctanswer8 . '<hr style="border: 1px solid black">';
+            }
 
             echo '<hr style="border: 2px solid green">';
             echo "<div id='results'>$totalCorrect / 7 correct</div>";
@@ -213,7 +219,7 @@ session_start();
             if ($totalCorrect === 7) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
-                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" . "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" . "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" . "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" . $correctanswer7;
+                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" . "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" . "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" . "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" . $correctanswer7 . "<br/>" . $correctanswer8;
 
             } else {
                 echo '<hr style="border: 2px solid green">';
@@ -241,6 +247,11 @@ session_start();
                 if ($correctanswer7 !== '') {
                     $correction = $correction . $correctanswer7 . "<br/>";
                 }
+                if ($correctanswer8 !== '') {
+                    $correction = $correction . $correctanswer8 . "<br/>";
+                }
+
+
                 echo $correction;
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";

@@ -574,20 +574,35 @@ if (isset($_POST['deleteform'])) {
                                     <h5>What is the effect of Swabbing on connection/trip gas?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-7-answers" id="question-5-answers-A"
+                                        <input type="radio" name="question-7-answers" id="question-7-answers-A"
                                                value="A"/>
-                                        <label for="question-5-answers-A">A) It creates negative
+                                        <label for="question-7-answers-A">A) It creates negative
                                             differential pressure</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-7-answers" id="question-5-answers-B"
+                                        <input type="radio" name="question-7-answers" id="question-7-answers-B"
                                                value="B"/>
-                                        <label for="question-5-answers-B">B) It creates posative
+                                        <label for="question-7-answers-B">B) It creates posative
                                             differential pressure.</label>
                                     </div>
                                 </li>
+                                <li>
+                                    <h5>Which of these methods are used to manage a Kick?</h5>
 
+                                    <div class="form-group">
+                                        <input type="radio" name="question-8-answers" id="question-8-answers-A"
+                                               value="A"/>
+                                        <label for="question-8-answers-A">A) Derrickman's method.</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="radio" name="question-8-answers" id="question-8-answers-B"
+                                               value="B"/>
+                                        <label for="question-8-answers-B">B) Driller’s method.</label>
+                                    </div>
+
+                                </li>
                             </ol>
                             <input type="submit" value="Submit Quiz"/>
 

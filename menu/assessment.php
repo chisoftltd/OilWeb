@@ -618,7 +618,7 @@ if (isset($_POST['deleteform'])) {
                         </div>
                         <fieldset>
                             <legend style="text-align: center">Completion Quiz</legend>
-                            <h2>Completion coming soon</h2>
+                            <h2>Completion Quiz coming soon</h2>
                         </fieldset>
                     </form>
                 </div>

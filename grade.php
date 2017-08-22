@@ -171,8 +171,8 @@ session_start();
                 $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
             }
             $correctanswer6 = "";
-            echo "$answer6" . " " . $answer6;
-            echo "$correctanswer6" . " " . $correctanswer6;
+            echo "$answer6" . " " . $answer6."<br/>";
+            echo "$correctanswer6" . " " . $correctanswer6."<br/>";
             if ($answer6 === "ABC" or $answer6 === "D") {
                 $totalCorrect++;
             } else {
@@ -184,8 +184,8 @@ session_start();
             }
 
             $correctanswer7 = '';
-            echo "$answer7" . " " . $answer7;
-            echo "correctanswer7" . " " . $correctanswer7;
+            echo "$answer7" . " " . $answer7."<br/>";
+            echo "correctanswer7" . " " . $correctanswer7."<br/>";
             if ($answer7 === 'AC') {
                 $totalCorrect++;
             } else {

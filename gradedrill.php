@@ -128,7 +128,6 @@ session_start();
                     $answer3 = $answer3 . $selected;
                 }
             }
-            echo $answer3 . "<br/>";
 
             $answer4 = $_POST['question-4-answers'];
             $answer5 = $_POST['question-5-answers'];
@@ -143,13 +142,6 @@ session_start();
                 }
             }
 
-            echo $answer1 . "<br/>";
-            echo $answer2 . "<br/>";
-            echo $answer3 . "<br/>";
-            echo $answer4 . "<br/>";
-            echo $answer5 . "<br/>";
-            echo $answer6 . "<br/>";
-            echo $answer7;
 
             $totalCorrect = 0;
 

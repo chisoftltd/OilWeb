@@ -140,13 +140,6 @@ session_start();
 
             $answer7 = $_POST['question-7-answers'];
 
-            echo $answer1 . "<br/>";
-            echo $answer2 . "<br/>";
-            echo $answer3 . "<br/>";
-            echo $answer4 . "<br/>";
-            echo $answer5 . "<br/>";
-            echo $answer6 . "<br/>";
-            echo $answer7;
 
 
             $totalCorrect = 0;

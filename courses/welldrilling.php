@@ -372,7 +372,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                <div id="editor"></div>
                                 <button onclick="demoFromHTML();">Generate PDF</button>
                             </footer>
                         </article>
@@ -1265,7 +1264,7 @@ include_once '../db/dbconnect.php';
         };
         margins = {
             top: 80,
-            bottom: 60,
+            bottom: 160,
             left: 40,
             width: 522
         };

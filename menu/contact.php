@@ -70,7 +70,7 @@ if (isset($_POST["submit"])) {
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSMxRAhrNG_VHJdpz0h72CyugKoMmDMQU&callback=init_map"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUa7VCcytc4u3PaHm3Z9o0uKeVKUkSmGo&callback=init_map"></script>
     </head>
     <body>
     <header>

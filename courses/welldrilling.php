@@ -1227,7 +1227,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 25, options, {
+        doc.addHTML($('#drill').html(), 15, 25, options, {
             'width': 200,
             'elementHandlers': specialElementHandlers
         });
@@ -1249,7 +1249,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, options, {
+        doc.addHTML($('#planning').html(), 15, 15, options, {
             'width': 150,
             'elementHandlers': specialElementHandlers
         });
@@ -1266,7 +1266,7 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').html(), 15, 15, {
+        doc.addHTML($('#env').html(), 15, 15, {
             'width': 300,
             'elementHandlers': specialElementHandlers
         });
@@ -1282,7 +1282,7 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdop').click(function () {
-        doc.fromHTML($('#op').html(), 15, 15, {
+        doc.addHTML($('#op').html(), 15, 15, {
             'width': 450,
             'elementHandlers': specialElementHandlers
         });
@@ -1298,7 +1298,7 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdorganisation').click(function () {
-        doc.fromHTML($('#organisation').html(), 15, 15, {
+        doc.addHTML($('#organisation').html(), 15, 15, {
             'width': 450,
             'elementHandlers': specialElementHandlers
         });

@@ -219,7 +219,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <form class="pull-right">
                                     <a href="#seite2">
-                                        <button class="rounded-right" style="color: darkblue">Right</button>
+                                        <button style="color: darkblue">Right</button>
                                     </a>
                                 </form>
                                 <address class="pull-right">&copy; RGU

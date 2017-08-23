@@ -222,7 +222,7 @@ include_once '../db/dbconnect.php';
                                 <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
                                 </a>-->
-                                <div id="editor"></div>
+                                <div id="editordrill"></div>
                                 <button id="cmddrill">Generate PDF</button>
 
                             </footer>
@@ -376,7 +376,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                <div id="editor"></div>
+                                <div id="editorplan"></div>
                                 <button id="cmdplanning">Generate PDF</button>
                             </footer>
                         </article>
@@ -592,7 +592,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editor"></div>
+                                <div id="editorenv"></div>
                                 <button id="cmdenv">Generate PDF</button>
                             </footer>
                         </article>
@@ -858,7 +858,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editor"></div>
+                                <div id="editorop"></div>
                                 <button id="cmdop">Generate PDF</button>
                             </footer>
                         </article>
@@ -1192,7 +1192,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editor"></div>
+                                <div id="editororganisation"></div>
                                 <button id="cmdorganisation">Generate PDF</button>
                             </footer>
                         </article>
@@ -1216,16 +1216,9 @@ include_once '../db/dbconnect.php';
 <script>
     var doc = new jsPDF();
     var specialElementHandlers = {
-        '#editor': function (element, renderer) {
+        '#editordrill': function (element, renderer) {
             return true;
         }
-    };
-
-    margins = {
-        top: 40,
-        bottom: 60,
-        left: 25,
-        width: 522
     };
 
     $('#cmddrill').click(function () {
@@ -1236,6 +1229,14 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Drilling-Objectives.pdf');
     });
 
+</script>
+<script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editorplan': function (element, renderer) {
+            return true;
+        }
+    };
 
     $('#cmdplanning').click(function () {
         doc.fromHTML($('#planning').html(), 15, 15, {
@@ -1245,7 +1246,14 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Planning-Objectives.pdf');
 
     });
-
+</script>
+<script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editorenv': function (element, renderer) {
+            return true;
+        }
+    };
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 35, {
             'width': 300,
@@ -1253,7 +1261,14 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Environmental-Objectives.pdf');
     });
-
+</script>
+<script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editorop': function (element, renderer) {
+            return true;
+        }
+    };
     $('#cmdop').click(function () {
         doc.fromHTML($('#op').html(), 15, 45, {
             'width': 450,
@@ -1261,13 +1276,20 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Operation-Objectives.pdf');
     });
-
+</script>
+<script>
+    var doc = new jsPDF();
+    var specialElementHandlers = {
+        '#editororganisation': function (element, renderer) {
+            return true;
+        }
+    };
     $('#cmdorganisation').click(function () {
         doc.fromHTML($('#organisation').html(), 15, 45, {
             'width': 450,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Operation-Objectives.pdf');
+        doc.save('Well-Organisation-Objectives.pdf');
     });
 
 </script>

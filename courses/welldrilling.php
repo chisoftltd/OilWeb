@@ -1288,7 +1288,7 @@ include_once '../db/dbconnect.php';
         // all coords and widths are in jsPDF instance's declared units
         // 'inches' in this case
         pdf.fromHTML(
-            source, // HTML string or DOM elem ref.
+            source.html(), // HTML string or DOM elem ref.
             margins.left, // x coord
             margins.top, { // y coord
                 'width': margins.width, // max width of content on PDF

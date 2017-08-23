@@ -226,7 +226,6 @@ include_once '../db/dbconnect.php';
                                     Click to download this Course
                                 </a>-->
                                 <button id="cmddrill">Generate PDF</button>
-
                             </footer>
                         </article>
                     </div>
@@ -1230,10 +1229,6 @@ include_once '../db/dbconnect.php';
 <script>
     var doc = new jsPDF('p', 'pt', 'a4');
     var specialElementHandlers = {};
-
-    var options = {
-        pagesplit: true
-    };
 
     $('#cmdplanning').click(function () {
         doc.fromHTML($('#planning').html(), 15, 15, {

@@ -1279,9 +1279,9 @@ include_once '../db/dbconnect.php';
             }
         };
         margins = {
-            top: 80,
-            bottom: 160,
-            left: 40,
+            top: 15,
+            bottom: 60,
+            left: 15,
             width: 522
         };
         // all coords and widths are in jsPDF instance's declared units

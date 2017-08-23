@@ -111,14 +111,14 @@ session_start();
             <h1 style="text-align: center">Your Quiz score for WebOil</h1>
 
             <?php
-            $correctanswer1 = "";
-            $correctanswer2 = "";
-            $correctanswer3 = "";
-            $correctanswer4 = "";
-            $correctanswer5 = "";
-            $correctanswer6 = "";
-            $correctanswer7 = "";
-
+            /*  $correctanswer1 = "";
+              $correctanswer2 = "";
+              $correctanswer3 = "";
+              $correctanswer4 = "";
+              $correctanswer5 = "";
+              $correctanswer6 = "";
+              $correctanswer7 = "";
+            */
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
 
@@ -133,7 +133,6 @@ session_start();
             $answer5 = $_POST['question-5-answers'];
             $answer6 = $_POST['question-6-answers'];
             $answer7 = "";
-
 
 
             if (!empty($_POST['answer-question-7'])) {

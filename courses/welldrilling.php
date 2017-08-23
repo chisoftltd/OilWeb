@@ -1222,8 +1222,10 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmddrill').click(function () {
-        doc.addHTML($('#drill').html(), 15, 25, {
-            'width': 200,
+        doc.addHTML($('#drill').get(0), 15, 15, {
+            'width': 250,
+            'margin': 1,
+            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Drilling-Objectives.pdf');
@@ -1243,8 +1245,10 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, {
-            'width': 150,
+        doc.fromHTML($('#planning').get(0), 15, 15, {
+            'width': 250,
+            'margin': 1,
+            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Planning-Objectives.pdf');
@@ -1260,8 +1264,10 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').html(), 15, 15, {
-            'width': 300,
+        doc.fromHTML($('#env').get(0), 15, 15, {
+            'width': 250,
+            'margin': 1,
+            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Environmental-Objectives.pdf');
@@ -1276,8 +1282,10 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdop').click(function () {
-        doc.fromHTML($('#op').html(), 15, 15, {
-            'width': 450,
+        doc.fromHTML($('#op').get(0), 15, 15, {
+            'width': 250,
+            'margin': 1,
+            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Operation-Objectives.pdf');
@@ -1292,8 +1300,10 @@ include_once '../db/dbconnect.php';
         }
     };
     $('#cmdorganisation').click(function () {
-        doc.addHTML($('#organisation').html(), 15, 15, {
-            'width': 450,
+        doc.addHTML($('#organisation').get(0), 15, 15, {
+            'width': 250,
+            'margin': 1,
+            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
         doc.save('Well-Organisation-Objectives.pdf');

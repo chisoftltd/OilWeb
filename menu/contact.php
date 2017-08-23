@@ -66,6 +66,11 @@ if (isset($_POST["submit"])) {
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="/css/styles.css" type="text/css"/>
         <link rel="stylesheet" href="/css/main-style.css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSMxRAhrNG_VHJdpz0h72CyugKoMmDMQU&callback=init_map"></script>
     </head>
     <body>
     <header>

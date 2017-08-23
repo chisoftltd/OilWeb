@@ -1,26 +1,488 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title></title>
-    <style type="text/css">
-        body { padding: 1em; font-family: sans-serif; }
-        ol,ul { float: left; margin: auto 1.5em; }
-    </style>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jspdf.min.js"></script>
+
+    <script>
+
+        $(function () {
+
+            var doc = new jsPDF('p', 'pt', 'a4');
+            var specialElementHandlers = {};
+
+            $('#cmd').click(function () {
+
+                doc.fromHTML($('#content').get(0), 15, 15, {
+                    'width': 250,
+                    'margin': 1,
+                    'pagesplit': true, //This will work for multiple pages
+                    'elementHandlers': specialElementHandlers
+                });
+
+                doc.save('sample-file.pdf');
+            });
+
+        });
+    </script>
 </head>
+
 <body>
-<ol>
-    <li>This</li>
-    <li style="list-style-type: circle;">is</li>
-    <li style="list-style-type: lower-roman;">an</li>
-    <li style="list-style-type: decimal;">ordered</li>
-    <li>list</li>
-</ol>
-<ul>
-    <li>This</li>
-    <li style="list-style-type: circle;">is</li>
-    <li style="list-style-type: decimal;">an</li>
-    <li style="list-style-type: lower-latin;">UNordered</li>
-    <li style="list-style-image: url(peace.gif);">list</li>
-</ul>
+
+<button id="cmd">generate PDF</button>
+<div id="content">
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha
+        pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararapha pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+    <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+</div>
+<div id="editor"></div>
 </body>
+
 </html>

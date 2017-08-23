@@ -28,6 +28,8 @@ include_once '../db/dbconnect.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script src="/js/weboil.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/js/jspdf.min.js"></script>
     <!-- Add css file-->
     <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -222,7 +224,6 @@ include_once '../db/dbconnect.php';
                                 <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
                                 </a>-->
-                                <div id="editordrill"></div>
                                 <button id="cmddrill">Generate PDF</button>
 
                             </footer>
@@ -376,7 +377,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                <div id="editorplan"></div>
                                 <button id="cmdplanning">Generate PDF</button>
                             </footer>
                         </article>
@@ -592,7 +592,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editorenv"></div>
                                 <button id="cmdenv">Generate PDF</button>
                             </footer>
                         </article>
@@ -858,7 +857,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editorop"></div>
                                 <button id="cmdop">Generate PDF</button>
                             </footer>
                         </article>
@@ -1192,7 +1190,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <div id="editororganisation"></div>
                                 <button id="cmdorganisation">Generate PDF</button>
                             </footer>
                         </article>
@@ -1214,12 +1211,9 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('p', 'pt', 'a4');
     var specialElementHandlers = {
-        '#editordrill': function (element, renderer) {
-            return true;
-        }
-    };
+        var specialElementHandlers = {};
 
     $('#cmddrill').click(function () {
         doc.fromHTML($('#drill').html(), 15, 15, {
@@ -1233,11 +1227,9 @@ include_once '../db/dbconnect.php';
     doc = "";
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('p', 'pt', 'a4');
     var specialElementHandlers = {
-        '#editorplan': function (element, renderer) {
-            return true;
-        }
+
     };
 
     var options = {
@@ -1257,11 +1249,9 @@ include_once '../db/dbconnect.php';
     doc = "";
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('p', 'pt', 'a4');
     var specialElementHandlers = {
-        '#editorenv': function (element, renderer) {
-            return true;
-        }
+
     };
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 15, {
@@ -1275,12 +1265,8 @@ include_once '../db/dbconnect.php';
     doc = "";
 </script>
 <script>
-    var doc = new jsPDF();
-    var specialElementHandlers = {
-        '#editorop': function (element, renderer) {
-            return true;
-        }
-    };
+    var doc = new jsPDF('p', 'pt', 'a4');
+    var specialElementHandlers = {};
     $('#cmdop').click(function () {
         doc.fromHTML($('#op').html(0), 15, 15, {
             'width': 250,
@@ -1293,12 +1279,8 @@ include_once '../db/dbconnect.php';
     doc = "";
 </script>
 <script>
-    var doc = new jsPDF();
-    var specialElementHandlers = {
-        '#editororganisation': function (element, renderer) {
-            return true;
-        }
-    };
+    var doc = new jsPDF('p', 'pt', 'a4');
+    var specialElementHandlers = {};
     $('#cmdorganisation').click(function () {
         doc.addHTML($('#organisation').html(0), 15, 15, {
             'width': 250,

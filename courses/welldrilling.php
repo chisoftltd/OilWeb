@@ -30,6 +30,28 @@ include_once '../db/dbconnect.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/jspdf.min.js"></script>
+
+    <script>
+
+        $(function () {
+
+            var doc = new jsPDF('p', 'pt', 'a4');
+            var specialElementHandlers = {};
+
+            $('#cmddrill').click(function () {
+
+                doc.fromHTML($('#drill').get(0), 15, 15, {
+                    'width': 250,
+                    'margin': 1,
+                    'pagesplit': true, //This will work for multiple pages
+                    'elementHandlers': specialElementHandlers
+                });
+
+                doc.save('Well-Drilling-Objectives.pdf');
+            });
+
+        });
+    </script>
     <!-- Add css file-->
     <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -1211,22 +1233,27 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-    var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {
-        var specialElementHandlers = {};
+    // var doc = new jsPDF('p', 'pt', 'a4');
+    //var specialElementHandlers = {
+    //  var specialElementHandlers = {};
 
-    $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 15, {
-            'width': 250,
-            'margin': 1,
-            'pagesplit': true,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('Well-Drilling-Objectives.pdf');
-    });
-    doc = "";
+    //$('#cmddrill').click(function () {
+    //  doc.fromHTML($('#drill').html(), 15, 15, {
+    //    'width': 250,
+    //  'margin': 1,
+    //'pagesplit': true,
+    //'elementHandlers': specialElementHandlers
+    //});
+    //doc.save('Well-Drilling-Objectives.pdf');
+    //});
+    //doc = "";
+
+    //<script>
+
 </script>
-<script>
+</script>
+<
+script >;
     var doc = new jsPDF('p', 'pt', 'a4');
     var specialElementHandlers = {};
 

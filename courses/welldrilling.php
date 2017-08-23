@@ -1221,13 +1221,12 @@ include_once '../db/dbconnect.php';
         }
     };
 
-    $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, {
-            'width': 150,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('Well-Planning-Objectives.pdf');
-    });
+    margins = {
+        top: 40,
+        bottom: 60,
+        left: 25,
+        width: 522
+    };
 
     $('#cmddrill').click(function () {
         doc.fromHTML($('#drill').html(), 15, 25, {
@@ -1237,6 +1236,16 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Drilling-Objectives.pdf');
     });
 
+
+    $('#cmdplanning').click(function () {
+        doc.fromHTML($('#planning').html(), 15, 15, {
+            'width': 150,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-Planning-Objectives.pdf');
+
+    });
+    
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 35, {
             'width': 300,

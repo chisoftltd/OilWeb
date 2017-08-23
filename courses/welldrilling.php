@@ -1245,7 +1245,7 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Planning-Objectives.pdf');
 
     });
-    
+
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 35, {
             'width': 300,

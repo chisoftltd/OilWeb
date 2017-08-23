@@ -31,27 +31,6 @@ include_once '../db/dbconnect.php';
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/jspdf.min.js"></script>
 
-    <script>
-
-        $(function () {
-
-            var doc = new jsPDF('p', 'pt', 'a4');
-            var specialElementHandlers = {};
-
-            $('#cmddrill').click(function () {
-
-                doc.fromHTML($('#drill').get(0), 15, 15, {
-                    'width': 250,
-                    'margin': 1,
-                    'pagesplit': true, //This will work for multiple pages
-                    'elementHandlers': specialElementHandlers
-                });
-
-                doc.save('Well-Drilling-Objectives.pdf');
-            });
-
-        });
-    </script>
     <!-- Add css file-->
     <link rel="stylesheet" href="/css/main-style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -247,6 +226,7 @@ include_once '../db/dbconnect.php';
                                 <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
                                 </a>-->
+                                <div id="editor"></div>
                                 <button id="cmddrill">Generate PDF</button>
                             </footer>
                         </article>
@@ -399,6 +379,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
+                                <div id="editor"></div>
                                 <button id="cmdplanning">Generate PDF</button>
                             </footer>
                         </article>
@@ -614,6 +595,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
                                 <button id="cmdenv">Generate PDF</button>
                             </footer>
                         </article>
@@ -879,6 +861,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
                                 <button id="cmdop">Generate PDF</button>
                             </footer>
                         </article>
@@ -1212,6 +1195,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <div id="editor"></div>
                                 <button id="cmdorganisation">Generate PDF</button>
                             </footer>
                         </article>
@@ -1233,83 +1217,64 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-    // var doc = new jsPDF('p', 'pt', 'a4');
-    //var specialElementHandlers = {
-    //  var specialElementHandlers = {};
+    var doc = new jsPDF();
+    doc.setFont("courier");
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
+        }
+    };
+    doc = null;
 
-    //$('#cmddrill').click(function () {
-    //  doc.fromHTML($('#drill').html(), 15, 15, {
-    //    'width': 250,
-    //  'margin': 1,
-    //'pagesplit': true,
-    //'elementHandlers': specialElementHandlers
-    //});
-    //doc.save('Well-Drilling-Objectives.pdf');
-    //});
-    //doc = "";
+    doc = new jsPDF();
+    $('#cmddrill').click(function () {
+        doc.fromHTML($('#drill').html(), 15, 15, {
+            'width': 150,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('Well-drill-Objectives.pdf');
+    });
+    doc = null;
 
-    //<script>
-
-</script>
-</script>
-<
-script >;
-    var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {};
-
+    doc = new jsPDF();
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, {
+        doc.fromHTML($('#planning').html(), 15, 25, {
             'width': 250,
-            'margin': 1,
-            'pagesplit': true,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Planning-Objectives.pdf');
+        doc.save('Well-plan.pdf');
+    });
+    doc = null;
 
-    });
-    doc = "";
-</script>
-<script>
-    var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {};
+    doc = new jsPDF();
     $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').html(), 15, 15, {
-            'width': 250,
-            'margin': 1,
-            'pagesplit': true,
+        doc.fromHTML($('#env').html(), 15, 35, {
+            'width': 400,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Environmental-Objectives.pdf');
+        doc.save('Well-environment.pdf');
     });
-    doc = "";
-</script>
-<script>
-    var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {};
+    doc = null;
+
+    doc = new jsPDF();
     $('#cmdop').click(function () {
-        doc.fromHTML($('#op').html(0), 15, 15, {
-            'width': 250,
-            'margin': 1,
-            'pagesplit': true,
+        doc.fromHTML($('#op').html(), 15, 45, {
+            'width': 550,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Operation-Objectives.pdf');
+        doc.save('Well-operation.pdf');
     });
-    doc = "";
-</script>
-<script>
-    var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {};
+    doc = null;
+
+    doc = new jsPDF();
     $('#cmdorganisation').click(function () {
-        doc.addHTML($('#organisation').html(0), 15, 15, {
-            'width': 250,
-            'margin': 1,
-            'pagesplit': true,
+        doc.fromHTML($('#organisation').html(), 15, 45, {
+            'width': 550,
             'elementHandlers': specialElementHandlers
         });
-        doc.save('Well-Organisation-Objectives.pdf');
+        doc.save('Well-operation.pdf');
     });
-    doc = "";
+    doc = null;
 </script>
 </body>
 </html>

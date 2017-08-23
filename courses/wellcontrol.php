@@ -987,7 +987,9 @@ include_once '../db/dbconnect.php';
             return true;
         }
     };
+    doc = null;
 
+    doc = new jsPDF();
     $('#cmdcontrol').click(function () {
         doc.fromHTML($('#control').html(), 15, 15, {
             'width': 150,
@@ -995,7 +997,9 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-control-Objectives.pdf');
     });
+    doc = null;
 
+    doc = new jsPDF();
     $('#cmdswab').click(function () {
         doc.fromHTML($('#swab').html(), 15, 25, {
             'width': 250,
@@ -1003,7 +1007,9 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-swabbing.pdf');
     });
+    doc = null;
 
+    doc = new jsPDF();
     $('#cmdlostC').click(function () {
         doc.fromHTML($('#lostC').html(), 15, 35, {
             'width': 400,
@@ -1011,7 +1017,9 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Lost-Control.pdf');
     });
+    doc = null;
 
+    doc = new jsPDF();
     $('#cmdsurface').click(function () {
         doc.fromHTML($('#surface').html(), 15, 45, {
             'width': 550,
@@ -1019,6 +1027,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-surface-equipment.pdf');
     });
+    doc = null;
 
 </script>
 

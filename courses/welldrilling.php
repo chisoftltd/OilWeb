@@ -1221,8 +1221,13 @@ include_once '../db/dbconnect.php';
         }
     };
 
+    var options = {
+        background: '#fff',
+        pagesplit: true
+    };
+
     $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 25, {
+        doc.fromHTML($('#drill').html(), 15, 25, options, {
             'width': 200,
             'elementHandlers': specialElementHandlers
         });
@@ -1238,8 +1243,13 @@ include_once '../db/dbconnect.php';
         }
     };
 
+    var options = {
+        background: '#fff',
+        pagesplit: true
+    };
+
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, {
+        doc.fromHTML($('#planning').html(), 15, 15, options, {
             'width': 150,
             'elementHandlers': specialElementHandlers
         });

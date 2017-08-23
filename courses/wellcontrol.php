@@ -302,7 +302,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdcontrol">generate PDF</button>
+                                <button id="cmdcontrol">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -629,7 +629,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdswab">generate PDF</button>
+                                <button id="cmdswab">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -841,7 +841,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdlostC">generate PDF</button>
+                                <button id="cmdlostC">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -959,7 +959,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdsurface">generate PDF</button>
+                                <button id="cmdsurface">Generate PDF</button>
                             </footer>
                         </article>
                     </div>

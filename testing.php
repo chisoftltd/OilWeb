@@ -1,34 +1,50 @@
+<?php $student_id = $_GET['student_id']; ?>
 <?php
-$p = PDF_new();
+include("mpdf/mpdf.php");
+$html .= "
+<html>
+<head>
+<style>
+body {font-family: sans-serif;
+    font-size: 10pt;
+    background-image: url(\"images/ok.jpg\");
 
-/*  open new PDF file; insert a file name to create the PDF on disk */
-if (PDF_begin_document($p, "", "") == 0) {
-    die("Error: " . PDF_get_errmsg($p));
+    background-repeat: no-repeat;
+    padding-top:10pt;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+td { vertical-align: top; 
+    border-left: 0.6mm solid #000000;
+    border-right: 0.6mm solid #000000;
+    align: center;
 }
 
-PDF_set_info($p, "Creator", "hello.php");
-PDF_set_info($p, "Author", "Rainer Schaaf");
-PDF_set_info($p, "Title", "Hello world (PHP)!");
+p.student_id{
+    padding-left : 140px;
+    padding-top  : -27px;
+} 
 
-PDF_begin_page_ext($p, 595, 842, "");
+</style>
+</head>
+<body>
+<!--mpdf                                                                          
 
-$font = PDF_load_font($p, "Helvetica-Bold", "winansi", "");
+<p class=\"student_id\">$student_id</p>
 
-PDF_setfont($p, $font, 24.0);
-PDF_set_text_pos($p, 50, 700);
-PDF_show($p, "Hello world!");
-PDF_continue_text($p, "(says PHP)");
-PDF_end_page_ext($p, "");
 
-PDF_end_document($p, "");
+<sethtmlpageheader name='myheader' value='on' show-this-page='1' />
+<sethtmlpagefooter name='myfooter' value='on' />
+mpdf-->
 
-$buf = PDF_get_buffer($p);
-$len = strlen($buf);
 
-header("Content-type: application/pdf");
-header("Content-Length: $len");
-header("Content-Disposition: inline; filename=hello.pdf");
-print $buf;
+</body>
+</html>
+";
 
-PDF_delete($p);
+$mpdf = new mPDF();
+$mpdf->WriteHTML($html);
+$mpdf->SetDisplayMode('fullpage');
+
+$mpdf->Output();
 ?>

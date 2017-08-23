@@ -223,7 +223,7 @@ include_once '../db/dbconnect.php';
                                     Click to download this Course
                                 </a>-->
                                 <div id="editor"></div>
-                                <button id="cmddrill">generate PDF</button>
+                                <button id="cmddrill">Generate PDF</button>
 
                             </footer>
                         </article>
@@ -373,7 +373,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmd">generate PDF</button>
+                                <button id="cmd">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -584,7 +584,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdenv">generate PDF</button>
+                                <button id="cmdenv">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -847,7 +847,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdop">generate PDF</button>
+                                <button id="cmdop">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1177,7 +1177,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdorganisation">generate PDF</button>
+                                <button id="cmdorganisation">Generate PDF</button>
                             </footer>
                         </article>
                     </div>

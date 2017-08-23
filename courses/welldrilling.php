@@ -1221,12 +1221,8 @@ include_once '../db/dbconnect.php';
         }
     };
 
-    var options = {
-        pagesplit: true
-    };
-
     $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 25, options, {
+        doc.addHTML($('#drill').html(), 15, 25, {
             'width': 200,
             'elementHandlers': specialElementHandlers
         });
@@ -1247,7 +1243,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').html(), 15, 15, options, {
+        doc.fromHTML($('#planning').html(), 15, 15, {
             'width': 150,
             'elementHandlers': specialElementHandlers
         });

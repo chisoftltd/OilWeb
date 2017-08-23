@@ -263,6 +263,7 @@ include_once '../db/dbconnect.php';
                                 </figure>
                                 <div id="planning">
                                     <h3>Well Planning Request / Well Objectives</h3>
+                                    <hr/>
                                     <p>The main purpose of a well planning request is to provide the agreed basis for
                                         design. This document should form the start point for the planning process and
                                         should be referred back to throughout the planning and execution phases to
@@ -289,9 +290,10 @@ include_once '../db/dbconnect.php';
                                         also provides the basis for performance evaluation at the completion of the
                                         well.
                                     </p>
-                                    <hr/>
+
                                     <h3>Allocation of Engineering/Operational Resources
                                     </h3>
+                                    <hr/>
                                     <p>No well can be planned and drilled without the allocation of the required skills
                                         to
                                         turn a request into reality. Many skills and talents are required but probably
@@ -330,8 +332,9 @@ include_once '../db/dbconnect.php';
                                     <p>The requirements for resources vary dependent on the current stage in the
                                         delivery process. It is vital to have a clear plan for timely access to
                                         resources. </p>
-                                    <hr>
+
                                     <h3>Review of Special Considerations</h3>
+                                    <hr>
                                     <p>Once aware of a possible well a review of any special considerations should be
                                         performed. These could include:
                                     </p>
@@ -349,8 +352,9 @@ include_once '../db/dbconnect.php';
                                     </ul>
                                     <p>This initial review allows a quick response if the nature of the well requires
                                         greater planning time or resources (or both).</p>
-                                    <hr>
+
                                     <h3>Government/Legislative Requirements</h3>
+                                    <hr>
                                     <p>All wells are subject to government approvals in various guises. For the purpose
                                         of this module the requirements for the United Kingdom Continental Shelf
                                         (UKCS) will be considered. Different countries will have their own
@@ -410,6 +414,7 @@ include_once '../db/dbconnect.php';
                                 </figure>
                                 <div id="env">
                                     <h3>Environmental consent (DTI)</h3>
+                                    <hr>
                                     <p>It is illegal to commence operations without the relevant approvals or
                                         notifications in place.
                                     </p>
@@ -427,8 +432,9 @@ include_once '../db/dbconnect.php';
                                     </ul>
                                     <p>Any material change to design or chemical usage (HSE/DTI).
                                     </p>
-                                    <hr>
+
                                     <h3>Plan for Decommission</h3>
+                                    <hr>
                                     <p>Even before drilling commence, decommissioning of the well is also planned. After
                                         the end
                                         of operations communications to close out a specific well include:</p>
@@ -445,9 +451,10 @@ include_once '../db/dbconnect.php';
                                         responsibility remains to ensure that the well is fit for its intended purpose
                                         until
                                         it is finally abandoned. </p>
-                                    <hr>
+
                                     <h3>Well Design
                                     </h3>
+                                    <hr>
                                     <p>The following questions have to be adequately addressed before a design can be
                                         considered to be acceptable:
                                     </p>
@@ -471,9 +478,10 @@ include_once '../db/dbconnect.php';
                                     <p>The basic requirement for any well design is to meet the client’s requirements at
                                         an economic cost while maintaining the risk to peoples’ health and the
                                         environment below acceptable limits.</p>
-                                    <hr>
+
                                     <h3>Sourcing of Materials and Services
                                     </h3>
+                                    <hr>
                                     <p>The execution of a well programme requires a complex interaction of suppliers,
                                         materials and equipment. It may be that all supplies and services have been
                                         prearranged
@@ -537,8 +545,9 @@ include_once '../db/dbconnect.php';
                                         the
                                         required equipment at the appropriate time during the well and also serves as a
                                         check that nothing has been forgotten.</p>
-                                    <hr>
+
                                     <h3>Site Survey</h3>
+                                    <hr>
                                     <p>The requirement for a site survey prior to moving a rig onto a location must be
                                         determined. If a survey is required then it must be organised and performed in
                                         time to allow delivery of, and reaction to, the results.
@@ -621,6 +630,7 @@ include_once '../db/dbconnect.php';
                                 </figure>
                                 <div id="op">
                                     <h3>Operational Plan</h3>
+                                    <hr>
                                     <p>Ultimately the well design has to be translated into an operational plan, or
                                         programme. This provides the approved reference for those charged with
                                         constructing the well. Programmes come in many different styles and formats
@@ -662,9 +672,10 @@ include_once '../db/dbconnect.php';
                                         put yourself in the place of the well-site supervisor charged with delivering
                                         the
                                         well objectives</p>
-                                    <hr>
+
                                     <h3>Risk Identification and Mitigation
                                     </h3>
+                                    <hr>
                                     <p>The management of risk for a well construction process covers Health, Safety
                                         and Environment (HS&E) risk and operational risk. The former is concerned with
                                         protection of people and the environment the latter with protection of the
@@ -688,9 +699,10 @@ include_once '../db/dbconnect.php';
                                         should be formally considered. Firstly at the concept selection phase where the
                                         various options are being reviewed; secondly, once the proposed design and
                                         operational process have been sufficiently defined to allow in depth review.</p>
-                                    <hr>
+
                                     <h3>Time / Cost Estimate Generation
                                     </h3>
+                                    <hr>
                                     <p>The time / cost estimate is the cornerstone of a well construction organisations’
                                         commitment to the business it serves. It is a promise that the objectives will
                                         be
@@ -886,6 +898,7 @@ include_once '../db/dbconnect.php';
                                 </figure>
                                 <div id="organisation">
                                     <h3> Roles and Responsibilities of Core Personnel</h3>
+                                    <hr>
                                     <p>There follows a summary of roles and responsibilities for personnel which could
                                         be considered core to a well construction organisation. Note that titles are by
                                         no means standard and that there are probably as many ways to organise for well
@@ -1070,6 +1083,7 @@ include_once '../db/dbconnect.php';
                                     <h3>Roles and Responsibilities of Support Organisations</h3>
                                     <hr>
                                     <h4>Client Group</h4>
+                                    <hr>
                                     <p>The client group is invariably the central customer for supply of well
                                         construction services so it may seem strange to list them here as support. It
                                         is, however, helpful to regard this group as support when considering all inputs
@@ -1094,6 +1108,7 @@ include_once '../db/dbconnect.php';
                                         <li>Evaluation of well performance.</li>
                                     </ul>
                                     <h3>Health, Safety and Environmental</h3>
+                                    <hr>
                                     <p>In the ever developing area of Health, Safety and the Environmental awareness and
                                         compliance, it is important to have access to strong support which ensures that
                                         full consideration is given during the planning and execution of well
@@ -1113,6 +1128,7 @@ include_once '../db/dbconnect.php';
                                         <li>Emergency and oil spill response.</li>
                                     </ul>
                                     <h3>Fiscal</h3>
+                                    <hr>
                                     <p>Control of financial matters is central to any construction project and this is
                                         no different for the well construction business. Areas for which support is
                                         required include:</p>

@@ -376,6 +376,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
+                                <div id="editor"></div>
                                 <button onclick="demoFromHTML();">Generate PDF</button>
                             </footer>
                         </article>
@@ -1273,7 +1274,7 @@ include_once '../db/dbconnect.php';
         // (class, of compound) at this time.
         specialElementHandlers = {
             // element with id of "bypass" - jQuery style selector
-            '#bypassme': function (element, renderer) {
+            '#editor': function (element, renderer) {
                 // true = "handled elsewhere, bypass text extraction"
                 return true
             }

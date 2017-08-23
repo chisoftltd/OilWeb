@@ -373,7 +373,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmd">Generate PDF</button>
+                                <button onclick="demoFromHTML();">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1214,13 +1214,13 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Planning-Objectives.pdf');
     });
 
-    $('#cmddrill').click(function () {
-        doc.fromHTML($('#drill').html(), 15, 25, {
-            'width': 200,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('Well-Drilling-Objectives.pdf');
-    });
+    //$('#cmddrill').click(function () {
+    //  doc.fromHTML($('#drill').html(), 15, 25, {
+    //    'width': 200,
+    //  'elementHandlers': specialElementHandlers
+    //});
+    //doc.save('Well-Drilling-Objectives.pdf');
+    //});
 
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 35, {
@@ -1245,6 +1245,46 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Operation-Objectives.pdf');
     });
+
+    function demoFromHTML() {
+        var pdf = new jsPDF('p', 'pt', 'letter');
+        // source can be HTML-formatted string, or a reference
+        // to an actual DOM element from which the text will be scraped.
+        source = $('#planning')[0];
+
+        // we support special element handlers. Register them with jQuery-style
+        // ID selector for either ID or node name. ("#iAmID", "div", "span" etc.)
+        // There is no support for any other type of selectors
+        // (class, of compound) at this time.
+        specialElementHandlers = {
+            // element with id of "bypass" - jQuery style selector
+            '#bypassme': function (element, renderer) {
+                // true = "handled elsewhere, bypass text extraction"
+                return true
+            }
+        };
+        margins = {
+            top: 80,
+            bottom: 60,
+            left: 40,
+            width: 522
+        };
+        // all coords and widths are in jsPDF instance's declared units
+        // 'inches' in this case
+        pdf.fromHTML(
+            source, // HTML string or DOM elem ref.
+            margins.left, // x coord
+            margins.top, { // y coord
+                'width': margins.width, // max width of content on PDF
+                'elementHandlers': specialElementHandlers
+            },
+
+            function (dispose) {
+                // dispose: object with X, Y of the last line add to the PDF
+                //          this allow the insertion of new lines after html
+                pdf.save('Test.pdf');
+            }, margins);
+    }
 </script>
 </body>
 </html>

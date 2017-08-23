@@ -1214,7 +1214,7 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF();
     var specialElementHandlers = {
         '#editordrill': function (element, renderer) {
             return true;
@@ -1222,7 +1222,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmddrill').click(function () {
-        doc.addHTML($('#drill').get(0), 15, 15, {
+        doc.fromHTML($('#drill').html(), 15, 15, {
             'width': 250,
             'margin': 1,
             'pagesplit': true,
@@ -1233,7 +1233,7 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF();
     var specialElementHandlers = {
         '#editorplan': function (element, renderer) {
             return true;
@@ -1245,7 +1245,7 @@ include_once '../db/dbconnect.php';
     };
 
     $('#cmdplanning').click(function () {
-        doc.fromHTML($('#planning').get(0), 15, 15, {
+        doc.fromHTML($('#planning').html(), 15, 15, {
             'width': 250,
             'margin': 1,
             'pagesplit': true,
@@ -1257,14 +1257,14 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF();
     var specialElementHandlers = {
         '#editorenv': function (element, renderer) {
             return true;
         }
     };
     $('#cmdenv').click(function () {
-        doc.fromHTML($('#env').get(0), 15, 15, {
+        doc.fromHTML($('#env').html(), 15, 15, {
             'width': 250,
             'margin': 1,
             'pagesplit': true,
@@ -1275,14 +1275,14 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF();
     var specialElementHandlers = {
         '#editorop': function (element, renderer) {
             return true;
         }
     };
     $('#cmdop').click(function () {
-        doc.fromHTML($('#op').get(0), 15, 15, {
+        doc.fromHTML($('#op').html(0), 15, 15, {
             'width': 250,
             'margin': 1,
             'pagesplit': true,
@@ -1293,14 +1293,14 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF('portrait', 'pt', 'letter');
+    var doc = new jsPDF();
     var specialElementHandlers = {
         '#editororganisation': function (element, renderer) {
             return true;
         }
     };
     $('#cmdorganisation').click(function () {
-        doc.addHTML($('#organisation').get(0), 15, 15, {
+        doc.addHTML($('#organisation').html(0), 15, 15, {
             'width': 250,
             'margin': 1,
             'pagesplit': true,

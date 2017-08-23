@@ -217,11 +217,6 @@ include_once '../db/dbconnect.php';
                                     </p></div>
                             </div>
                             <footer class="panel-footer clearfix ">
-                                <form class="pull-right">
-                                    <a href="#seite2">
-                                        <button style="color: darkblue">Right</button>
-                                    </a>
-                                </form>
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <!--<a href="/files/OilGasDrilling.pdf" download>

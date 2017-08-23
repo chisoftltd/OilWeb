@@ -174,8 +174,7 @@ include_once 'db/dbconnect.php';
                         associated with
                         planning for and executing a well construction programme. They will also
                         discover in more detail the roles and responsibilities of core personnel required to
-                        plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access
-                        course material.
+                        plan and execute a well. Click to <a href="/courses/welldrilling.php" style="color:blue">continue>></a>
                     </p>
                 </div>
             </div>
@@ -192,7 +191,8 @@ include_once 'db/dbconnect.php';
                         are Operational Pressures and will give students a good understanding of the pressure
                         relationships
                         in
-                        the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
+                        the wellbore and rock formation. <a href="/courses/wellcontrol.php" style="color:blue">Continue>></a>.
+                    </p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
@@ -204,7 +204,7 @@ include_once 'db/dbconnect.php';
                         use of casing within the wellbore and the factors involved in casing string design. Also
                         covered are the functions of oilwell cement, the API classification and properties of dry cement
                         and neat slurry and the effect of additives on these
-                        properties. <a href="/courses/fluids/wellcasingcementing.php">Continue>></a>.
+                        properties. <a href="/courses/fluids/wellcasingcementing.php" style="color:blue">Continue>></a>.
                     </p>
                 </div>
             </div>
@@ -219,7 +219,7 @@ include_once 'db/dbconnect.php';
                         The interface between the reservoir and surface production. The resulting system should
                         establish a safe and efficient connection between the reservoir, the
                         wellbore up to surface so that hydrocarbons can be produced.
-                        <a href="/courses/wellcompletion.php">Continue>></a>.
+                        <a href="/courses/wellcompletion.php" style="color:blue">Continue>></a>.
                     </p>
                 </div>
             </div>

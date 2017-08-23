@@ -75,7 +75,7 @@ include_once '../db/dbconnect.php';
                             </div>
                         </form>
                     <?php } else { ?>
-                        <li class="active"><a href="/index.php">Home</a></>
+                        <li><a href="/index.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li class="active"><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>

@@ -1281,7 +1281,7 @@ include_once '../db/dbconnect.php';
         };
         margins = {
             top: 15,
-            bottom: 60,
+            bottom: 40,
             left: 20,
             width: 122
         };

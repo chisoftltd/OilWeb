@@ -1214,7 +1214,7 @@ include_once '../db/dbconnect.php';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('portrait', 'pt', 'letter');
     var specialElementHandlers = {
         '#editordrill': function (element, renderer) {
             return true;
@@ -1235,7 +1235,7 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('portrait', 'pt', 'letter');
     var specialElementHandlers = {
         '#editorplan': function (element, renderer) {
             return true;
@@ -1257,7 +1257,7 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('portrait', 'pt', 'letter');
     var specialElementHandlers = {
         '#editorenv': function (element, renderer) {
             return true;
@@ -1273,7 +1273,7 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('portrait', 'pt', 'letter');
     var specialElementHandlers = {
         '#editorop': function (element, renderer) {
             return true;
@@ -1289,7 +1289,7 @@ include_once '../db/dbconnect.php';
     doc = new jsPDF();
 </script>
 <script>
-    var doc = new jsPDF();
+    var doc = new jsPDF('portrait', 'pt', 'letter');
     var specialElementHandlers = {
         '#editororganisation': function (element, renderer) {
             return true;

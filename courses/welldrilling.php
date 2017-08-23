@@ -1273,7 +1273,7 @@ include_once '../db/dbconnect.php';
         // (class, of compound) at this time.
         specialElementHandlers = {
             // element with id of "bypass" - jQuery style selector
-            '#editor': function (element, renderer) {
+            '#bypassme': function (element, renderer) {
                 // true = "handled elsewhere, bypass text extraction"
                 return true
             }

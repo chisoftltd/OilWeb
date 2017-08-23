@@ -1222,7 +1222,6 @@ include_once '../db/dbconnect.php';
     };
 
     var options = {
-        background: '#fff',
         pagesplit: true
     };
 
@@ -1244,7 +1243,6 @@ include_once '../db/dbconnect.php';
     };
 
     var options = {
-        background: '#fff',
         pagesplit: true
     };
 

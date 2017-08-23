@@ -1228,7 +1228,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Drilling-Objectives.pdf');
     });
-
+    doc = new jsPDF();
 </script>
 <script>
     var doc = new jsPDF();
@@ -1246,6 +1246,7 @@ include_once '../db/dbconnect.php';
         doc.save('Well-Planning-Objectives.pdf');
 
     });
+    doc = new jsPDF();
 </script>
 <script>
     var doc = new jsPDF();
@@ -1261,6 +1262,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Environmental-Objectives.pdf');
     });
+    doc = new jsPDF();
 </script>
 <script>
     var doc = new jsPDF();
@@ -1276,6 +1278,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Operation-Objectives.pdf');
     });
+    doc = new jsPDF();
 </script>
 <script>
     var doc = new jsPDF();
@@ -1291,7 +1294,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-Organisation-Objectives.pdf');
     });
-
+    doc = new jsPDF();
 </script>
 </body>
 </html>

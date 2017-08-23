@@ -376,8 +376,8 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right"> &copy; RGU
                                 </address>
-                                <div id="editor"></div>
                                 <button onclick="demoFromHTML();">Generate PDF</button>
+                                <div id="editor"></div>
                             </footer>
                         </article>
                     </div>

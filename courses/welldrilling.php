@@ -216,7 +216,8 @@ include_once '../db/dbconnect.php';
                                         The main activities listed above are discussed in more detail throughout this
                                         module but there follows a summary of the important aspects of each activity
                                         and what deliverables might be expected.
-                                    </p></div>
+                                    </p>
+                                </div>
                             </div>
                             <footer class="panel-footer clearfix ">
                                 <address class="pull-right">&copy; RGU
@@ -1228,9 +1229,7 @@ include_once '../db/dbconnect.php';
 </script>
 <script>
     var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {
-
-    };
+    var specialElementHandlers = {};
 
     var options = {
         pagesplit: true
@@ -1250,9 +1249,7 @@ include_once '../db/dbconnect.php';
 </script>
 <script>
     var doc = new jsPDF('p', 'pt', 'a4');
-    var specialElementHandlers = {
-
-    };
+    var specialElementHandlers = {};
     $('#cmdenv').click(function () {
         doc.fromHTML($('#env').html(), 15, 15, {
             'width': 250,

@@ -376,7 +376,7 @@ session_start();
      'width': 150,
      'elementHandlers': specialElementHandlers
      });
-     doc.save('Well-control-Objectives.pdf');
+         doc.save('TestYourselfResult.pdf');
      });
 
     /*

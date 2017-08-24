@@ -385,12 +385,12 @@ session_start();
 
         var printContents = document.getElementById(dName).innerHTML;
         var originalContents = document.body.innerHTML;
-
+        window.open('http://weboil.azurewebsites.net/TestYourselfResult.pdf');
         document.body.innerHTML = printContents;
         if (!window.print()) {
             return;
         }
-        history.go(0);
+
         window.print();
         //history.go(-1);
         //location.reload(true);
@@ -398,7 +398,8 @@ session_start();
 
     window.onafterprint = function () {
         //history.go(-1);
-        window.location.reload(true);
+        history.go(0);
+        //window.location.reload(true);
     };
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

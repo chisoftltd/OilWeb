@@ -340,7 +340,6 @@ session_start();
             <h3><strong><a href='/menu/assessment.php'>
                         <button>Go back and try again</button>
                     </a> </strong></h3>
-            <script>window.history.go(-1);</script>
         </div>
 
         <script type="text/javascript">

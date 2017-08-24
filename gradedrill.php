@@ -118,7 +118,7 @@ session_start();
             $correctAns_5 = "";
             $correctAns_6 = "";
             $correctAns_7 = "";
-            
+
             $ans_1 = $_POST['ans_to_DrillQue_1'];
             $ans_2 = $_POST['ans_to_DrillQue_2'];
 

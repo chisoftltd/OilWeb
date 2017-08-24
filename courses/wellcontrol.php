@@ -1032,6 +1032,9 @@ include_once '../db/dbconnect.php';
 
 
     function myFunction() {
+        if (!window.print()) {
+            return;
+        }
         window.print();
     }
 

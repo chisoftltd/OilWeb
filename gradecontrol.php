@@ -391,11 +391,13 @@ session_start();
             return;
         }
         window.print();
-        history.go(-1);
+        //history.go(-1);
+        location.reload(true);
     }
 
     window.onafterprint = function () {
-        history.go(-1);
+        //history.go(-1);
+        location.reload(true);
     };
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

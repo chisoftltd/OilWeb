@@ -363,33 +363,33 @@ session_start();
 
 <script>
     var doc = new jsPDF();
-     var specialElementHandlers = {
-     '#editor': function (element, renderer) {
-     return true;
-     }
-     };
-     doc = null;
+    var specialElementHandlers = {
+        '#editor': function (element, renderer) {
+            return true;
+        }
+    };
+    doc = null;
 
-     doc = new jsPDF();
-     $('#printanswer').click(function () {
-     doc.fromHTML($('#page-wrap').html(), 15, 15, {
-     'width': 150,
-     'elementHandlers': specialElementHandlers
-     });
-         doc.save('TestYourselfResult.pdf');
-     });
+    doc = new jsPDF();
+    $('#printanswer').click(function () {
+        doc.fromHTML($('#page-wrap').html(), 15, 15, {
+            'width': 150,
+            'elementHandlers': specialElementHandlers
+        });
+        doc.save('TestYourselfResult.pdf');
+    });
 
     /*
-    function myFunction(dName) {
+     function myFunction(dName) {
 
-        var printContents = document.getElementById(dName).innerHTML;
-        var originalContents = document.body.innerHTML;
+     var printContents = document.getElementById(dName).innerHTML;
+     var originalContents = document.body.innerHTML;
 
-        document.body.innerHTML = printContents;
-        if (!window.print()) {
-            return;
-        }
-        window.print();
+     document.body.innerHTML = printContents;
+     if (!window.print()) {
+     return;
+     }
+     window.print();
      }*/
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

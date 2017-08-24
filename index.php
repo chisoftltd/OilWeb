@@ -117,7 +117,7 @@ include_once 'db/dbconnect.php';
                     Gas</strong> Industry.</h2>
             <hr>
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
-                <div class="mySlides"><a href="courses/welldrilling.php"><img src="images/drilling.jpg"
+                <div class="mySlides"><a href="courses/welldrilling.php"><img src="images/banadrilling.jpg"
                                                                               style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.4;
     filter: alpha(opacity=40)">

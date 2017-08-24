@@ -330,15 +330,17 @@ session_start();
             }
             ?>
         </div>
-        <footer class="panel-footer clearfix ">
-            <address class="pull-right">&copy; RGU
-            </address>
-            <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
-        </footer>
-        <h3><strong><a href='/menu/assessment.php'>
-                    <button>Go back and try again</button>
-                </a> </strong></h3>
-    </div>
+        <div class="foot-wrap">
+            <footer class="panel-footer clearfix ">
+                <address class="pull-right">&copy; RGU
+                </address>
+                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
+            </footer>
+            <h3><strong><a href='/menu/assessment.php'>
+                        <button>Go back and try again</button>
+                    </a> </strong></h3>
+
+        </div>
 
     <script type="text/javascript">
         var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");

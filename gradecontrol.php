@@ -363,7 +363,6 @@ session_start();
 
 
 <script>
-
     /* var doc = new jsPDF();
      var specialElementHandlers = {
      '#editor': function (element, renderer) {
@@ -392,7 +391,7 @@ session_start();
             return;
         }
         window.print();
-
+    }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

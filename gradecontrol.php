@@ -335,12 +335,12 @@ session_start();
                 <address class="pull-right">&copy; RGU
                 </address>
                 <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
-                <script>window.history.go(-1);</script>
+
             </footer>
             <h3><strong><a href='/menu/assessment.php'>
                         <button>Go back and try again</button>
                     </a> </strong></h3>
-
+            <script>window.history.go(-1);</script>
         </div>
 
     <script type="text/javascript">

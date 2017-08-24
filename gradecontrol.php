@@ -329,16 +329,12 @@ session_start();
 //                echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }
             ?>
-
-            <div id="controlfeedbk">
-                <p><?php print $_POST[$correction]; ?></p>
-            </div>
-            <footer class="panel-footer clearfix ">
-                <address class="pull-right">&copy; RGU
-                </address>
-                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
-            </footer>
         </div>
+        <footer class="panel-footer clearfix ">
+            <address class="pull-right">&copy; RGU
+            </address>
+            <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
+        </footer>
         <h3><strong><a href='/menu/assessment.php'>
                     <button>Go back and try again</button>
                 </a> </strong></h3>

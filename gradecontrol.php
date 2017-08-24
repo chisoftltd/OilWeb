@@ -362,7 +362,7 @@ session_start();
 
         doc = new jsPDF();
         $('#printanswer').click(function () {
-            doc.fromHTML($('#controlfeedbk').html(), 15, 15, {
+            doc.fromHTML($('#page-wrap').html(), 15, 15, {
                 'width': 150,
                 'elementHandlers': specialElementHandlers
             });

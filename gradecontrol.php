@@ -168,15 +168,22 @@ session_start();
             } else {
                 $correctAns_1 = '<h4 style="color: darkgreen">B) Inflow of formation fluid into the
                                                 wellbore.</h4>' . "<br/>";
-                $correctAns_1 = "<h3 style='color: blue'>What is a Kick?</h3>" . "<br/>" . $correctAns_1;
+                $correctAns_1 = "<h3 style='color: blue'>What is a Kick during drilling?</h3>" . "<br/>" . $correctAns_1;
+                $correctAns_1 = $correctAns_1 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_1 = $correctAns_1 . '<p><i><strong>Explanation:</strong><br/> During drilling, formation 
+                fluid pressure higher than annular fluid pressure (Insufficient mud weight), swabbing of drill string or lost criculation can cause formation 
+                fluid inflow into the annular.</i></p>';
                 $correctAns_1 = $correctAns_1 . '<hr style="border: 1px solid black">';
             }
 
             if ($ans_2 === "B") {
                 $totalCorrect++;
             } else {
-                $correctAns_2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Allowable Annular Surface Pressure</p>" . "<br/>";
-                $correctAns_2 = "<h3 style='color: blue'>The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?</h3>" . "<br/>" . $correctans_2;
+                $correctAns_2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Annular Allowable Surface Pressure</p>" . "<br/>";
+                $correctAns_2 = "<h3 style='color: blue'>The full meaning of MAASP is Maximum Annular Allowable Surface Pressure?</h3>" . "<br/>" . $correctans_2;
+                $correctAns_2 = $correctAns_2 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_2 = $correctAns_2 . '<p><strong>Explanation:</strong><br/> This is the annulus pressure at the surface that corresponds to the pressure at
+                                        the weakest point of the hole.<br/></p>';
                 $correctAns_2 = $correctAns_2 . '<hr style="border: 1px solid black">';
             }
 
@@ -187,7 +194,10 @@ session_start();
                 $correctAns_3 = '<h4 style="color: darkgreen">A) Salt water</h4>' . "<br/>";
                 $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">B) Gas</h4>' . "<br/>";
                 $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">C) Oil</h4>' . "<br/>";
-                $correctAns_3 = "<h3 style='color: blue'>A Kick can be composed of?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
+                $correctAns_3 = "<h3 style='color: blue'>A Kick can be composed of what fluids (check all)?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<p><strong>Explanation:</strong><br/> A kick is the inflow of formation fluid into the annular. The fluid can be 
+                gas, oil, salt water or combination of all.</p>';
                 $correctAns_3 = $correctAns_3 . '<hr style="border: 1px solid black">';
             }
 
@@ -196,7 +206,10 @@ session_start();
                 $totalCorrect++;
             } else {
                 $correctAns_4 = '<h4 style="color: darkgreen">D) Surface to bit and bit to surface.</h4>' . "<br/>" . "<br/>";
-                $correctAns_4 = "<h3 style='color: blue'>What is lag time?</h3>" . "<br/>" . $correctAns_4;
+                $correctAns_4 = "<h3 style='color: blue'>What is lag time of cuttings during drilling?</h3>" . "<br/>" . $correctAns_4;
+                $correctAns_4 = $correctAns_4 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_4 = $correctAns_4 . '<p><strong>Explanation:</strong><br/> The time taken for cuttings to 
+                reach the surface. The term is also used in place of cycle time.</p>';
                 $correctAns_4 = $correctAns_4 . '<hr style="border: 1px solid black">';
             }
             if ($ans_5 === "B") {
@@ -204,6 +217,8 @@ session_start();
             } else {
                 $correctAns_5 = '<h4 style="color: darkgreen">B) Evidence of transition to an abnormal zone.</h4>' . "<br/>" . "<br/>";
                 $correctAns_5 = "<h3 style='color: blue'>What is Drilling breaks?</h3>" . "<br/>" . $correctAns_5;
+                $correctAns_5 = $correctAns_5 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_5 = $correctAns_5 . '<p><strong>Explanation:</strong><br/> An abrupt increase in the rate of penetration of the drill bit during a well-drilling operation.</p>';
                 $correctAns_5 = $correctAns_5 . '<hr style="border: 1px solid black">';
             }
 
@@ -212,7 +227,10 @@ session_start();
             } else {
                 $correctAns_6 = '<h4 style="color: darkgreen">C) Loss of circulation.</h4>' . "<br/>";
                 $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">E) Swabbing.</h4>' . "<br/>";
-                $correctAns_6 = "<h3 style='color: blue'>What can cause a Kick?</h3>" . "<br/>" . $correctAns_6;
+                $correctAns_6 = "<h3 style='color: blue'>What can cause a Kick during drilling (list all)?</h3>" . "<br/>" . $correctAns_6;
+                $correctAns_6 = $correctAns_6 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<p><strong>Explanation:</strong><br/> A kick is formation 
+                fluid inflow into the annular and cn be cuased by loss of circulation, Swabbing, improper hole fill-up during trips, insufficient mud weight.</p>';
                 $correctAns_6 = $correctAns_6 . '<hr style="border: 1px solid black">';
             }
 
@@ -222,6 +240,10 @@ session_start();
                 $correctAns_7 = '<h4 style="color: darkgreen">A) It creates negative
                                             differential pressure</h4>';
                 $correctAns_7 = "<h3 style='color: blue'>What is the effect of Swabbing on connection/trip gas?</h3>" . "<br/>" . $correctAns_7;
+                $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_7 = $correctAns_7 . '<p><strong>Explanation:</strong><br/> Connection gas: It is relatively 
+                small amount of gas that enters well when mud pump is stopped because ECD (equivalent circulating density) decreases 
+                when stop pumping. Connection gas indicates that mud weight in hole is less than formation pressure.</p>';
                 $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">';
             }
 
@@ -229,7 +251,13 @@ session_start();
                 $totalCorrect++;
             } else {
                 $correctAns_8 = '<h4 style="color: darkgreen">B) Driller’s method.</h4>';
-                $correctAns_8 = "<h3 style='color: blue'>Which of these methods are used to manage a Kick?</h3>" . "<br/>" . $correctAns_8;
+                $correctAns_8 = "<h3 style='color: blue'>Which of these method is used to manage a Kick?</h3>" . "<br/>" . $correctAns_8;
+                $correctAns_8 = $correctAns_8 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_8 = $correctAns_8 . '<p><strong>Explanation:</strong><br/> Kick can be manage with different methods like: 
+                - Concurrent method<br>
+                - Driller’s method<br>
+                - Wait and Weight<br>
+                - Top Kill method.</p>';
                 $correctAns_8 = $correctAns_8 . '<hr style="border: 1px solid black">';
             }
 
@@ -240,7 +268,12 @@ session_start();
                 $correctAns_9 = $correctAns_9 . '<h4 style="color: darkgreen">C) Casing head.</h4>' . "<br/>";
                 $correctAns_9 = $correctAns_9 . '<h4 style="color: darkgreen">E) Drilling Spool.</h4>' . "<br/>";
                 $correctAns_9 = "<h3 style='color: blue'>Surface Well Control Equipment is made of?</h3>" . "<br/>" . $correctAns_9 . "<br/>" . "<br/>";
-                $correctAns_9 = $correctAns_9 . '<hr style="border: 1px solid black">';
+                $correctAns_9 = $correctAns_9 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_9 = $correctAns_9 . '<p><strong>Explanation:</strong><br/> The control equipment is made of different tools working toegther, amoung them are 
+                - Drilling Spool<br>
+                - Blow out preventers
+                - Casing head
+                - Choke Manifold and Control Panel</p>';
             }
 
             echo '<hr style="border: 2px solid green">';
@@ -293,10 +326,17 @@ session_start();
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }
-
-
             ?>
 
+            <div id="controlfeedbk">
+                <p hidden><?php echo $_POST["$correction"]; ?></p>
+            </div>
+            <footer class="panel-footer clearfix ">
+                <address class="pull-right">&copy; RGU
+                </address>
+                <div id="editor"></div>
+                <button id="cmdsurface" onclick="myFunction('controlfeedbk')">Generate PDF</button>
+            </footer>
         </div>
     </div>
 
@@ -310,6 +350,18 @@ session_start();
         pageTracker._trackPageview();
     </script>
 
+    <script>
+        function myFunction(dName) {
+
+            var printContents = document.getElementById(dName).innerHTML;
+            var originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+            if (!window.print()) {
+                return;
+            }
+            window.print();
+    </script>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

@@ -599,7 +599,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdenv" type="button" disabled>Generate PDF</button>
+                                <button id="cmdenv" onclick="myFunction('env')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -635,7 +635,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <div id="op">
+                                <div id="operation">
                                     <h3>Operational Plan</h3>
                                     <hr>
                                     <p>Ultimately the well design has to be translated into an operational plan, or
@@ -865,7 +865,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdop" type="button" disabled>Generate PDF</button>
+                                <button id="cmdop" onclick="myFunction('operation')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1199,7 +1199,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdorganisation" type="button" disabled>Generate PDF</button>
+                                <button id="cmdorganisation" onclick="myFunction('organisation')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1278,6 +1278,20 @@ include_once '../db/dbconnect.php';
         doc.save('Well-operation.pdf');
     });
      doc = null;*/
+    function myFunction(dName) {
+
+        var printContents = document.getElementById(dName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+        if (!window.print()) {
+            return;
+        }
+        window.print();
+
+        //document.body.innerHTML = originalContents;
+    }
+
 </script>
 </body>
 </html>

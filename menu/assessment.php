@@ -475,7 +475,7 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>A Kick can be composed of?</h5>
+                                    <h5>A Kick can be composed of what fluids (check all)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="ans_to_ContolQue_3[]" value="A" id="ans_3A"/>
                                         <label for="ans_3A">A) Salt water</label>
@@ -494,7 +494,7 @@ if (isset($_POST['deleteform'])) {
                                     </form>
                                 </li>
                                 <li>
-                                    <h5>What is lag time?</h5>
+                                    <h5>What is lag time of cuttings during drilling?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="ans_to_ContolQue_4" id="ans_to_Que_4_A"
@@ -521,7 +521,7 @@ if (isset($_POST['deleteform'])) {
                                 </li>
 
                                 <li>
-                                    <h5>What is Drilling breaks?</h5>
+                                    <h5>During drilling what is drilling breaks?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="ans_to_ContolQue_5" id="ans_to_Que_5-A"
@@ -552,7 +552,7 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>What can cause a Kick?</h5>
+                                    <h5>What can cause a Kick during drilling (list all)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="ans_to_ContolQue_6[]" value="A" id="ans_6A"/>
                                         <label for="ans_6A">A) Insufficient Salt water.</label>
@@ -588,7 +588,7 @@ if (isset($_POST['deleteform'])) {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Which of these methods are used to manage a Kick?</h5>
+                                    <h5>Which of these method is used to manage a Kick?</h5>
 
                                     <div class="form-group">
                                         <input type="radio" name="ans_to_ContolQue_8" id="ans_to_Que_8-A"

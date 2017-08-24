@@ -630,7 +630,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdswab" type="button" disabled>Generate PDF</button>
+                                <button id="cmdswab" onclick="myFunction('swab')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -666,7 +666,7 @@ include_once '../db/dbconnect.php';
                                     </div>
                                     <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
                                 </figure>
-                                <div class="lostC">
+                                <div class="lostCriculation">
 
                                     <h3>Lost Circulation</h3>
                                     <p>Loss of substantial quantity of mud into the formation will result in reduction
@@ -842,7 +842,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdlostC" type="button" disabled>Generate PDF</button>
+                                <button id="cmdlostC" onclick="myFunction('lostCriculation')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>

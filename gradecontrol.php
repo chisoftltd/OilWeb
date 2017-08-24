@@ -335,7 +335,7 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
-                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
+                <button id="printanswer" onclick="myFunction('controlfeedbk')">Generate PDF</button>
             </footer>
         </div>
     </div>

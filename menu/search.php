@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: 1609963
- * Date: 10/08/2017
- * Time: 19:29
+ * Date: 30/07/2017
+ * Time: 17:23
  */
 
 // Start a session
@@ -28,23 +28,34 @@ include_once '../db/dbconnect.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        function showResult(str) {
+            if (str.length === 0) {
+                document.getElementById("livesearch").innerHTML = "";
+                document.getElementById("livesearch").style.border = "0px";
+                return;
+            }
+            if (window.XMLHttpRequest) {
+                // code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            } else {  // code for IE6, IE5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    document.getElementById("livesearch").innerHTML = this.responseText;
+                    document.getElementById("livesearch").style.border = "1px solid #A5ACB2";
+                }
+            };
+            xmlhttp.open("GET", "livesearch.php?q=" + str, true);
+            xmlhttp.send();
+        }
+    </script>
+
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
-    <link rel="stylesheet" href="/css/search-style.css">
-
-    <!-- These styles fix CSE and Bootstrap 3 conflict -->
-    <style type="text/css">
-        .reset-box-sizing, .reset-box-sizing *, .reset-box-sizing *:before, .reset-box-sizing *:after, .gsc-inline-block {
-            -webkit-box-sizing: content-box;
-            -moz-box-sizing: content-box;
-            box-sizing: content-box;
-        }
-
-        input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
-            box-sizing: content-box;
-            line-height: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/main-style.css">
 </head>
 <body><!-- Body area start-->
 
@@ -69,32 +80,42 @@ include_once '../db/dbconnect.php';
                     <li class="active"><a href="/menu/courses.php">Courses</a></li>
                     <li><a href="/menu/assessment.php">Test Yourself</a></li>
                     <li><a href="/menu/submission.php">Submission</a></li>
-
                     <li><a href="/menu/contact.php">Contact Us</a></li>
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><p class="navbar-text"><span
                                     class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                    <li><a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
-                                    class="hidden-sm hidden-md hidden-lg">Search</span>
-                        </a></li>
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search"
+                                   onkeyup="showResult(this.value)">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" id="livesearch">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } else { ?>
                     <li><a href="/index.php">Home</a></>
                     <li><a href="/menu/about.php">About Us</a></li>
                     <li class="active"><a href="/menu/courses.php">Courses</a></li>
                     <li><a href="/menu/assessment.php">Test Yourself</a></li>
-                    <li><a href="/menu/submission.php">Submission</a></li>
-
                     <li><a href="/menu/contact.php">Contact Us</a></li>
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                     <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                    <li><a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">
-                            <span id="searchGlyph" class="glyphicon glyphicon-search"></span><span
-                                    class="hidden-sm hidden-md hidden-lg">Search</span>
-                        </a></li>
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } ?>
             </ul>
         </div>
@@ -109,41 +130,181 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div id="mainBodyContent" class="container-fluid">
-        <!-- Search Modal -->
-        <div id="modalSearch" class="modal fade" role="dialog">
-            <div class="modal-dialog">
+    <div class="container" style="background-color: #b0e0e6">
+        <div class="row">
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
+                            src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
+                            height="120" align="left" hspace="20"></a>
+                <h3><a href="/courses/welldrilling.php">Drilling</a></h3>
+                <p>In this course you will learn more about the student is introduced to the milestone activities
+                    associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Click <a href="/courses/welldrilling.php">continue>></a> to access course
+                    material.
+                </p>
+                <form>
+                    <hr>
+                </form> <!-- draw a line--></div>
 
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Search WebOil</h4>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Replace the following with your own search script from https://www.google.com/cse. -->
-                        <script>
-                            (function() {
-                                var cx = '011824172964035905645:yq3y---qh74';
-                                var gcse = document.createElement('script');
-                                gcse.type = 'text/javascript';
-                                gcse.async = true;
-                                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                                var s = document.getElementsByTagName('script')[0];
-                                s.parentNode.insertBefore(gcse, s);
-                            })();
-                        </script>
-                        <gcse:search></gcse:search>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
 
-            </div>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcontrol.php"><img src="/images/control.jpg"
+                                                                                               alt="control image"
+                                                                                               class="img-thumbnail gap-right"
+                                                                                               width="100" height="120"
+                                                                                               align="left" hspace="10"></a>
+                <h3><a href="/courses/wellcontrol.php">Control</a></h3>
+                <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
+                    and
+                    the components and function of surface and subsea well control equipment. Also covered
+                    are Operational Pressures and will give students a good understanding of the pressure
+                    relationships
+                    in
+                    the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/wellcasingcementing.php"><img
+                            src="/images/casingcementing.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
+                <h3><a href="/courses/fluids/wellcasingcementing.php">Casing & Cementing</a></h3>
+                <p>This course is designed for use by students to gain an understanding of the principles behind the
+                    use of casing within the wellbore and the factors involved in casing string design. Also
+                    covered are the functions of oilwell cement, the API classification and properties of dry cement
+                    and neat slurry and the effect of additives on these
+                    properties. <a href="/courses/fluids/wellcasingcementing.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/wellcompletion.php"><img
+                            src="/images/wellcompletion.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="20"></a>
+                <h3><a href="/courses/wellcompletion.php">Well Completion</a></h3>
+                <p>In this course you will learn more about the process of converting a drilled wellbore into a
+                    production or injection system.
+                    The interface between the reservoir and surface production. The resulting system should
+                    establish a safe and efficient connection between the reservoir, the
+                    wellbore up to surface so that hydrocarbons can be produced.
+                    <a href="/courses/wellcompletion.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/treatment.php"><img src="/images/treatment.jpg"
+                                                                                             alt="Drilling"
+                                                                                             class="img-thumbnail gap-right"
+                                                                                             width="100" height="120"
+                                                                                             align="left"
+                                                                                             hspace="10"></a>
+                <h3><a href="/courses/treatment.php">Water, Oil & Gas Treatment</a></h3>
+                <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have
+                    to undergo extensive treatment. In this course you will be enligthen on the processes and stages
+                    invloved. Processes like
+                    <i>3-Phase Horizontal Separator, Vertical Heater -Treater and Skim Pile for Water
+                        Discharge.</i>
+                    <a href="/courses/treatment.php">Continue>></a>
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/rigcomponents.php"><img
+                            src="/images/rigcomponents.png" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3><a href="/courses/rigcomponents.php">Rig Components</a></h3>
+                <p>This topic is designed for use by students to gain an overall appreciation of the
+                    general components of a drilling rig and the equipment utilised during drilling.
+                    A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
+                    crown block and travelling block, and a drilling fluid circulation system including
+                    the standpipe, rotary hose, drilling fluid pits and pumps.
+                    <a href="/courses/rigcomponents.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/storageandexport.php"><img
+                            src="/images/storageandexport.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3><a href="/courses/storageandexport.php">Storage and Export</a></h3>
+                <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
+                    12 psia, depending on its origin, the processing it has undergone and the degree of
+                    ‘weathering’, which has occurred. It is possible to pump most United Kingdom (UK)
+                    North Sea crude at ambient temperature, but some of the recent Eocene developments
+                    will yield a crude that will need treatment for economic pumping.
+                    <a href="/courses/storageandexport.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/offshore/flowlines.php"><img
+                            src="/images/flowlines.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                </a>
+                <h3><a href="/courses/offshore/flowlines.php">Flowlines</a></h3>
+                <p>Like any other engineering task, the design of a pipeline needs to be tackled
+                    systematically. Figure 1 is a route map through this systematic process. This systematic
+                    process is rarely a straightforward sequence of operations; usually the design process
+                    requires that a series of loops be performed due to the complex interactions between
+                    the different factors inherent in the design process.
+                    <a href="/courses/offshore/flowlines.php">Continue>></a>.
+                </p>
+                <hr> <!-- draw a line--></div>
+            <hr/>
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/decommissioning.php"><img
+                            src="/images/decommissioning.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3><a href="/courses/fluids/muds.php">Decommissioning</a></h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/muds.php"><img
+                            src="/images/drillingfluid.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3><a href="/courses/separationandcontrol.php">Drilling Fluids or Muds</a></h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/separationandcontrol.php"><img
+                            src="/images/formationfluidseparation.png" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3>Formation Fluid Separation</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p>
+                <hr> <!-- draw a line--></div>
+
+            <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/measurement.php"><img
+                            src="/images/oilgasmeasurement.jpg" alt="Drilling"
+                            class="img-thumbnail gap-right" width="100" height="120"
+                            align="left" hspace="10"></a>
+                <h3>Oil & Gas Measurement</h3>
+                <p>In this topic the student is introduced to the milestone activities associated with
+                    planning for and executing a well construction programme. They will also
+                    discover in more detail the roles and responsibilities of core personnel required to
+                    plan and execute a well. Different organisational structures to deliver a well are
+                    also discussed. In addition, the student learns about generic objectives for a well
+                    and what specific information is required to allow comprehensive well planning.
+                </p></div>
         </div>
-
-
     </div>
 </section><!-- end of section-->
 

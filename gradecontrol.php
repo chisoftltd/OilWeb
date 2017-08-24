@@ -334,7 +334,7 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
-                <button id="printanswer" onclick="myFunction('controlfeedbk')">Generate PDF</button>
+                <button id="printanswer">Generate PDF</button>
             </footer>
         </div>
     </div>
@@ -362,7 +362,7 @@ session_start();
 
 
 <script>
-    /* var doc = new jsPDF();
+    var doc = new jsPDF();
      var specialElementHandlers = {
      '#editor': function (element, renderer) {
      return true;
@@ -379,7 +379,7 @@ session_start();
      doc.save('Well-control-Objectives.pdf');
      });
 
-     */
+    /*
     function myFunction(dName) {
 
         var printContents = document.getElementById(dName).innerHTML;
@@ -390,7 +390,7 @@ session_start();
             return;
         }
         window.print();
-    }
+     }*/
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -381,7 +381,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdplanning">Generate PDF</button>
+                                <button id="cmdplanning" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -597,7 +597,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdenv">Generate PDF</button>
+                                <button id="cmdenv" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -863,7 +863,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdop">Generate PDF</button>
+                                <button id="cmdop" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1197,7 +1197,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdorganisation">Generate PDF</button>
+                                <button id="cmdorganisation" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>

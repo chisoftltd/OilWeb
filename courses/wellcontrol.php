@@ -301,6 +301,7 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
+                                <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
                                 <button id="cmdcontrol">Generate PDF</button>
                             </footer>
@@ -629,7 +630,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdswab">Generate PDF</button>
+                                <button id="cmdswab" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -841,7 +842,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdlostC">Generate PDF</button>
+                                <button id="cmdlostC" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -959,7 +960,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdsurface">Generate PDF</button>
+                                <button id="cmdsurface" type="button" disabled>Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -997,7 +998,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-control-Objectives.pdf');
     });
-    doc = null;
+    /*doc = null;
 
     doc = new jsPDF();
     $('#cmdswab').click(function () {
@@ -1027,7 +1028,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-surface-equipment.pdf');
     });
-    doc = null;
+     doc = null;*/
 
 </script>
 

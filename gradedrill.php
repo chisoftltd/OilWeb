@@ -111,100 +111,100 @@ session_start();
             <h1 style="text-align: center">Your Quiz score for WebOil</h1>
 
             <?php
-            /*  $correctanswer1 = "";
-              $correctanswer2 = "";
-              $correctanswer3 = "";
-              $correctanswer4 = "";
-              $correctanswer5 = "";
-              $correctanswer6 = "";
-              $correctanswer7 = "";
-            */
-            $answer1 = $_POST['question-1-answers'];
-            $answer2 = $_POST['question-2-answers'];
+            $correctAns_1 = "";
+            $correctAns_2 = "";
+            $correctAns_3 = "";
+            $correctAns_4 = "";
+            $correctAns_5 = "";
+            $correctAns_6 = "";
+            $correctAns_7 = "";
+            
+            $ans_1 = $_POST['ans_to_DrillQue_1'];
+            $ans_2 = $_POST['ans_to_DrillQue_2'];
 
-            $answer3 = "";
-            if (!empty($_POST['answer-question-3'])) {
-                foreach ($_POST['answer-question-3'] as $selected) {
-                    $answer3 = $answer3 . $selected;
+            $ans_3 = "";
+            if (!empty($_POST['ans_to_DrillQue_3'])) {
+                foreach ($_POST['ans_to_DrillQue_3'] as $selected) {
+                    $ans_3 = $ans_3 . $selected;
                 }
             }
 
-            $answer4 = $_POST['question-4-answers'];
-            $answer5 = $_POST['question-5-answers'];
-            $answer6 = $_POST['question-6-answers'];
-            $answer7 = "";
+            $ans_4 = $_POST['ans_to_DrillQue_4'];
+            $ans_5 = $_POST['ans_to_DrillQue_5'];
+            $ans_6 = $_POST['ans_to_DrillQue_6'];
+            $ans_7 = "";
 
 
-            if (!empty($_POST['answer-question-7'])) {
-                foreach ($_POST['answer-question-7'] as $selected) {
-                    $answer7 = $answer7 . $selected;
+            if (!empty($_POST['ans_to_DrillQue_7'])) {
+                foreach ($_POST['ans_to_DrillQue_7'] as $selected) {
+                    $ans_7 = $ans_7 . $selected;
                 }
             }
 
 
             $totalCorrect = 0;
 
-            if ($answer1 === "A") {
+            if ($ans_1 === "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer1 = '<h4 style="color: darkgreen">A) Control subsurface pressures</h4>' . "<br/>" . "<br/>";
-                $correctanswer1 = "<h3 style='color: blue'>What is drilling Mud used for?</h3>" . "<br/>" . $correctanswer1;
-                $correctanswer1 = $correctanswer1 . '<hr style="border: 1px solid black">';
+                $correctAns_1 = '<h4 style="color: darkgreen">A) Control subsurface pressures</h4>' . "<br/>" . "<br/>";
+                $correctAns_1 = "<h3 style='color: blue'>What is drilling Mud used for?</h3>" . "<br/>" . $correctAns_1;
+                $correctAns_1 = $correctAns_1 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer2 === "B") {
+            if ($ans_2 === "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer2 = '<h4 style="color: darkgreen">B) Mud Balance</h4>' . "<br/>" . "<br/>";
-                $correctanswer2 = "<h3 style='color: blue'>What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctanswer2;
-                $correctanswer2 = $correctanswer2 . '<hr style="border: 1px solid black">';
-            }
-
-
-            if ($answer3 === "AC") {
-                $totalCorrect++;
-            } else {
-                $correctanswer3 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
-                $correctanswer3 = $correctanswer3 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
-                $correctanswer3 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctanswer3 . "<br/>" . "<br/>";
-                $correctanswer3 = $correctanswer3 . '<hr style="border: 1px solid black">';
+                $correctAns_2 = '<h4 style="color: darkgreen">B) Mud Balance</h4>' . "<br/>" . "<br/>";
+                $correctAns_2 = "<h3 style='color: blue'>What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctAns_2;
+                $correctAns_2 = $correctAns_2 . '<hr style="border: 1px solid black">';
             }
 
 
-            if ($answer4 === "A") {
+            if ($ans_3 === "AC") {
                 $totalCorrect++;
             } else {
-                $correctanswer4 = '<h4 style="color: darkgreen">A) Drilling Superintendent</h4>' . "<br/>" . "<br/>";
-                $correctanswer4 = "<h3 style='color: blue'>Which of the following personnel should not be on site during drilling?</h3>" . "<br/>" . $correctanswer4;
-                $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
-            }
-            if ($answer5 === "B") {
-                $totalCorrect++;
-            } else {
-                $correctanswer5 = '<h4 style="color: darkgreen">B) Semisubmersible rigs</h4>' . "<br/>" . "<br/>";
-                $correctanswer5 = "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctanswer5;
-                $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
-            }
-            if ($answer6 === "D" or $answer6 === "ABC") {
-                $totalCorrect++;
-            } else {
-                $correctanswer6 = '<h4 style="color: darkgreen">A) Oil Based Mud (OBM)</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">B) Water Based Mud (WBM)</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">C) Gas, aerated muds</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: black">OR</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>";
-                $correctanswer6 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctanswer6;
-                $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
+                $correctAns_3 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
+                $correctAns_3 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer7 === "ABC" or $answer7 === "D") {
+
+            if ($ans_4 === "A") {
                 $totalCorrect++;
             } else {
-                $correctanswer7 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
-                $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
-                $correctanswer7 = $correctanswer7 . '<h4 style="color: darkgreen">C) type of well</h4>';
-                $correctanswer7 = "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctanswer7;
-                $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
+                $correctAns_4 = '<h4 style="color: darkgreen">A) Drilling Superintendent</h4>' . "<br/>" . "<br/>";
+                $correctAns_4 = "<h3 style='color: blue'>Which of the following personnel should not be on site during drilling?</h3>" . "<br/>" . $correctAns_4;
+                $correctAns_4 = $correctAns_4 . '<hr style="border: 1px solid black">';
+            }
+            if ($ans_5 === "B") {
+                $totalCorrect++;
+            } else {
+                $correctAns_5 = '<h4 style="color: darkgreen">B) Semisubmersible rigs</h4>' . "<br/>" . "<br/>";
+                $correctAns_5 = "<h3 style='color: blue'>Which of the following RIG is used offshore?</h3>" . "<br/>" . $correctAns_5;
+                $correctAns_5 = $correctAns_5 . '<hr style="border: 1px solid black">';
+            }
+            if ($ans_6 === "D" or $ans_6 === "ABC") {
+                $totalCorrect++;
+            } else {
+                $correctAns_6 = '<h4 style="color: darkgreen">A) Oil Based Mud (OBM)</h4>' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">B) Water Based Mud (WBM)</h4>' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">C) Gas, aerated muds</h4>' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<h4 style="color: black">OR</h4>' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>";
+                $correctAns_6 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctAns_6;
+                $correctAns_6 = $correctAns_6 . '<hr style="border: 1px solid black">';
+            }
+
+            if ($ans_7 === "ABC" or $ans_7 === "D") {
+                $totalCorrect++;
+            } else {
+                $correctAns_7 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
+                $correctAns_7 = $correctAns_7 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
+                $correctAns_7 = $correctAns_7 . '<h4 style="color: darkgreen">C) type of well</h4>';
+                $correctAns_7 = "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctAns_7;
+                $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">';
             }
 
 
@@ -214,33 +214,33 @@ session_start();
             if ($totalCorrect === 7) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
-                echo "What is drilling Mud used for?" . "<br/>" . $correctanswer1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctanswer2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctanswer4 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctanswer5 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctanswer6 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctanswer7;
+                echo "What is drilling Mud used for?" . "<br/>" . $correctAns_1 . "<br/>" . "What instrument is used to measure Mud Weight?" . "<br/>" . $correctAns_2 . "<br/>" . "Which of the following personnel should not be on site during drilling?" . "<br/>" . $correctAns_4 . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . "Which of the following RIG is used offshore?" . "<br/>" . $correctAns_5 . "<br/>" . "Which of the following is constituent of Mud?" . "<br/>" . $correctAns_6 . "<br/>" . "The time required to plan and execute a well construction programme is dependent on (select all that apply)?" . "<br/>" . $correctAns_7;
 
             } else {
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
                 $correction = '';
-                if ($correctanswer1 !== '') {
-                    $correction = $correctanswer1 . "<br/>";
+                if ($correctAns_1 !== '') {
+                    $correction = $correctAns_1 . "<br/>";
                 }
-                if ($correctanswer2 !== '') {
-                    $correction = $correction . $correctanswer2 . "<br/>";
+                if ($correctAns_2 !== '') {
+                    $correction = $correction . $correctAns_2 . "<br/>";
                 }
-                if ($correctanswer3 !== '') {
-                    $correction = $correction . $correctanswer3 . "<br/>";
+                if ($correctAns_3 !== '') {
+                    $correction = $correction . $correctAns_3 . "<br/>";
                 }
-                if ($correctanswer4 !== '') {
-                    $correction = $correction . $correctanswer4 . "<br/>";
+                if ($correctAns_4 !== '') {
+                    $correction = $correction . $correctAns_4 . "<br/>";
                 }
-                if ($correctanswer5 !== '') {
-                    $correction = $correction . $correctanswer5 . "<br/>";
+                if ($correctAns_5 !== '') {
+                    $correction = $correction . $correctAns_5 . "<br/>";
                 }
-                if ($correctanswer6 !== '') {
-                    $correction = $correction . $correctanswer6 . "<br/>";
+                if ($correctAns_6 !== '') {
+                    $correction = $correction . $correctAns_6 . "<br/>";
                 }
-                if ($correctanswer7 !== '') {
-                    $correction = $correction . $correctanswer7 . "<br/>";
+                if ($correctAns_7 !== '') {
+                    $correction = $correction . $correctAns_7 . "<br/>";
                 }
                 echo $correction;
                 echo '<hr style="border: 2px solid green">';

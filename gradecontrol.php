@@ -110,137 +110,137 @@ session_start();
             <h1 style="text-align: center">Your Quiz score for WebOil</h1>
 
             <?php
-            /*$correctanswer1 = "";
-            $correctanswer2 = "";
-            $correctanswer3 = "";
-            $correctanswer4 = "";
-            $correctanswer5 = "";
-            $correctanswer6 = "";
-            $correctanswer7 = "";
-            $correctanswer8 = "";
-            $correctanswer9 = "";*/
+            $correctAns_1 = "";
+            $correctAns_2 = "";
+            $correctAns_3 = "";
+            $correctAns_4 = "";
+            $correctAns_5 = "";
+            $correctAns_6 = "";
+            $correctAns_7 = "";
+            $correctAns_8 = "";
+            $correctAns_9 = "";
 
-            $answer1 = $_POST['question-1-answers'];
-            $answer2 = $_POST['question-2-answers'];
+            $ans_1 = $_POST['Ans_to_ContolQue_1'];
+            $ans_2 = $_POST['Ans_to_ContolQue_2'];
 
-            $answer3 = "";
-            if (!empty($_POST['answer-question-3'])) {
-                foreach ($_POST['answer-question-3'] as $selected) {
-                    $answer3 = $answer3 . $selected;
+            $ans_3 = "";
+            if (!empty($_POST['ans_to_ContolQue_3'])) {
+                foreach ($_POST['ans_to_ContolQue_3'] as $selected) {
+                    $ans_3 = $ans_3 . $selected;
                 }
             }
 
-            $answer4 = $_POST['question-4-answers'];
-            $answer5 = $_POST['question-5-answers'];
-            $answer6 = "";
+            $ans_4 = $_POST['ans_to_ContolQue_4'];
+            $ans_5 = $_POST['ans_to_ContolQue_5'];
+            $ans_6 = "";
 
-            if (!empty($_POST['answer-question-6'])) {
-                foreach ($_POST['answer-question-6'] as $selected) {
-                    $answer6 = $answer6 . $selected;
+            if (!empty($_POST['ans_to_ContolQue_6'])) {
+                foreach ($_POST['ans_to_ContolQue_6'] as $selected) {
+                    $ans_6 = $ans_6 . $selected;
                 }
             }
 
-            $answer7 = $_POST['question-7-answers'];
-            $answer8 = $_POST['question-8-answers'];
-            $answer9 = "";
+            $ans_7 = $_POST['ans_to_ContolQue_7'];
+            $ans_8 = $_POST['ans_to_ContolQue_8'];
+            $ans_9 = "";
 
-            if (!empty($_POST['answer-question-9'])) {
-                foreach ($_POST['answer-question-9'] as $selected) {
-                    $answer9 = $answer9 . $selected;
+            if (!empty($_POST['ans_to_ContolQue_9'])) {
+                foreach ($_POST['ans_to_ContolQue_9'] as $selected) {
+                    $ans_9 = $ans_9 . $selected;
                 }
             }
 
-            echo $answer1;
-            echo $answer2;
-            echo $answer3;
-            echo $answer4;
-            echo $answer5;
-            echo $answer6;
-            echo $answer7;
-            echo $answer8;
-            echo $answer9;
+            /* echo $ans_1;
+             echo $ans_2;
+             echo $ans_3;
+             echo $ans_4;
+             echo $ans_5;
+             echo $ans_6;
+             echo $ans_7;
+             echo $ans_8;
+             echo $ans_9;*/
 
 
             $totalCorrect = 0;
 
-            if ($answer1 === "B") {
+            if ($ans_1 === "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer1 = '<h4 style="color: darkgreen">B) Inflow of formation fluid into the
+                $correctAns_1 = '<h4 style="color: darkgreen">B) Inflow of formation fluid into the
                                                 wellbore.</h4>' . "<br/>";
-                $correctanswer1 = "<h3 style='color: blue'>What is a Kick?</h3>" . "<br/>" . $correctanswer1;
-                $correctanswer1 = $correctanswer1 . '<hr style="border: 1px solid black">';
+                $correctAns_1 = "<h3 style='color: blue'>What is a Kick?</h3>" . "<br/>" . $correctAns_1;
+                $correctAns_1 = $correctAns_1 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer2 === "B") {
+            if ($ans_2 === "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Allowable Annular Surface Pressure</p>" . "<br/>";
-                $correctanswer2 = "<h3 style='color: blue'>The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?</h3>" . "<br/>" . $correctanswer2;
-                $correctanswer2 = $correctanswer2 . '<hr style="border: 1px solid black">';
-            }
-
-
-            if ($answer3 === "ABC") {
-                $totalCorrect++;
-            } else {
-                $correctanswer3 = '<h4 style="color: darkgreen">A) Salt water</h4>' . "<br/>";
-                $correctanswer3 = $correctanswer3 . '<h4 style="color: darkgreen">B) Gas</h4>' . "<br/>";
-                $correctanswer3 = $correctanswer3 . '<h4 style="color: darkgreen">C) Oil</h4>' . "<br/>";
-                $correctanswer3 = "<h3 style='color: blue'>A Kick can be composed of?</h3>" . "<br/>" . $correctanswer3 . "<br/>" . "<br/>";
-                $correctanswer3 = $correctanswer3 . '<hr style="border: 1px solid black">';
+                $correctAns_2 = '<h4 style="color: darkgreen">B) False.</h4>' . "<p>Ans: Maximum Allowable Annular Surface Pressure</p>" . "<br/>";
+                $correctAns_2 = "<h3 style='color: blue'>The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?</h3>" . "<br/>" . $correctans_2;
+                $correctAns_2 = $correctAns_2 . '<hr style="border: 1px solid black">';
             }
 
 
-            if ($answer4 === "D") {
+            if ($ans_3 === "ABC") {
                 $totalCorrect++;
             } else {
-                $correctanswer4 = '<h4 style="color: darkgreen">D) Surface to bit and bit to surface.</h4>' . "<br/>" . "<br/>";
-                $correctanswer4 = "<h3 style='color: blue'>What is lag time?</h3>" . "<br/>" . $correctanswer4;
-                $correctanswer4 = $correctanswer4 . '<hr style="border: 1px solid black">';
-            }
-            if ($answer5 === "B") {
-                $totalCorrect++;
-            } else {
-                $correctanswer5 = '<h4 style="color: darkgreen">B) Evidence of transition to an abnormal zone.</h4>' . "<br/>" . "<br/>";
-                $correctanswer5 = "<h3 style='color: blue'>What is Drilling breaks?</h3>" . "<br/>" . $correctanswer5;
-                $correctanswer5 = $correctanswer5 . '<hr style="border: 1px solid black">';
+                $correctAns_3 = '<h4 style="color: darkgreen">A) Salt water</h4>' . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">B) Gas</h4>' . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">C) Oil</h4>' . "<br/>";
+                $correctAns_3 = "<h3 style='color: blue'>A Kick can be composed of?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
+                $correctAns_3 = $correctAns_3 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer6 === "CE") {
+
+            if ($ans_4 === "D") {
                 $totalCorrect++;
             } else {
-                $correctanswer6 = '<h4 style="color: darkgreen">C) Loss of circulation.</h4>' . "<br/>";
-                $correctanswer6 = $correctanswer6 . '<h4 style="color: darkgreen">E) Swabbing.</h4>' . "<br/>";
-                $correctanswer6 = "<h3 style='color: blue'>What can cause a Kick?</h3>" . "<br/>" . $correctanswer6;
-                $correctanswer6 = $correctanswer6 . '<hr style="border: 1px solid black">';
+                $correctAns_4 = '<h4 style="color: darkgreen">D) Surface to bit and bit to surface.</h4>' . "<br/>" . "<br/>";
+                $correctAns_4 = "<h3 style='color: blue'>What is lag time?</h3>" . "<br/>" . $correctAns_4;
+                $correctAns_4 = $correctAns_4 . '<hr style="border: 1px solid black">';
+            }
+            if ($ans_5 === "B") {
+                $totalCorrect++;
+            } else {
+                $correctAns_5 = '<h4 style="color: darkgreen">B) Evidence of transition to an abnormal zone.</h4>' . "<br/>" . "<br/>";
+                $correctAns_5 = "<h3 style='color: blue'>What is Drilling breaks?</h3>" . "<br/>" . $correctAns_5;
+                $correctAns_5 = $correctAns_5 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer7 === "A") {
+            if ($ans_6 === "CE") {
                 $totalCorrect++;
             } else {
-                $correctanswer7 = '<h4 style="color: darkgreen">A) It creates negative
+                $correctAns_6 = '<h4 style="color: darkgreen">C) Loss of circulation.</h4>' . "<br/>";
+                $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">E) Swabbing.</h4>' . "<br/>";
+                $correctAns_6 = "<h3 style='color: blue'>What can cause a Kick?</h3>" . "<br/>" . $correctAns_6;
+                $correctAns_6 = $correctAns_6 . '<hr style="border: 1px solid black">';
+            }
+
+            if ($ans_7 === "A") {
+                $totalCorrect++;
+            } else {
+                $correctAns_7 = '<h4 style="color: darkgreen">A) It creates negative
                                             differential pressure</h4>';
-                $correctanswer7 = "<h3 style='color: blue'>What is the effect of Swabbing on connection/trip gas?</h3>" . "<br/>" . $correctanswer7;
-                $correctanswer7 = $correctanswer7 . '<hr style="border: 1px solid black">';
+                $correctAns_7 = "<h3 style='color: blue'>What is the effect of Swabbing on connection/trip gas?</h3>" . "<br/>" . $correctAns_7;
+                $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer8 === "B") {
+            if ($ans_8 === "B") {
                 $totalCorrect++;
             } else {
-                $correctanswer8 = '<h4 style="color: darkgreen">B) Driller’s method.</h4>';
-                $correctanswer8 = "<h3 style='color: blue'>Which of these methods are used to manage a Kick?</h3>" . "<br/>" . $correctanswer8;
-                $correctanswer8 = $correctanswer8 . '<hr style="border: 1px solid black">';
+                $correctAns_8 = '<h4 style="color: darkgreen">B) Driller’s method.</h4>';
+                $correctAns_8 = "<h3 style='color: blue'>Which of these methods are used to manage a Kick?</h3>" . "<br/>" . $correctAns_8;
+                $correctAns_8 = $correctAns_8 . '<hr style="border: 1px solid black">';
             }
 
-            if ($answer9 === "BCE") {
+            if ($ans_9 === "BCE") {
                 $totalCorrect++;
             } else {
-                $correctanswer9 = '<h4 style="color: darkgreen">B) Blow out preventers</h4>' . "<br/>";
-                $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">C) Casing head.</h4>' . "<br/>";
-                $correctanswer9 = $correctanswer9 . '<h4 style="color: darkgreen">E) Drilling Spool.</h4>' . "<br/>";
-                $correctanswer9 = "<h3 style='color: blue'>Surface Well Control Equipment is made of?</h3>" . "<br/>" . $correctanswer9 . "<br/>" . "<br/>";
-                $correctanswer9 = $correctanswer9 . '<hr style="border: 1px solid black">';
+                $correctAns_9 = '<h4 style="color: darkgreen">B) Blow out preventers</h4>' . "<br/>";
+                $correctAns_9 = $correctAns_9 . '<h4 style="color: darkgreen">C) Casing head.</h4>' . "<br/>";
+                $correctAns_9 = $correctAns_9 . '<h4 style="color: darkgreen">E) Drilling Spool.</h4>' . "<br/>";
+                $correctAns_9 = "<h3 style='color: blue'>Surface Well Control Equipment is made of?</h3>" . "<br/>" . $correctAns_9 . "<br/>" . "<br/>";
+                $correctAns_9 = $correctAns_9 . '<hr style="border: 1px solid black">';
             }
 
             echo '<hr style="border: 2px solid green">';
@@ -249,44 +249,44 @@ session_start();
             if ($totalCorrect === 8) {
                 echo '<hr style="border: 2px solid green">';
                 echo "<h3 style='color: yellow'>Perfect Score! Proceed to Test yourself in <strong><a href='/menu/assessment.php'>Well Control</a> </strong></h3>";
-                echo "What is a Kick?" . "<br/>" . $correctanswer1 . "<br/>" .
-                    "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctanswer2 . "<br/>" . "A Kick can be composed of?" .
-                    "<br/>" . $correctanswer4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctanswer5 . "<br/>" .
-                    "What can cause a Kick?" . "<br/>" . $correctanswer6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" .
-                    $correctanswer7 . "<br/>" . "Which of these methods are used to manage a Kick?" . $correctanswer8 . "<br/>" .
-                    "Surface Well Control Equipment is made of?" . $correctanswer9;
+                echo "What is a Kick?" . "<br/>" . $correctAns_1 . "<br/>" .
+                    "The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?" . "<br/>" . $correctAns_2 . "<br/>" . "A Kick can be composed of?" .
+                    "<br/>" . $correctAns_4 . "<br/>" . "What is lag time?" . "<br/>" . "What is Drilling breaks?" . "<br/>" . $correctAns_5 . "<br/>" .
+                    "What can cause a Kick?" . "<br/>" . $correctAns_6 . "<br/>" . "What is the effect of Swabbing on connection/trip gas?" . "<br/>" .
+                    $correctAns_7 . "<br/>" . "Which of these methods are used to manage a Kick?" . $correctAns_8 . "<br/>" .
+                    "Surface Well Control Equipment is made of?" . $correctAns_9;
 
             } else {
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
                 $correction = '';
-                if ($correctanswer1 !== '') {
-                    $correction = $correctanswer1 . "<br/>";
+                if ($correctAns_1 !== '') {
+                    $correction = $correctAns_1 . "<br/>";
                 }
-                if ($correctanswer2 !== '') {
-                    $correction = $correction . $correctanswer2 . "<br/>";
+                if ($correctAns_2 !== '') {
+                    $correction = $correction . $correctAns_2 . "<br/>";
                 }
-                if ($correctanswer3 !== '') {
-                    $correction = $correction . $correctanswer3 . "<br/>";
+                if ($correctAns_3 !== '') {
+                    $correction = $correction . $correctAns_3 . "<br/>";
                 }
-                if ($correctanswer4 !== '') {
-                    $correction = $correction . $correctanswer4 . "<br/>";
+                if ($correctAns_4 !== '') {
+                    $correction = $correction . $correctAns_4 . "<br/>";
                 }
-                if ($correctanswer5 !== '') {
-                    $correction = $correction . $correctanswer5 . "<br/>";
+                if ($correctAns_5 !== '') {
+                    $correction = $correction . $correctAns_5 . "<br/>";
                 }
-                if ($correctanswer6 !== '') {
-                    $correction = $correction . $correctanswer6 . "<br/>";
+                if ($correctAns_6 !== '') {
+                    $correction = $correction . $correctAns_6 . "<br/>";
                 }
-                if ($correctanswer7 !== '') {
-                    $correction = $correction . $correctanswer7 . "<br/>";
+                if ($correctAns_7 !== '') {
+                    $correction = $correction . $correctAns_7 . "<br/>";
                 }
-                if ($correctanswer8 !== '') {
-                    $correction = $correction . $correctanswer8 . "<br/>";
+                if ($correctAns_8 !== '') {
+                    $correction = $correction . $correctAns_8 . "<br/>";
                 }
-                if ($correctanswer9 !== '') {
-                    $correction = $correction . $correctanswer9 . "<br/>";
+                if ($correctAns_9 !== '') {
+                    $correction = $correction . $correctAns_9 . "<br/>";
                 }
 
                 echo $correction;

@@ -202,9 +202,9 @@ if (isset($_POST['deleteform'])) {
                                     <h5>What special considerations are not performed before drilling a well?</h5>
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                            <input type="radio" name="ans_to_DrillQue_1" id="ans_to_Que_1_A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Carry out pressure waveform from a 0.82
+                                            <label for="ans_to_Que_1_A">A) Carry out pressure waveform from a 0.82
                                                 kg SUS
                                                 charge detonated. </label>
                                         </div>
@@ -212,9 +212,9 @@ if (isset($_POST['deleteform'])) {
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                            <input type="radio" name="ans_to_DrillQue_1" id="ans_to_Que_1_B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) Observe more stringent environmental
+                                            <label for="ans_to_Que_1_B">B) Observe more stringent environmental
                                                 requirements (i.e, drilling in an
                                                 environmentally sensitive area).</label>
                                         </div>
@@ -222,9 +222,9 @@ if (isset($_POST['deleteform'])) {
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                            <input type="radio" name="ans_to_DrillQue_1" id="ans_to_Que_1_C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C) Severe environment report (High
+                                            <label for="ans_to_Que_1_C">C) Severe environment report (High
                                                 Pressure High temperature (HPHT), deepwater,
                                                 high hydrogen Sulphide).</label>
                                         </div>
@@ -232,9 +232,9 @@ if (isset($_POST['deleteform'])) {
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                            <input type="radio" name="ans_to_DrillQue_1" id="ans_to_Que_1_D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) Physical constraints (e.g, pipelines,
+                                            <label for="ans_to_Que_1_D">D) Physical constraints (e.g, pipelines,
                                                 proximity of other installations)
                                                 seasonal access restrictions.</label>
                                         </div>
@@ -244,95 +244,95 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>What instrument is used to measure drilling fluid Weight?</h5>
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                        <input type="radio" name="ans_to_DrillQue_2" id="ans_to_Que_2_A"
                                                value="A"/>
-                                        <label for="question-2-answers-A">A) LTLP filter press</label>
+                                        <label for="ans_to_Que_2_A">A) LTLP filter press</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                        <input type="radio" name="ans_to_DrillQue_2" id="ans_to_Que_2_B"
                                                value="B"/>
-                                        <label for="question-2-answers-B">B) Mud Balance</label>
+                                        <label for="ans_to_Que_2_B">B) Mud Balance</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-C"
+                                        <input type="radio" name="ans_to_DrillQue_2" id="ans_to_Que_2_C"
                                                value="C"/>
-                                        <label for="question-2-answers-C">C) HTHP filter press</label>
+                                        <label for="ans_to_Que_2_C">C) HTHP filter press</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-D"
+                                        <input type="radio" name="ans_to_DrillQue_2" id="ans_to_Que_2_D"
                                                value="D"/>
-                                        <label for="question-2-answers-D">D) API Extreme Pressure Tester.</label>
+                                        <label for="ans_to_Que_2_D">D) API Extreme Pressure Tester.</label>
                                     </div>
                                 </li>
                                 <li>
                                     <h5>Which of the following are permits needed before drilling commences?</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-3[]" value="A" id="answer-3A"/>
-                                        <label for="answers-3A">A) Chemical Discharge Records (DTI or agent)</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_3[]" value="A" id="ans_3A"/>
+                                        <label for="ans_3A">A) Chemical Discharge Records (DTI or agent)</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="B" id="answer-3B"/>
-                                        <label for="answers-3B">B) Loss of Fluid Test Programme (OECD)</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_3[]" value="B" id="ans_3B"/>
+                                        <label for="ans_3B">B) Loss of Fluid Test Programme (OECD)</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="C" id="answer-3C"/>
-                                        <label for="answers-3C">C) Incident reporting (DTI/HSE)</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_3[]" value="C" id="ans_3C"/>
+                                        <label for="ans_3C">C) Incident reporting (DTI/HSE)</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="D" id="answer-3D"/>
-                                        <label for="answers-3D">D) All of the above.</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_3[]" value="D" id="ans_3D"/>
+                                        <label for="ans_3D">D) All of the above.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="E" id="answer-3E"/>
-                                        <label for="answers-3E">E) None of the above.</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_3[]" value="E" id="ans_3E"/>
+                                        <label for="ans_3E">E) None of the above.</label>
                                     </form>
                                 </li>
 
                                 <li>
                                     <h5>Which of the following personnel should not be on site during drilling?</h5>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                        <input type="radio" name="ans_to_DrillQue_4" id="ans_to_Que_4_A"
                                                value="A"/>
-                                        <label for="question-4-answers-A">A) Drilling
+                                        <label for="ans_to_Que_4_A">A) Drilling
                                             Superintendent</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                        <input type="radio" name="ans_to_DrillQue_4" id="ans_to_Que_4_B"
                                                value="B"/>
-                                        <label for="question-4-answers-B">B) Derrick Manager</label>
+                                        <label for="ans_to_Que_4_B">B) Derrick Manager</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                        <input type="radio" name="ans_to_DrillQue_4" id="ans_to_Que_4_C"
                                                value="C"/>
-                                        <label for="question-4-answers-C">C) Driller Supervisor</label>
+                                        <label for="ans_to_Que_4_C">C) Driller Supervisor</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                        <input type="radio" name="ans_to_DrillQue_4" id="ans_to_Que_4_D"
                                                value="D"/>
-                                        <label for="question-4-answers-D">D) Rig Inspector</label>
+                                        <label for="ans_to_Que_4_D">D) Rig Inspector</label>
                                     </div>
                                 </li>
                                 <li>
                                     <h5>Which of these requirements exist during the operational phase of drilling?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                        <input type="radio" name="ans_to_DrillQue_5" id="ans_to_Que_5_A"
                                                value="A"/>
-                                        <label for="question-5-answers-A">A) Conclusion of Rig work (HSE)</label>
+                                        <label for="ans_to_Que_5_A">A) Conclusion of Rig work (HSE)</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                        <input type="radio" name="ans_to_DrillQue_5" id="ans_to_Que_5_B"
                                                value="B"/>
-                                        <label for="question-5-answers-B">B) Rig move notification</label>
+                                        <label for="ans_to_Que_5_B">B) Rig move notification</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                        <input type="radio" name="ans_to_DrillQue_5" id="ans_to_Que_5_C"
                                                value="C"/>
-                                        <label for="question-5-answers-C">C) Rig Emissions Cost </label>
+                                        <label for="ans_to_Que_5_C">C) Rig Emissions Cost </label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                        <input type="radio" name="ans_to_DrillQue_5" id="ans_to_Que_5_D"
                                                value="D"/>
-                                        <label for="question-5-answers-D">D) Drill fluid Discharge Records (DTI or
+                                        <label for="ans_to_Que_5_D">D) Drill fluid Discharge Records (DTI or
                                             agent)</label>
                                     </div>
                                 </li>
@@ -341,27 +341,27 @@ if (isset($_POST['deleteform'])) {
                                     <h5>Which of the following is constituent of Mud?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-6-answers" id="question-6-answers-A"
+                                        <input type="radio" name="ans_to_DrillQue_6" id="ans_to_Que_6_A"
                                                value="A"/>
-                                        <label for="question-6-answers-A">A) Oil Based Mud (OBM)</label>
+                                        <label for="ans_to_Que_6_A">A) Oil Based Mud (OBM)</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-6-answers" id="question-6-answers-B"
+                                        <input type="radio" name="ans_to_DrillQue_6" id="ans_to_Que_6_B"
                                                value="B"/>
-                                        <label for="question-6-answers-B">B) Water Based Mud (WBM)</label>
+                                        <label for="ans_to_Que_6-B">B) Water Based Mud (WBM)</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-6-answers" id="question-6-answers-C"
+                                        <input type="radio" name="ans_to_DrillQue_6" id="ans_to_Que_6_C"
                                                value="C"/>
-                                        <label for="question-6-answers-C">C) Gas, aerated muds</label>
+                                        <label for="ans_to_Que_6_C">C) Gas, aerated muds</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-6-answers" id="question-6-answers-D"
+                                        <input type="radio" name="ans_to_DrillQue_6" id="ans_to_Que_6_D"
                                                value="D"/>
-                                        <label for="question-6-answers-D">D) All of the above</label>
+                                        <label for="ans_to_Que_6_D">D) All of the above</label>
                                     </div>
 
                                 </li>
@@ -369,20 +369,20 @@ if (isset($_POST['deleteform'])) {
                                     <h5>The time required to plan and execute a well construction programme is dependent
                                         on (select all that apply)?</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-7[]" value="A" id="answer-7A"/>
-                                        <label for="answers-7A">A) sub-surface complexity</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_7[]" value="A" id="ans_7A"/>
+                                        <label for="ans_7A">A) sub-surface complexity</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-7[]" value="B" id="answer-7B"/>
-                                        <label for="answers-7B">B) location</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_7[]" value="B" id="ans_7B"/>
+                                        <label for="ans_7B">B) location</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-7[]" value="C" id="answer-7C"/>
-                                        <label for="answers-7C">C) type of well</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_7[]" value="C" id="ans_7C"/>
+                                        <label for="ans_7C">C) type of well</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-7[]" value="D" id="answer-7D"/>
-                                        <label for="answers-7D">D) All of the above.</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_7[]" value="D" id="ans_7D"/>
+                                        <label for="ans_7D">D) All of the above.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-7[]" value="E" id="answer-7E"/>
-                                        <label for="answers-7E">E) None of the above.</label>
+                                        <input type="checkbox" name="ans_to_DrillQue_7[]" value="E" id="ans_7E"/>
+                                        <label for="ans_7E">E) None of the above.</label>
                                     </form>
                                 </li>
 
@@ -421,101 +421,101 @@ if (isset($_POST['deleteform'])) {
 
                             <ol>
                                 <li>
-                                    <h5>What is a Kick?</h5>
+                                    <h5>What is a Kick during drilling?</h5>
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-A"
+                                            <input type="radio" name="ans_to_ContolQue_1" id="ans_to_Que_1_A"
                                                    value="A"/>
-                                            <label for="question-1-answers-A">A) Inflow of Drilling fluid into the
+                                            <label for="ans_to_Que_1_A">A) Inflow of Drilling fluid into the
                                                 annals </label>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-B"
+                                            <input type="radio" name="ans_to_ContolQue_1" id="ans_to_Que_1_B"
                                                    value="B"/>
-                                            <label for="question-1-answers-B">B) Inflow of formation fluid into the
+                                            <label for="ans_to_Que_1_B">B) Inflow of formation fluid into the
                                                 wellbore</label>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-C"
+                                            <input type="radio" name="ans_to_ContolQue_1" id="ans_to_Que_1_C"
                                                    value="C"/>
-                                            <label for="question-1-answers-C">C)Outflow of Drilling fluid into the
+                                            <label for="ans_to_Que_1_C">C)Outflow of Drilling fluid into the
                                                 annals</label>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <div>
-                                            <input type="radio" name="question-1-answers" id="question-1-answers-D"
+                                            <input type="radio" name="ans_to_ContolQue_1" id="ans_to_Que_1_D"
                                                    value="D"/>
-                                            <label for="question-1-answers-D">D) Outflow of formation fluid into the
+                                            <label for="ans_to_Que_1_D">D) Outflow of formation fluid into the
                                                 wellbore</label>
                                         </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                    <h5>The full meaning of MAASP is Maximum Annulus Allowable Surface Pressure?</h5>
+                                    <h5>The full meaning of MAASP is Maximum Atomize Allowable Surface Pressure?</h5>
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-A"
+                                        <input type="radio" name="ans_to_ContolQue_2" id="ans_to_Que_2_A"
                                                value="A"/>
-                                        <label for="question-2-answers-A">A)True</label>
+                                        <label for="ans_to_Que_2_A">A)True</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-2-answers" id="question-2-answers-B"
+                                        <input type="radio" name="ans_to_ContolQue_2" id="ans_to_Que_2_B"
                                                value="B"/>
-                                        <label for="question-2-answers-B">B) False.</label>
+                                        <label for="ans_to_Que_2_B">B) False.</label>
                                     </div>
 
                                 </li>
                                 <li>
                                     <h5>A Kick can be composed of?</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-3[]" value="A" id="answer-3A"/>
-                                        <label for="answers-3A">A) Salt water</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_3[]" value="A" id="ans_3A"/>
+                                        <label for="ans_3A">A) Salt water</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="B" id="answer-3B"/>
-                                        <label for="answers-3B">B) Gas</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_3[]" value="B" id="ans_3B"/>
+                                        <label for="ans_3B">B) Gas</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="C" id="answer-3C"/>
-                                        <label for="answers-3C">C) Oil</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_3[]" value="C" id="ans_3C"/>
+                                        <label for="ans_3C">C) Oil</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="D" id="answer-3D"/>
-                                        <label for="answers-3D">D) Drilling Fluid</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_3[]" value="D" id="ans_3D"/>
+                                        <label for="ans_3D">D) Drilling Fluid</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-3[]" value="E" id="answer-3E"/>
-                                        <label for="answers-3E">E) Combination of all of the above</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_3[]" value="E" id="ans_3E"/>
+                                        <label for="ans_3E">E) Combination of all of the above</label>
                                     </form>
                                 </li>
                                 <li>
                                     <h5>What is lag time?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-A"
+                                        <input type="radio" name="ans_to_ContolQue_4" id="ans_to_Que_4_A"
                                                value="A"/>
-                                        <label for="question-4-answers-A">A) Surface to reservoir and reservoir to
+                                        <label for="ans_to_Que_4_A">A) Surface to reservoir and reservoir to
                                             surface.</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-B"
+                                        <input type="radio" name="ans_to_ContolQue_4" id="ans_to_Que_4_B"
                                                value="B"/>
-                                        <label for="question-4-answers-B">B) Annual to bit and bit to surface.</label>
+                                        <label for="ans_to_Que_4_B">B) Annual to bit and bit to surface.</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-C"
+                                        <input type="radio" name="ans_to_ContolQue_4" id="ans_to_Que_4_C"
                                                value="C"/>
-                                        <label for="question-4-answers-C">C) Annual to bit and bit to Annual.</label>
+                                        <label for="ans_to_Que_4_C">C) Annual to bit and bit to Annual.</label>
                                     </div>
                                     <div class="form-group">
-                                        <input type="radio" name="question-4-answers" id="question-4-answers-D"
+                                        <input type="radio" name="ans_to_ContolQue_4" id="ans_to_Que_4_D"
                                                value="D"/>
-                                        <label for="question-4-answers-D">D) Surface to bit
+                                        <label for="ans_to_Que_4_D">D) Surface to bit
                                             and bit to surface.</label>
                                     </div>
                                 </li>
@@ -524,29 +524,29 @@ if (isset($_POST['deleteform'])) {
                                     <h5>What is Drilling breaks?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-A"
+                                        <input type="radio" name="ans_to_ContolQue_5" id="ans_to_Que_5-A"
                                                value="A"/>
-                                        <label for="question-5-answers-A">A) When drilling personnel change drill
+                                        <label for="ans_to_Que_5-A">A) When drilling personnel change drill
                                             strings</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-B"
+                                        <input type="radio" name="ans_to_ContolQue_5" id="ans_to_Que_5-B"
                                                value="B"/>
-                                        <label for="question-5-answers-B">B) Evidence of transition to an
+                                        <label for="ans_to_Que_5-B">B) Evidence of transition to an
                                             abnormal zone.</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-C"
+                                        <input type="radio" name="ans_to_ContolQue_5" id="ans_to_Que_5-C"
                                                value="C"/>
-                                        <label for="question-5-answers-C">C) Evidence of hydrocarbon.</label>
+                                        <label for="ans_to_Que_5-C">C) Evidence of hydrocarbon.</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-5-answers" id="question-5-answers-D"
+                                        <input type="radio" name="ans_to_ContolQue_5" id="ans_to_Que_5-D"
                                                value="D"/>
-                                        <label for="question-5-answers-D">D) Evidence of transition to a
+                                        <label for="ans_to_Que_5-D">D) Evidence of transition to a
                                             normal zone</label>
                                     </div>
 
@@ -554,36 +554,36 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>What can cause a Kick?</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-6[]" value="A" id="answer-6A"/>
-                                        <label for="answers-6A">A) Insufficient Salt water.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_6[]" value="A" id="ans_6A"/>
+                                        <label for="ans_6A">A) Insufficient Salt water.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-6[]" value="B" id="answer-6B"/>
-                                        <label for="answers-6B">B) Not keeping the hole full.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_6[]" value="B" id="ans_6B"/>
+                                        <label for="ans_6B">B) Not keeping the hole full.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-6[]" value="C" id="answer-6C"/>
-                                        <label for="answers-6C">C) Loss of circulation.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_6[]" value="C" id="ans_6C"/>
+                                        <label for="ans_6C">C) Loss of circulation.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-6[]" value="D" id="answer-6D"/>
-                                        <label for="answers-6D">D) Circulation of Drilling Fluid.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_6[]" value="D" id="ans_6D"/>
+                                        <label for="ans_6D">D) Circulation of Drilling Fluid.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-6[]" value="E" id="answer-6E"/>
-                                        <label for="answers-6E">E) Swabbing.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_6[]" value="E" id="ans_6E"/>
+                                        <label for="ans_6E">E) Swabbing.</label>
                                     </form>
                                 </li>
                                 <li>
                                     <h5>What is the effect of Swabbing on connection/trip gas?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-7-answers" id="question-7-answers-A"
+                                        <input type="radio" name="ans_to_ContolQue_7" id="ans_to_Que_7-A"
                                                value="A"/>
-                                        <label for="question-7-answers-A">A) It creates negative
+                                        <label for="ans_to_Que_7-A">A) It creates negative
                                             differential pressure</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-7-answers" id="question-7-answers-B"
+                                        <input type="radio" name="ans_to_ContolQue_7" id="ans_to_Que_7-B"
                                                value="B"/>
-                                        <label for="question-7-answers-B">B) It creates posative
+                                        <label for="ans_to_Que_7-B">B) It creates posative
                                             differential pressure.</label>
                                     </div>
                                 </li>
@@ -591,15 +591,15 @@ if (isset($_POST['deleteform'])) {
                                     <h5>Which of these methods are used to manage a Kick?</h5>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-8-answers" id="question-8-answers-A"
+                                        <input type="radio" name="ans_to_ContolQue_8" id="ans_to_Que_8-A"
                                                value="A"/>
-                                        <label for="question-8-answers-A">A) Derrickman's method.</label>
+                                        <label for="ans_to_Que_8-A">A) Derrickman's method.</label>
                                     </div>
 
                                     <div class="form-group">
-                                        <input type="radio" name="question-8-answers" id="question-8-answers-B"
+                                        <input type="radio" name="ans_to_ContolQue_8" id="ans_to_Que_8-B"
                                                value="B"/>
-                                        <label for="question-8-answers-B">B) Driller’s method.</label>
+                                        <label for="ans_to_Que_8-B">B) Driller’s method.</label>
                                     </div>
 
                                 </li>
@@ -607,20 +607,20 @@ if (isset($_POST['deleteform'])) {
                                 <li>
                                     <h5>Surface Well Control Equipment is made of?</h5>
                                     <form class="form-group">
-                                        <input type="checkbox" name="answer-question-9[]" value="A" id="answer-9A"/>
-                                        <label for="answers-9A">A) Bits.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_9[]" value="A" id="ans_9A"/>
+                                        <label for="ans_9A">A) Bits.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-9[]" value="B" id="answer-9B"/>
-                                        <label for="answers-9B">B) Blow out preventers</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_9[]" value="B" id="ans_9B"/>
+                                        <label for="ans_9B">B) Blow out preventers</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-9[]" value="C" id="answer-9C"/>
-                                        <label for="answers-9C">C) Casing head.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_9[]" value="C" id="ans_9C"/>
+                                        <label for="ans_9C">C) Casing head.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-9[]" value="D" id="answer-9D"/>
-                                        <label for="answers-9D">D) Drilling Fluid.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_9[]" value="D" id="ans_9D"/>
+                                        <label for="ans_9D">D) Drilling Fluid.</label>
                                         <br/>
-                                        <input type="checkbox" name="answer-question-9[]" value="E" id="answer-9E"/>
-                                        <label for="answers-9E">E) Drilling Spool.</label>
+                                        <input type="checkbox" name="ans_to_ContolQue_9[]" value="E" id="ans_9E"/>
+                                        <label for="ans_9E">E) Drilling Spool.</label>
                                     </form>
                                 </li>
 

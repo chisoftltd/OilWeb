@@ -351,7 +351,7 @@ session_start();
             pageTracker._initData();
             pageTracker._trackPageview();
         </script>
-
+    </div>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->

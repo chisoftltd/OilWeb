@@ -1045,8 +1045,6 @@ include_once '../db/dbconnect.php';
         document.body.innerHTML = originalContents;
     }
 
-
 </script>
-
 </body>
 </html>

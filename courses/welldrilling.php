@@ -383,7 +383,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdplanning" type="button" disabled>Generate PDF</button>
+                                <button id="cmdplanning" onclick="myFunction('planning')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>

@@ -390,14 +390,15 @@ session_start();
         if (!window.print()) {
             return;
         }
+        history.go(0);
         window.print();
         //history.go(-1);
         //location.reload(true);
     }
 
     window.onafterprint = function () {
-        //history.go(-1);
-        location.reload(true);
+        history.go(-1);
+        //location.reload(true);
     };
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

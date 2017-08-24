@@ -343,15 +343,15 @@ session_start();
             <script>window.history.go(-1);</script>
         </div>
 
-    <script type="text/javascript">
-        var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-68528-29");
-        pageTracker._initData();
-        pageTracker._trackPageview();
-    </script>
+        <script type="text/javascript">
+            var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+            var pageTracker = _gat._getTracker("UA-68528-29");
+            pageTracker._initData();
+            pageTracker._trackPageview();
+        </script>
 
 </section><!-- end of section-->
 <form>
@@ -392,6 +392,7 @@ session_start();
             return;
         }
         window.print();
+        window.history.go(-1);
     }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

@@ -350,38 +350,6 @@ session_start();
         pageTracker._trackPageview();
     </script>
 
-    <script>
-
-        /* var doc = new jsPDF();
-         var specialElementHandlers = {
-         '#editor': function (element, renderer) {
-         return true;
-         }
-         };
-         doc = null;
-
-         doc = new jsPDF();
-         $('#printanswer').click(function () {
-         doc.fromHTML($('#page-wrap').html(), 15, 15, {
-         'width': 150,
-         'elementHandlers': specialElementHandlers
-         });
-         doc.save('Well-control-Objectives.pdf');
-         });
-
-         */
-        function myFunction(dName) {
-
-            var printContents = document.getElementById(dName).innerHTML;
-            var originalContents = document.body.innerHTML;
-
-            document.body.innerHTML = printContents;
-            if (!window.print()) {
-                return;
-            }
-            window.print();
-
-    </script>
 </section><!-- end of section-->
 <form>
     <hr> <!-- draw a line-->
@@ -392,6 +360,40 @@ session_start();
         <?php include 'include/footer.php'; ?>
     </div>
 </footer>
+
+
+<script>
+
+    /* var doc = new jsPDF();
+     var specialElementHandlers = {
+     '#editor': function (element, renderer) {
+     return true;
+     }
+     };
+     doc = null;
+
+     doc = new jsPDF();
+     $('#printanswer').click(function () {
+     doc.fromHTML($('#page-wrap').html(), 15, 15, {
+     'width': 150,
+     'elementHandlers': specialElementHandlers
+     });
+     doc.save('Well-control-Objectives.pdf');
+     });
+
+     */
+    function myFunction(dName) {
+
+        var printContents = document.getElementById(dName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+        if (!window.print()) {
+            return;
+        }
+        window.print();
+
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Latest compiled JavaScript -->

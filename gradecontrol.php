@@ -336,12 +336,12 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
-                <button id="printanswer">Generate PDF</button>
+                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
             </footer>
-            <h3><strong><a href='/menu/assessment.php'>
-                        <button>Go back and try again</button>
-                    </a> </strong></h3>
         </div>
+        <h3><strong><a href='/menu/assessment.php'>
+                    <button>Go back and try again</button>
+                </a> </strong></h3>
     </div>
 
     <script type="text/javascript">
@@ -367,33 +367,33 @@ session_start();
 
 
 <script>
-    var doc = new jsPDF();
-    var specialElementHandlers = {
-        '#editor': function (element, renderer) {
-            return true;
-        }
-    };
-
-    $('#printanswer').click(function () {
-        doc.fromHTML($('#page-wrap').html(), 15, 15, {
-            'width': 150,
-            'elementHandlers': specialElementHandlers
-        });
-        doc.save('TestYourselfResult.pdf');
-    });
-
-    /*
-     function myFunction(dName) {
-
-     var printContents = document.getElementById(dName).innerHTML;
-     var originalContents = document.body.innerHTML;
-
-     document.body.innerHTML = printContents;
-     if (!window.print()) {
-     return;
+    /* var doc = new jsPDF();
+     var specialElementHandlers = {
+     '#editor': function (element, renderer) {
+     return true;
      }
-     window.print();
-     }*/
+     };
+
+     $('#printanswer').click(function () {
+     doc.fromHTML($('#page-wrap').html(), 15, 15, {
+     'width': 150,
+     'elementHandlers': specialElementHandlers
+     });
+     doc.save('TestYourselfResult.pdf');
+     });
+
+     */
+    function myFunction(dName) {
+
+        var printContents = document.getElementById(dName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+        if (!window.print()) {
+            return;
+        }
+        window.print();
+    }
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

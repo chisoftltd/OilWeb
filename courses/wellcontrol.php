@@ -1041,7 +1041,7 @@ include_once '../db/dbconnect.php';
             return;
         }
         window.print();
-
+        window.location.reload();
         //document.body.innerHTML = originalContents;
     }
 

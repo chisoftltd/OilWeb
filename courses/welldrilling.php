@@ -110,7 +110,7 @@ include_once '../db/dbconnect.php';
     <div class="container" style="background-color: #b0e0e6">
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
-            <li><a href="/menu/contact.php">Courses</a></li>
+            <li><a href="/menu/courses.php">Courses</a></li>
             <li class="active">Drilling</li>
         </ul>
         <div class="container-fluid">

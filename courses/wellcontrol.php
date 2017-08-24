@@ -106,7 +106,7 @@ include_once '../db/dbconnect.php';
     <div class="content">
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
-            <li><a href="/menu/contact.php">Courses</a></li>
+            <li><a href="/menu/courses.php">Courses</a></li>
             <li class="active">Control</li>
         </ul>
         <div class="container-fluid" style="background-color: #b0e0e6">

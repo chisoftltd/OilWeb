@@ -386,13 +386,13 @@ session_start();
         var printContents = document.getElementById(dName).innerHTML;
         var originalContents = document.body.innerHTML;
 
-        window.open(window.print());
+
 
         document.body.innerHTML = printContents;
         if (!window.print()) {
             return;
         }
-
+        window.open(window.print());
         //window.print();
         history.go(-1);
         //location.reload(true);

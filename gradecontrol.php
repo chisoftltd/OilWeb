@@ -326,7 +326,7 @@ session_start();
 
                 echo $correction;
                 echo '<hr style="border: 2px solid green">';
-                echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
+//                echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }
             ?>
 
@@ -338,6 +338,9 @@ session_start();
                 </address>
                 <button id="printanswer">Generate PDF</button>
             </footer>
+            <h3><strong><a href='/menu/assessment.php'>
+                        <button>Go back and try again</button>
+                    </a> </strong></h3>
         </div>
     </div>
 

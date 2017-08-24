@@ -165,7 +165,7 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h3 class="modal-title">Oil and Gas Well Drilling</h3>
+                                                    <h3 class="modal-title">Well Drilling video </h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling1Video" width="450" height="315"
@@ -255,11 +255,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h3 class="modal-title">Well Planning Request / Well Objectives</h3>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <iframe id="drilling2Video" width="450" height="315"
+                                                <!--<div class="modal-body">
+                                                    <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -407,11 +407,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h3 class="modal-title">Environmental consent (DTI)</h3>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <iframe id="drilling3Video" width="450" height="315"
+                                                <!--<div class="modal-body">
+                                                    <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -623,11 +623,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Well Operational Plan</h4>
                                                 </div>
-                                                <div class="modal-body">
+                                                <!--<div class="modal-body">
                                                     <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -891,11 +891,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Rig Organisation</h4>
                                                 </div>
-                                                <div class="modal-body">
+                                                <!--<div class="modal-body">
                                                     <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>

@@ -330,11 +330,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <iframe id="control2Video" width="450" height="315"
-                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
-                                                            frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                <!--<div class="modal-body">
+                                                   <iframe id="control4Video" width="450" height="315"
+                                                           src="https://www.youtube.com/embed/cYkFwD3RQ7k"
+                                                           frameborder="0" allowfullscreen></iframe>
+                                               </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -656,11 +656,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <div class="modal-body">
-                                                    <iframe id="control3Video" width="450" height="315"
+                                                <!--<div class="modal-body">
+                                                    <iframe id="control4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -868,11 +868,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <div class="modal-body">
+                                                <!--<div class="modal-body">
                                                     <iframe id="control4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>

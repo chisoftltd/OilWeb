@@ -226,6 +226,7 @@ include_once '../db/dbconnect.php';
                                 <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
                                 </a>-->
+                                <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
                                 <button id="cmddrill">Generate PDF</button>
                             </footer>
@@ -1234,7 +1235,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-drill-Objectives.pdf');
     });
-    doc = null;
+    /*doc = null;
 
     doc = new jsPDF();
     $('#cmdplanning').click(function () {
@@ -1274,7 +1275,7 @@ include_once '../db/dbconnect.php';
         });
         doc.save('Well-operation.pdf');
     });
-    doc = null;
+     doc = null;*/
 </script>
 </body>
 </html>

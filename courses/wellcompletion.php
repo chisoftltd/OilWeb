@@ -10,7 +10,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>WebOil - Well Drilling Course</title>
+    <title>WebOil - Well Completion Course</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add JavaScript file-->
@@ -99,7 +99,7 @@
 <hr> <!-- draw a line-->
 <section>
     <div class="container" style="background-color: #b0e0e6">
-        <h2>Completion course coming soon</h2>
+        <h2>Well Completion course coming soon</h2>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

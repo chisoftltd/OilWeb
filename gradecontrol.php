@@ -385,14 +385,16 @@ session_start();
 
         var printContents = document.getElementById(dName).innerHTML;
         var originalContents = document.body.innerHTML;
-        window.open('http://weboil.azurewebsites.net/TestYourselfResult.pdf');
+
+        window.open(window.print());
+
         document.body.innerHTML = printContents;
         if (!window.print()) {
             return;
         }
 
-        window.print();
-        //history.go(-1);
+        //window.print();
+        history.go(-1);
         //location.reload(true);
     }
 

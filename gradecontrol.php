@@ -392,7 +392,7 @@ session_start();
         }
         window.print();
         //history.go(-1);
-        location.reload(true);
+        //location.reload(true);
     }
 
     window.onafterprint = function () {

@@ -165,7 +165,9 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h3 class="modal-title">Well Drilling video </h3>
+                                                    <h3 class="modal-title">Well Drilling video by
+                                                        <small>Oilvips (6 Mar 2014)</small>
+                                                    </h3>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="drilling1Video" width="450" height="315"

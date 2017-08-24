@@ -124,7 +124,7 @@ include_once 'db/dbconnect.php';
                         Well Drilling Course
                     </p>
                 </div>
-                <p class="mySlides"><a href="courses/wellcontrol.php"><img src="images/control.jpg"
+                <p class="mySlides"><a href="courses/wellcontrol.php"><img src="images/banacontrol.jpg"
                                                                            style="width:100%; height: 300px"></a>
                 <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
     filter: alpha(opacity=60)">

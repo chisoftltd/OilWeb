@@ -1199,7 +1199,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdorganisation" onclick="myFunction('organisation')">Generate PDF</button>
+                                <button onclick="myFunction('organisation')">Generate PDF</button>
                             </footer>
                         </article>
                     </div>

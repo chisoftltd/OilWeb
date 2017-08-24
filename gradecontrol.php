@@ -335,7 +335,7 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
-                <button id="printanswer">Generate PDF</button>
+                <button id="printanswer" onclick="myFunction('#page-wrap')">Generate PDF</button>
             </footer>
         </div>
     </div>
@@ -352,24 +352,24 @@ session_start();
 
     <script>
 
-        var doc = new jsPDF();
-        var specialElementHandlers = {
-            '#editor': function (element, renderer) {
-                return true;
-            }
-        };
-        doc = null;
+        /* var doc = new jsPDF();
+         var specialElementHandlers = {
+         '#editor': function (element, renderer) {
+         return true;
+         }
+         };
+         doc = null;
 
-        doc = new jsPDF();
-        $('#printanswer').click(function () {
-            doc.fromHTML($('#page-wrap').html(), 15, 15, {
-                'width': 150,
-                'elementHandlers': specialElementHandlers
-            });
-            doc.save('Well-control-Objectives.pdf');
-        });
+         doc = new jsPDF();
+         $('#printanswer').click(function () {
+         doc.fromHTML($('#page-wrap').html(), 15, 15, {
+         'width': 150,
+         'elementHandlers': specialElementHandlers
+         });
+         doc.save('Well-control-Objectives.pdf');
+         });
 
-
+         */
         function myFunction(dName) {
 
             var printContents = document.getElementById(dName).innerHTML;
@@ -380,6 +380,7 @@ session_start();
                 return;
             }
             window.print();
+            
     </script>
 </section><!-- end of section-->
 <form>

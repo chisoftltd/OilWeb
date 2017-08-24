@@ -386,22 +386,18 @@ session_start();
         var printContents = document.getElementById(dName).innerHTML;
         var originalContents = document.body.innerHTML;
 
-
-
         document.body.innerHTML = printContents;
         if (!window.print()) {
             return;
         }
-        window.open(window.print());
-        //window.print();
-        history.go(-1);
+        window.print();
+        //history.go(-1);
         //location.reload(true);
     }
 
     window.onafterprint = function () {
-        //history.go(-1);
-        history.go(0);
-        //window.location.reload(true);
+        history.go(-1);
+
     };
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->

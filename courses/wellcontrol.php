@@ -960,7 +960,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
-                                <button id="cmdsurface" type="button" disabled>Generate PDF</button>
+                                <button id="cmdsurface" onclick="myFunction()">Generate PDF</button>
                             </footer>
                         </article>
                     </div>
@@ -1029,6 +1029,12 @@ include_once '../db/dbconnect.php';
         doc.save('Well-surface-equipment.pdf');
     });
      doc = null;*/
+
+
+    function myFunction() {
+        window.print();
+    }
+
 
 </script>
 

@@ -1042,7 +1042,7 @@ include_once '../db/dbconnect.php';
         }
         window.print();
 
-        document.body.innerHTML = originalContents;
+        //document.body.innerHTML = originalContents;
     }
 
 </script>

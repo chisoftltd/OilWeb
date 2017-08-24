@@ -329,7 +329,7 @@ session_start();
             ?>
 
             <div id="controlfeedbk">
-                <p><?php print $_POST['correction']; ?></p>
+                <p><?php print $_POST[$correction]; ?></p>
             </div>
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU

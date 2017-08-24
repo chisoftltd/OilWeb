@@ -304,6 +304,7 @@ include_once '../db/dbconnect.php';
                                 </address>
                                 <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdcontrol">Generate PDF</button>
                             </footer>
                         </article>
@@ -631,6 +632,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdswab" onclick="myFunction('swab')">Generate PDF</button>
                             </footer>
                         </article>
@@ -843,6 +845,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdlostC" onclick="myFunction('lostCriculation')">Generate PDF</button>
                             </footer>
                         </article>
@@ -961,6 +964,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdsurface" onclick="myFunction('surface')">Generate PDF</button>
                             </footer>
                         </article>

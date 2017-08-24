@@ -230,6 +230,7 @@ include_once '../db/dbconnect.php';
                                 </a>-->
                                 <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmddrill">Generate PDF</button>
                             </footer>
                         </article>
@@ -383,6 +384,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right"> &copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdplanning" onclick="myFunction('planning')">Generate PDF</button>
                             </footer>
                         </article>
@@ -599,6 +601,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdenv" onclick="myFunction('env')">Generate PDF</button>
                             </footer>
                         </article>
@@ -865,6 +868,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdop" onclick="myFunction('operation')">Generate PDF</button>
                             </footer>
                         </article>
@@ -1199,6 +1203,7 @@ include_once '../db/dbconnect.php';
                                 <address class="pull-right">&copy; RGU
                                 </address>
                                 <div id="editor"></div>
+                                <h4>Need a copy (pdf)?</h4>
                                 <button onclick="myFunction('organisation')">Generate PDF</button>
                             </footer>
                         </article>

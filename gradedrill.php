@@ -211,7 +211,7 @@ session_start();
 
 
             echo '<hr style="border: 2px solid green">';
-            echo "<div id='results'>$totalCorrect / 7 correct</div>";
+            echo "<div id='results' style='text-align: center'>$totalCorrect / 7 correct</div>";
 
             if ($totalCorrect === 7) {
                 echo '<hr style="border: 2px solid green">';
@@ -220,7 +220,7 @@ session_start();
 
             } else {
                 echo '<hr style="border: 2px solid green">';
-                echo '<h2>Correction</h2>';
+                echo '<h2 style="text-align: center">Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
                 $correction = '';
                 if ($correctAns_1 !== '') {
@@ -257,7 +257,8 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
-                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
+                <h4>Need a copy? Print Result (Pdf)</h4>
+                <button id="printanswer" onclick="myFunction('page-wrap')">Print</button>
 
             </footer>
             <h3><strong><a href='/menu/assessment.php'>

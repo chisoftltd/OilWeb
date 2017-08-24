@@ -25,6 +25,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/js/jspdf.min.js"></script>
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
@@ -244,12 +246,23 @@ session_start();
                 }
                 echo $correction;
                 echo '<hr style="border: 2px solid green">';
-                echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
+                //echo "<h3><strong><a href='/menu/assessment.php'><button>Go back and try again</button></a> </strong></h3>";
             }
 
 
             ?>
 
+        </div>
+        <div class="foot-wrap">
+            <footer class="panel-footer clearfix ">
+                <address class="pull-right">&copy; RGU
+                </address>
+                <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
+
+            </footer>
+            <h3><strong><a href='/menu/assessment.php'>
+                        <button>Go back and try again</button>
+                    </a> </strong></h3>
         </div>
     </div>
 
@@ -273,6 +286,43 @@ session_start();
         <?php include 'include/footer.php'; ?>
     </div>
 </footer>
+<script>
+    /* var doc = new jsPDF();
+     var specialElementHandlers = {
+     '#editor': function (element, renderer) {
+     return true;
+     }
+     };
+
+     $('#printanswer').click(function () {
+     doc.fromHTML($('#page-wrap').html(), 15, 15, {
+     'width': 150,
+     'elementHandlers': specialElementHandlers
+     });
+     doc.save('TestYourselfResult.pdf');
+     });
+
+     */
+    function myFunction(dName) {
+
+        var printContents = document.getElementById(dName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+        if (!window.print()) {
+            return;
+        }
+        window.print();
+        //history.go(-1);
+        //location.reload(true);
+    }
+
+    window.onafterprint = function () {
+        history.go(-1);
+
+    };
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> <!-- jQuery library -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Latest compiled JavaScript -->

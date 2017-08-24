@@ -368,9 +368,7 @@ session_start();
             return true;
         }
     };
-    doc = null;
 
-    doc = new jsPDF();
     $('#printanswer').click(function () {
         doc.fromHTML($('#page-wrap').html(), 15, 15, {
             'width': 150,

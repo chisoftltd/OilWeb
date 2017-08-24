@@ -1227,9 +1227,7 @@ include_once '../db/dbconnect.php';
             return true;
         }
     };
-    doc = null;
 
-    doc = new jsPDF();
     $('#cmddrill').click(function () {
         doc.fromHTML($('#drill').html(), 15, 15, {
             'width': 150,

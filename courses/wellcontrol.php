@@ -988,9 +988,7 @@ include_once '../db/dbconnect.php';
             return true;
         }
     };
-    doc = null;
 
-    doc = new jsPDF();
     $('#cmdcontrol').click(function () {
         doc.fromHTML($('#control').html(), 15, 15, {
             'width': 150,

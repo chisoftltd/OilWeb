@@ -268,7 +268,8 @@ if (isset($_POST['deleteform'])) {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Which of the following are permits needed before drilling commences?</h5>
+                                    <h5>Which of the following are permits needed before drilling commences (select all
+                                        that apply)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="ans_to_DrillQue_3[]" value="A" id="ans_3A"/>
                                         <label for="ans_3A">A) Chemical Discharge Records (DTI or agent)</label>
@@ -475,7 +476,7 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>A Kick can be composed of what fluids (check all)?</h5>
+                                    <h5>A Kick can be composed of what fluids (check all that apply)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="ans_to_ContolQue_3[]" value="A" id="ans_3A"/>
                                         <label for="ans_3A">A) Salt water</label>
@@ -552,7 +553,7 @@ if (isset($_POST['deleteform'])) {
 
                                 </li>
                                 <li>
-                                    <h5>What can cause a Kick during drilling (list all)?</h5>
+                                    <h5>What can cause a Kick during drilling (list all that apply)?</h5>
                                     <form class="form-group">
                                         <input type="checkbox" name="ans_to_ContolQue_6[]" value="A" id="ans_6A"/>
                                         <label for="ans_6A">A) Insufficient Salt water.</label>

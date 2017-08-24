@@ -109,7 +109,7 @@ include_once '../db/dbconnect.php';
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
                             height="120" align="left" hspace="20"></a>
-                <h3>Drilling</h3>
+                <h3><a href="/courses/welldrilling.php">Drilling</a></h3>
                 <p>In this course you will learn more about the student is introduced to the milestone activities
                     associated with
                     planning for and executing a well construction programme. They will also
@@ -127,7 +127,7 @@ include_once '../db/dbconnect.php';
                                                                                                class="img-thumbnail gap-right"
                                                                                                width="100" height="120"
                                                                                                align="left" hspace="20"></a>
-                <h3>Control</h3>
+                <h3><a href="/courses/wellcontrol.php">Control</a></h3>
                 <p>This course discusses the causes of a kick, methods of kick detection, well control procedures,
                     and
                     the components and function of surface and subsea well control equipment. Also covered
@@ -142,7 +142,7 @@ include_once '../db/dbconnect.php';
                             src="/images/casingcementing.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Casing & Cementing</h3>
+                <h3><a href="/courses/fluids/wellcasingcementing.php">Casing & Cementing</a></h3>
                 <p>This course is designed for use by students to gain an understanding of the principles behind the
                     use of casing within the wellbore and the factors involved in casing string design. Also
                     covered are the functions of oilwell cement, the API classification and properties of dry cement
@@ -155,7 +155,7 @@ include_once '../db/dbconnect.php';
                             src="/images/wellcompletion.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Well Completion</h3>
+                <h3><a href="/courses/wellcompletion.php">Well Completion</a></h3>
                 <p>In this course you will learn more about the process of converting a drilled wellbore into a
                     production or injection system.
                     The interface between the reservoir and surface production. The resulting system should
@@ -171,7 +171,7 @@ include_once '../db/dbconnect.php';
                                                                                              width="100" height="120"
                                                                                              align="left"
                                                                                              hspace="20"></a>
-                <h3>Water, Oil & Gas Treatment</h3>
+                <h3><a href="/courses/treatment.php">Water, Oil & Gas Treatment</a></h3>
                 <p> Before we use formation fluid in cars, busses, plane, heating, ship and other machinery, it have
                     to undergo extensive treatment. In this course you will be enligthen on the processes and stages
                     invloved. Processes like
@@ -185,7 +185,7 @@ include_once '../db/dbconnect.php';
                             src="/images/rigcomponents.png" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Rig Components</h3>
+                <h3><a href="/courses/rigcomponents.php">Rig Components</a></h3>
                 <p>This topic is designed for use by students to gain an overall appreciation of the
                     general components of a drilling rig and the equipment utilised during drilling.
                     A drilling rig essentially comprises a derrick, the draw-works with its drilling line,
@@ -199,7 +199,7 @@ include_once '../db/dbconnect.php';
                             src="/images/storageandexport.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Storage and Export</h3>
+                <h3><a href="/courses/storageandexport.php">Storage and Export</a></h3>
                 <p>Crude oil when transported will normally have a Reid Vapour Pressure of between 1 and
                     12 psia, depending on its origin, the processing it has undergone and the degree of
                     ‘weathering’, which has occurred. It is possible to pump most United Kingdom (UK)
@@ -214,7 +214,7 @@ include_once '../db/dbconnect.php';
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
                 </a>
-                <h3>Flowlines</h3>
+                <h3><a href="/courses/offshore/flowlines.php">Flowlines</a></h3>
                 <p>Like any other engineering task, the design of a pipeline needs to be tackled
                     systematically. Figure 1 is a route map through this systematic process. This systematic
                     process is rarely a straightforward sequence of operations; usually the design process
@@ -228,7 +228,7 @@ include_once '../db/dbconnect.php';
                             src="/images/decommissioning.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Decommissioning</h3>
+                <h3><a href="/courses/fluids/muds.php">Decommissioning</a></h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to
@@ -242,7 +242,7 @@ include_once '../db/dbconnect.php';
                             src="/images/drillingfluid.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="20"></a>
-                <h3>Drilling Fluids or Muds</h3>
+                <h3><a href="/courses/separationandcontrol.php">Drilling Fluids or Muds</a></h3>
                 <p>In this topic the student is introduced to the milestone activities associated with
                     planning for and executing a well construction programme. They will also
                     discover in more detail the roles and responsibilities of core personnel required to

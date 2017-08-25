@@ -148,7 +148,7 @@ include_once '../db/dbconnect.php';
                                     <!-- Button HTML (to Trigger Modal) -->
                                     <a href="#myControl1" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Well Control Video by LearnToDrill ( 21 Jan 2014)</a>
+                                        Well Control Video </a>
                                     <!-- Modal HTML -->
                                     <div id="myControl1" class="modal fade">
                                         <div class="modal-dialog">
@@ -157,7 +157,8 @@ include_once '../db/dbconnect.php';
                                                     <button type="button" class="close" data-dismiss="modal"
                                                             aria-hidden="true">&times;
                                                     </button>
-                                                    <h4 class="modal-title">Oil and Gas Well Control</h4>
+                                                    <h4 class="modal-title">Oil and Gas Well Control by LearnToDrill (
+                                                        21 Jan 2014)</h4>
                                                 </div>
                                                 <div class="modal-body">
                                                     <iframe id="control1Video" width="450" height="315"

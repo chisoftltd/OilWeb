@@ -318,10 +318,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myControl2" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
-                                        Swabbing Video</a>
+                                    <!-- Button HTML (to Trigger Modal)
+                                   <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                               class="glyphicon glyphicon-play"></span> Launch
+                                       Lost Circulation Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myControl2" class="modal fade">
                                         <div class="modal-dialog">
@@ -332,11 +332,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <!--<div class="modal-body">
+                                                <div class="modal-body">
                                                    <iframe id="control4Video" width="450" height="315"
                                                            src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                            frameborder="0" allowfullscreen></iframe>
-                                               </div>-->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -645,10 +645,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <!-- Button HTML (to Trigger Modal)
                                     <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Lost Circulation Video</a>
+                                        Lost Circulation Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myControl3" class="modal fade">
                                         <div class="modal-dialog">
@@ -659,11 +659,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <!--<div class="modal-body">
+                                                <div class="modal-body">
                                                     <iframe id="control4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>-->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -859,9 +859,9 @@ include_once '../db/dbconnect.php';
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
                                     <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <!--<a href="#myControl4" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Well Control Video</a>
+                                        Well Control Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myControl4" class="modal fade">
                                         <div class="modal-dialog">
@@ -872,11 +872,11 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h4 class="modal-title">Oil and Gas Well Control</h4>
                                                 </div>
-                                                <!--<div class="modal-body">
+                                                <div class="modal-body">
                                                     <iframe id="control4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/cYkFwD3RQ7k"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>-->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

@@ -339,7 +339,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
+                                    <figcaption class="text-center"></figcaption>
                                 </figure>
                                 <div id="swab">
                                     <h3>Excessive Swabbing</h3>
@@ -666,7 +667,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div class="lostCriculation">
 
@@ -879,7 +881,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div id="surface">
                                     <h3>Surface Well Control Equipment</h3>

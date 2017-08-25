@@ -228,7 +228,6 @@ include_once '../db/dbconnect.php';
                                 <!--<a href="/files/OilGasDrilling.pdf" download>
                                     Click to download this Course
                                 </a>-->
-                                <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
                                 <h4>Need a copy (pdf)?</h4>
                                 <button id="cmddrill">Generate PDF</button>
@@ -244,10 +243,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
+                                    <!-- Button HTML (to Trigger Modal)
                                     <a href="#myDrilling2" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Drilling Video</a>
+                                        Drilling Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myDrilling2" class="modal fade">
                                         <div class="modal-dialog">
@@ -258,15 +257,16 @@ include_once '../db/dbconnect.php';
                                                     </button>
                                                     <h3 class="modal-title">Well Planning Request / Well Objectives</h3>
                                                 </div>
-                                                <!--<div class="modal-body">
+                                                <div class="modal-body">
                                                     <iframe id="drilling4Video" width="450" height="315"
                                                             src="https://www.youtube.com/embed/SfazJ6P_g7w"
                                                             frameborder="0" allowfullscreen></iframe>
-                                                </div>-->
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div id="planning">
                                     <h3>Well Planning Request / Well Objectives</h3>
@@ -419,7 +419,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div id="env">
                                     <h3>Environmental consent (DTI)</h3>
@@ -636,7 +637,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div id="operation">
                                     <h3>Operational Plan</h3>
@@ -905,7 +907,8 @@ include_once '../db/dbconnect.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <figcaption class="text-center"><strong>Launch Video</strong></figcaption>
+                                    <figcaption class="text-center"></figcaption>
+                                    <!--<figcaption class="text-center"><strong>Launch Video</strong></figcaption>-->
                                 </figure>
                                 <div id="organisation">
                                     <h3> Roles and Responsibilities of Core Personnel</h3>

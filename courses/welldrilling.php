@@ -397,10 +397,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myDrilling3" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
-                                        Drilling Video</a>
+                                    <!-- Button HTML (to Trigger Modal)
+                                   <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                               class="glyphicon glyphicon-play"></span> Launch
+                                       Lost Circulation Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myDrilling3" class="modal fade">
                                         <div class="modal-dialog">
@@ -614,10 +614,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
-                                                class="glyphicon glyphicon-play"></span> Launch
-                                        Drilling Video</a>
+                                    <!-- Button HTML (to Trigger Modal)
+                                     <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                                 class="glyphicon glyphicon-play"></span> Launch
+                                         Lost Circulation Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myDrilling4" class="modal fade">
                                         <div class="modal-dialog">
@@ -883,10 +883,10 @@ include_once '../db/dbconnect.php';
                             </header>
                             <div class="panel-body">
                                 <figure class="pull-right bs-example">
-                                    <!-- Button HTML (to Trigger Modal) -->
-                                    <a href="#myDrilling4" class="btn btn-lg btn-primary" data-toggle="modal"><span
+                                    <!-- Button HTML (to Trigger Modal)
+                                    <a href="#myControl3" class="btn btn-lg btn-primary" data-toggle="modal"><span
                                                 class="glyphicon glyphicon-play"></span> Launch
-                                        Rig Staff Video</a>
+                                        Lost Circulation Video</a>-->
                                     <!-- Modal HTML -->
                                     <div id="myDrilling4" class="modal fade">
                                         <div class="modal-dialog">

@@ -13,12 +13,15 @@ and open the template in the editor.
         <div id="other languages"></div>
 
         <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'en'}, 'other languages');
+            function otherlanguages() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'other languages');
             }
         </script>
 
         <script type="text/javascript"
-                src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                src="//translate.google.com/translate_a/element.js?cb=otherlanguages"></script>
     </div>
 </header>

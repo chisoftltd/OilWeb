@@ -10,11 +10,11 @@ and open the template in the editor.
     </div>
     <div style="float: right; margin-top: inherit"><p>For other languages:</p>
 
-        <div id="google_translate_element"></div>
+        <div id="other languages"></div>
 
         <script type="text/javascript">
             function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                new google.translate.TranslateElement({pageLanguage: 'en'}, 'other languages');
             }
         </script>
 

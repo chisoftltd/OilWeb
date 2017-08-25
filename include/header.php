@@ -8,7 +8,7 @@ and open the template in the editor.
     <div id="logo">
         <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo"/></a>
     </div>
-    <div style="float: right; margin-top: inherit"><p>Translate this page:</p>
+    <div style="float: right; margin-top: inherit"><p>For other languages:</p>
 
         <div id="google_translate_element"></div>
 

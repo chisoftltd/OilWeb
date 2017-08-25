@@ -302,7 +302,6 @@ include_once '../db/dbconnect.php';
                             <footer class="panel-footer clearfix">
                                 <address class="pull-right">&copy; RGU
                                 </address>
-                                <h4>For offline reading click below to </h4>
                                 <div id="editor"></div>
                                 <h4>Need a copy (pdf)?</h4>
                                 <button id="cmdcontrol">Generate PDF</button>

@@ -48,11 +48,10 @@
                     <?php if (isset($_SESSION['usr_id'])) { ?>
                         <li><a href="signinindex.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
-                        <li class="active"><a href="/menu/courses.php">Courses</a></li>
+                        <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/submission.php">Submission</a></li>
-
-                        <li><a href="/menu/contact.php">Contact Us</a></li>
+                        <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><p class="navbar-text"><span
                                         class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
@@ -71,11 +70,10 @@
                     <?php } else { ?>
                         <li><a href="/index.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
-                        <li class="active"><a href="/menu/courses.php">Courses</a></li>
+                        <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/submission.php">Submission</a></li>
-
-                        <li><a href="/menu/contact.php">Contact Us</a></li>
+                        <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>

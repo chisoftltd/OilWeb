@@ -107,7 +107,7 @@
 <footer>
     <!-- footer area-->
     <div>
-        <?php include '../include/footer.php'; ?>
+        <?php include '../../include/footer.php'; ?>
     </div>
 </footer>
 <!-- Latest compiled JavaScript -->

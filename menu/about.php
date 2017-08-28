@@ -47,7 +47,7 @@ if (isset($_POST['btn-login'])) {
     <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>WebOil | About Us</title>
+        <title>OilWeb | About Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet"
@@ -65,15 +65,15 @@ if (isset($_POST['btn-login'])) {
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                         <!--<span class="sr-only">Toggle navigation</span>-->
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index.php">Home | WebOil E-Solution</a>
+                    <a class="navbar-brand" href="/index.php">Home | OilWeb E-Solution</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navweboil">
+                <div class="collapse navbar-collapse" id="navOilWeb">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- check if same user is still same as the active session user and load appropriate menu options -->
                         <?php if (isset($_SESSION['usr_id'])) { ?>
@@ -133,7 +133,7 @@ if (isset($_POST['btn-login'])) {
 
         <div class="container" style="background-color: #b0e0e6" style="margin-top: 30px">
 
-            <h2 style="margin-top:10px; text-align: center">WebOil | Web Application Description</h2>
+            <h2 style="margin-top:10px; text-align: center">OilWeb | Web Application Description</h2>
             <form>
                 <hr>
             </form>

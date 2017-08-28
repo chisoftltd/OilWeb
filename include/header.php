@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <header>
     <div id="logo">
-        <a href="/index.php"><img src="/images/WebOilLogo.png" alt="Company logo"/></a>
+        <a href="/index.php"><img src="/images/OilWebLogo.png" alt="Company logo"/></a>
     </div>
     <div style="float: right; margin-top: inherit"><p>For other languages:</p>
 

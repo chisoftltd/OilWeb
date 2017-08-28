@@ -4,7 +4,7 @@ Header information when user is signed on or logged in, with company logo
 -->
 <header>
     <div id="logo">
-        <a href="signinindex.php" style="top: 10px"><img src="images/WebOilLogo.png" alt="Company logo"/></a>
+        <a href="signinindex.php" style="top: 10px"><img src="images/OilWebLogo.png" alt="Company logo"/></a>
     </div>
     <nav>
         <ul class="header-links">

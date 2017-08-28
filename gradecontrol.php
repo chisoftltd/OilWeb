@@ -19,7 +19,7 @@ session_start();
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Application Description - WebOil!</title>
+    <title>Application Description - OilWeb!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -40,15 +40,15 @@ session_start();
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Home | WebOil E-Solution</a>
+                <a class="navbar-brand" href="index.php">Home | OilWeb E-Solution</a>
             </div>
-            <div class="collapse navbar-collapse" id="navweboil">
+            <div class="collapse navbar-collapse" id="navOilWeb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
@@ -109,7 +109,7 @@ session_start();
     <div class="content">
         <div id="page-wrap">
 
-            <h1 style="text-align: center">Your Quiz score for WebOil</h1>
+            <h1 style="text-align: center">Your Quiz score for OilWeb</h1>
 
             <?php
             $correctAns_1 = "";

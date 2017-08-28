@@ -11,14 +11,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>WebOil | Drill Fluid or Mud course</title>
+    <title>OilWeb | Drill Fluid or Mud course</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Add JavaScript file-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script src="/js/weboil.js"></script>
+    <script src="/js/OilWeb.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/jspdf.min.js"></script>
@@ -35,15 +35,15 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/index.php">WebOil | Drill Fluid or Mud course</a>
+                <a class="navbar-brand" href="/index.php">OilWeb | Drill Fluid or Mud course</a>
             </div>
-            <div class="collapse navbar-collapse" id="navweboil">
+            <div class="collapse navbar-collapse" id="navOilWeb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>

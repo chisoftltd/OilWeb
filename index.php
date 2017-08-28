@@ -20,7 +20,7 @@ include_once 'db/dbconnect.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>WebOil | Elearning Application</title>
+    <title>OilWeb | Elearning Application</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,15 +44,15 @@ include_once 'db/dbconnect.php';
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">Home | WebOil E-Solution</a>
+                <a class="navbar-brand" href="index.php">Home | OilWeb E-Solution</a>
             </div>
-            <div class="collapse navbar-collapse" id="navweboil">
+            <div class="collapse navbar-collapse" id="navOilWeb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
@@ -111,7 +111,7 @@ include_once 'db/dbconnect.php';
 <section>
     <div class="container" style="background-color: #b0e0e6">
         <div class="row">
-            <h1 style="text-align: center">Welcome to WebOil</h1>
+            <h1 style="text-align: center">Welcome to OilWeb</h1>
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>

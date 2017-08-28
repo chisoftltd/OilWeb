@@ -20,7 +20,7 @@ include_once '../db/dbconnect.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Application Description - WebOil!</title>
+    <title>Application Description - OilWeb!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -63,15 +63,15 @@ include_once '../db/dbconnect.php';
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                 <!--<span class="sr-only">Toggle navigation</span>-->
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/index.php">Home | WebOil E-Solution</a>
+            <a class="navbar-brand" href="/index.php">Home | OilWeb E-Solution</a>
         </div>
-        <div class="collapse navbar-collapse" id="navweboil">
+        <div class="collapse navbar-collapse" id="navOilWeb">
             <ul class="nav navbar-nav navbar-right">
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>

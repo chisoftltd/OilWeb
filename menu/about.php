@@ -184,7 +184,8 @@ if (isset($_POST['btn-login'])) {
             <form>
                 <hr>
             </form>
-            <P style="text-align: center">The practical and technical responsibility of this work is that mine, <strong>Mr
+            <P style="text-align: center">The practical and technical responsibility of this work is that of mine,
+                <strong>Mr
                     B. U,
                     Chinwe</strong></P>
         </div>

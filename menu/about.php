@@ -175,12 +175,17 @@ if (isset($_POST['btn-login'])) {
             <form>
                 <hr>
             </form>
-            <p style="text-align: center"> The idea of the site is that of my supervisor Dr Ines Arana, Postgraduate
+            <p style="text-align: center"> The idea of the site is that of my supervisor <strong>Dr Ines Arana,</strong>
+                Postgraduate
                 Programme Leader for the
                 School of Computing @ Robert Gordon University, Garthdee House, Garthdee Road, Aberdeen, AB10 7QB,
                 Scotland, UK </p>
-            <P style="text-align: center">The practical and technical responsibility of this work is that mine, Mr B. U,
-                Chinwe</P>
+            <form>
+                <hr>
+            </form>
+            <P style="text-align: center">The practical and technical responsibility of this work is that mine, <strong>Mr
+                    B. U,
+                    Chinwe</strong></P>
         </div>
 
     </section>

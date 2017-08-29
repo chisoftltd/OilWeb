@@ -112,6 +112,9 @@ include_once '../db/dbconnect.php';
     <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List" width="20"
                                                            height="22" align="right"></a>
 </span>
+        <form>
+            <hr>
+        </form>
     </div>
     <div class="container" style="background-color: #b0e0e6">
         <div class="row">

@@ -172,6 +172,13 @@ if (isset($_POST['btn-login'])) {
                 <li>hindered by cultural and religious beliefs;</li>
                 <li>limited access to transportation.</li>
             </ul>
+
+            <p style="text-align: center"> The idea of the site is that of my supervisor Dr Ines Arana, Postgraduate
+                Programme Leader for the
+                School of Computing @ Robert Gordon University, Garthdee House, Garthdee Road, Aberdeen, AB10 7QB,
+                Scotland, UK </p>
+            <P style="text-align: center">The practical and technical responsibility of this work is that mine, Mr B. U,
+                Chinwe</P>
         </div>
 
     </section>

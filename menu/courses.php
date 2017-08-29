@@ -104,19 +104,19 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div>
-        <span class="list-style-buttons" style="background-color: #b0e0e6; position: absolute;
-    right: 20px;    width: 350px;    height: 23px;    border: 3px solid #8AC007;">
+
+    <div class="container" style="background-color: #b0e0e6">
+        <div>
+        <span class="list-style-buttons">
     <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid" width="20"
                                                     height="22" align="right"></a>
     <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List" width="20"
                                                            height="22" align="right"></a>
 </span>
-        <form>
-            <hr>
-        </form>
-    </div>
-    <div class="container" style="background-color: #b0e0e6">
+            <form>
+                <hr>
+            </form>
+        </div>
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"

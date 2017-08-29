@@ -175,10 +175,11 @@ if (isset($_POST['btn-login'])) {
             <form>
                 <hr>
             </form>
-            <p style="text-align: center"> The idea of the site is that of my supervisor <strong>Dr Ines Arana,</strong>
+            <p style="text-align: center"> The idea of the site is that of my supervisor <strong>Dr Ines Arana,</strong><br>
                 Postgraduate
                 Programme Leader for the
-                School of Computing @ Robert Gordon University, Garthdee House, Garthdee Road, Aberdeen, AB10 7QB,
+                School of Computing <br> Robert Gordon University,<br> Garthdee House, <br>Garthdee Road, <br>Aberdeen,
+                AB10 7QB,
                 Scotland, UK </p>
             <form>
                 <hr>

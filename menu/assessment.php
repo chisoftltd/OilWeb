@@ -59,7 +59,7 @@ if (isset($_POST['deleteform'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>OilWeb | Assessment Page</title>
+    <title>WebOil | Assessment Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -77,15 +77,15 @@ if (isset($_POST['deleteform'])) {
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/index.php">OilWeb | Assessment</a>
+                <a class="navbar-brand" href="/index.php">WebOil | Assessment</a>
             </div>
-            <div class="collapse navbar-collapse" id="navOilWeb">
+            <div class="collapse navbar-collapse" id="navweboil">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
@@ -146,7 +146,7 @@ if (isset($_POST['deleteform'])) {
 <section>
     <div class="container">
 
-        <h3 style="text-align: center">OilWeb Assessments</h3>
+        <h3 style="text-align: center">COURSE QUIZZES</h3>
         <p>Test youself</p>
         <div>
             <hr>

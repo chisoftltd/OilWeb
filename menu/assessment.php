@@ -147,7 +147,7 @@ if (isset($_POST['deleteform'])) {
     <div class="container">
 
         <h3 style="text-align: center">COURSE QUIZZES</h3>
-        <p>Test youself</p>
+        <p style="text-align: center">Test youself</p>
         <div>
             <hr>
         </div>

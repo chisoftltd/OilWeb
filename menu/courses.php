@@ -106,10 +106,10 @@ include_once '../db/dbconnect.php';
 <section>
 
     <div class="container" style="background-color: #b0e0e6">
-        
+
         <span class="list-style-buttons">
     <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid" width="20"
-                                                    height="22" align="right" hspace="20"></a>
+                                                    height="22" align="right" hspace="5"></a>
     <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List" width="20"
                                                            height="22" align="right"></a>
 </span>
@@ -120,7 +120,7 @@ include_once '../db/dbconnect.php';
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
-                            height="120" align="left" hspace="20" hspace="20"></a>
+                            height="120" align="left" hspace="20"></a>
                 <h3><a href="/courses/welldrilling.php">Drilling</a></h3>
                 <p>In this course you will learn more about the student is introduced to the milestone activities
                     associated with

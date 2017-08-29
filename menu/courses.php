@@ -104,6 +104,12 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
+    <div>
+        <span class="list-style-buttons">
+    <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid"></a>
+    <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List"></a>
+</span>
+    </div>
     <div class="container" style="background-color: #b0e0e6">
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img

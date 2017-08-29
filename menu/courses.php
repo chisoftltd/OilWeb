@@ -106,8 +106,10 @@ include_once '../db/dbconnect.php';
 <section>
     <div>
         <span class="list-style-buttons">
-    <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid"></a>
-    <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List"></a>
+    <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid" width="10"
+                                                    height="12"></a>
+    <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List" width="10"
+                                                           height="12"></a>
 </span>
     </div>
     <div class="container" style="background-color: #b0e0e6">

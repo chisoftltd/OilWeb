@@ -105,7 +105,7 @@ include_once '../db/dbconnect.php';
 <hr> <!-- draw a line-->
 <section>
     <div>
-        <span class="list-style-buttons" style="background-color: #b0e0e6; float: left; position: inherit">
+        <span class="list-style-buttons" style="background-color: #b0e0e6; float: left; position: relative">
     <a href="#" id="gridview" class="switcher"><img src="/images/grid-view.png" alt="Grid" width="20"
                                                     height="22"></a>
     <a href="#" id="listview" class="switcher active"><img src="/images/list-view-active.png" alt="List" width="20"

@@ -59,7 +59,7 @@ if (isset($_POST['deleteform'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WebOil | Assessment Page</title>
+    <title>OilWeb | Assessment Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -77,15 +77,15 @@ if (isset($_POST['deleteform'])) {
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navweboil">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/index.php">WebOil | Assessment</a>
+                <a class="navbar-brand" href="/index.php">OilWeb | Assessment</a>
             </div>
-            <div class="collapse navbar-collapse" id="navweboil">
+            <div class="collapse navbar-collapse" id="navOilWeb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
@@ -350,7 +350,7 @@ if (isset($_POST['deleteform'])) {
                                     <div class="form-group">
                                         <input type="radio" name="ans_to_DrillQue_6" id="ans_to_Que_6_B"
                                                value="B"/>
-                                        <label for="ans_to_Que_6-B">B) Water Based Mud (WBM)</label>
+                                        <label for="ans_to_Que_6_B">B) Water Based Mud (WBM)</label>
                                     </div>
 
                                     <div class="form-group">

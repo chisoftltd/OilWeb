@@ -199,7 +199,7 @@ include_once 'db/dbconnect.php';
                 <div class="text-area"><a href="courses/fluids/wellcasingcementing.php"><img
                                 src="images/casingcementing.jpg" alt="Drilling"
                                 class="img-thumbnail" width="200" height="180"></a>
-                    <h4>Casing & Cementing</h4>
+                    <h3>Casing & Cementing</h3>
                     <p>This course is designed for use by students to gain an understanding of the principles behind the
                         use of casing within the wellbore and the factors involved in casing string design. Also
                         covered are the functions of oilwell cement, the API classification and properties of dry cement

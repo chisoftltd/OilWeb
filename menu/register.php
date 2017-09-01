@@ -188,10 +188,10 @@ if (isset($_POST['signup'])) {
                     </fieldset>
                 </form>
                 <span class="text-success"><?php if (isset($successmsg)) {
-                        echo $successmsg;
+                        echo "<script type='text/javascript'>alert('$successmsg');</script>";
                     } ?></span>
                 <span class="text-danger"><?php if (isset($errormsg)) {
-                        echo $errormsg;
+                        echo "<script type='text/javascript'>alert('$errormsg');</script>";
                     } ?></span>
             </div>
         </div>

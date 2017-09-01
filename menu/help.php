@@ -18,7 +18,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script src="/js/OilWeb.js"></script>
+    <script src="/js/weboil.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/js/jspdf.min.js"></script>
@@ -47,7 +47,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li><a href="signinindex.php">Home</a></>
+                        <li><a href="/signinindex.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>

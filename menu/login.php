@@ -23,6 +23,8 @@ if (isset($_POST['login'])) {
     if ($row = mysqli_fetch_array($result)) {
         $_SESSION['usr_id'] = $row['id'];
         $_SESSION['usr_name'] = $row['name'];
+        $login = "Login Successful";
+        echo "<script type='text/javascript'>alert('$login');</script>";
         header("Location: ../index.php");
     } else {
         $errormsg = "Incorrect Email or Password!!!";

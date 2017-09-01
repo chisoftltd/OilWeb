@@ -19,4 +19,20 @@ Header information when user is signed on or logged in, with company logo
             <li><a href="/menu/register.php">Register</a></li>
         </ul>
     </nav>-->
+    <div style="float: right; margin-top: inherit"><p>For other languages:</p>
+
+        <div id="other languages"></div>
+
+        <script type="text/javascript">
+            function otherlanguages() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'other languages');
+            }
+        </script>
+
+        <script type="text/javascript"
+                src="//translate.google.com/translate_a/element.js?cb=otherlanguages"></script>
+    </div>
 </header>

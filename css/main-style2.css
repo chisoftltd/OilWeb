@@ -6,8 +6,12 @@ html, body {
 
 #logo {
     margin: 0;
-    width: 225px;
+    width: 100px;
     height: 87px;
+    margin-top: 50px;
+}
+
+#search {
     margin-top: 50px;
 }
 header{

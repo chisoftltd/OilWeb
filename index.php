@@ -12,7 +12,10 @@ session_start();
 // include the database script
 include_once 'db/dbconnect.php';
 
-
+echo "user id: ";
+echo $_SESSION['usr_id'];
+echo "user name:";
+echo $_SESSION['usr_name'];
 //end any active user session
 //unset($_session['user_id']);
 

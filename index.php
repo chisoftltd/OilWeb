@@ -55,6 +55,10 @@ session_start();
             <div class="collapse navbar-collapse" id="navOilWeb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
+                    <?php
+                    $userid = $_SESSION['usr_id'];
+                    echo "<script type='text/javascript'>alert('$userid');</script>";
+                    ?>
                     <?php if (isset($_SESSION['usr_id'])) { ?>
                         <li class="active"><a href="index.php">Home</a></>
                         <li><a href="menu/about.php">About Us</a></li>

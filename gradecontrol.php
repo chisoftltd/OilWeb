@@ -366,7 +366,7 @@ session_start();
     function myFunction(dName) {
 
         var printContents = document.getElementById(dName).innerHTML;
-        var originalContents = document.body.innerHTML;
+//        var originalContents = document.body.innerHTML;
 
         document.body.innerHTML = printContents;
         if (!window.print()) {

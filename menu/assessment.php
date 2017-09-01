@@ -89,7 +89,7 @@ if (isset($_POST['deleteform'])) {
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li><a href="signinindex.php">Home</a></>
+                        <li><a href="/signinindex.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li class="active"><a href="/menu/assessment.php">Assessment</a></li>
@@ -651,7 +651,7 @@ if (isset($_POST['deleteform'])) {
 
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function (event) {
-                if (event.target == modal) {
+                if (event.target === modal) {
                     modal.style.display = "none";
                 }
             }

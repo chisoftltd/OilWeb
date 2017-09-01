@@ -27,7 +27,7 @@ include_once '../db/dbconnect.php';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script src="/js/OilWeb.js"></script>
+    <script src="/js/weboil.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <script src="/js/jspdf.min.js"></script>
     <!-- Add css file-->
@@ -54,7 +54,7 @@ include_once '../db/dbconnect.php';
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li class="active"><a href="signinindex.php">Home</a></>
+                        <li class="active"><a href="/signinindex.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li class="active"><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
@@ -736,68 +736,76 @@ include_once '../db/dbconnect.php';
                                         </li>
                                         <li> Make kill calculations for:
                                         </li>
-                                        <ul>
-                                            <li>
-                                                Formation pressure
-                                            </li>
-                                            <li>BHP to maintain while circulating
-                                            </li>
-                                            <li>Kill mud density
-                                            </li>
-                                            <li>Initial and final circulation pressures
-                                            </li>
-                                            <li>Drill pipe pressure schedules
-                                            </li>
-                                            <li>Weighting material volume required
-                                            </li>
-                                        </ul>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    Formation pressure
+                                                </li>
+                                                <li>BHP to maintain while circulating
+                                                </li>
+                                                <li>Kill mud density
+                                                </li>
+                                                <li>Initial and final circulation pressures
+                                                </li>
+                                                <li>Drill pipe pressure schedules
+                                                </li>
+                                                <li>Weighting material volume required
+                                                </li>
+                                            </ul>
+                                        </li>
 
                                         <li> Define weighing up and circulating
                                             procedure using one of the following
                                             methods:
                                         </li>
-                                        <ul>
-                                            <li>
-                                                Driller’s method
-                                            </li>
-                                            <li>Wait and Weight method (Engineer’s
-                                                method)
-                                            </li>
-                                            <li>Concurrent method (circulate and
-                                                weight)
-                                            </li>
-                                            <li>Top Kill method.</li>
-                                        </ul>
-                                        The first two are preferred for kicks during drilling. The concurrent method
-                                        requires greater skill and care. The Top Kill method is used when it is
-                                        impossible to get proper circulation around the system via the drill stem or
-                                        tubing, or doing so would cause greater problems (exceeding MAASP,
-                                        casing burst pressure etc).
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    Driller’s method
+                                                </li>
+                                                <li>Wait and Weight method (Engineer’s
+                                                    method)
+                                                </li>
+                                                <li>Concurrent method (circulate and
+                                                    weight)
+                                                </li>
+                                                <li>Top Kill method.</li>
+                                            </ul>
+                                        </li>
+                                        <p>The first two are preferred for kicks during drilling. The concurrent method
+                                            requires greater skill and care. The Top Kill method is used when it is
+                                            impossible to get proper circulation around the system via the drill stem or
+                                            tubing, or doing so would cause greater problems (exceeding MAASP,
+                                            casing burst pressure etc).</p>
                                         <li>
                                             Make interpretation of the influx
                                             including:
                                         </li>
-                                        <ul>
-                                            <li>Height and density of influx.
-                                            </li>
-                                            <li>Annulus pressure behaviour while
-                                                circulating.
-                                            </li>
-                                        </ul>
+                                        <li>
+                                            <ul>
+                                                <li>Height and density of influx.
+                                                </li>
+                                                <li>Annulus pressure behaviour while
+                                                    circulating.
+                                                </li>
+                                            </ul>
+                                        </li>
                                         <li>Proceed with circulation using the
                                             following guide rules:
                                         </li>
-                                        <ul>
-                                            <li>
-                                                At all times during circulation, the Bottom Hole Pressure (BHP) must
-                                                be high enough to prevent further influx;
-                                            </li>
-                                            <li>For the safety of the rig and
-                                                personnel,
-                                                surface pressure should not
-                                                at any time exceed the predetermined MAASP value.
-                                            </li>
-                                        </ul>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    At all times during circulation, the Bottom Hole Pressure (BHP) must
+                                                    be high enough to prevent further influx;
+                                                </li>
+                                                <li>For the safety of the rig and
+                                                    personnel,
+                                                    surface pressure should not
+                                                    at any time exceed the predetermined MAASP value.
+                                                </li>
+                                            </ul>
+                                        </li>
                                     </ol>
                                     <p>Maintenance of BHP at the proper level is through the application of back
                                         pressure via the adjustable choke.</p>
@@ -890,25 +898,27 @@ include_once '../db/dbconnect.php';
                                             produced fluids and route them to separator, flare or holding tank or pit. A
                                             typical choke manifold includes:
                                         </li>
-                                        <ul>
-                                            <li>One hydraulically operated BOP outlet
-                                                valve
-                                                for positive closure
-                                            </li>
-                                            <li>Two to four adjustable chokes
-                                                (variable-opening valves). One or more may be remotely actuated, the
-                                                others
-                                                are usually directly operated by handwheel
-                                            </li>
-                                            <li>Several manual gate valves.</li>
-                                            <li>The adjustable chokes permit precise control of return flow rate and
-                                                back
-                                                pressure.
-                                            </li>
-                                            <li>Kelly Cock, Float Valve or Inside BOP
-                                                (Figure 6) - To prevent back flow via the drill pipe.
-                                            </li>
-                                        </ul>
+                                       <li>
+                                           <ul>
+                                               <li>One hydraulically operated BOP outlet
+                                                   valve
+                                                   for positive closure
+                                               </li>
+                                               <li>Two to four adjustable chokes
+                                                   (variable-opening valves). One or more may be remotely actuated, the
+                                                   others
+                                                   are usually directly operated by handwheel
+                                               </li>
+                                               <li>Several manual gate valves.</li>
+                                               <li>The adjustable chokes permit precise control of return flow rate and
+                                                   back
+                                                   pressure.
+                                               </li>
+                                               <li>Kelly Cock, Float Valve or Inside BOP
+                                                   (Figure 6) - To prevent back flow via the drill pipe.
+                                               </li>
+                                           </ul>
+                                       </li>
                                         <li>Mud/Gas separators and Degassers -
                                             Equipment for removing gas from mud.
                                         </li>
@@ -972,7 +982,6 @@ include_once '../db/dbconnect.php';
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
     var doc = new jsPDF();
-    doc.setFont("courier");
     var specialElementHandlers = {
         '#editor': function (element, renderer) {
             return true;
@@ -1022,7 +1031,7 @@ include_once '../db/dbconnect.php';
     function myFunction(dName) {
 
         var printContents = document.getElementById(dName).innerHTML;
-        var originalContents = document.body.innerHTML;
+
 
         document.body.innerHTML = printContents;
         if (!window.print()) {

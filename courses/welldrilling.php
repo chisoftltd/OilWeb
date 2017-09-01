@@ -1211,7 +1211,6 @@ include_once '../db/dbconnect.php';
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
     var doc = new jsPDF();
-    doc.setFont("courier");
     var specialElementHandlers = {
         '#editor': function (element, renderer) {
             return true;

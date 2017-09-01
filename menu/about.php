@@ -1,6 +1,7 @@
 <?php
 ob_start();
 session_start();
+/*
 require_once '../db/dbconnect.php';
 // it will never let you open index(login) page if session is set
 if (isset($_SESSION['user']) != "") {
@@ -31,7 +32,7 @@ if (isset($_POST['btn-login'])) {
     // if there's no error, continue to login
     if (!$error) {
         $password = hash('sha256', $pass); // password hashing using SHA256
-        $res = mysqli_query($link, ("SELECT userId, userName, userPass FROM users WHERE userEmail='$email'"));
+        $res = mysqli_query($link, ("SELECT userId, userName, userPass FROM students WHERE userEmail='$email'"));
         $row = mysqli_fetch_array($res);
         $count = mysqli_num_rows($res); // if uname/pass correct it returns must be 1 row
         if ($count == 1 && $row['userPass'] == $password) {
@@ -41,7 +42,7 @@ if (isset($_POST['btn-login'])) {
             $errMSG = "Incorrect Credentials, Try again...";
         }
     }
-}
+}*/
 ?>
     <!DOCTYPE html>
     <html>
@@ -77,7 +78,7 @@ if (isset($_POST['btn-login'])) {
                     <ul class="nav navbar-nav navbar-right">
                         <!-- check if same user is still same as the active session user and load appropriate menu options -->
                         <?php if (isset($_SESSION['usr_id'])) { ?>
-                            <li><a href="signinindex.php">Home</a></>
+                            <li><a href="/signinindex.php">Home</a></>
                             <li class="active"><a href="/menu/about.php">About Us</a></li>
                             <li><a href="/menu/courses.php">Courses</a></li>
                             <li><a href="/menu/assessment.php">Test Yourself</a></li>
@@ -113,7 +114,7 @@ if (isset($_POST['btn-login'])) {
     </header>
     <section>
 
-        <div class="container" style="background-color: #b0e0e6" style="margin-top: 30px">
+        <div class="container" style="background-color: #b0e0e6">
 
             <h2 style="margin-top:10px; text-align: center">OilWeb | Web Application Description</h2>
             <form>

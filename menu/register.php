@@ -53,6 +53,9 @@ if (isset($_POST['signup'])) {
             $errormsg = "Error in registering...Please try again later!";
         }
     }
+
+    // Report all errors
+    echo error_reporting(E_ALL);
 }
 
 ?>

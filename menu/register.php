@@ -48,7 +48,7 @@ if (isset($_POST['signup'])) {
     if (!$error) {
         if (mysqli_query($link, "INSERT INTO students(name, email, password) VALUES('" . $name . "', '" . $email . "', '" . md5($password) . "')")) {
             $successmsg = "Successfully Registered!";
-            header("refresh:5; url=login.php");
+            header("refresh:3; url=login.php");
         } else {
             $errormsg = "Error in registering...Please try again later!";
         }
@@ -107,7 +107,7 @@ if (isset($_POST['signup'])) {
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li><a href="/signinindex.php">Home</a></>
+                        <li><a href="/index.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>

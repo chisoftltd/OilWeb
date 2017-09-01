@@ -56,8 +56,8 @@ session_start();
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php
-                    $userid = $_SESSION['usr_id'];
-                    echo "<script type='text/javascript'>alert('$userid');</script>";
+                    $username = $_SESSION['usr_name'];
+                    echo "<script type='text/javascript'>alert('$username');</script>";
                     ?>
                     <?php if (isset($_SESSION['usr_id'])) { ?>
                         <li class="active"><a href="index.php">Home</a></>

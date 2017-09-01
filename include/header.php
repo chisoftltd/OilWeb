@@ -9,7 +9,7 @@ and open the template in the editor.
         <div id="logo">
             <a href="/index.php"><img src="/images/OilWebLogo.png" alt="Company logo"/></a>
         </div>
-        <div id="search">
+        <!--<div id="search">
             <form class="navbar-form navbar-right">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search">
@@ -20,7 +20,7 @@ and open the template in the editor.
                     </div>
                 </div>
             </form>
-        </div>
+        </div>-->
 
     </div>
 

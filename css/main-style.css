@@ -9,6 +9,9 @@ html, body {
     height: 87px;
     margin-top: 50px;
 }
+.navbar-form{
+    margin-top: 50px;
+}
 .text-area{
     margin: 10px;
 }

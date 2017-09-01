@@ -84,16 +84,7 @@ if (isset($_POST['login'])) {
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                        <form class="navbar-form navbar-right">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+
                     <?php } ?>
                 </ul>
             </div>

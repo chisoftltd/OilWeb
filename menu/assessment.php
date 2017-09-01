@@ -100,16 +100,7 @@ if (isset($_POST['deleteform'])) {
                                         class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                             </p></li>
                         <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-                        <form class="navbar-form navbar-right">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+
                     <?php } else { ?>
                         <li><a href="/index.php">Home</a></>
                         <li><a href="/menu/about.php">About Us</a></li>
@@ -119,16 +110,7 @@ if (isset($_POST['deleteform'])) {
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in">Login</a></li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                        <form class="navbar-form navbar-right">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+
                     <?php } ?>
                 </ul>
             </div>

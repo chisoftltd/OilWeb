@@ -105,7 +105,7 @@ if (isset($_POST['login'])) {
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4 well">
-                <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="loginform">
                     <fieldset>
                         <legend>Login</legend>
 

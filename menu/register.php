@@ -150,7 +150,7 @@ if (isset($_POST['signup'])) {
                 <form>
                     <hr>
                 </form>
-                <form role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
+                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
                     <fieldset>
                         <legend>Student Registration</legend>
 

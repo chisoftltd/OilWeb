@@ -99,14 +99,15 @@ session_start();
                     Gas</strong> Industry.</h2>
             <hr>
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
-                <div class="homeBanners"><a href="courses/welldrilling.php"><img src="images/banadrilling.jpg"
+                <div class="homeBanners"><a href="courses/welldrilling.php"><img src="images/bannerdrilling.jpg"
+                                                                                 alt="Drill Banner"
                                                                                  style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.4;
     filter: alpha(opacity=40)">
                         Well Drilling Course
                     </p>
                 </div>
-                <div class="homeBanners"><a href="courses/wellcontrol.php"><img src="images/banacontrol.jpg"
+                <div class="homeBanners"><a href="courses/wellcontrol.php"><img src="images/bannercontrol.jpg"
                                                                                 style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
     filter: alpha(opacity=60)">

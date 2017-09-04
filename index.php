@@ -69,7 +69,7 @@ session_start();
                             </p></li>
                         <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
                     <?php } else { ?>
-                        <li class="active"><a href="index.php">Home</a></>
+                        <li class="active"><a href="index.php">Home</a></li>
                         <li><a href="menu/about.php">About Us</a></li>
                         <li><a href="menu/courses.php">Courses</a></li>
                         <li><a href="menu/assessment.php">Test Yourself</a></li>

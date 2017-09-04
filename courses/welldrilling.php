@@ -16,7 +16,7 @@ include_once '../db/dbconnect.php';
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>OilWeb - Well Drilling Course</title>
@@ -40,7 +40,7 @@ include_once '../db/dbconnect.php';
 <body><!-- Body area start-->
 <header>
     <!-- add top navigational bar using bootstrap-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">

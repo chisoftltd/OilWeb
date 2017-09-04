@@ -10,7 +10,7 @@ session_start();
 include_once 'dbconnect.php';
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Home | RGUEthics System</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
@@ -18,7 +18,7 @@ include_once 'dbconnect.php';
     <link rel="stylesheet" href="css/main-style.css">
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">

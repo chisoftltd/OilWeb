@@ -16,7 +16,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>OilWeb - Drilling</title>
@@ -36,7 +36,7 @@ ini_set('display_errors', 1);
 <body><!-- Body area start-->
 <header>
     <!-- add top navigational bar using bootstrap-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">

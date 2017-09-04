@@ -30,7 +30,7 @@ if (isset($_POST['login'])) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Application Description - OilWeb!</title>
@@ -49,7 +49,7 @@ if (isset($_POST['login'])) {
 <body><!-- Body area start-->
 <header>
     <!-- add top navigational bar using bootstrap-->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">

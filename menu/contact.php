@@ -52,7 +52,7 @@ if (isset($_POST["submit"])) {
 }
 ?>
     <!DOCTYPE html>
-    <html>
+    <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>OilWeb | Contact Us</title>
@@ -75,7 +75,7 @@ if (isset($_POST["submit"])) {
     <body>
     <header>
         <!-- add top navigational bar using bootstrap-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">

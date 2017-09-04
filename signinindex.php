@@ -45,7 +45,7 @@ include_once 'dbconnect.php';
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="api/images/ethicsjson.php">EthicsJSON</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="login.php">Login</a></li>
+                    <li><a href="login.php"></span>Login</a></li>
                     <li><a href="registerresearcher.php">Register Researcher</a></li>
                 <?php } ?>
             </ul>

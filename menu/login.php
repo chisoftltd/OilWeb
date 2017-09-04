@@ -68,7 +68,7 @@ if (isset($_POST['login'])) {
                         <li><a href="/index.php">Home</a></li>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
-                        <li class="active"><a href="/menu/assessment.php">Test Yourself</a></li>
+                        <li><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
                         <li><p class="navbar-text"><span
@@ -80,10 +80,11 @@ if (isset($_POST['login'])) {
                         <li><a href="/index.php">Home</a></li>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
-                        <li class="active"><a href="/menu/assessment.php">Test Yourself</a></li>
+                        <li><a href="/menu/assessment.php">Test Yourself</a></li>
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li><a href="/menu/help.php">Help</a></li>
-                        <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                        <li class="active"><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+                        </li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
 
                     <?php } ?>

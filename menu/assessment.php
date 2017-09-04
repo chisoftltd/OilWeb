@@ -165,7 +165,7 @@ if (isset($_POST['deleteform'])) {
                              <span onclick="document.getElementById('apply').style.display='none'" class="close"
                                    title="Close Modal">&times;</span>
                      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                 </div> -->
+                 </div>-->
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
@@ -382,12 +382,12 @@ if (isset($_POST['deleteform'])) {
 
         <div id="control" class="modal">
 
-            <!-- <form class="modal-content animate" action="/action_page.php">
+            <!--<form class="modal-content animate" action="/action_page.php">
                 <div class="imgcontainer">
                             <span onclick="document.getElementById('update').style.display='none'" class="close"
                                   title="Close Modal">&times;</span>
-                    <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div> -->
+                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>-->
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 well">

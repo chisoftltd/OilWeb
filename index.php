@@ -33,7 +33,7 @@ session_start();
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        .mySlides {
+        .homeBanners {
             display: none;
         }
     </style>
@@ -44,7 +44,7 @@ session_start();
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">
                     <!--<span class="sr-only">Toggle navigation</span>-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -52,7 +52,7 @@ session_start();
                 </button>
                 <a class="navbar-brand" href="index.php">Home | OilWeb E-Solution</a>
             </div>
-            <div class="collapse navbar-collapse" id="navOilWeb">
+            <div class="collapse navbar-collapse" id="navoilweb">
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
 
@@ -98,21 +98,21 @@ session_start();
                     Gas</strong> Industry.</h2>
             <hr>
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
-                <div class="mySlides"><a href="courses/welldrilling.php"><img src="images/banadrilling.jpg"
-                                                                              style="width:100%; height: 300px"></a>
+                <div class="homeBanners"><a href="courses/welldrilling.php"><img src="images/banadrilling.jpg"
+                                                                                 style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.4;
     filter: alpha(opacity=40)">
                         Well Drilling Course
                     </p>
                 </div>
-                <div class="mySlides"><a href="courses/wellcontrol.php"><img src="images/banacontrol.jpg"
-                                                                             style="width:100%; height: 300px"></a>
+                <div class="homeBanners"><a href="courses/wellcontrol.php"><img src="images/banacontrol.jpg"
+                                                                                style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
     filter: alpha(opacity=60)">
                         Well Control Course
 
                     </p></div>
-                <div class="mySlides"><a href="courses/fluids/wellcasingcementing.php"><img
+                <div class="homeBanners"><a href="courses/fluids/wellcasingcementing.php"><img
                                 src="images/casingcementing.jpg"
                                 style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.5;
@@ -129,7 +129,7 @@ session_start();
 
                 function carousel() {
                     var i;
-                    var x = document.getElementsByClassName("mySlides");
+                    var x = document.getElementsByClassName("homeBanners");
                     for (i = 0; i < x.length; i++) {
                         x[i].style.display = "none";
                     }

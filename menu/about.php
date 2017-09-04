@@ -66,7 +66,7 @@ if (isset($_POST['btn-login'])) {
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navOilWeb">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">
                         <!--<span class="sr-only">Toggle navigation</span>-->
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -74,7 +74,7 @@ if (isset($_POST['btn-login'])) {
                     </button>
                     <a class="navbar-brand" href="/index.php">Home | OilWeb E-Solution</a>
                 </div>
-                <div class="collapse navbar-collapse" id="navOilWeb">
+                <div class="collapse navbar-collapse" id="navoilweb">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- check if same user is still same as the active session user and load appropriate menu options -->
                         <?php if (isset($_SESSION['usr_id'])) { ?>

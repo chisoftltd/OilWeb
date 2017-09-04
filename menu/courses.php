@@ -32,7 +32,7 @@ include_once '../db/dbconnect.php';
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="/css/main-style.css">
 </head>
-<body><!-- Body area start-->
+<body title="Courses Body"><!-- Body area start-->
 
 <!-- add top navigational bar using bootstrap-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -119,7 +119,7 @@ include_once '../db/dbconnect.php';
                     relationships
                     in
                     the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
-                
+
                 <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/wellcasingcementing.php"><img

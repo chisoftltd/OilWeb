@@ -119,7 +119,7 @@ include_once '../db/dbconnect.php';
                     relationships
                     in
                     the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
-                </p>
+                
                 <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/wellcasingcementing.php"><img
@@ -197,7 +197,6 @@ include_once '../db/dbconnect.php';
                             src="/images/flowlines.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="10"></a>
-                </a>
                 <h3><a href="/courses/offshore/flowlines.php">Flowlines</a></h3>
                 <p>Like any other engineering task, the design of a pipeline needs to be tackled
                     systematically. Figure 1 is a route map through this systematic process. This systematic

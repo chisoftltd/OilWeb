@@ -160,11 +160,11 @@ if (isset($_POST['deleteform'])) {
         </div>
         <div id="drilling" class="modal">
 
-            <!-- <form class="modal-content animate" action="/action_page.php">
+            <!--<form class="modal-content animate" action="/action_page.php">
                  <div class="imgcontainer">
                              <span onclick="document.getElementById('apply').style.display='none'" class="close"
                                    title="Close Modal">&times;</span>
-                     <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                     <img src="img_avatar2.png" alt="Avatar" class="avatar">
                  </div> -->
 
             <div class="row">

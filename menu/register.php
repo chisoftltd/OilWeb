@@ -107,7 +107,7 @@ if (isset($_POST['signup'])) {
                 <ul class="nav navbar-nav navbar-right">
                     <!-- check if same user is still same as the active session user and load appropriate menu options -->
                     <?php if (isset($_SESSION['usr_id'])) { ?>
-                        <li><a href="/index.php">Home</a></>
+                        <li><a href="/index.php">Home</a></li>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
@@ -119,7 +119,7 @@ if (isset($_POST['signup'])) {
                         <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
 
                     <?php } else { ?>
-                        <li><a href="/index.php">Home</a></>
+                        <li><a href="/index.php">Home</a></li>
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>

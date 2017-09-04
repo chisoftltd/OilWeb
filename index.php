@@ -108,6 +108,7 @@ session_start();
                     </p>
                 </div>
                 <div class="homeBanners"><a href="courses/wellcontrol.php"><img src="images/bannercontrol.jpg"
+                                                                                alt="Control Banner"
                                                                                 style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.6;
     filter: alpha(opacity=60)">
@@ -115,7 +116,7 @@ session_start();
 
                     </p></div>
                 <div class="homeBanners"><a href="courses/fluids/wellcasingcementing.php"><img
-                                src="images/casingcementing.jpg"
+                                src="images/casingcementing.jpg" alt="Casing and Cement Banner"
                                 style="width:100%; height: 300px"></a>
                     <p class="w3-display-middle w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.5;
     filter: alpha(opacity=50)">

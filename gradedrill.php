@@ -91,8 +91,9 @@ session_start();
         <div id="page-wrap">
 
             <h1 style="text-align: center">Your Quiz score for OilWeb</h1>
-
+            <!-- Start of PHP-->
             <?php
+            /* variables declaration*/
             $correctAns_1 = "";
             $correctAns_2 = "";
             $correctAns_3 = "";
@@ -101,6 +102,7 @@ session_start();
             $correctAns_6 = "";
             $correctAns_7 = "";
 
+            /* tranfer or accept answers from quiz page into variables*/
             $ans_1 = $_POST['ans_to_DrillQue_1'];
             $ans_2 = $_POST['ans_to_DrillQue_2'];
 
@@ -125,6 +127,8 @@ session_start();
 
 
             $totalCorrect = 0;
+            /* use if statement to decide of the user has choosen the correct or wrong answer. Then give further explaination
+            about the questions*/
 
             if ($ans_1 === "A") {
                 $totalCorrect++;
@@ -223,6 +227,8 @@ location (land or sea), type of well and sub-surface complexity (desert or ice c
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2 style="text-align: center">Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
+
+                /* Collect all the wrong answered questions and display the correct answer*/
                 $correction = '';
                 if ($correctAns_1 !== '') {
                     $correction = $correctAns_1 . "<br/>";
@@ -258,16 +264,20 @@ location (land or sea), type of well and sub-surface complexity (desert or ice c
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
+                <!-- call the PDF copy generating function-->
                 <h4>Need a copy? Print Result (Pdf)</h4>
                 <button id="printanswer" onclick="myFunction('page-wrap')">Print</button>
 
             </footer>
+
+            <!-- tag to go back and repeate the quiz-->
             <h3><strong><a href='/menu/assessment.php'>
                         <button>Go back and try again</button>
                     </a> </strong></h3>
         </div>
     </div>
 
+    <!-- keep track of the page actitives-->
     <script type="text/javascript">
         var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -289,22 +299,8 @@ location (land or sea), type of well and sub-surface complexity (desert or ice c
     </div>
 </footer>
 <script>
-    /* var doc = new jsPDF();
-     var specialElementHandlers = {
-     '#editor': function (element, renderer) {
-     return true;
-     }
-     };
 
-     $('#printanswer').click(function () {
-     doc.fromHTML($('#page-wrap').html(), 15, 15, {
-     'width': 150,
-     'elementHandlers': specialElementHandlers
-     });
-     doc.save('TestYourselfResult.pdf');
-     });
-
-     */
+    /* Implement the PDF copy generating function*/
     function myFunction(dName) {
 
         var printContents = document.getElementById(dName).innerHTML;

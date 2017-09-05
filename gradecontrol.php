@@ -92,8 +92,9 @@ session_start();
         <div id="page-wrap">
 
             <h1 style="text-align: center">Your Quiz score for OilWeb</h1>
-
+            <!-- Start of PHP-->
             <?php
+            /* variables declaration*/
             $correctAns_1 = "";
             $correctAns_2 = "";
             $correctAns_3 = "";
@@ -104,6 +105,7 @@ session_start();
             $correctAns_8 = "";
             $correctAns_9 = "";
 
+            /* tranfer or accept answers from quiz page into variables*/
             $ans_1 = $_POST['Ans_to_ContolQue_1'];
             $ans_2 = $_POST['Ans_to_ContolQue_2'];
 
@@ -134,16 +136,8 @@ session_start();
                 }
             }
 
-            /* echo $ans_1;
-             echo $ans_2;
-             echo $ans_3;
-             echo $ans_4;
-             echo $ans_5;
-             echo $ans_6;
-             echo $ans_7;
-             echo $ans_8;
-             echo $ans_9;*/
-
+            /* use if statement to decide of the user has choosen the correct or wrong answer. Then give further explaination
+           about the questions*/
 
             $totalCorrect = 0;
 
@@ -277,6 +271,8 @@ session_start();
                 echo '<hr style="border: 2px solid green">';
                 echo '<h2>Correction</h2>';
                 echo '<hr style="border: 2px solid green">';
+
+                /* Collect all the wrong answered questions and display the correct answer*/
                 $correction = '';
                 if ($correctAns_1 !== '') {
                     $correction = $correctAns_1 . "<br/>";
@@ -316,9 +312,13 @@ session_start();
             <footer class="panel-footer clearfix ">
                 <address class="pull-right">&copy; RGU
                 </address>
+                <!-- call the PDF copy generating function-->
+                <h4>Need a copy? Print Result (Pdf)</h4>
                 <button id="printanswer" onclick="myFunction('page-wrap')">Generate PDF</button>
 
             </footer>
+
+            <!-- tag to go back and repeate the quiz-->
             <h3><strong><a href='/menu/assessment.php'>
                         <button>Go back and try again</button>
                     </a> </strong></h3>
@@ -347,22 +347,7 @@ session_start();
 
 
 <script>
-    /* var doc = new jsPDF();
-     var specialElementHandlers = {
-     '#editor': function (element, renderer) {
-     return true;
-     }
-     };
-
-     $('#printanswer').click(function () {
-     doc.fromHTML($('#page-wrap').html(), 15, 15, {
-     'width': 150,
-     'elementHandlers': specialElementHandlers
-     });
-     doc.save('TestYourselfResult.pdf');
-     });
-
-     */
+    /* Implement the PDF copy generating function*/
     function myFunction(dName) {
 
         var printContents = document.getElementById(dName).innerHTML;

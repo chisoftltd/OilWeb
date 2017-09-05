@@ -18,6 +18,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head-->
 <head>
     <title>OilWeb | Elearning Application</title>
     <meta charset="utf-8">
@@ -32,6 +33,7 @@ session_start();
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="css/main-style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- inline css of banner display-->
     <style>
         .homeBanners {
             display: none;
@@ -97,7 +99,7 @@ session_start();
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>
-            <hr>
+            <hr> <!-- Banner display HTML-->
             <div class="w3-content w3-section" style="max-width:1000px; margin-left:7%">
                 <div class="homeBanners"><a href="courses/welldrilling.php"><img src="images/bannerdrilling.jpg"
                                                                                  alt="Drill Banner"
@@ -125,7 +127,7 @@ session_start();
                 </div>
 
             </div>
-
+            <!-- Script to automate the display of the banners using timer-->
             <script>
                 var myIndex = 0;
                 carousel();
@@ -148,6 +150,7 @@ session_start();
             <form>
                 <hr>
             </form>
+            <!-- Using Bootstraps column class structure to display courses (image/test)-->
             <div class="col-xs-12 col-sm-3 col-md-3">
                 <div class="text-area"><a href="courses/welldrilling.php"><img src="images/drilling.jpg"
                                                                                alt="drilling image"

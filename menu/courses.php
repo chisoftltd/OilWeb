@@ -88,7 +88,7 @@ include_once '../db/dbconnect.php';
 <section>
 
     <div class="container" style="background-color: #b0e0e6">
-
+        <!-- Using HTML and Bootstrap to display courses in list format-->
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"

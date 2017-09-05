@@ -133,6 +133,7 @@ if (isset($_POST['deleteform'])) {
         <div>
             <hr>
         </div>
+        <!-- Using button group to display list of quizzes-->
         <div style="width: 100%" class="btn-group">
             <div class="row">
                 <button onclick="document.getElementById('control').style.display='block'" style="width: 30%">
@@ -158,14 +159,8 @@ if (isset($_POST['deleteform'])) {
         <div>
             <hr>
         </div>
+        <!-- Drill modal to display drill quiz on clicking drill quiz button-->
         <div id="drilling" class="modal">
-
-            <!--<form class="modal-content animate" action="/action_page.php">
-                 <div class="imgcontainer">
-                             <span onclick="document.getElementById('apply').style.display='none'" class="close"
-                                   title="Close Modal">&times;</span>
-                     <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                 </div>-->
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 well">
@@ -379,15 +374,8 @@ if (isset($_POST['deleteform'])) {
             <!--</form>-->
         </div>
 
-
+        <!-- Control modal to display Control quiz on clicking control quiz button-->
         <div id="control" class="modal">
-
-            <!--<form class="modal-content animate" action="/action_page.php">
-                <div class="imgcontainer">
-                            <span onclick="document.getElementById('update').style.display='none'" class="close"
-                                  title="Close Modal">&times;</span>
-                    <img src="img_avatar2.png" alt="Avatar" class="avatar">
-                </div>-->
 
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 well">

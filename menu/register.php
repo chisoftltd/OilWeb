@@ -150,6 +150,8 @@ if (isset($_POST['signup'])) {
                 <form>
                     <hr>
                 </form>
+
+                <!-- Form to accept user details for registration-->
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
                     <fieldset>
                         <legend>Student Registration</legend>
@@ -187,6 +189,7 @@ if (isset($_POST['signup'])) {
                         </div>
                     </fieldset>
                 </form>
+                <!-- Echo success registration or error in registration-->
                 <span class="text-success"><?php if (isset($successmsg)) {
                         echo "<script type='text/javascript'>alert('$successmsg');</script>";
                     } ?></span>

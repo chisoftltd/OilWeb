@@ -138,7 +138,7 @@ session_start();
                     '<p>Environmental requirments needs special attention for the protectio of 
 senstive areas.</p>' . "<br/>" . '<p>Severe environment report (High
                                                 Pressure High temperature (HPHT), deepwater,
-                                                high hydrogen Sulphide).</p>' . "<br/>" . '<p>D) Physical constraints (e.g, pipelines,
+                                                high hydrogen Sulphide).</p>' . "<br/>" . '<p>Physical constraints (e.g, pipelines,
                                                 proximity of other installations)
                                                 seasonal access restrictions.</p>';
             }

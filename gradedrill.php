@@ -132,7 +132,7 @@ session_start();
                 $correctAns_1 = '<h4 style="color: darkgreen">A) Carry out pressure waveform from a 0.82
                                                 kg SUS
                                                 charge detonated. </h4>' . "<br/>";
-                $correctAns_1 = "<h3 style='color: blue'>What special considerations are not performed before drilling a well?</h3>" . "<br/>" . $correctAns_1;
+                $correctAns_1 = "<h3 style='color: blue'>1. What special considerations are not performed before drilling a well?</h3>" . "<br/>" . $correctAns_1;
                 $correctAns_1 = $correctAns_1 . '<hr style="border: 1px solid black">' . "<br/>";
                 $correctAns_1 = $correctAns_1 . '<h4>Explaination:</h4>' . "<br/>" .
                     '<p>Environmental requirments needs special attention for the protectio of 
@@ -147,7 +147,7 @@ senstive areas.</p>' . "<br/>" . '<p>Severe environment report (High
                 $totalCorrect++;
             } else {
                 $correctAns_2 = '<h4 style="color: darkgreen">B) Mud Balance</h4>' . "<br/>" . "<br/>";
-                $correctAns_2 = "<h3 style='color: blue'>What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctAns_2;
+                $correctAns_2 = "<h3 style='color: blue'>2. What instrument is used to measure Mud Weight?</h3>" . "<br/>" . $correctAns_2;
                 $correctAns_2 = $correctAns_2 . '<hr style="border: 1px solid black">' . "<br/>";
                 $correctAns_2 = $correctAns_2 . '<h4>Explaination:</h4>' . "<br/>" . '<p> LTLP filter press, HTHP filter press and API Extreme Pressure Tester.
 are used to measure pressure and temperature.</p>';
@@ -159,9 +159,9 @@ are used to measure pressure and temperature.</p>';
             } else {
                 $correctAns_3 = '<h4 style="color: darkgreen">A) Chemical Discharge Records (DTI or agent)</h4>' . "<br/>";
                 $correctAns_3 = $correctAns_3 . '<h4 style="color: darkgreen">C) Incident reporting (DTI/HSE)</h4>' . "<br/>";
-                $correctAns_3 = "<h3 style='color: blue'>Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
+                $correctAns_3 = "<h3 style='color: blue'>3. Which of the following are permits needed before drilling commences?</h3>" . "<br/>" . $correctAns_3 . "<br/>" . "<br/>";
                 $correctAns_3 = $correctAns_3 . '<hr style="border: 1px solid black">' . "<br/>";
-                $correctAns_2 = $correctAns_2 . '<h4>Explaination:</h4>' . "<br/>" . '<p> It is Chemical Discharge Records (DTI or agent) and
+                $correctAns_3 = $correctAns_3 . '<h4>Explaination:</h4>' . "<br/>" . '<p> It is Chemical Discharge Records (DTI or agent) and
 Incident reporting (DTI/HSE) that are needed before drilling can commence.</p>';
             }
 
@@ -170,18 +170,18 @@ Incident reporting (DTI/HSE) that are needed before drilling can commence.</p>';
                 $totalCorrect++;
             } else {
                 $correctAns_4 = '<h4 style="color: darkgreen">A) Drilling Superintendent</h4>' . "<br/>" . "<br/>";
-                $correctAns_4 = "<h3 style='color: blue'>Which of the following personnel should not be on site during drilling?</h3>" . "<br/>" . $correctAns_4;
+                $correctAns_4 = "<h3 style='color: blue'>4. Which of the following personnel should not be on site during drilling?</h3>" . "<br/>" . $correctAns_4;
                 $correctAns_4 = $correctAns_4 . '<hr style="border: 1px solid black">' . "<br/>";
-                $correctAns_2 = $correctAns_2 . '<h4>Explaination:</h4>' . "<br/>" . '<p>Derrick Manager, Driller Supervisor and Rig Inspector should be on site during drilling, while the 
+                $correctAns_4 = $correctAns_4 . '<h4>Explaination:</h4>' . "<br/>" . '<p>Derrick Manager, Driller Supervisor and Rig Inspector should be on site during drilling, while the 
 Drilling Superintendent is station at the company head quarters</p>';
             }
             if ($ans_5 === "B") {
                 $totalCorrect++;
             } else {
                 $correctAns_5 = '<h4 style="color: darkgreen">B) Rig move notification</h4>' . "<br/>" . "<br/>";
-                $correctAns_5 = "<h3 style='color: blue'>Which of these requirements exist during the operational phase of drilling?</h3>" . "<br/>" . $correctAns_5;
+                $correctAns_5 = "<h3 style='color: blue'>5. Which of these requirements exist during the operational phase of drilling?</h3>" . "<br/>" . $correctAns_5;
                 $correctAns_5 = $correctAns_5 . '<hr style="border: 1px solid black">' . "<br/>";
-                $correctAns_2 = $correctAns_2 . '<h4>Explaination:</h4>' . "<br/>" . '<p>Rig move notification is by lwa needed before
+                $correctAns_5 = $correctAns_5 . '<h4>Explaination:</h4>' . "<br/>" . '<p>Rig move notification is by lwa needed before
 rig can be moved to drilling site</p>';
             }
             if ($ans_6 === "D" or $ans_6 === "ABC") {
@@ -192,9 +192,9 @@ rig can be moved to drilling site</p>';
                 $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">C) Gas, aerated muds</h4>' . "<br/>";
                 $correctAns_6 = $correctAns_6 . '<h4 style="color: black">OR</h4>' . "<br/>";
                 $correctAns_6 = $correctAns_6 . '<h4 style="color: darkgreen">D) All of the above</h4>' . "<br/>";
-                $correctAns_6 = "<h3 style='color: blue'>Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctAns_6;
+                $correctAns_6 = "<h3 style='color: blue'>6. Which of the following is constituent of Mud?</h3>" . "<br/>" . $correctAns_6;
                 $correctAns_6 = $correctAns_6 . '<hr style="border: 1px solid black">' . "<br/>";
-                $correctAns_2 = $correctAns_2 . '<h4>Explaination:</h4>' . "<br/>" . '<p> All types of fluid can used on mixing
+                $correctAns_6 = $correctAns_6 . '<h4>Explaination:</h4>' . "<br/>" . '<p> All types of fluid can used on mixing
 drilling fluid. They can either be mixed alone or combined</p>';
             }
 
@@ -204,8 +204,10 @@ drilling fluid. They can either be mixed alone or combined</p>';
                 $correctAns_7 = '<h4 style="color: darkgreen">A) sub-surface complexity</h4>' . "<br/>";
                 $correctAns_7 = $correctAns_7 . '<h4 style="color: darkgreen">B) location</h4>' . "<br/>";
                 $correctAns_7 = $correctAns_7 . '<h4 style="color: darkgreen">C) type of well</h4>';
-                $correctAns_7 = "<h3 style='color: blue'>The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctAns_7;
-                $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">';
+                $correctAns_7 = "<h3 style='color: blue'>7. The time required to plan and execute a well construction programme is dependent on (select all that apply)?</h3>" . "<br/>" . $correctAns_7;
+                $correctAns_7 = $correctAns_7 . '<hr style="border: 1px solid black">' . "<br/>";
+                $correctAns_7 = $correctAns_7 . '<h4>Explaination:</h4>' . "<br/>" . '<p> Among the factors that affect well planning and excution are 
+location (land or sea), type of well and sub-surface complexity (desert or ice condition)</p>';
             }
 
 

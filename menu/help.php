@@ -115,6 +115,22 @@ unset($_session['user_id']);
                 </table>
             </li>
         </ol>
+        <h2>Generating course hard copy (PDF)</h2>
+        <ul>
+            <li>
+                Go to Home Page or Course Page
+            </li>
+            <li>
+                Select any course button
+            </li>
+            <li>
+                Scroll to page bottom
+            </li>
+            <li>
+                Click on <strong>Generate PDF</strong>
+            </li>
+
+        </ul>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

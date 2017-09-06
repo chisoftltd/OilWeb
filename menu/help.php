@@ -151,7 +151,18 @@ unset($_session['user_id']);
                 Click on the video <i style="color: blue">button (blue)</i> on the course page top right
             </li>
         </ol>
-        
+        <h2>Taking a quiz</h2>
+        <ol>
+            <li>
+                From the navigation page select Quiz link to access the quiz page
+            </li>
+            <li>
+                On quiz page select quiz of your choice.
+            </li>
+            <li>
+                Click the <strong>Submit</strong> bolton, after selecting your choice answers.
+            </li>
+        </ol>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

@@ -347,11 +347,11 @@ table {
 }
 
 td, th {
-    border: 2px solid green;
+    border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: darkblue;
+    background-color: #dddddd;
 }

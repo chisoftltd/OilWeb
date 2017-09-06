@@ -10,10 +10,10 @@
 session_start();
 
 // include the database script
-//include_once 'db/dbconnect.php';
+include_once 'db/dbconnect.php';
 
 //end any active user session
-//unset($_session['user_id']);
+unset($_session['user_id']);
 
 ?>
 <!DOCTYPE html>

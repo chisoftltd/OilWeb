@@ -5,6 +5,11 @@
  * Date: 30/07/2017
  * Time: 17:26
  */
+// include the database script
+include_once '../db/dbconnect.php';
+
+//end any active user session
+unset($_session['user_id']);
 
 ?>
 <!DOCTYPE html>
@@ -51,7 +56,6 @@
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
-                        <li><a href="/menu/submission.php">Submission</a></li>
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li class="active"><a href="/menu/help.php">Help</a></li>
                         <li><p class="navbar-text"><span
@@ -64,8 +68,6 @@
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
-                        <li><a href="/menu/submission.php">Submission</a></li>
-                        <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li class="active"><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
@@ -80,7 +82,39 @@
 <hr> <!-- draw a line-->
 <section>
     <div class="container" style="background-color: #b0e0e6">
-        <h2>OilWeb Help Resources coming soon</h2>
+        <h1>Help Recourse</h1>
+        <p>Here is the repertory of help recourse of OilWeb. Please this content is not helpful, do contact me using
+            contact details on the contact us page.</p>
+        <h2>System Requirements</h2>
+        <ol type="1">
+            <li> Internet connection: Required</li>
+            <li>
+                 Screen Resolution: 1024x768 or larger
+            </li>
+            <li>
+                 Memory: 2 GB or higher
+            </li>
+            <li>
+                 Processor: Intel Pentium 3 or higher
+            </li>
+            <li>
+                 Operating System:
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <th>Windows</th>
+                        <th>Mac</th>
+                        <th>Linux</th>
+                    </tr>
+                    <tr>
+                        <th>Windows Vista or higher</th>
+                        <th>Mac OS X 10.8.x or later</th>
+                        <th>Ubuntu 11.10+</th>
+                    </tr>
+                </table>
+            </li>
+        </ol>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

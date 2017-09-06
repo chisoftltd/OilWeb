@@ -101,8 +101,8 @@ unset($_session['user_id']);
                 Operating System:
             </li>
             <li>
-                <table>
-                    <tr style=" border: 1px solid black;    text-align: left;    padding: 8px;">
+                <table style=" border: 1px solid black;    text-align: left;    padding: 8px;">
+                    <tr>
                         <th>Windows</th>
                         <th>Mac</th>
                         <th>Linux</th>

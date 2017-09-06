@@ -47,7 +47,7 @@ unset($_session['user_id']);
         }
 
         tr:nth-child(even) {
-            background-color: blue;
+            background-color: #dddddd;
         }
     </style>
 </head>

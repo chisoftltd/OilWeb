@@ -102,7 +102,7 @@ unset($_session['user_id']);
             </li>
             <li>
                 <table>
-                    <tr>
+                    <tr style=" border: 1px solid black;    text-align: left;    padding: 8px;">
                         <th>Windows</th>
                         <th>Mac</th>
                         <th>Linux</th>

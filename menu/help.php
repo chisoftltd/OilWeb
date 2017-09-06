@@ -166,7 +166,7 @@ unset($_session['user_id']);
                 Select any course button;
             </li>
             <li>
-                Click on the video <i style="color: blue"><a href="/menu/courses.php"></a>button (blue)</i> on the
+                Click on the video <i style="color: blue"><a href="/menu/courses.php">button (blue)</a></i> on the
                 course page top right.
             </li>
         </ol>
@@ -179,7 +179,7 @@ unset($_session['user_id']);
                 On quiz page select quiz of your choice;
             </li>
             <li>
-                Click the <strong style="color: blue"><a href="/menu/courses.php"></a>Submit</strong> bolton, after
+                Click the <strong style="color: blue"><a href="/menu/courses.php">Submit</a></strong> bolton, after
                 selecting your choice answers.
             </li>
         </ol>
@@ -189,7 +189,7 @@ unset($_session['user_id']);
                 Follow the steps on taking a quiz;
             </li>
             <li>
-                On the result page, at the fot select <strong>Generate PDF</strong> to get a hard copy
+                On the result page, at the fot select <strong>Generate PDF</strong> to get a hard copy.
             </li>
         </ol>
     </div>

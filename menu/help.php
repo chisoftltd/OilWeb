@@ -129,8 +129,9 @@ unset($_session['user_id']);
             <li>
                 Click on <strong>Generate PDF</strong>
             </li>
-
         </ul>
+
+
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

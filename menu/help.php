@@ -118,7 +118,6 @@ unset($_session['user_id']);
             <li>
                 Operating System:
             </li>
-            <li>
                 <table>
                     <tr>
                         <th>Windows</th>
@@ -131,7 +130,6 @@ unset($_session['user_id']);
                         <th>Ubuntu 11.10+</th>
                     </tr>
                 </table>
-            </li>
         </ul>
         <h2>Generating course hard copy (PDF)</h2>
         <ol>

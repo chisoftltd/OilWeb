@@ -33,6 +33,23 @@ unset($_session['user_id']);
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: blue;
+        }
+    </style>
 </head>
 <body><!-- Body area start-->
 <header>
@@ -81,6 +98,7 @@ unset($_session['user_id']);
 </header>
 <hr> <!-- draw a line-->
 <section>
+
     <div class="container" style="background-color: #b0e0e6">
         <h1>Help Recourse</h1>
         <p>Here is the repertory of help recourse of OilWeb. Please this content is not helpful, do contact me using
@@ -101,7 +119,7 @@ unset($_session['user_id']);
                 Operating System:
             </li>
             <li>
-                <table style=" border: 1px solid black; text-align: left; padding: 8px;">
+                <table>
                     <tr>
                         <th>Windows</th>
                         <th>Mac</th>

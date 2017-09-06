@@ -166,7 +166,8 @@ unset($_session['user_id']);
                 Select any course button.
             </li>
             <li>
-                Click on the video <i style="color: blue">button (blue)</i> on the course page top right
+                Click on the video <i style="color: blue"><a href="/menu/courses.php"></a>button (blue)</i> on the
+                course page top right
             </li>
         </ol>
         <h2>Taking a quiz</h2>
@@ -178,7 +179,8 @@ unset($_session['user_id']);
                 On quiz page select quiz of your choice.
             </li>
             <li>
-                Click the <strong style="color: blue">Submit</strong> bolton, after selecting your choice answers.
+                Click the <strong style="color: blue"><a href="/menu/courses.php"></a>Submit</strong> bolton, after
+                selecting your choice answers.
             </li>
         </ol>
     </div>

@@ -163,24 +163,33 @@ unset($_session['user_id']);
                 Go to Home Page or Course Page;
             </li>
             <li>
-                Select any course button.
+                Select any course button;
             </li>
             <li>
                 Click on the video <i style="color: blue"><a href="/menu/courses.php"></a>button (blue)</i> on the
-                course page top right
+                course page top right.
             </li>
         </ol>
         <h2>Taking a quiz</h2>
         <ol>
             <li>
-                From the navigation page select Quiz link to access the quiz page
+                From the navigation page select Quiz link to access the quiz page;
             </li>
             <li>
-                On quiz page select quiz of your choice.
+                On quiz page select quiz of your choice;
             </li>
             <li>
                 Click the <strong style="color: blue"><a href="/menu/courses.php"></a>Submit</strong> bolton, after
                 selecting your choice answers.
+            </li>
+        </ol>
+        <h2>Quiz Result</h2>
+        <ol>
+            <li>
+                Follow the steps on taking a quiz;
+            </li>
+            <li>
+                On the result page, at the fot select <strong>Generate PDF</strong> to get a hard copy
             </li>
         </ol>
     </div>

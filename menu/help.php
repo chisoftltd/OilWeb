@@ -118,20 +118,39 @@ unset($_session['user_id']);
         <h2>Generating course hard copy (PDF)</h2>
         <ul>
             <li>
-                Go to Home Page or Course Page
+                Go to Home Page or Course Page;
             </li>
             <li>
-                Select any course button
+                Select any course button;
             </li>
             <li>
-                Scroll to page bottom
+                Scroll to page bottom;
             </li>
             <li>
-                Click on <strong>Generate PDF</strong>
+                Click on <strong>Generate PDF.</strong>
             </li>
         </ul>
-
-
+        <h2>Display Course page</h2>
+        <ul>
+            <li>
+                Go to Home Page or Course Page;
+            </li>
+            <li>
+                Select any course button.
+            </li>
+        </ul>
+        <h2>Display Video course material</h2>
+        <ul>
+            <li>
+                Go to Home Page or Course Page;
+            </li>
+            <li>
+                Select any course button.
+            </li>
+            <li>
+                Click on the video <i style="color: blue">button (blue)</i> on the course page top right
+            </li>
+        </ul>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

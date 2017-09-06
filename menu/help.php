@@ -86,19 +86,19 @@ unset($_session['user_id']);
         <p>Here is the repertory of help recourse of OilWeb. Please this content is not helpful, do contact me using
             contact details on the contact us page.</p>
         <h2>System Requirements</h2>
-        <ol type="1">
-            <li> Internet connection: Required</li>
+        <ul>
+            <li> Internet connection: Required</li>
             <li>
-                 Screen Resolution: 1024x768 or larger
+                Screen Resolution: 1024x768 or larger
             </li>
             <li>
-                 Memory: 2 GB or higher
+                Memory: 2 GB or higher
             </li>
             <li>
-                 Processor: Intel Pentium 3 or higher
+                Processor: Intel Pentium 3 or higher
             </li>
             <li>
-                 Operating System:
+                Operating System:
             </li>
             <li>
                 <table>
@@ -114,9 +114,9 @@ unset($_session['user_id']);
                     </tr>
                 </table>
             </li>
-        </ol>
+        </ul>
         <h2>Generating course hard copy (PDF)</h2>
-        <ul>
+        <ol>
             <li>
                 Go to Home Page or Course Page;
             </li>
@@ -129,18 +129,18 @@ unset($_session['user_id']);
             <li>
                 Click on <strong>Generate PDF.</strong>
             </li>
-        </ul>
+        </ol>
         <h2>Display Course page</h2>
-        <ul>
+        <ol>
             <li>
                 Go to Home Page or Course Page;
             </li>
             <li>
                 Select any course button.
             </li>
-        </ul>
+        </ol>
         <h2>Display Video course material</h2>
-        <ul>
+        <ol>
             <li>
                 Go to Home Page or Course Page;
             </li>
@@ -150,7 +150,8 @@ unset($_session['user_id']);
             <li>
                 Click on the video <i style="color: blue">button (blue)</i> on the course page top right
             </li>
-        </ul>
+        </ol>
+        
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

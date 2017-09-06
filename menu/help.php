@@ -160,7 +160,7 @@ unset($_session['user_id']);
                 On quiz page select quiz of your choice.
             </li>
             <li>
-                Click the <strong>Submit</strong> bolton, after selecting your choice answers.
+                Click the <strong style="color: blue">Submit</strong> bolton, after selecting your choice answers.
             </li>
         </ol>
     </div>

@@ -131,7 +131,7 @@ unset($_session['user_id']);
                     </tr>
                 </table>
         </ul>
-        <h2>Generating course hard copy (PDF)</h2>
+        <h2><a href="/menu/courses.php">Generating course hard copy (PDF)</a></h2>
         <ol>
             <li>
                 Go to Home Page or Course Page;
@@ -146,7 +146,7 @@ unset($_session['user_id']);
                 Click on <strong>Generate PDF.</strong>
             </li>
         </ol>
-        <h2>Display Course page</h2>
+        <h2><a href="/menu/courses.php">Display Course page</a></h2>
         <ol>
             <li>
                 Go to Home Page or Course Page;
@@ -155,7 +155,7 @@ unset($_session['user_id']);
                 Select any course button.
             </li>
         </ol>
-        <h2>Display Video course material</h2>
+        <h2><a href="http://weboil.azurewebsites.net/courses/welldrilling.php">Display Video course material</a></h2>
         <ol>
             <li>
                 Go to Home Page or Course Page;
@@ -168,7 +168,7 @@ unset($_session['user_id']);
                 course page top right.
             </li>
         </ol>
-        <h2>Taking a quiz</h2>
+        <h2><a href="/menu/assessment.php">Taking a quiz</a></h2>
         <ol>
             <li>
                 From the navigation page select Quiz link to access the quiz page;

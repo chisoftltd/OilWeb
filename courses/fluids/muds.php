@@ -81,7 +81,7 @@
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div class="container" style="background-color: #263395">
+    <div class="container" style="background-color: #b0e0e6">
         <h2>Drill Fluid or Mud course coming soon</h2>
     </div>
 </section><!-- end of section-->

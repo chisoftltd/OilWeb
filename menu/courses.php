@@ -87,7 +87,7 @@ include_once '../db/dbconnect.php';
 <hr> <!-- draw a line-->
 <section>
 
-    <div class="container" style="background-color: #263395">
+    <div class="container" style="background-color: #b0e0e6">
 
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img

@@ -65,7 +65,7 @@ html, body {
 }
 
 .footer-links {
-    background-color: #263395;
+    background-color: #b0e0e6;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -216,7 +216,7 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #263395;
+    background-color: #b0e0e6;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -305,7 +305,7 @@ span.psw {
     padding: 20px;
     border: 2px solid #CCC;
     margin-bottom: 20px;
-    background-color: #263395
+    background-color: #b0e0e6
 }
 
 #map-container {
@@ -334,7 +334,7 @@ hr {
 }
 
 .equ {
-    background-color: #263395;
+    background-color: #b0e0e6;
     border: 2px solid green;
     height: auto;
     width: auto;

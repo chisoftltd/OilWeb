@@ -5,11 +5,6 @@
  * Date: 30/07/2017
  * Time: 17:26
  */
-// include the database script
-include_once '../db/dbconnect.php';
-
-//end any active user session
-unset($_session['user_id']);
 
 ?>
 <!DOCTYPE html>
@@ -33,23 +28,6 @@ unset($_session['user_id']);
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td, th {
-            border: 1px solid black;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-    </style>
 </head>
 <body><!-- Body area start-->
 <header>
@@ -73,6 +51,7 @@ unset($_session['user_id']);
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
+                        <li><a href="/menu/submission.php">Submission</a></li>
                         <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li class="active"><a href="/menu/help.php">Help</a></li>
                         <li><p class="navbar-text"><span
@@ -85,6 +64,8 @@ unset($_session['user_id']);
                         <li><a href="/menu/about.php">About Us</a></li>
                         <li><a href="/menu/courses.php">Courses</a></li>
                         <li><a href="/menu/assessment.php">Test Yourself</a></li>
+                        <li><a href="/menu/submission.php">Submission</a></li>
+                        <li><a href="/menu/contact.php">Contact Us</a></li>
                         <li class="active"><a href="/menu/help.php">Help</a></li>
                         <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                         <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
@@ -98,98 +79,8 @@ unset($_session['user_id']);
 </header>
 <hr> <!-- draw a line-->
 <section>
-
-    <div class="container" style="background-color: #b0e0e6">
-        <h1>Help Recourse</h1>
-        <p>Here is the repertory of help recourse of OilWeb. Please this content is not helpful, do contact me using
-            contact details on the contact us page.</p>
-        <h2>System Requirements</h2>
-        <ul>
-            <li> Internet connection: Required</li>
-            <li>
-                Screen Resolution: 1024x768 or larger
-            </li>
-            <li>
-                Memory: 2 GB or higher
-            </li>
-            <li>
-                Processor: Intel Pentium 3 or higher
-            </li>
-            <li>
-                Operating System:
-            </li>
-                <table>
-                    <tr>
-                        <th>Windows</th>
-                        <th>Mac</th>
-                        <th>Linux</th>
-                    </tr>
-                    <tr>
-                        <th>Windows Vista or higher</th>
-                        <th>Mac OS X 10.8.x or later</th>
-                        <th>Ubuntu 11.10+</th>
-                    </tr>
-                </table>
-        </ul>
-        <h2><a href="/menu/courses.php">Generating course hard copy (PDF)</a></h2>
-        <ol>
-            <li>
-                Go to Home Page or Course Page;
-            </li>
-            <li>
-                Select any course button;
-            </li>
-            <li>
-                Scroll to page bottom;
-            </li>
-            <li>
-                Click on <strong>Generate PDF.</strong>
-            </li>
-        </ol>
-        <h2><a href="/menu/courses.php">Display Course page</a></h2>
-        <ol>
-            <li>
-                Go to Home Page or Course Page;
-            </li>
-            <li>
-                Select any course button.
-            </li>
-        </ol>
-        <h2><a href="http://weboil.azurewebsites.net/courses/welldrilling.php">Display Video course material</a></h2>
-        <ol>
-            <li>
-                Go to Home Page or Course Page;
-            </li>
-            <li>
-                Select any course button;
-            </li>
-            <li>
-                Click on the video <i style="color: blue"><a href="/menu/courses.php">button (blue)</a></i> on the
-                course page top right.
-            </li>
-        </ol>
-        <h2><a href="/menu/assessment.php">Taking a quiz</a></h2>
-        <ol>
-            <li>
-                From the navigation page select Quiz link to access the quiz page;
-            </li>
-            <li>
-                On quiz page select quiz of your choice;
-            </li>
-            <li>
-                Click the <strong style="color: blue"><a href="/menu/courses.php">Submit</a></strong> bolton, after
-                selecting your choice answers.
-            </li>
-        </ol>
-        <h2>Quiz Result</h2>
-        <ol>
-            <li>
-                Follow the steps on taking a quiz;
-            </li>
-            <li>
-                On the result page, at the fot select <strong>Generate PDF</strong> to get a hard copy.
-            </li>
-        </ol>
+    <div class="container" style="background-color: #263395">
+        <h2>OilWeb Help Resources coming soon</h2>
     </div>
 </section><!-- end of section-->
 <hr> <!-- draw a line-->

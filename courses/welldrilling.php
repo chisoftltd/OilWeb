@@ -89,7 +89,7 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div class="container" style="background-color: #b0e0e6">
+    <div class="container" style="background-color: #263395">
         <ul class="breadcrumb">
             <li><a href="/index.php">Home</a></li>
             <li><a href="/menu/courses.php">Courses</a></li>

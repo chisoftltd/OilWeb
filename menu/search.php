@@ -28,14 +28,39 @@ include_once '../db/dbconnect.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        function showResult(str) {
+            if (str.length === 0) {
+                document.getElementById("livesearch").innerHTML = "";
+                document.getElementById("livesearch").style.border = "0px";
+                return;
+            }
+            if (window.XMLHttpRequest) {
+                // code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            } else {  // code for IE6, IE5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState === 4 && this.status === 200) {
+                    document.getElementById("livesearch").innerHTML = this.responseText;
+                    document.getElementById("livesearch").style.border = "1px solid #A5ACB2";
+                }
+            };
+            xmlhttp.open("GET", "livesearch.php?q=" + str, true);
+            xmlhttp.send();
+        }
+    </script>
+
     <!-- Add css file-->
     <!-- <link href="css/styles.css" rel="stylesheet" type="text/css"/>-->
     <link rel="stylesheet" href="/css/main-style.css">
 </head>
-<body title="Courses Body"><!-- Body area start-->
+<body><!-- Body area start-->
 
 <!-- add top navigational bar using bootstrap-->
-<nav class="navbar navbar-inverse navbar-fixed-top" title="Navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navoilweb">
@@ -50,7 +75,7 @@ include_once '../db/dbconnect.php';
             <ul class="nav navbar-nav navbar-right">
                 <!-- check if same user is still same as the active session user and load appropriate menu options -->
                 <?php if (isset($_SESSION['usr_id'])) { ?>
-                    <li><a href="/index.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="/menu/about.php">About Us</a></li>
                     <li class="active"><a href="/menu/courses.php">Courses</a></li>
                     <li><a href="/menu/assessment.php">Test Yourself</a></li>
@@ -61,7 +86,17 @@ include_once '../db/dbconnect.php';
                                     class="glyphicon glyphicon-user">Signed in as <?php echo $_SESSION['usr_name']; ?>
                         </p></li>
                     <li><a href="/index.php"><span class="glyphicon glyphicon-log-out">Log Out</a></li>
-
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search"
+                                   onkeyup="showResult(this.value)">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit" id="livesearch">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } else { ?>
                     <li><a href="/index.php">Home</a></li>
                     <li><a href="/menu/about.php">About Us</a></li>
@@ -71,7 +106,16 @@ include_once '../db/dbconnect.php';
                     <li><a href="/menu/help.php">Help</a></li>
                     <li><a href="/menu/login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                     <li><a href="/menu/register.php"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-
+                    <form class="navbar-form navbar-right">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 <?php } ?>
             </ul>
         </div>
@@ -86,9 +130,7 @@ include_once '../db/dbconnect.php';
 </header>
 <hr> <!-- draw a line-->
 <section>
-
     <div class="container" style="background-color: #263395">
-
         <div class="row">
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/welldrilling.php"><img
                             src="/images/drilling.jpg" alt="drilling image" class="img-thumbnail gap-right" width="100"
@@ -119,7 +161,7 @@ include_once '../db/dbconnect.php';
                     relationships
                     in
                     the wellbore and rock formation. <a href="/courses/wellcontrol.php">Continue>></a>.</p>
-
+                </p>
                 <hr> <!-- draw a line--></div>
 
             <div class="col-xs-12 col-sm-11 col-md-11"><a href="/courses/fluids/wellcasingcementing.php"><img
@@ -197,6 +239,7 @@ include_once '../db/dbconnect.php';
                             src="/images/flowlines.jpg" alt="Drilling"
                             class="img-thumbnail gap-right" width="100" height="120"
                             align="left" hspace="10"></a>
+                </a>
                 <h3><a href="/courses/offshore/flowlines.php">Flowlines</a></h3>
                 <p>Like any other engineering task, the design of a pipeline needs to be tackled
                     systematically. Figure 1 is a route map through this systematic process. This systematic

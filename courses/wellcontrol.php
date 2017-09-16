@@ -92,7 +92,7 @@ include_once '../db/dbconnect.php';
             <li><a href="/menu/courses.php">Courses</a></li>
             <li class="active">Control</li>
         </ul>
-        <div class="container-fluid" style="background-color: #b0e0e6">
+        <div class="container-fluid" style="background-color: #263395">
             <div class="row">
                 <div class="col-md-4">
                     <ul class="list-group nav" role="tablist">

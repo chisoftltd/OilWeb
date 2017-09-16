@@ -114,7 +114,7 @@ if (isset($_POST['btn-login'])) {
     </header>
     <section>
 
-        <div class="container" style="background-color: #b0e0e6">
+        <div class="container" style="background-color: #263395">
 
             <h2 style="margin-top:10px; text-align: center">OilWeb | Web Application Description</h2>
             <form>

@@ -93,7 +93,7 @@ unset($_session['user_id']);
 </header>
 <hr> <!-- draw a line-->
 <section>
-    <div class="container" style="background-color: #b0e0e6">
+    <div class="container" style="background-color: #263395">
         <div class="row">
             <h1 style="text-align: center">Welcome to OilWeb</h1>
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career

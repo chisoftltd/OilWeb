@@ -144,7 +144,7 @@ if (isset($_POST['signup'])) {
     <hr> <!-- draw a line-->
 </form>
 <section>
-    <div class="container" style="background-color: #b0e0e6">
+    <div class="container" style="background-color: #263395">
         <div class="row">
             <div class="col-md-4 col-md-offset-4 well">
                 <form>

@@ -5,7 +5,7 @@
         <hr/>
     </form>
     <p style="text-align: center;">
-        Last updated October 2017
+        Last updated October 2017<br>
         <strong>Follow us</strong>
     </p>
     <ul class="footer-links">

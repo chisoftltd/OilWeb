@@ -92,7 +92,7 @@ if (isset($_POST['btn-login'])) {
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/index.php">Home | OilWeb E-Solution</a>
+                    <a class="navbar-brand" href="/index.php">About Us | OilWeb E-Solution</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navoilweb">
                     <ul class="nav navbar-nav navbar-right">
@@ -102,7 +102,6 @@ if (isset($_POST['btn-login'])) {
                             <li class="active"><a href="/menu/about.php">About Us</a></li>
                             <li><a href="/menu/courses.php">Courses</a></li>
                             <li><a href="/menu/assessment.php">Test Yourself</a></li>
-                            <li><a href="/menu/submission.php">Submission</a></li>
                             <li class="active"><a href="/menu/contact.php">Contact Us</a></li>
                             <li><a href="/menu/help.php">Help</a></li>
                             <li><p class="navbar-text"><span

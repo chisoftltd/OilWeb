@@ -47,6 +47,18 @@ if (isset($_POST['btn-login'])) {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105658588-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-105658588-1');
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>OilWeb | About Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">

@@ -19,6 +19,18 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105658588-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105658588-1');
+    </script>
+
     <meta charset="utf-8">
     <title>Application Description - WebOil!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

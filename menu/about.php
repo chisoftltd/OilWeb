@@ -59,6 +59,14 @@ if (isset($_POST['btn-login'])) {
             gtag('config', 'UA-105658588-1');
         </script>
 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-5281059387375686",
+                enable_page_level_ads: true
+            });
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>OilWeb | About Us</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">

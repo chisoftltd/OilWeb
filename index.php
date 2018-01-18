@@ -32,6 +32,14 @@ unset($_session['user_id']);
         gtag('config', 'UA-105658588-1');
     </script>
 
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5281059387375686",
+            enable_page_level_ads: true
+        });
+    </script>
+
     <title>OilWeb | Elearning Application</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

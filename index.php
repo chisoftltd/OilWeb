@@ -115,7 +115,7 @@ unset($_session['user_id']);
 <section>
     <div class="container" style="background-color: #b0e0e6">
         <div class="row">
-            <h1 style="text-align: center">Welcome to OilWeb</h1>
+            <h1 style="text-align: center">Welcome to OilWeb | Geoscience online portal</h1>
             <h2 style="text-align: center">An online platform to help you on your way to exciting and sustainable career
                 in <strong>Oil and
                     Gas</strong> Industry.</h2>

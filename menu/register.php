@@ -163,7 +163,7 @@ if (isset($_POST['signup'])) {
                 <!-- Form to accept user details for registration-->
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" name="signupform">
                     <fieldset>
-                        <legend>Student Registration</legend>
+                        <legend>Participant Registration</legend>
 
                         <div class="form-group">
                             <label for="name" class="control-label">Name</label>

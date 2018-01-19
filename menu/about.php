@@ -189,7 +189,7 @@ if (isset($_POST['btn-login'])) {
             </form>
             <P style="text-align: center">The practical and technical responsibility of this work is that of mine,
                 <strong>Mr
-                    B. U,
+                    Uchenna B.
                     Chinwe</strong></P>
         </div>
 

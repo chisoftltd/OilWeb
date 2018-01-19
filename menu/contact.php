@@ -153,7 +153,7 @@ if (isset($_POST["submit"])) {
                         <div id="address" class="col-md-4">
                             <h2>Our Location</h2>
                             <address>
-                                <strong>OilWeb | Research Ethics Solution</strong><br>
+                                <strong>OilWeb | E-learning Solution</strong><br>
                                 Robert Gordon University<br>
                                 Garthdee House<br>
                                 Garthdee Road<br>

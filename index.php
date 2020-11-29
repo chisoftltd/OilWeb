@@ -39,7 +39,7 @@ unset($_session['user_id']);
             enable_page_level_ads: true
         });
     </script>
-
+<script data-ad-client="ca-pub-5281059387375686" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <title>OilWeb | Elearning Application</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
